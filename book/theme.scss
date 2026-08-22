@@ -35,6 +35,12 @@ $ed-yours:    $danger;
 
 // --- Page furniture -------------------------------------------------------
 
+// Only the first page carries an author and a date, and they land between
+// the description and the text with a rem to spare on either side.
+#title-block-header .quarto-title-meta:has(.quarto-title-meta-heading) {
+  margin-block: 1.5rem 2.5rem;
+}
+
 .game-meta {
   font-size: .8rem;
   color: $muted;

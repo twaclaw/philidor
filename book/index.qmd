@@ -10,6 +10,8 @@ Leonard Euler, my favorite thinker and mathematician of all time, owned an Engli
 
 > He found quite beautiful the ways it presented for playing chess; its approach was unique, stressing principles over moves and making pawns the "soul of the game". "Seine grösste Särke" (His greatest strength), Euler wrote to Goldback, "besteht in Verteidigung und guter Führung seiner Bauern, um dieselben zu Königinnen zu machen, da er dann, wenn die Anstalten dazu gemacht, pièce für pièce wegnimmt, um seine Absicht zu erreichen und dadurch das Spiel zu gewinnen." (is in the defense and in the skillful moves of his pawns in order to transform them into queens. Then, after proper preparations are made, capturing piece after piece in order to achieve his intention and win the game.) ^[[*Ronald S. Calinger*](https://press.princeton.edu/books/hardcover/9780691119274/leonhard-euler?srsltid=AfmBOopg46j1Tivbm81OHXpqkbTirWUq7njAOmvQzMGOIX-SlyVMLmxp)] 
 
+![](./assets/philidor_book.jpeg)
+
 I own a very very beautiful copy of the 1819 illustrated English edition (See [Editions](./editions.qmd)), but I sometimes find it difficult to follow the games, 
 which use descriptive notation and do not always follow the same conventions.
 Below is an example of the first lines of the first game in my edition:

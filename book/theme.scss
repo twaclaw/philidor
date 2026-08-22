@@ -1,0 +1,417 @@
+/*-- scss:defaults --*/
+
+// ---------------------------------------------------------------------------
+// Plain styling for now. Everything the book looks like is set here; the game
+// pages carry no styling of their own, so changing this file restyles all 96.
+// ---------------------------------------------------------------------------
+
+// Colours come from the Bootswatch theme named in _quarto.yml, so that
+// swapping the theme there restyles the book. Only what Bootstrap has no
+// word for is set outright.
+$highlight: #fff3cd !default;   // the move the board is showing
+
+$board-light: #eeeed2 !default;
+$board-dark:  #769656 !default;
+$coord:       #2f3a2a !default;   // the file and rank letters on the board
+
+$font-size-root: 16px !default;
+$line-height-base: 1.6 !default;
+
+
+/*-- scss:rules --*/
+
+// Bootstrap's palette exists by now, so the book's four working colours can
+// be drawn from it rather than guessed alongside it.
+$muted:  $gray-600;
+$rule:   $gray-300;
+$panel:  $gray-100;
+$accent: $primary;
+
+// The three editions the timeline marks. Named once so the boxes in the
+// diagram, the legend swatches and the detail panel cannot drift apart.
+$ed-base:     $accent;
+$ed-collated: #2f7d32;
+$ed-yours:    $danger;
+
+// --- Page furniture -------------------------------------------------------
+
+.game-meta {
+  font-size: .8rem;
+  color: $muted;
+  text-transform: uppercase;
+  letter-spacing: .04em;
+}
+
+.game-subtitle {
+  color: $muted;
+  margin: .15rem 0 .3rem 0;
+}
+
+.game-rule {
+  border: 0;
+  border-top: 1px solid $rule;
+  margin: .6rem 0 1.4rem 0;
+}
+
+
+// --- Two columns: board on the left, Philidor's text on the right ---------
+
+.philidor-game {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  gap: 2rem;
+  align-items: start;
+
+  @media (max-width: 1100px) { grid-template-columns: minmax(0, 1fr); }
+}
+
+// The board column holds the board and its controls, and nothing else.
+.game-board {
+  position: sticky;
+  top: 1rem;
+
+  @media (max-width: 1100px) { position: static; }
+}
+
+
+// --- The move list --------------------------------------------------------
+
+.original-moves {
+  max-height: 78vh;
+  overflow-y: auto;
+  padding-right: .4rem;
+
+  .move {
+    display: grid;
+    grid-template-columns: 2.4rem minmax(0, 1fr);
+    gap: 0 .5rem;
+    padding: .1rem 0;
+  }
+
+  .move-no {
+    grid-row: 1 / span 2;
+    color: $muted;
+    text-align: right;
+    font-variant-numeric: tabular-nums;
+  }
+
+  .side { color: $muted; font-size: .85em; }
+
+  .ply {
+    display: block;
+    padding: .1rem .35rem;
+    border-radius: 3px;
+    scroll-margin: 4rem;
+  }
+
+  // Plies the board can reach are navigable; the rest are text only.
+  .ply[data-ply] { cursor: pointer; }
+  .ply[data-ply]:hover { background: $panel; }
+  .ply.current { background: $highlight; }
+
+  // Moves a back-game inherits from its parent are context, not its own text.
+  .inherited { color: $muted; }
+}
+
+
+// --- Note references and their popovers -----------------------------------
+
+.note-ref {
+  color: $accent;
+  cursor: help;
+  border-bottom: 1px dotted currentColor;
+  white-space: nowrap;
+
+  &:hover, &:focus { outline: none; background: $highlight; }
+}
+
+// Appended to the body, so the scrolling move list cannot clip it.
+.note-popup {
+  position: absolute;
+  z-index: 1000;
+  max-width: 30rem;
+  padding: .55rem .75rem;
+  background: #ffffff;
+  color: $body-color;
+  border: 1px solid $rule;
+  border-radius: 4px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, .13);
+  font-size: .88rem;
+  line-height: 1.5;
+  pointer-events: none;   // never steals the hover that summoned it
+}
+
+
+// --- Notes, position, editorial -------------------------------------------
+
+.philidor-notes {
+  margin-top: 1.5rem;
+  padding-top: 1rem;
+  border-top: 1px solid $rule;
+  font-size: .92rem;
+
+  h3 {
+    font-size: .8rem;
+    text-transform: uppercase;
+    letter-spacing: .04em;
+    color: $muted;
+    margin: 0 0 .7rem 0;
+  }
+
+  p { margin: 0 0 .6rem 0; }
+  .note-letter { font-weight: 600; margin-right: .3rem; }
+}
+
+.editorial-note {
+  margin: 1.2rem 0;
+  padding: .7rem .9rem;
+  border-left: 3px solid $rule;
+  background: $panel;
+  font-size: .9rem;
+  color: $muted;
+
+  strong { color: $body-color; }
+}
+
+.game-position {
+  font-size: .92rem;
+  margin-bottom: 1rem;
+
+  .situation { display: block; margin-top: .4rem; font-weight: 600; }
+  ul { margin: .1rem 0 0 0; padding-left: 1.2rem; }
+}
+
+
+// --- The board viewer -----------------------------------------------------
+// Its move list is hidden: the descriptive list in the second column is the
+// move list for this book, and it drives and follows the board.
+
+.lpv {
+  --c-lpv-bg:          #{$body-bg};
+  --c-lpv-bg-pane:     #{$body-bg};
+  --c-lpv-bg-controls: #{$panel};
+  --c-lpv-font:        #{$body-color};
+  --c-lpv-font-shy:    #{$muted};
+  --c-lpv-border:      #{$rule};
+  --c-lpv-side-border: #{$rule};
+  --c-lpv-accent:      #{$accent};
+  --c-lpv-accent-over: #ffffff;
+
+  border: 1px solid $rule;
+
+  &:focus, &:focus-visible { outline: 2px solid $accent; outline-offset: 2px; }
+
+  // Squares are painted in CSS, so the viewer fetches no board image.
+  cg-board {
+    background-color: $board-light;
+    background-image:
+      repeating-conic-gradient($board-dark 0% 25%, $board-light 0% 50%);
+    background-size: 25% 25%;
+  }
+
+  // Files a-h along the foot, ranks 1-8 up the side. Chessground sets these
+  // in white at 9px, which is unreadable on a light square; a dark letter
+  // with a pale halo reads on either colour, and keeps reading if the board
+  // is flipped.
+  .cg-wrap coords {
+    opacity: 1;
+    font-family: inherit;
+    font-size: 11px;
+    font-weight: 600;
+    color: $coord;
+    text-shadow:
+       0  1px 0 rgba(255, 255, 255, .85),
+       0 -1px 0 rgba(255, 255, 255, .85),
+       1px 0  0 rgba(255, 255, 255, .85),
+      -1px 0  0 rgba(255, 255, 255, .85);
+  }
+  .cg-wrap coords.ranks { width: 14px; }
+  .cg-wrap coords.files { height: 14px; }
+
+  .lpv__controls { background: $panel; border-top: 1px solid $rule; }
+}
+
+
+// --- Download buttons -----------------------------------------------------
+
+.downloads {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .6rem;
+  margin: 2rem 0 1rem 0;
+  padding-top: 1.2rem;
+  border-top: 1px solid $rule;
+}
+
+.download {
+  display: inline-block;
+  padding: .45rem .9rem;
+  border: 1px solid $rule;
+  border-radius: 4px;
+  background: $panel;
+  color: $body-color;
+  font-size: .85rem;
+  text-decoration: none;
+
+  &:hover { border-color: $accent; color: $accent; }
+}
+
+.philidor-notes .note-why {
+  font-size: .85rem;
+  color: $muted;
+  margin: -.3rem 0 .8rem 0;
+}
+
+
+// --- Following the board in words -----------------------------------------
+// On a narrow screen the moves cannot sit beside the board, so the text for
+// the move being shown is repeated under it.
+
+.follow-toggle {
+  display: flex;
+  align-items: center;
+  gap: .45rem;
+  margin: .7rem 0 0 0;
+  font-size: .85rem;
+  color: $muted;
+  cursor: pointer;
+  user-select: none;
+}
+
+.move-text {
+  margin-top: .6rem;
+  padding: .7rem .85rem;
+  border: 1px solid $rule;
+  border-radius: 4px;
+  background: $panel;
+  max-height: 12rem;
+  overflow-y: auto;      // a long note scrolls rather than pushing the board off
+  font-size: .92rem;
+  line-height: 1.5;
+
+  &[hidden] { display: none; }
+
+  .move-text__move { font-weight: 700; margin: 0; }
+  .move-text__notes p { margin: .55rem 0 0 0; color: $body-color; }
+  .move-text__notes p:first-child { margin-top: .7rem; }
+}
+
+
+// --- Narrow screens -------------------------------------------------------
+// Title, board, then everything that describes the game. The move list comes
+// last: with the box under the board it is a reference, not the way in.
+
+.game-page { display: contents; }
+
+@media (max-width: 1100px) {
+  .game-page { display: flex; flex-direction: column; }
+  .philidor-game { display: contents; }
+
+  .game-board { order: 1; }
+  .game-head  { order: 2; margin-top: 1.5rem; }
+  .game-text  { order: 3; }
+
+  .game-head .game-rule { margin-bottom: .8rem; }
+  .original-moves { max-height: none; overflow-y: visible; }
+}
+
+
+// --- The editions timeline ------------------------------------------------
+// Colours and type come from the page, so the drawing belongs to it.
+
+.editions-figure {
+  margin: 1.6rem 0 2rem 0;
+
+  figcaption {
+    font-size: .85rem;
+    color: $muted;
+    margin-top: .6rem;
+    line-height: 1.5;
+  }
+}
+
+svg {
+  .ed-axis, .ed-tick { stroke: $rule; stroke-width: 1; }
+  .ed-flow { fill: none; stroke: $muted; stroke-width: 1.4; stroke-dasharray: 4 3; }
+  .ed-arrowhead { fill: $muted; }
+
+  .ed-lane {
+    fill: $muted;
+    font-size: 11px;
+    letter-spacing: .12em;
+  }
+  .ed-year text { fill: $muted; font-size: 12px; text-anchor: middle; }
+
+  .ed-node rect { fill: $panel; stroke: $rule; stroke-width: 1; }
+  .ed-node text { text-anchor: middle; }
+  .ed-title { fill: $body-color; font-size: 13px; font-weight: 600; }
+  .ed-sub { fill: $muted; font-size: 10.5px; }
+
+  // The three this project turns on.
+  .ed-node { cursor: pointer; }
+  .ed-node rect { transition: filter .12s ease; }
+  .ed-node:hover rect, .ed-node:focus rect { filter: brightness(.94); }
+  .ed-node:focus { outline: none; }
+  .ed-hint {
+    text-anchor: end;
+    font-size: 10px;
+    fill: $muted;
+    font-style: italic;
+  }
+  .ed-pub {
+    text-anchor: middle;
+    font-size: 9px;
+    fill: $muted;
+    font-style: italic;
+  }
+
+  .ed-base rect     { fill: #ddeafc; stroke: $ed-base; }
+  .ed-collated rect { fill: #e3f1e3; stroke: $ed-collated; }
+  .ed-yours rect    { fill: #fbe4e1; stroke: $ed-yours; }
+
+  .ed-node { cursor: help; }
+  .ed-node:hover rect, .ed-node:focus rect {
+    stroke-width: 2.2;
+  }
+  .ed-node:focus { outline: none; }
+
+  .ed-key text { fill: $muted; font-size: 11px; }
+  .ed-swatch-base     { fill: #ddeafc; stroke: $ed-base; }
+  .ed-swatch-collated { fill: #e3f1e3; stroke: $ed-collated; }
+  .ed-swatch-yours    { fill: #fbe4e1; stroke: $ed-yours; }
+}
+
+
+// The panel the timeline fills as you point along it.
+.edition-detail {
+  margin-top: .8rem;
+  padding: .8rem 1rem;
+  min-height: 5.5rem;
+  border: 1px solid $rule;
+  border-radius: 4px;
+  background: $panel;
+  font-size: .9rem;
+  line-height: 1.55;
+
+  &:not(.is-showing) { color: $muted; font-style: italic; }
+
+  .edition-detail__head {
+    margin: 0 0 .3rem 0;
+    font-weight: 700;
+    color: $body-color;
+  }
+  .edition-detail__head:empty { display: none; }
+  .edition-detail__body { margin: 0; }
+
+  .edition-detail__role {
+    margin: .5rem 0 0 0;
+    padding-left: .6rem;
+    border-left: 3px solid $rule;
+    font-weight: 600;
+  }
+  .edition-detail__role:empty { display: none; }
+
+  &[data-mark="base"]     .edition-detail__role { border-left-color: $ed-base; }
+  &[data-mark="collated"] .edition-detail__role { border-left-color: $ed-collated; }
+  &[data-mark="yours"]    .edition-detail__role { border-left-color: $ed-yours; }
+}

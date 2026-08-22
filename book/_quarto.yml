@@ -5,11 +5,20 @@ project:
   - assets
   - downloads
 book:
-  title: Philidor's Analysis of Chess
+  title: Philidor's Analysis of the Game of Chess
   subtitle: Transcription of the 1819 English edition into algebraic notation, with original commentary and analysis
   author: Diego Sandoval
   date: last-modified
   search: true
+  site-url: https://twaclaw.github.io/philidor/
+  favicon: assets/favicon.png
+  image: assets/philidor_book.jpeg
+  description: |
+    Every game in Philidor's Analysis of the Game of Chess, transcribed from the
+    1819 English edition into algebraic notation and playable on a board beside
+    his own words.
+  open-graph: true
+  twitter-card: true
   sidebar:
     style: docked
     collapse-level: 1

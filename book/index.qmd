@@ -1,11 +1,11 @@
 # Analysis of the Game of Chess {.unnumbered}
 
-[François-André Danican Philidor](https://en.wikipedia.org/wiki/Fran%C3%A7ois-Andr%C3%A9_Danican_Philidor) (1726-1795)  was a French composer and chess master. He is considered one of the best players of his time. He is also the author of one of the most influential chess treatises of the eighteenth century, Analyse du Jeu des Échecs, which was widely discussed and admired by many thinkers of the time.
+[François-André Danican Philidor](https://en.wikipedia.org/wiki/Fran%C3%A7ois-Andr%C3%A9_Danican_Philidor) (1726-1795)  was a French composer and chess master. He is considered one of the best players of his time. He is also the author of one of the most influential chess treatises of the eighteenth century, Analyse du Jeu des Échecs.
 
 
 Leonard Euler, my favorite thinker and mathematician of all time, owned an English translation of the book. Chess Analyzed.
 
-> He found quite beautiful the ways it presented for playing chess; its approach was unique, stressing principles over moves and making pawns the "soul of the game". "Seine grösste Särke" (His greatest strength), Euler wrote to Goldback, "besteht in Verteidigung und guter Führung seiner Bauern, um dieselben zu Königinnen zu machen, da er dann, wenn die Anstalten dazu gemacht, pièce für pièce wegnimmt, um seine Absicht zu erreichen und dadurch das Spiel zu gewinnen." (is in the defense and in the skillful moves of his pawns in order to transform them into queens. Then, after proper preparations are made, capturing piece after piece in order to achieve his intention and win the game.) ^[[*Ronald S. Calinger*](https://press.princeton.edu/books/hardcover/9780691119274/leonhard-euler?srsltid=AfmBOopg46j1Tivbm81OHXpqkbTirWUq7njAOmvQzMGOIX-SlyVMLmxp)] 
+> He found quite beautiful the ways it presented for playing chess; its approach was unique, stressing principles over moves and making pawns the "soul of the game". "Seine grösste Stärke" (His greatest strength), Euler wrote to Goldbach, "besteht in Verteidigung und guter Führung seiner Bauern, um dieselben zu Königinnen zu machen, da er dann, wenn die Anstalten dazu gemacht, pièce für pièce wegnimmt, um seine Absicht zu erreichen und dadurch das Spiel zu gewinnen." (is in the defense and in the skillful moves of his pawns in order to transform them into queens. Then, after proper preparations are made, capturing piece after piece in order to achieve his intention and win the game.) ^[[*Ronald S. Calinger*](https://press.princeton.edu/books/hardcover/9780691119274/leonhard-euler?srsltid=AfmBOopg46j1Tivbm81OHXpqkbTirWUq7njAOmvQzMGOIX-SlyVMLmxp)] 
 
 ![](./assets/philidor_book.jpeg)
 

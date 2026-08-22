@@ -1,0 +1,29 @@
+[Event "Philidor, Analysis of the Game of Chess (London, 1777)"]
+[Site "?"]
+[Date "1777.??.??"]
+[Round "-"]
+[White "Philidor (analysis)"]
+[Black "Philidor (analysis)"]
+[Result "*"]
+[Annotator "F. D. Philidor"]
+[PhilidorGame "Third Back-game (Rook and Bishop against a Rook)"]
+[PhilidorKind "back-game"]
+[SourceLine "8235"]
+[SetUp "1"]
+[FEN "4k3/3r4/4K3/4B3/8/8/8/2R5 w - - 0 1"]
+[PhilidorParent "Method of giving Check-mate with a Rook and a Bishop against a Rook"]
+[PhilidorBranchMove "7"]
+
+1. Rc8+ {[from the parent game] The rook gives check.} Rd8 {[from the parent game] The rook
+covers the check.} 2. Rc7 {[from the parent game] The rook, at the adverse queen's bishop's
+second square.} Rd2 {[from the parent game] The rook, at the adverse queen's second square. (b)}
+3. Rb7 {[from the parent game] The rook, at the adverse queen's knight's second square. (c)} Rd1
+{[from the parent game] The rook, at the adverse queen's square. (d)} 4. Rg7 {[from the parent
+game] The rook, at the adverse king's knight's second square.} Rf1 {[from the parent game] The
+rook, at the adverse king's bishop's square. (e)} 5. Bg3 {[from the parent game] The bishop, at
+his king's knight's third square.} Kf8 {[from the parent game] The king, at his bishop's square.
+(f)} 6. Rg4 {[from the parent game] The rook, at its king's knight's fourth square.} Ke8 {[from
+the parent game] The king, at his home. (g)} 7. Rc4 {The rook, at its queen's bishop's fourth
+square.} Kf8 {The king, at his bishop's square.} 8. Be5 {The bishop, at the adverse king's
+fourth square.} Kg8 {The king, at his knight's square.} 9. Rh4 {The rook, at its king's rook's
+fourth square, and must win.} *

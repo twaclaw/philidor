@@ -1,0 +1,50 @@
+---
+pagetitle: A Drawn-game with a Rook and a Pawn against a Rook
+title: A Drawn-game with a Rook and a Pawn against a Rook
+---
+
+```{=html}
+<div class="game-page">
+<div class="game-head">
+<div class="game-meta">endgame</div>
+<div class="game-subtitle">Or lost game, if he who has only a Rook plays ill.</div>
+<hr class="game-rule">
+</div>
+<div class="philidor-game">
+<div class="game-board">
+<div class="pgn-board"><script type="text/pgn">[Event "Philidor, Analysis of the Game of Chess (London, 1777)"]
+[Site "?"]
+[Date "1777.??.??"]
+[Round "-"]
+[White "Philidor (analysis)"]
+[Black "Philidor (analysis)"]
+[Result "*"]
+[Annotator "F. D. Philidor"]
+[PhilidorGame "A Drawn-game with a Rook and a Pawn against a Rook"]
+[PhilidorKind "endgame"]
+[SourceLine "9436"]
+[SetUp "1"]
+[FEN "4k3/7R/r7/5K2/4P3/8/8/8 w - - 0 1"]
+
+1. e5 {The pawn, one move.} Rb6 {The rook, at its queen's knight's third square. (a) NOTE: By
+keeping that line with his rook, he hinders your king from advancing; and if he were to desert
+that line before you had pushed your pawn, he would lose the game, as will be seen by a back-
+game. 26.6} 2. Ra7 {The rook, at the adverse queen's rook's second square.} Rc6 {The rook, at
+its queen's bishop's third square (b) 3.1 NOTE: He ought not to depart from this line with his
+rook, but at the very instant when you shall push your pawn.} 3. e6 {The pawn, one move.} Rc1
+{The rook, at the adverse queen's bishop's square. (c) NOTE: If he had given check, he would
+have lost the game.} 4. Kf6 {The king, at the adverse king's bishop's third square.} Rf1+ {The
+rook gives check, at the adverse king's bishop's square. (d) NOTE: He must continue to give you
+check, in order to drive you away from your pawn; and, at the very moment when your king falls
+upon his rook, he will attack and take your pawn.} *
+</script></div>
+<label class="follow-toggle"><input type="checkbox" class="follow-text"> Show the text with the board</label><div class="move-text" hidden><p class="move-text__move"></p><div class="move-text__notes"></div></div>
+</div>
+<div class="game-text">
+<div class="game-position"><span class="situation">Situation of the White</span><ul><li>The king, at the adverse king&#x27;s bishop&#x27;s fourth square.</li><li>The pawn, at its king&#x27;s fourth square.</li><li>The rook, at the adverse king&#x27;s rook&#x27;s second square.</li></ul><span class="situation">Situation of the Black</span><ul><li>The king, at his home.</li><li>The rook, at its queen&#x27;s rook&#x27;s third square.</li></ul></div>
+<div class="original-moves"><div class="move"><span class="move-no">1.</span><span class="ply" data-ply="0"><span class="side">White.</span> The pawn, one move.</span><span class="ply" data-ply="1"><span class="side">Black.</span> The rook, at its queen&#x27;s knight&#x27;s third square. <span class="note-ref" tabindex="0" data-note="By keeping that line with his rook, he hinders your king from advancing; and if he were to desert that line before you had pushed your pawn, he would lose the game, as will be seen by a back-game. 26.6">(a)</span></span></div><div class="move"><span class="move-no">2.</span><span class="ply" data-ply="2"><span class="side">White.</span> The rook, at the adverse queen&#x27;s rook&#x27;s second square.</span><span class="ply" data-ply="3"><span class="side">Black.</span> The rook, at its queen&#x27;s bishop&#x27;s third square <span class="note-ref" tabindex="0" data-note="He ought not to depart from this line with his rook, but at the very instant when you shall push your pawn.">(b)</span> 3.1</span></div><div class="move"><span class="move-no">3.</span><span class="ply" data-ply="4"><span class="side">White.</span> The pawn, one move.</span><span class="ply" data-ply="5"><span class="side">Black.</span> The rook, at the adverse queen&#x27;s bishop&#x27;s square. <span class="note-ref" tabindex="0" data-note="If he had given check, he would have lost the game.">(c)</span></span></div><div class="move"><span class="move-no">4.</span><span class="ply" data-ply="6"><span class="side">White.</span> The king, at the adverse king&#x27;s bishop&#x27;s third square.</span><span class="ply" data-ply="7"><span class="side">Black.</span> The rook gives check, at the adverse king&#x27;s bishop&#x27;s square. <span class="note-ref" tabindex="0" data-note="He must continue to give you check, in order to drive you away from your pawn; and, at the very moment when your king falls upon his rook, he will attack and take your pawn.">(d)</span></span></div></div>
+</div>
+</div>
+</div>
+<div class="downloads"><a class="download" href="../downloads/md/a-drawn-game-with-a-rook-and-a-pawn-against-a-rook.md" download>Markdown — Philidor's text</a><a class="download" href="../downloads/pgn/a-drawn-game-with-a-rook-and-a-pawn-against-a-rook.pgn" download>PGN — algebraic notation</a></div>
+```

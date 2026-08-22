@@ -1,0 +1,52 @@
+[Event "Philidor, Analysis of the Game of Chess (London, 1777)"]
+[Site "?"]
+[Date "1777.??.??"]
+[Round "-"]
+[White "Philidor (analysis)"]
+[Black "Philidor (analysis)"]
+[Result "*"]
+[Annotator "F. D. Philidor"]
+[PhilidorGame "Method of giving Check-mate with a Bishop and a Knight"]
+[PhilidorKind "endgame"]
+[SourceLine "8466"]
+[SetUp "1"]
+[FEN "8/8/5k2/8/4K3/8/8/1N3B2 w - - 0 1"]
+[PhilidorTruncated "Converted as far as the parser reaches: ply 48: no legal reading"]
+
+1. Bc4 {The bishop, at his queen's bishop's fourth square.} Kg6 {The king, at his knight's third
+square.} 2. Kf4 {The king, at his bishop's fourth square.} Kf6 {The king, at his bishop's third
+square.} 3. Nc3 {The knight, at his queen's bishop's third square.} Kg6 {The king, at his
+knight's third square.} 4. Ne4 {The knight, at his king's fourth square. (b) NOTE: The knight
+must endeavour to take away from the adverse king the opposite squares to the bishop's colour.}
+Kh6 {The king, at his rook's third square.} 5. Kf5 {The king, at the adverse king's bishop's
+fourth square.} Kh7 {The king, at his rook's second square. (c) NOTE: If he had played his king
+to his rook's fourth square, you must have given check with the bishop at your king's second
+square; and then, if he gets his king on the side of the corner of your bishop's colour, you
+will mate him in a few moves.} 6. Kf6 {The king, at the adverse king's bishop's third square.}
+Kh8 {The king, at his rook's square. (d) NOTE: If he had played his king to his rook's third
+square, you must have played your bishop to your king's second square, to oblige his king to get
+into the black corner, where your knight is very soon to force him out.} 7. Nd6 {The knight, at
+the adverse queen's third square.} Kh7 {The king, at his rook's second square.} 8. Nf7 {The
+knight, at the adverse king's bishop's second square. (e) NOTE: In this position, the mate is
+forced in about eighteen or twenty moves,} Kg8 {The king, at his knight's square. (f) NOTE: Your
+knight prevents his king from coming back into the corner. Now, the business of your knight must
+be, to cut his king off from the black squares, while your bishop will keep him from the white
+ones.} 9. Bd3 {The bishop, at his queen's third square.} Kf8 {The king, at his bishop's square.}
+10. Bh7 {The bishop, at the adverse king's rook second square.} Ke8 {The king, at his home.} 11.
+Ne5 {The knight, at the adverse king's fourth square.} Kf8 {The king, at his bishop's square.
+(g) NOTE: As he might have played his king to his queen's square, I make a back-game of it. Riv}
+12. Nd7+ {The knight gives check, at the adverse queen's second square.} Ke8 {The king, at his
+home.} 13. Ke6 {The king, at the adverse king's third square.} Kd8 {The king, at his queen's
+square.} 14. Kd6 {The king, at the adverse queen's third square.} Ke8 {The king, at his home.}
+15. Bg6+ {The bishop gives check.} Kd8 {The king, at his queen's square.} 16. Bf7 {The bishop,
+at the adverse king's bishop's second square.} Kc8 {The king, at his queen's bishop's square.}
+17. Nc5 {The knight, at the adverse queen's bishop's fourth square.} Kd8 {The king, at his
+queen's square.} 18. Nb7+ {The knight gives check, at the adverse queen's knight's second
+square.} Kc8 {The king, at his queen's bishop's square.} 19. Kc6 {The king, at the adverse
+queen's bishop's third square.} Kb8 {The king, at his queen's knight's square.} 20. Kb6 {The
+king, at the adverse queen's knight's third square.} Kc8 {The king, at his queen's bishop's
+square.} 21. Be6+ {The bishop gives check.} Kb8 {The king, at his queen's knight's square.} 22.
+Bd7 {The bishop, at the adverse queen's second square.} Ka8 {The king, at his queen's rook's
+square.} 23. Nc5 {The knight, at the adverse queen's bishop's fourth square.} Kb8 {The king, at
+his queen's knight's square.} 24. Na6+ {The knight gives check, at the adverse queen's rook's
+third square.} {The board stops here; Philidor's game continues in the text beside it.} *

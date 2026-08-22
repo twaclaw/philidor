@@ -1,0 +1,58 @@
+---
+pagetitle: Variable of the First Back-game of the Gambit of Salvio
+title: Variable of the First Back-game of the Gambit of Salvio 🐞
+---
+
+```{=html}
+<div class="game-page">
+<div class="game-head">
+<div class="game-meta">back-game &middot; branches from Gambit of Salvio at move 7</div>
+<div class="game-subtitle">On the 7th move of the Black.</div>
+<hr class="game-rule">
+<div class="editorial-note"><strong>Board stops short 🐞.</strong> The board carries the first 8 moves; conversion of the rest is unfinished. Philidor's words stand unaltered beside it.</div>
+</div>
+<div class="philidor-game">
+<div class="game-board">
+<div class="pgn-board"><script type="text/pgn">[Event "Philidor, Analysis of the Game of Chess (London, 1777)"]
+[Site "?"]
+[Date "1777.??.??"]
+[Round "-"]
+[White "Philidor (analysis)"]
+[Black "Philidor (analysis)"]
+[Result "*"]
+[Annotator "F. D. Philidor"]
+[PhilidorGame "Variable of the First Back-game of the Gambit of Salvio"]
+[PhilidorKind "back-game"]
+[SourceLine "7567"]
+[PhilidorParent "Gambit of Salvio"]
+[PhilidorBranchMove "7"]
+[PhilidorTruncated "Converted as far as the parser reaches: ply 16: no ordinal: 's or gambit's pawn, one move."]
+
+1. e4 {[from the parent game] The king's pawn, two moves.} e5 {[from the parent game] The same.}
+2. f4 {[from the parent game] The king's bishop's pawn, two moves.} exf4 {[from the parent game]
+The king's pawn takes the pawn.} 3. Nf3 {[from the parent game] The king's knight, at his
+bishop's third square.} g5 {[from the parent game] The king's knight's pawn, two moves.} 4. Bc4
+{[from the parent game] The king's bishop, at his queen's bishop's fourth square.} g4 {[from the
+parent game] The king's knight's pawn, one move.} 5. Ne5 {[from the parent game] The king's
+knight, at the adverse king's fourth square..mmm} Qh4+ {[from the parent game] The queen gives
+check.} 6. Kf1 {[from the parent game] The king, at his bishop's square.} Nf6 {[from the parent
+game] The king's knight, at his bishop's third square. (a)} 7. Bxf7+ {The king's bishop takes
+the pawn, and gives check.} Kd8 {The king, at his queen's square, instead of his own second
+square. (a) NOTE: You lie no more under the necessity of withdrawing your bishop, as in the
+first backgame: fo that, being placed at this square, he may hinder the adverse king's knight
+from posting himself at his king's rook's fourth square: a dangerous move.} 8. d4 {The queen's
+pawn, two moves. (b) NOTE: Had you withdrawn your king's bishop to give double check with your
+knight, he would then have played his knight to his king's rook's fourth square, and sacrificed
+his rook to win the game.} {The board stops here; Philidor's game continues in the text beside
+it.} *
+</script></div>
+<label class="follow-toggle"><input type="checkbox" class="follow-text"> Show the text with the board</label><div class="move-text" hidden><p class="move-text__move"></p><div class="move-text__notes"></div></div>
+</div>
+<div class="game-text">
+<div class="original-moves"><div class="move"><span class="move-no">1.</span><span class="ply inherited" data-ply="0"><span class="side">White.</span> The king&#x27;s pawn, two moves.</span><span class="ply inherited" data-ply="1"><span class="side">Black.</span> The same.</span></div><div class="move"><span class="move-no">2.</span><span class="ply inherited" data-ply="2"><span class="side">White.</span> The king&#x27;s bishop&#x27;s pawn, two moves.</span><span class="ply inherited" data-ply="3"><span class="side">Black.</span> The king&#x27;s pawn takes the pawn.</span></div><div class="move"><span class="move-no">3.</span><span class="ply inherited" data-ply="4"><span class="side">White.</span> The king&#x27;s knight, at his bishop&#x27;s third square.</span><span class="ply inherited" data-ply="5"><span class="side">Black.</span> The king&#x27;s knight&#x27;s pawn, two moves.</span></div><div class="move"><span class="move-no">4.</span><span class="ply inherited" data-ply="6"><span class="side">White.</span> The king&#x27;s bishop, at his queen&#x27;s bishop&#x27;s fourth square.</span><span class="ply inherited" data-ply="7"><span class="side">Black.</span> The king&#x27;s knight&#x27;s pawn, one move.</span></div><div class="move"><span class="move-no">5.</span><span class="ply inherited" data-ply="8"><span class="side">White.</span> The king&#x27;s knight, at the adverse king&#x27;s fourth square..mmm</span><span class="ply inherited" data-ply="9"><span class="side">Black.</span> The queen gives check.</span></div><div class="move"><span class="move-no">6.</span><span class="ply inherited" data-ply="10"><span class="side">White.</span> The king, at his bishop&#x27;s square.</span><span class="ply inherited" data-ply="11"><span class="side">Black.</span> The king&#x27;s knight, at his bishop&#x27;s third square. <span class="note-ref" tabindex="0" data-note="You lie no more under the necessity of withdrawing your bishop, as in the first backgame: fo that, being placed at this square, he may hinder the adverse king&#x27;s knight from posting himself at his king&#x27;s rook&#x27;s fourth square: a dangerous move.">(a)</span></span></div><div class="move"><span class="move-no">7.</span><span class="ply" data-ply="12"><span class="side">White.</span> The king&#x27;s bishop takes the pawn, and gives check.</span><span class="ply" data-ply="13"><span class="side">Black.</span> The king, at his queen&#x27;s square, instead of his own second square. (a)</span></div><div class="move"><span class="move-no">8.</span><span class="ply" data-ply="14"><span class="side">White.</span> The queen&#x27;s pawn, two moves. <span class="note-ref" tabindex="0" data-note="Had you withdrawn your king&#x27;s bishop to give double check with your knight, he would then have played his knight to his king&#x27;s rook&#x27;s fourth square, and sacrificed his rook to win the game.">(b)</span></span><span class="ply"><span class="side">Black.</span> The king&#x27;s or gambit&#x27;s pawn, one move. <span class="note-ref" tabindex="0" data-note="He might have played this move in two other different ways: the first is, to push his queen&#x27;s pawn upon your knight, to force him to retreat; the other, to take your king&#x27;s pawn with his kright: in this case you should offer to change the queens, by playing yours to your king&#x27;s square.">(c)</span></span></div><div class="move"><span class="move-no">9.</span><span class="ply"><span class="side">White.</span> The queen&#x27;s knight, at his bishop&#x27;s third square. <span class="note-ref" tabindex="0" data-note="Had you taken his pawn with yours, he would have won the game.">(d)</span></span><span class="ply"><span class="side">Black.</span> The queen&#x27;s pawn, one move.</span></div><div class="move"><span class="move-no">10.</span><span class="ply"><span class="side">White.</span> The king&#x27;s knight, at his queen&#x27;s third square.</span><span class="ply"><span class="side">Black.</span> The king&#x27;s pawn takes the knight&#x27;s pawn.</span></div><div class="move"><span class="move-no">11.</span><span class="ply"><span class="side">White.</span> The king retakes the pawn.</span><span class="ply"><span class="side">Black.</span> The queen gives check.</span></div><div class="move"><span class="move-no">12.</span><span class="ply"><span class="side">White.</span> The king, at his knight&#x27;s square, <span class="note-ref" tabindex="0" data-note="If you had removed the king to his bishop&#x27;s second square, he would have won the game, by giving check with his king&#x27;s knight&#x27;s pawn, and at the next move another check with his king&#x27;s knight.">(e)</span></span><span class="ply"><span class="side">Black.</span> The king&#x27;s knight&#x27;s pawn, one move.</span></div><div class="move"><span class="move-no">13.</span><span class="ply"><span class="side">White.</span> The king&#x27;s knight, at his bishop&#x27;s fourth square. ()</span></div></div>
+<div class="philidor-notes"><h3>Notes with no reference in the text</h3><p class="note-why">The scan lost the mark that called these, so no move points to them.</p><p><span class="note-letter">(f)</span>This move forces his queen to retreat, and gives you time to put your game in a good state of defence. If you could change the queens, your condition would be still improved, because your pawns stand in the centre, and are besides farther advanced than his.</p></div>
+</div>
+</div>
+</div>
+<div class="downloads"><a class="download" href="../downloads/md/variable-of-the-first-back-game-of-the-gambit-of-salvio.md" download>Markdown — Philidor's text</a><a class="download" href="../downloads/pgn/variable-of-the-first-back-game-of-the-gambit-of-salvio.pgn" download>PGN — algebraic notation (partial)</a></div>
+```

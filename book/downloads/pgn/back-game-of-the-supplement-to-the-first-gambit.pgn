@@ -1,0 +1,33 @@
+[Event "Philidor, Analysis of the Game of Chess (London, 1777)"]
+[Site "?"]
+[Date "1777.??.??"]
+[Round "-"]
+[White "Philidor (analysis)"]
+[Black "Philidor (analysis)"]
+[Result "*"]
+[Annotator "F. D. Philidor"]
+[PhilidorGame "Back-game of the Supplement to the First Gambit"]
+[PhilidorKind "back-game"]
+[SourceLine "7885"]
+[PhilidorParent "Supplement to the First Gambit of the Edition of 1749"]
+[PhilidorBranchMove "6"]
+[PhilidorReconstructed "Completing this game meant reading against the text at ply 16; the printed reading admits no legal continuation."]
+[PhilidorTruncated "Converted as far as the parser reaches: ply 17: no legal reading"]
+
+1. e4 {[from the parent game] The king's pawn, two moves.} e5 {[from the parent game] The same.}
+2. f4 {[from the parent game] The king's bishop's pawn, two moves.} exf4 {[from the parent game]
+The king's pawn takes the pawn.} 3. Nf3 {[from the parent game] The king's knight, at his
+bishop's third square.} g5 {[from the parent game] The king's knight's pawn, two moves.} 4. h4
+{[from the parent game] The king's rook's pawn, two moves.} g4 {[from the parent game] The
+king's knight's pawn, one move.} 5. Ne5 {[from the parent game] The king's knight, at the
+adverse king's fourth square.} Nf6 {[from the parent game] The king's knight, at his bishop's
+third square. (a)} 6. Nxf7 {The king's knight takes the knight's pawn (a)} Nxe4 {The king's
+knight takes the pawn. (b) NOTE: He would have played very ill if he had taken your knight with
+his own.} 7. Qe2 {The queen, at her king's second square.} Qe7 {The same. (c) NOTE: He is forced
+to sustain his knight with his queen, lest he should lose him: nevertheless, he might, without
+danger, have sustained him, by pushing his queen's pawn two moves: in this case, you must have
+removed your king's knight to his bishop's second square..} 8. Nc3 {The queen's knight, at his
+bishop's third square. (d) NOTE: You play this knight to hinder him from pushing his queen's
+pawn two moves: but if, contrary to your expectation, he should play this same pawn, you may
+take it without any danger.} Kxf7 {The kings knight, at the adverse king's knight's third
+square.} {The board stops here; Philidor's game continues in the text beside it.} *

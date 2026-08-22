@@ -1,0 +1,39 @@
+[Event "Philidor, Analysis of the Game of Chess (London, 1777)"]
+[Site "?"]
+[Date "1777.??.??"]
+[Round "-"]
+[White "Philidor (analysis)"]
+[Black "Philidor (analysis)"]
+[Result "*"]
+[Annotator "F. D. Philidor"]
+[PhilidorGame "Method of forcing the Black to take the above-mentioned Situation"]
+[PhilidorKind "endgame"]
+[SourceLine "8268"]
+[SetUp "1"]
+[FEN "8/3r4/4k3/8/4K3/4B3/R7/8 w - - 0 1"]
+
+1. Rb2 {The rook, at its queen's knight's second square. (a). NOTE: If you had given check with
+your rook, he would have covered with his own; but by this move he is obliged to bring back his
+rook, which gives you the means of making use of your bishop.} Rd8 {The rook, at its queen's
+square.} 2. Bf4 {The bishop, at his king's bishop's fourth square. (b) NOTE: As he cannot cover
+the check of your rook, you must force his king to retrograde.} Re8 {The rook, at its king's
+square.} 3. Rb6+ {The rook gives check.} Kf7+ {The king, at his bishop's second square.} 4. Kf5
+{The king, at the adverse king's bishop's fourth square.} Re2 {The rook, at the adverse king's
+second square.} 5. Rb1 {The rook, at its queen's knight's square. (c) NOTE: This move is very
+material, in order to have the use of your bishop, as above directed; that is, to hinder him
+from covering the check, which you will give with your rook,} Rf2 {The rook, at the adverse
+king's bishop's second square.} 6. Rb7+ {The rook gives check.} Kf8 {The king, at his bishop's
+square. (d) NOTE: If he had moved the king to his home, you must then have advanced your king to
+the face of his king, and left your bishop exposed to be taken. In the present situation, the
+whole difficulty depends upon placing your bishop at the adverse king's fourth square. Your
+adversary will prevent it, by leaving his king unmoved, and playing his rook, alternately, from
+the second to the first square of your king's bishop.} 7. Ke4 {The king, at his fourth square.}
+Ke8 {The king, at his home. (e) NOTE: If he had given you check with his rook, you must have
+played your king to the adverse queen's fourth square, and then your bishop would have been
+free: but, as he could have played his king to his knight's square, we will make it the subject
+of a back-game.} 8. Be5 {The bishop, at the adverse king's fourth square.} Rf7 {The rook, at its
+king's bishop's second square.} 9. Rb8+ {The rook gives check.} Ke7 {The king, at his second
+square.} 10. Kd5 {The king, at the adverse queen's fourth square.} Rf1 {The rook, at the adverse
+king's bishop's square.} 11. Rb7+ {The rook gives check, at the adverse queen's knight's second
+square.} Ke8 {The king, at his home.} 12. Ke6 {The king, at the adverse king's third square, and
+finds himself in the position above mentioned.} *

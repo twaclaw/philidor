@@ -1,0 +1,34 @@
+[Event "Philidor, Analysis of the Game of Chess (London, 1777)"]
+[Site "?"]
+[Date "1777.??.??"]
+[Round "-"]
+[White "Philidor (analysis)"]
+[Black "Philidor (analysis)"]
+[Result "*"]
+[Annotator "F. D. Philidor"]
+[PhilidorGame "First Back-game of the First Gambit"]
+[PhilidorKind "back-game"]
+[SourceLine "2490"]
+[PhilidorParent "First Gambit"]
+[PhilidorBranchMove "4"]
+
+1. e4 {[from the parent game] The king's pawn, two moves.} e5 {[from the parent game] The same.}
+2. f4 {[from the parent game] The king's bishop's pawn, two moves.} exf4 {[from the parent game]
+The king's pawn takes the pawn.} 3. Nf3 {[from the parent game] The king's knight, at his
+bishop's third square.} g5 {[from the parent game] The king's knight's pawn, two moves.} 4. h4
+{The king's rook's pawn, two moves.} g4 {The king's knight's pawn, one move.} 5. Ne5 {The king's
+knight, at the adversary's king's fourth square.} h5 {The king's rook's pawn, two moves.} 6. Bc4
+{The king's bishop, at his queen's bishop's fourth square.} Rh7 {The king's rook, at its second
+square.} 7. d4 {The queen's pawn, two moves.} d6 {The queen's pawn, one move.} 8. Nd3 {The
+king's knight, at his queen's third square.} Qe7 {The queen, at her king's second square.} 9.
+Nc3 {The queen's knight, at his bishop's third square.} Nf6 {The king's knight, at his bishop's
+third square.} 10. Qe2 {The queen, at her king's second square.} f3 {The king's pawn, one move;
+attacking the adversary's queen.} 11. gxf3 {The king's knight's pawn takes the pawn.} gxf3 {The
+king's knight's pawn retakes the pawn.} 12. Qxf3 {The queen takes the pawn.} Bg4 {The queen's
+bishop, at the adverse king's knight's fourth square.} 13. Qe3 {The queen, at her king's third
+square.} Bh6 {The king's bishop, at his rook's third square} 14. Nf4 {The king's knight, at his
+king's bishop's fourth square.} c6 {The queen's bishop's pawn, one move.} 15. Bd2 {The queen's
+bishop, at his queen's second square.} Bxf4 {The king's bishop takes the knight.} 16. Qxf4 {The
+queen retakes the bishop.} d5 {The queen's pawn, one move.} 17. Bd3 {The king's bishop, at his
+queen's third square.} Nxe4 {The king's knight takes the king's pawn.} 18. Nxe4 {The knight, or
+the bishop, takes the knight.} f5 {The king's bishop's pawn, two moves.} *

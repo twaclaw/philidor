@@ -1,0 +1,31 @@
+[Event "Philidor, Analysis of the Game of Chess (London, 1777)"]
+[Site "?"]
+[Date "1777.??.??"]
+[Round "-"]
+[White "Philidor (analysis)"]
+[Black "Philidor (analysis)"]
+[Result "*"]
+[Annotator "F. D. Philidor"]
+[PhilidorGame "Third Back-game of the Method of Playing"]
+[PhilidorKind "back-game"]
+[SourceLine "5843"]
+[PhilidorParent "Method of Playing"]
+[PhilidorBranchMove "4"]
+
+1. e4 {[from the parent game] The king's pawn, two moves.} e5 {[from the parent game] The same.}
+2. Bc4 {[from the parent game] The king's bishop, at his queen's bishop's fourth square. (a)}
+Bc5 {[from the parent game] The same. (b)} 3. c3 {[from the parent game] The queen's bishop's
+pawn, one move.} Qe7 {[from the parent game] The queen, at her king's second square. (c)} 4. Nf3
+{The king's knight, at his bishop's third square.} Bxf2+ {The king's bishop takes the pawn, and
+gives check. (c) NOTE: It is by no means disadvantageous to be precluded from castling, when
+your pieces may easily get out: very often it is even an advantage, provided your king be safe.}
+5. Kxf2 {The king takes the bishop.} Qc5+ {The queen, at her bishop's fourth square, giving
+check.} 6. d4 {The queen's pawn, two moves.} Qxc4 {The queen takes the bishop.} 7. Nxe5 {The
+king's knight takes the adverse pawn.} Qe6 {The queen, at her king's third square.} 8. Qf3 {The
+queen, at her king's bishop's third square.} d6 {The queen's pawn, one move.} 9. Nd3 {The king's
+knight, at his queen's third square.} Nf6 {The king's knight, at his bishop's third square.} 10.
+Re1 {The king's rook, at its king's square.} O-O {The king castles.} 11. Bf4 {The queen's
+bishop, at his king's bishop's fourth square.} b6 {The queen's knight's pawn, one move.} 12. Nd2
+{The queen's knight, at his queen's second square.} Bb7 {The queen's bishop, at his knight's
+second square. (d) NOTE: In that situation, the advantage is on the side of the white, because
+his pieces are out in better order, and more conveniently disposed.} *

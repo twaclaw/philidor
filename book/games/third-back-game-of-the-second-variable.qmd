@@ -1,0 +1,73 @@
+---
+pagetitle: Third Back-game of the Second Variable
+title: Third Back-game of the Second Variable
+---
+
+```{=html}
+<div class="game-page">
+<div class="game-head">
+<div class="game-meta">back-game &middot; branches from Second Variable at move 11</div>
+<div class="game-subtitle">On the 11th move of the Black.</div>
+<hr class="game-rule">
+</div>
+<div class="philidor-game">
+<div class="game-board">
+<div class="pgn-board"><script type="text/pgn">[Event "Philidor, Analysis of the Game of Chess (London, 1777)"]
+[Site "?"]
+[Date "1777.??.??"]
+[Round "-"]
+[White "Philidor (analysis)"]
+[Black "Philidor (analysis)"]
+[Result "*"]
+[Annotator "F. D. Philidor"]
+[PhilidorGame "Third Back-game of the Second Variable"]
+[PhilidorKind "back-game"]
+[SourceLine "6526"]
+[PhilidorParent "Second Variable"]
+[PhilidorBranchMove "11"]
+
+1. e4 {[from the parent game] The king's pawn, two moves.} e5 {[from the parent game] The same.}
+2. Bc4 {[from the parent game] The king's bishop, at his queen's bishop's fourth square.} c6
+{[from the parent game] The queen's bishop's pawn, one move. (a)} 3. d4 {[from the parent game]
+The queen's pawn, two moves.} exd4 {[from the parent game] The king's pawn takes the pawn. (b)}
+4. Qxd4 {[from the parent game] The queen retakes the pawn.} d6 {[from the parent game] The
+queen's pawn, one move. (c)} 5. f4 {[from the parent game] The king's bishop's pawn, two moves.}
+Be6 {[from the parent game] The queen's bishop, at his king's third square. (d)} 6. Bxe6 {[from
+the parent game] The king's bishop takes the bishop.} fxe6 {[from the parent game] The king's
+bishop's pawn retakes the bishop.} 7. c4 {[from the parent game] The queen's bishop's pawn, two
+moves.} d5 {[from the parent game] The queen's pawn, one move. (e)} 8. cxd5 {[from the parent
+game] The queen's bishop's pawn takes the pawn.} exd5 {[from the parent game] The king's pawn
+retakes the pawn. (f)} 9. e5 {[from the parent game] The king's pawn, one move.} c5 {[from the
+parent game] The queen's bishop's pawn, one move.} 10. Qf2 {[from the parent game] The queen, at
+her king's bishop's second square. (g)} Nc6 {[from the parent game] The queen's knight, at his
+bishop's third square.} 11. Nf3 {The king's knight, at his bishop's third square.} c4 {The
+queen's bishop's pawn, one move.} 12. Be3 {The queen's bishop, at his king's third square.} Bb4+
+{The king's bishop gives check.} 13. Nc3 {The queen's knight, at his bishop's third square. (a)
+NOTE: If he takes your knight, his queen's pawn must necessarily fall into your hands, because
+it cannot be sustained by another pawn; and you may, besides, attack it with all your pieces.}
+Nge7 {The king's knight, at his king's second square.} 14. O-O {The king castles with his rook.}
+Nf5 {The king's knight, at his bishop's fourth square. (b) NOTE: He plays this knight to get rid
+of your bishop, and open afterwards a free passage for his king's bishop upon your king and
+queen; which would prove very dangerous. -} 15. Rad1 {The queen's rook, at its queen's square.
+(c) NOTE: You play this rook, with a view either to oblige him to sustain his queen's pawn, or
+to take your queen's knight.} Nxe3 {The king's knight takes the bishop.} 16. Qxe3 {The queen
+retakes the knight.} Ne7 {The queen's knight, at his king's second square.} 17. Kh1 {The king,
+at his rook's square. (d) NOTE: You might have taken his queen's pawn with your knight, and
+afterwards played your queen to your king's fourth square; but, to force his knight, he would
+then have disentangled his queen, by giving check: so that this move is absolutely necessary.}
+Bxc3 {The king's bishop takes the knight. (e) NOTE: As he can no more sustain his queen's pawn,
+he finds himself under the necessity of taking your knight, to preserve that pawn.} 18. bxc3
+{The queen's knight's pawn retakes the bishop.} O-O {The king castles. (f) NOTE: In this
+situation, the white must win the game: the matter is now, only to hinder the adverse queen's
+pawn from entering again upon action, and to sustain your centre without being too hasty in
+advancing your pawns.} *
+</script></div>
+<label class="follow-toggle"><input type="checkbox" class="follow-text"> Show the text with the board</label><div class="move-text" hidden><p class="move-text__move"></p><div class="move-text__notes"></div></div>
+</div>
+<div class="game-text">
+<div class="original-moves"><div class="move"><span class="move-no">1.</span><span class="ply inherited" data-ply="0"><span class="side">White.</span> The king&#x27;s pawn, two moves.</span><span class="ply inherited" data-ply="1"><span class="side">Black.</span> The same.</span></div><div class="move"><span class="move-no">2.</span><span class="ply inherited" data-ply="2"><span class="side">White.</span> The king&#x27;s bishop, at his queen&#x27;s bishop&#x27;s fourth square.</span><span class="ply inherited" data-ply="3"><span class="side">Black.</span> The queen&#x27;s bishop&#x27;s pawn, one move. <span class="note-ref" tabindex="0" data-note="If he takes your knight, his queen&#x27;s pawn must necessarily fall into your hands, because it cannot be sustained by another pawn; and you may, besides, attack it with all your pieces.">(a)</span></span></div><div class="move"><span class="move-no">3.</span><span class="ply inherited" data-ply="4"><span class="side">White.</span> The queen&#x27;s pawn, two moves.</span><span class="ply inherited" data-ply="5"><span class="side">Black.</span> The king&#x27;s pawn takes the pawn. <span class="note-ref" tabindex="0" data-note="He plays this knight to get rid of your bishop, and open afterwards a free passage for his king&#x27;s bishop upon your king and queen; which would prove very dangerous. -">(b)</span></span></div><div class="move"><span class="move-no">4.</span><span class="ply inherited" data-ply="6"><span class="side">White.</span> The queen retakes the pawn.</span><span class="ply inherited" data-ply="7"><span class="side">Black.</span> The queen&#x27;s pawn, one move. <span class="note-ref" tabindex="0" data-note="You play this rook, with a view either to oblige him to sustain his queen&#x27;s pawn, or to take your queen&#x27;s knight.">(c)</span></span></div><div class="move"><span class="move-no">5.</span><span class="ply inherited" data-ply="8"><span class="side">White.</span> The king&#x27;s bishop&#x27;s pawn, two moves.</span><span class="ply inherited" data-ply="9"><span class="side">Black.</span> The queen&#x27;s bishop, at his king&#x27;s third square. <span class="note-ref" tabindex="0" data-note="You might have taken his queen&#x27;s pawn with your knight, and afterwards played your queen to your king&#x27;s fourth square; but, to force his knight, he would then have disentangled his queen, by giving check: so that this move is absolutely necessary.">(d)</span></span></div><div class="move"><span class="move-no">6.</span><span class="ply inherited" data-ply="10"><span class="side">White.</span> The king&#x27;s bishop takes the bishop.</span><span class="ply inherited" data-ply="11"><span class="side">Black.</span> The king&#x27;s bishop&#x27;s pawn retakes the bishop.</span></div><div class="move"><span class="move-no">7.</span><span class="ply inherited" data-ply="12"><span class="side">White.</span> The queen&#x27;s bishop&#x27;s pawn, two moves.</span><span class="ply inherited" data-ply="13"><span class="side">Black.</span> The queen&#x27;s pawn, one move. <span class="note-ref" tabindex="0" data-note="As he can no more sustain his queen&#x27;s pawn, he finds himself under the necessity of taking your knight, to preserve that pawn.">(e)</span></span></div><div class="move"><span class="move-no">8.</span><span class="ply inherited" data-ply="14"><span class="side">White.</span> The queen&#x27;s bishop&#x27;s pawn takes the pawn.</span><span class="ply inherited" data-ply="15"><span class="side">Black.</span> The king&#x27;s pawn retakes the pawn. <span class="note-ref" tabindex="0" data-note="In this situation, the white must win the game: the matter is now, only to hinder the adverse queen&#x27;s pawn from entering again upon action, and to sustain your centre without being too hasty in advancing your pawns.">(f)</span></span></div><div class="move"><span class="move-no">9.</span><span class="ply inherited" data-ply="16"><span class="side">White.</span> The king&#x27;s pawn, one move.</span><span class="ply inherited" data-ply="17"><span class="side">Black.</span> The queen&#x27;s bishop&#x27;s pawn, one move.</span></div><div class="move"><span class="move-no">10.</span><span class="ply inherited" data-ply="18"><span class="side">White.</span> The queen, at her king&#x27;s bishop&#x27;s second square. (g)</span><span class="ply inherited" data-ply="19"><span class="side">Black.</span> The queen&#x27;s knight, at his bishop&#x27;s third square.</span></div><div class="move"><span class="move-no">11.</span><span class="ply" data-ply="20"><span class="side">White.</span> The king&#x27;s knight, at his bishop&#x27;s third square.</span><span class="ply" data-ply="21"><span class="side">Black.</span> The queen&#x27;s bishop&#x27;s pawn, one move.</span></div><div class="move"><span class="move-no">12.</span><span class="ply" data-ply="22"><span class="side">White.</span> The queen&#x27;s bishop, at his king&#x27;s third square.</span><span class="ply" data-ply="23"><span class="side">Black.</span> The king&#x27;s bishop gives check.</span></div><div class="move"><span class="move-no">13.</span><span class="ply" data-ply="24"><span class="side">White.</span> The queen&#x27;s knight, at his bishop&#x27;s third square. (a)</span><span class="ply" data-ply="25"><span class="side">Black.</span> The king&#x27;s knight, at his king&#x27;s second square.</span></div><div class="move"><span class="move-no">14.</span><span class="ply" data-ply="26"><span class="side">White.</span> The king castles with his rook.</span><span class="ply" data-ply="27"><span class="side">Black.</span> The king&#x27;s knight, at his bishop&#x27;s fourth square. (b)</span></div><div class="move"><span class="move-no">15.</span><span class="ply" data-ply="28"><span class="side">White.</span> The queen&#x27;s rook, at its queen&#x27;s square. (c)</span><span class="ply" data-ply="29"><span class="side">Black.</span> The king&#x27;s knight takes the bishop.</span></div><div class="move"><span class="move-no">16.</span><span class="ply" data-ply="30"><span class="side">White.</span> The queen retakes the knight.</span><span class="ply" data-ply="31"><span class="side">Black.</span> The queen&#x27;s knight, at his king&#x27;s second square.</span></div><div class="move"><span class="move-no">17.</span><span class="ply" data-ply="32"><span class="side">White.</span> The king, at his rook&#x27;s square. (d)</span><span class="ply" data-ply="33"><span class="side">Black.</span> The king&#x27;s bishop takes the knight. (e)</span></div><div class="move"><span class="move-no">18.</span><span class="ply" data-ply="34"><span class="side">White.</span> The queen&#x27;s knight&#x27;s pawn retakes the bishop.</span><span class="ply" data-ply="35"><span class="side">Black.</span> The king castles. (f)</span></div></div>
+</div>
+</div>
+</div>
+<div class="downloads"><a class="download" href="../downloads/md/third-back-game-of-the-second-variable.md" download>Markdown — Philidor's text</a><a class="download" href="../downloads/pgn/third-back-game-of-the-second-variable.pgn" download>PGN — algebraic notation</a></div>
+```

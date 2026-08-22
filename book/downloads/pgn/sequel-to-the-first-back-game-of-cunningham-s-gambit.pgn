@@ -1,0 +1,34 @@
+[Event "Philidor, Analysis of the Game of Chess (London, 1777)"]
+[Site "?"]
+[Date "1777.??.??"]
+[Round "-"]
+[White "Philidor (analysis)"]
+[Black "Philidor (analysis)"]
+[Result "*"]
+[Annotator "F. D. Philidor"]
+[PhilidorGame "Sequel to the First Back-game of Cunningham's Gambit"]
+[PhilidorKind "back-game"]
+[SourceLine "4359"]
+[PhilidorParent "Cunningham's Gambit"]
+[PhilidorBranchMove "8"]
+[PhilidorReconstructed "Completing this game meant reading against the text at ply 18; the printed reading admits no legal continuation."]
+[PhilidorTruncated "Converted as far as the parser reaches: ply 27: no legal reading"]
+
+1. e4 {[from the parent game] The king's pawn, two moves.} e5 {[from the parent game] The same.}
+2. f4 {[from the parent game] The king's bishop's pawn, two moves.} exf4 {[from the parent game]
+The king's pawn takes the pawn.} 3. Nf3 {[from the parent game] The king's knight, at his
+bishop's third square.} Be7 {[from the parent game] The king's bishop, at his king's second
+square.} 4. Bc4 {[from the parent game] The king's bishop, at his queen's bishop's fourth
+square.} Bh4+ {[from the parent game] The king's bishop gives check.} 5. g3 {[from the parent
+game] The king's knight's pawn, one move.} fxg3 {[from the parent game] The pawn takes the
+pawn.} 6. O-O {[from the parent game] The king castles.} gxh2+ {[from the parent game] The
+king's pawn takes the adverse king's rook's pawn.} 7. Kh1 {[from the parent game] The king, at
+his rook's square.} Bf6 {[from the parent game] The king's bishop, at his third square. (a)} 8.
+Bxf7+ {The king's bishop takes the pawn, and gives check.} Kf8 {The king, at his bishop's
+square.} 9. Ne5 {The king's knight, at the adverse king's fourth square.} Ne7 {The king's
+knight, at his king's bishop's third square.} 10. Bb3 {The king's bishop, at his queen's
+knight's third square.} Qe8 {The queen, at her king's square.} 11. Nf7 {The king's knight, at
+the adverse king's bishop's second square.} Rg8 {The rook, at its knight's square.} 12. e5 {The
+king's pawn, one move.} d5 {The queen's pawn, two moves.} 13. exd6 {The pawn takes the pawn.}
+cxd6 {The pawn retakes the pawn.} {The board stops here; Philidor's game continues in the text
+beside it.} *

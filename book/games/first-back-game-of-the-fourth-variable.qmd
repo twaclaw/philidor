@@ -1,0 +1,61 @@
+---
+pagetitle: First Back-game of the Fourth Variable
+title: First Back-game of the Fourth Variable
+---
+
+```{=html}
+<div class="game-page">
+<div class="game-head">
+<div class="game-meta">back-game &middot; branches from Fourth Variable at move 3</div>
+<div class="game-subtitle">On the 3d move of the Black.</div>
+<hr class="game-rule">
+</div>
+<div class="philidor-game">
+<div class="game-board">
+<div class="pgn-board"><script type="text/pgn">[Event "Philidor, Analysis of the Game of Chess (London, 1777)"]
+[Site "?"]
+[Date "1777.??.??"]
+[Round "-"]
+[White "Philidor (analysis)"]
+[Black "Philidor (analysis)"]
+[Result "*"]
+[Annotator "F. D. Philidor"]
+[PhilidorGame "First Back-game of the Fourth Variable"]
+[PhilidorKind "back-game"]
+[SourceLine "6956"]
+[PhilidorParent "Fourth Variable"]
+[PhilidorBranchMove "3"]
+
+1. e4 {[from the parent game] The king's pawn, two moves.} e5 {[from the parent game] The same.}
+2. Bc4 {[from the parent game] The king's bishop, at his queen's bishop's fourth square.} Bc5
+{[from the parent game] The same.} 3. c3 {The queen's bishop's pawn, one move.} Qh4 {The queen,
+at the adverse king's rook's fourth square.} 4. Qe2 {The queen, at her king's second square.}
+Nf6 {The king's knight, at his bishop's third square.} 5. d3 {The queen's pawn, one move.} Ng4
+{The king's knight, at the adverse king's knight's fourth square.} 6. g3 {The king's knight's
+pawn, one move, (a) NOTE: On this move, the king's knight might be played to his bishop's third
+square.} Qf6 {The queen, at her king's bishop's third square, (b) NOTE: If, instead of
+withdrawing his queen, he had taken your king's bishop's pawn, by giving check, you must have
+taken his bishop with your queen; you would have got a piece by it.} 7. Nh3 {The king's knight,
+at his rook's third square. (c) NOTE: Though the rook's third square is not the best place for
+the getting out of the knights, it is nevertheless necessary in the present situation.} d6 {The
+queen's pawn, one move.} 8. f3 {The king's bishop's pawn, one move.} Ne3 {The king's knight, at
+the adverse king's third square. (d) NOTE: Had he made this knight retire, you must then have
+played yours, now attacked, to his bishop's second square, and afterwards pushed your queen's
+bishop to your king's third square, to get rid of his king's bishop.} 9. Bxe3 {The queen's
+bishop takes the knight.} Bxe3 {The king's bishop takes the bishop.} 10. Qxe3 {The queen takes
+the king's bishop.} Bxh3 {The queen's bishop takes the knight.} 11. Nd2 {The queen's knight, at
+his queen's second square.} Nd7 {The same. (e) NOTE: It is plain that the white have several
+moves over the black. The reason is, that the black have been too hasty in getting out the
+queen, and that, in the present situation, she has not yet reached the place where the should
+properly stand. O iv} *
+</script></div>
+<label class="follow-toggle"><input type="checkbox" class="follow-text"> Show the text with the board</label><div class="move-text" hidden><p class="move-text__move"></p><div class="move-text__notes"></div></div>
+</div>
+<div class="game-text">
+<div class="original-moves"><div class="move"><span class="move-no">1.</span><span class="ply inherited" data-ply="0"><span class="side">White.</span> The king&#x27;s pawn, two moves.</span><span class="ply inherited" data-ply="1"><span class="side">Black.</span> The same.</span></div><div class="move"><span class="move-no">2.</span><span class="ply inherited" data-ply="2"><span class="side">White.</span> The king&#x27;s bishop, at his queen&#x27;s bishop&#x27;s fourth square.</span><span class="ply inherited" data-ply="3"><span class="side">Black.</span> The same.</span></div><div class="move"><span class="move-no">3.</span><span class="ply" data-ply="4"><span class="side">White.</span> The queen&#x27;s bishop&#x27;s pawn, one move.</span><span class="ply" data-ply="5"><span class="side">Black.</span> The queen, at the adverse king&#x27;s rook&#x27;s fourth square.</span></div><div class="move"><span class="move-no">4.</span><span class="ply" data-ply="6"><span class="side">White.</span> The queen, at her king&#x27;s second square.</span><span class="ply" data-ply="7"><span class="side">Black.</span> The king&#x27;s knight, at his bishop&#x27;s third square.</span></div><div class="move"><span class="move-no">5.</span><span class="ply" data-ply="8"><span class="side">White.</span> The queen&#x27;s pawn, one move.</span><span class="ply" data-ply="9"><span class="side">Black.</span> The king&#x27;s knight, at the adverse king&#x27;s knight&#x27;s fourth square.</span></div><div class="move"><span class="move-no">6.</span><span class="ply" data-ply="10"><span class="side">White.</span> The king&#x27;s knight&#x27;s pawn, one move, <span class="note-ref" tabindex="0" data-note="On this move, the king&#x27;s knight might be played to his bishop&#x27;s third square.">(a)</span></span><span class="ply" data-ply="11"><span class="side">Black.</span> The queen, at her king&#x27;s bishop&#x27;s third square, <span class="note-ref" tabindex="0" data-note="If, instead of withdrawing his queen, he had taken your king&#x27;s bishop&#x27;s pawn, by giving check, you must have taken his bishop with your queen; you would have got a piece by it.">(b)</span></span></div><div class="move"><span class="move-no">7.</span><span class="ply" data-ply="12"><span class="side">White.</span> The king&#x27;s knight, at his rook&#x27;s third square. <span class="note-ref" tabindex="0" data-note="Though the rook&#x27;s third square is not the best place for the getting out of the knights, it is nevertheless necessary in the present situation.">(c)</span></span><span class="ply" data-ply="13"><span class="side">Black.</span> The queen&#x27;s pawn, one move.</span></div><div class="move"><span class="move-no">8.</span><span class="ply" data-ply="14"><span class="side">White.</span> The king&#x27;s bishop&#x27;s pawn, one move.</span><span class="ply" data-ply="15"><span class="side">Black.</span> The king&#x27;s knight, at the adverse king&#x27;s third square. <span class="note-ref" tabindex="0" data-note="Had he made this knight retire, you must then have played yours, now attacked, to his bishop&#x27;s second square, and afterwards pushed your queen&#x27;s bishop to your king&#x27;s third square, to get rid of his king&#x27;s bishop.">(d)</span></span></div><div class="move"><span class="move-no">9.</span><span class="ply" data-ply="16"><span class="side">White.</span> The queen&#x27;s bishop takes the knight.</span><span class="ply" data-ply="17"><span class="side">Black.</span> The king&#x27;s bishop takes the bishop.</span></div><div class="move"><span class="move-no">10.</span><span class="ply" data-ply="18"><span class="side">White.</span> The queen takes the king&#x27;s bishop.</span><span class="ply" data-ply="19"><span class="side">Black.</span> The queen&#x27;s bishop takes the knight.</span></div><div class="move"><span class="move-no">11.</span><span class="ply" data-ply="20"><span class="side">White.</span> The queen&#x27;s knight, at his queen&#x27;s second square.</span><span class="ply" data-ply="21"><span class="side">Black.</span> The same. <span class="note-ref" tabindex="0" data-note="It is plain that the white have several moves over the black. The reason is, that the black have been too hasty in getting out the queen, and that, in the present situation, she has not yet reached the place where the should properly stand. O iv">(e)</span></span></div></div>
+<div class="philidor-notes"><h3>Notes with no reference in the text</h3><p class="note-why">The scan lost the mark that called these, so no move points to them.</p><p><span class="note-letter">(k)</span>In the present situation, the business of the white must be, to change the king&#x27;s bishop&#x27;s pawn with the adversary&#x27;s royal pawn; and then the advantage will be turned on his side.</p></div>
+</div>
+</div>
+</div>
+<div class="downloads"><a class="download" href="../downloads/md/first-back-game-of-the-fourth-variable.md" download>Markdown — Philidor's text</a><a class="download" href="../downloads/pgn/first-back-game-of-the-fourth-variable.pgn" download>PGN — algebraic notation</a></div>
+```

@@ -1,0 +1,53 @@
+---
+pagetitle: Third Back-game (Rook and Bishop against a Rook)
+title: Third Back-game (Rook and Bishop against a Rook)
+---
+
+```{=html}
+<div class="game-page">
+<div class="game-head">
+<div class="game-meta">back-game &middot; branches from Method of giving Check-mate with a Rook and a Bishop against a Rook at move 7</div>
+<div class="game-subtitle">On the 7th move of the Black.</div>
+<hr class="game-rule">
+</div>
+<div class="philidor-game">
+<div class="game-board">
+<div class="pgn-board"><script type="text/pgn">[Event "Philidor, Analysis of the Game of Chess (London, 1777)"]
+[Site "?"]
+[Date "1777.??.??"]
+[Round "-"]
+[White "Philidor (analysis)"]
+[Black "Philidor (analysis)"]
+[Result "*"]
+[Annotator "F. D. Philidor"]
+[PhilidorGame "Third Back-game (Rook and Bishop against a Rook)"]
+[PhilidorKind "back-game"]
+[SourceLine "8235"]
+[SetUp "1"]
+[FEN "4k3/3r4/4K3/4B3/8/8/8/2R5 w - - 0 1"]
+[PhilidorParent "Method of giving Check-mate with a Rook and a Bishop against a Rook"]
+[PhilidorBranchMove "7"]
+
+1. Rc8+ {[from the parent game] The rook gives check.} Rd8 {[from the parent game] The rook
+covers the check.} 2. Rc7 {[from the parent game] The rook, at the adverse queen's bishop's
+second square.} Rd2 {[from the parent game] The rook, at the adverse queen's second square. (b)}
+3. Rb7 {[from the parent game] The rook, at the adverse queen's knight's second square. (c)} Rd1
+{[from the parent game] The rook, at the adverse queen's square. (d)} 4. Rg7 {[from the parent
+game] The rook, at the adverse king's knight's second square.} Rf1 {[from the parent game] The
+rook, at the adverse king's bishop's square. (e)} 5. Bg3 {[from the parent game] The bishop, at
+his king's knight's third square.} Kf8 {[from the parent game] The king, at his bishop's square.
+(f)} 6. Rg4 {[from the parent game] The rook, at its king's knight's fourth square.} Ke8 {[from
+the parent game] The king, at his home. (g)} 7. Rc4 {The rook, at its queen's bishop's fourth
+square.} Kf8 {The king, at his bishop's square.} 8. Be5 {The bishop, at the adverse king's
+fourth square.} Kg8 {The king, at his knight's square.} 9. Rh4 {The rook, at its king's rook's
+fourth square, and must win.} *
+</script></div>
+<label class="follow-toggle"><input type="checkbox" class="follow-text"> Show the text with the board</label><div class="move-text" hidden><p class="move-text__move"></p><div class="move-text__notes"></div></div>
+</div>
+<div class="game-text">
+<div class="original-moves"><div class="move"><span class="move-no">1.</span><span class="ply inherited" data-ply="0"><span class="side">White.</span> The rook gives check.</span><span class="ply inherited" data-ply="1"><span class="side">Black.</span> The rook covers the check.</span></div><div class="move"><span class="move-no">2.</span><span class="ply inherited" data-ply="2"><span class="side">White.</span> The rook, at the adverse queen&#x27;s bishop&#x27;s second square.</span><span class="ply inherited" data-ply="3"><span class="side">Black.</span> The rook, at the adverse queen&#x27;s second square. (b)</span></div><div class="move"><span class="move-no">3.</span><span class="ply inherited" data-ply="4"><span class="side">White.</span> The rook, at the adverse queen&#x27;s knight&#x27;s second square. (c)</span><span class="ply inherited" data-ply="5"><span class="side">Black.</span> The rook, at the adverse queen&#x27;s square. (d)</span></div><div class="move"><span class="move-no">4.</span><span class="ply inherited" data-ply="6"><span class="side">White.</span> The rook, at the adverse king&#x27;s knight&#x27;s second square.</span><span class="ply inherited" data-ply="7"><span class="side">Black.</span> The rook, at the adverse king&#x27;s bishop&#x27;s square. (e)</span></div><div class="move"><span class="move-no">5.</span><span class="ply inherited" data-ply="8"><span class="side">White.</span> The bishop, at his king&#x27;s knight&#x27;s third square.</span><span class="ply inherited" data-ply="9"><span class="side">Black.</span> The king, at his bishop&#x27;s square. (f)</span></div><div class="move"><span class="move-no">6.</span><span class="ply inherited" data-ply="10"><span class="side">White.</span> The rook, at its king&#x27;s knight&#x27;s fourth square.</span><span class="ply inherited" data-ply="11"><span class="side">Black.</span> The king, at his home. (g)</span></div><div class="move"><span class="move-no">7.</span><span class="ply" data-ply="12"><span class="side">White.</span> The rook, at its queen&#x27;s bishop&#x27;s fourth square.</span><span class="ply" data-ply="13"><span class="side">Black.</span> The king, at his bishop&#x27;s square.</span></div><div class="move"><span class="move-no">8.</span><span class="ply" data-ply="14"><span class="side">White.</span> The bishop, at the adverse king&#x27;s fourth square.</span><span class="ply" data-ply="15"><span class="side">Black.</span> The king, at his knight&#x27;s square.</span></div><div class="move"><span class="move-no">9.</span><span class="ply" data-ply="16"><span class="side">White.</span> The rook, at its king&#x27;s rook&#x27;s fourth square, and must win.</span></div></div>
+</div>
+</div>
+</div>
+<div class="downloads"><a class="download" href="../downloads/md/third-back-game-rook-and-bishop-against-a-rook.md" download>Markdown — Philidor's text</a><a class="download" href="../downloads/pgn/third-back-game-rook-and-bishop-against-a-rook.pgn" download>PGN — algebraic notation</a></div>
+```

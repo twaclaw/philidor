@@ -1,0 +1,50 @@
+---
+pagetitle: A Drawn-game, or a Party won, with two Pawns against one
+title: A Drawn-game, or a Party won, with two Pawns against one
+---
+
+```{=html}
+<div class="game-page">
+<div class="game-head">
+<div class="game-meta">endgame</div>
+<div class="game-subtitle"></div>
+<hr class="game-rule">
+</div>
+<div class="philidor-game">
+<div class="game-board">
+<div class="pgn-board"><script type="text/pgn">[Event "Philidor, Analysis of the Game of Chess (London, 1777)"]
+[Site "?"]
+[Date "1777.??.??"]
+[Round "-"]
+[White "Philidor (analysis)"]
+[Black "Philidor (analysis)"]
+[Result "*"]
+[Annotator "F. D. Philidor"]
+[PhilidorGame "A Drawn-game, or a Party won, with two Pawns against one"]
+[PhilidorKind "endgame"]
+[SourceLine "10074"]
+[SetUp "1"]
+[FEN "8/8/4k1p1/6P1/4KP2/8/8/8 w - - 0 1"]
+
+1. Kd4 {The king, at his queen's fourth square.} Kd6 {The king, at his queen's third square. (b)
+NOTE: Had he played his king to his king's bishop's fourth square, you would have again got the
+move over him; which would have given you the game. The subject of a backgame,} 2. Kd3 {The
+king, at his queen's third square.} Kd7 {The king, at his queen's second square. (c) NOTE: Had
+he played his king to his queen's fourth square, he would have lost the game. A new subject of a
+back-game.} 3. Ke3 {The king, at his third square.} Ke7 {The king, at his second square. (d)
+NOTE: He keeps himself in such a situation, that he may oppose your king, when you please to
+push him forwards, either to his fourth square, or to your queen's fourth square.} 4. Kd4 {The
+king, at his queen's fourth square.} Kd6 {The king, at his queen's third square.} 5. Ke4 {The
+king, at his fourth square.} Ke6 {The king, at his third square. (e) NOTE: Supposing that your
+adversary makes his moves exactly, it is a drawn-game.} *
+</script></div>
+<label class="follow-toggle"><input type="checkbox" class="follow-text"> Show the text with the board</label><div class="move-text" hidden><p class="move-text__move"></p><div class="move-text__notes"></div></div>
+</div>
+<div class="game-text">
+<div class="game-position"><span class="situation">Situation of the White</span><ul><li>The king, at his fourth square.</li><li>The king&#x27;s bishop&#x27;s pawn, at its fourth square.</li><li>The king&#x27;s knight&#x27;s pawn, at its fifth square.</li></ul><span class="situation">Situation of the Black</span><ul><li>The king, at his third square.</li><li>The king&#x27;s knight&#x27;s pawn, at its third square. <span class="note-ref" tabindex="0" data-note="In the present position, if the black were to play first, the white would win the game; and if the white were to play, it would be a drawn-game.">(a)</span></li></ul></div>
+<div class="original-moves"><div class="move"><span class="move-no">1.</span><span class="ply" data-ply="0"><span class="side">White.</span> The king, at his queen&#x27;s fourth square.</span><span class="ply" data-ply="1"><span class="side">Black.</span> The king, at his queen&#x27;s third square. <span class="note-ref" tabindex="0" data-note="Had he played his king to his king&#x27;s bishop&#x27;s fourth square, you would have again got the move over him; which would have given you the game. The subject of a backgame,">(b)</span></span></div><div class="move"><span class="move-no">2.</span><span class="ply" data-ply="2"><span class="side">White.</span> The king, at his queen&#x27;s third square.</span><span class="ply" data-ply="3"><span class="side">Black.</span> The king, at his queen&#x27;s second square. <span class="note-ref" tabindex="0" data-note="Had he played his king to his queen&#x27;s fourth square, he would have lost the game. A new subject of a back-game.">(c)</span></span></div><div class="move"><span class="move-no">3.</span><span class="ply" data-ply="4"><span class="side">White.</span> The king, at his third square.</span><span class="ply" data-ply="5"><span class="side">Black.</span> The king, at his second square. <span class="note-ref" tabindex="0" data-note="He keeps himself in such a situation, that he may oppose your king, when you please to push him forwards, either to his fourth square, or to your queen&#x27;s fourth square.">(d)</span></span></div><div class="move"><span class="move-no">4.</span><span class="ply" data-ply="6"><span class="side">White.</span> The king, at his queen&#x27;s fourth square.</span><span class="ply" data-ply="7"><span class="side">Black.</span> The king, at his queen&#x27;s third square.</span></div><div class="move"><span class="move-no">5.</span><span class="ply" data-ply="8"><span class="side">White.</span> The king, at his fourth square.</span><span class="ply" data-ply="9"><span class="side">Black.</span> The king, at his third square. <span class="note-ref" tabindex="0" data-note="Supposing that your adversary makes his moves exactly, it is a drawn-game.">(e)</span></span></div></div>
+</div>
+</div>
+</div>
+<div class="downloads"><a class="download" href="../downloads/md/a-drawn-game-or-a-party-won-with-two-pawns-against-one.md" download>Markdown — Philidor's text</a><a class="download" href="../downloads/pgn/a-drawn-game-or-a-party-won-with-two-pawns-against-one.pgn" download>PGN — algebraic notation</a></div>
+```

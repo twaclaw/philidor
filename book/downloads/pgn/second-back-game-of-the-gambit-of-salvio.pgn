@@ -1,0 +1,27 @@
+[Event "Philidor, Analysis of the Game of Chess (London, 1777)"]
+[Site "?"]
+[Date "1777.??.??"]
+[Round "-"]
+[White "Philidor (analysis)"]
+[Black "Philidor (analysis)"]
+[Result "*"]
+[Annotator "F. D. Philidor"]
+[PhilidorGame "Second Back-game of the Gambit of Salvio"]
+[PhilidorKind "back-game"]
+[SourceLine "7642"]
+[PhilidorParent "Gambit of Salvio"]
+[PhilidorBranchMove "7"]
+[PhilidorTruncated "Converted as far as the parser reaches: ply 16: no ordinal: 's, or gambit's pawn, one move"]
+
+1. e4 {[from the parent game] The king's pawn, two moves.} e5 {[from the parent game] The same.}
+2. f4 {[from the parent game] The king's bishop's pawn, two moves.} exf4 {[from the parent game]
+The king's pawn takes the pawn.} 3. Nf3 {[from the parent game] The king's knight, at his
+bishop's third square.} g5 {[from the parent game] The king's knight's pawn, two moves.} 4. Bc4
+{[from the parent game] The king's bishop, at his queen's bishop's fourth square.} g4 {[from the
+parent game] The king's knight's pawn, one move.} 5. Ne5 {[from the parent game] The king's
+knight, at the adverse king's fourth square..mmm} Qh4+ {[from the parent game] The queen gives
+check.} 6. Kf1 {[from the parent game] The king, at his bishop's square.} Nf6 {[from the parent
+game] The king's knight, at his bishop's third square. (a)} 7. d4 {The queen's pawn, two moves.}
+d6 {The queen's pawn, one move. (a) NOTE: If he had taken your king's pawn, you should have
+played your queen to your king's second square.} 8. Nd3 {The king's knight, at his queen's third
+square.} {The board stops here; Philidor's game continues in the text beside it.} *

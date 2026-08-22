@@ -1,0 +1,25 @@
+[Event "Philidor, Analysis of the Game of Chess (London, 1777)"]
+[Site "?"]
+[Date "1777.??.??"]
+[Round "-"]
+[White "Philidor (analysis)"]
+[Black "Philidor (analysis)"]
+[Result "*"]
+[Annotator "F. D. Philidor"]
+[PhilidorGame "A Drawn-game, or a Party won, with two Pawns against one"]
+[PhilidorKind "endgame"]
+[SourceLine "10074"]
+[SetUp "1"]
+[FEN "8/8/4k1p1/6P1/4KP2/8/8/8 w - - 0 1"]
+
+1. Kd4 {The king, at his queen's fourth square.} Kd6 {The king, at his queen's third square. (b)
+NOTE: Had he played his king to his king's bishop's fourth square, you would have again got the
+move over him; which would have given you the game. The subject of a backgame,} 2. Kd3 {The
+king, at his queen's third square.} Kd7 {The king, at his queen's second square. (c) NOTE: Had
+he played his king to his queen's fourth square, he would have lost the game. A new subject of a
+back-game.} 3. Ke3 {The king, at his third square.} Ke7 {The king, at his second square. (d)
+NOTE: He keeps himself in such a situation, that he may oppose your king, when you please to
+push him forwards, either to his fourth square, or to your queen's fourth square.} 4. Kd4 {The
+king, at his queen's fourth square.} Kd6 {The king, at his queen's third square.} 5. Ke4 {The
+king, at his fourth square.} Ke6 {The king, at his third square. (e) NOTE: Supposing that your
+adversary makes his moves exactly, it is a drawn-game.} *

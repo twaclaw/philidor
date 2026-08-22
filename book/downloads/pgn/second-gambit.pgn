@@ -1,0 +1,81 @@
+[Event "Philidor, Analysis of the Game of Chess (London, 1777)"]
+[Site "?"]
+[Date "1777.??.??"]
+[Round "-"]
+[White "Philidor (analysis)"]
+[Black "Philidor (analysis)"]
+[Result "*"]
+[Annotator "F. D. Philidor"]
+[PhilidorGame "Second Gambit"]
+[PhilidorKind "game"]
+[SourceLine "2878"]
+
+1. e4 {The king's pawn, two moves.} e5 {The same.} 2. f4 {The king's bishop's pawn, two moves.}
+exf4 {The pawn takes the pawn.} 3. Bc4 {The king's bishop, at his queen's bishop's fourth
+square.} Qh4+ {The queen gives check.} 4. Kf1 {The king, at his bishop's square.} g5 {The king's
+knight's pawn, two moves. (a) NOTE: There are two other different ways of playing this move: the
+first is, to play his king's bishop to his queen's bishop's fourth square; and the other, to
+push that queen's same pawn one move, which will make the subject of two back-games.} 5. Nf3
+{The king's knight, at his bishop's third square.} Qh5 {The queen, at her king's rook's fourth
+square. (b) NOTE: He might have removed his queen to two other squares; but this is the best:
+for, had he made her retire to your king's knight's fourth square, you might have taken his
+king's bishop's pawn, by giving check, and perhaps afterwards forced his queen: and, if he had
+withdrawn her to his king's rook's third square, you must have attacked the same king's bishop's
+pawn with your king's knight, which would have entirely decided the game in your favour.} 6. d4
+{The queen's pawn, two moves.} d6 {The queen's pawn, one move.} 7. c3 {The queen's bishop's
+pawn, one move. (c) NOTE: It is of consequence, in the gambits, to play this pawn, to enable
+yourself afterwards to place your queen at her knight's third square. In this post, that
+increases the strength of your position, and perplexes your adversary, especially if he has
+played his queen's bishop, without attacking one of your pieces. See, respecting this play, the
+fifth and sixth back-games of the first gambit.} Bg4 {The queen's bishop, at the adverse king's
+knight's fourth square.} 8. Kf2 {The king, at his bishop's second square.} Nf6 {The king's
+knight, at his king's bishop's third square. (d) NOTE: If, instead of playing this knight, he
+had taken your king's knight, a third backgame will show you how you are to proceed in that
+party.} 9. Qe2 {The queen, at her king's second square.} Nbd7 {The queen's knight, at his
+queen's second square.} 10. h4 {The king's rook's pawn, two moves.} Bxf3 {The bishop takes the
+knight.} 11. Qxf3 {The queen takes the bishop.} Qxf3+ {The queen takes the queen. (e) NOTE: If,
+instead of taking your queen, he had given check, a fourth back-game will show you how he would
+lose the game.} 12. Kxf3 {The king retakes the queen. (f) NOTE: I have laid it down, as a
+general rule, always to unite your pawns, and bring them into the centre. Here is however an
+exception, grounded upon two good reasons: first, if you retake with your king, you gain a pawn,
+your adversary being no longer able to hinder it: secondly, the queen being changed, your king
+has nothing to fear; and getting him into action, he may be as useful to you as any other of
+your pieces.} g4+ {The king's knight's pawn gives check.} 13. Kxf4 {The king takes the adverse
+king's pawn.} Bh6+ {The king's bishop gives check at the rook's third square.} 14. Kf5 {The
+king, at the adverse king's bishop's fourth square. (g) NOTE: Your king could not be safe on
+that square, if your adversary had yet a white bishop to dislodge him from that post; but, this
+not being the case, your king sustains all your pawns.} Bxc1 {The king's bishop takes the
+adverse queen's bishop.} 15. Rxc1 {The king's rook takes the bishop.} h5 {The king's rook's
+pawn, two moves.} 16. Nd2 {The knight, at his queen's second square.} Ke7 {The king, at his
+second square.} 17. Rf1 {The king's rook, at its king's bishop's square. (h) NOTE: You might
+have played this rook to your king's square; but in this case your queen's rook would have been
+almost useless to you: it is better then to retard your attack, and get all your pieces into
+action.} c6 {The queen's bishop's pawn, one move. (i) NOTE: He prepares to push his queen's pawn
+one move, to break your centre; which it behoves you to prevent, by putting him under the
+necessity of defending himself.} 18. Rae1 {The queen's rook, at its king's square.} b5 {The
+queen's knight's pawn, two moves. (k) NOTE: He endeavours to attack you on your left, and make
+an opening for his rooks.} 19. Bb3 {The bishop, at his queen's knight's third square.} a5 {The
+queen's rook's pawn, two moves.} 20. e5 {The king's pawn, one move.} dxe5 {The pawn takes the
+pawn.} 21. dxe5 {The queen's pawn retakes the pawn.} Nd5 {The king's knight, at his queen's
+fourth square.} 22. Ne4 {The knight, at his king's fourth square. (l) NOTE: You would have
+played very ill in taking his knight with your bishop; because, by retaking your bishop with his
+pawn, this very pawn would obstruct the passage of your knight: it was necessary then to play
+this knight first, in order to have no useless pieces.} N7b6 {The queen's knight, at his third
+square.} 23. Nf6 {The knight, at the adverse king's bishop's third square.} Rad8 {The queen's
+rook, at its queen's square. (m) NOTE: If he had taken your knight, you should have retaken with
+the pawn, and afterwards attacked his king's bishop's pawn, by playing your queen's rook to its
+king's second square.} 24. e6 {The king's pawn, one move.} Rd6 {The queen's rook, at its queen's
+third square. (n) NOTE: If, instead of playing the rook, he had taken your pawn, you would have
+won the game in a few moves, because he would lose his queen's bishop's pawn; as, if he had
+taken your knight with his own, you would have taken his pawn with your's, in giving check, by
+discovery.} 25. exf7+ {The pawn takes the pawn, and gives check with the rook.} Kxf7 {The king
+takes the pawn.} 26. Kg5 {The king, at the adverse king's knight's fourth square.} Kg7 {The
+king, at his knight's second square, to avoid a check by discovery.} 27. Nxh5+ {The knight takes
+the king's rook's pawn, and gives check.} Kh7 {The king, at his rook's second square.} 28. Rf7+
+{The king's rook gives check.} Kg8 {The king, at his knight's square.} 29. Rb7 {The king's rook,
+at the adverse queen's knight's second square.} Rd8 {The queen's rook, at its queen's square.
+(o) NOTE: If he had played his king instead of his queen's rook, you could have given check with
+your queen's rook, and taken that of his king. It is convenient to observe here, that what has
+decided the game in favour of the white, is, that the king, having been in a situation fit for
+action, has been as useful as the best of his pieces.} 30. Rxb6 {The rook takes the adverse
+queen's knight, and wins the game in course.} *

@@ -1,0 +1,27 @@
+[Event "Philidor, Analysis of the Game of Chess (London, 1777)"]
+[Site "?"]
+[Date "1777.??.??"]
+[Round "-"]
+[White "Philidor (analysis)"]
+[Black "Philidor (analysis)"]
+[Result "*"]
+[Annotator "F. D. Philidor"]
+[PhilidorGame "Fifth Back-game of the Method of Playing"]
+[PhilidorKind "back-game"]
+[SourceLine "5974"]
+[PhilidorParent "Method of Playing"]
+[PhilidorBranchMove "6"]
+
+1. e4 {[from the parent game] The king's pawn, two moves.} e5 {[from the parent game] The same.}
+2. Bc4 {[from the parent game] The king's bishop, at his queen's bishop's fourth square. (a)}
+Bc5 {[from the parent game] The same. (b)} 3. c3 {[from the parent game] The queen's bishop's
+pawn, one move.} Qe7 {[from the parent game] The queen, at her king's second square. (c)} 4. Nf3
+{[from the parent game] The king's knight, at his bishop's third square. (d)} Nf6 {[from the
+parent game] The same. (e)} 5. Qe2 {[from the parent game] The queen, at her king's second
+square.} d6 {[from the parent game] The queen's pawn, one move.} 6. d4 {The queen's pawn, two
+moves.} exd4 {The king's pawn takes the pawn.} 7. cxd4 {The queen's bishop's pawn retakes the
+pawn.} Bb4+ {The king's bishop gives check.} 8. Bd2 {The queen's bishop covers the check.} Bxd2+
+{The bishop takes the bishop.} 9. Nbxd2 {The queen's knight retakes the bishop.} d5 {The queen's
+pawn, one move, (a) NOTE: This party is entirely equal on both fides: your pawns in the centre
+are broken. Nevertheless you may venture this fort of play with an antagonist to whom you give
+some advantage.} *

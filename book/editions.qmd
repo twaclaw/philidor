@@ -1,0 +1,138 @@
+---
+title: The editions
+---
+
+Philidor's book was rewritten twice by its author and translated many times
+over, and the copies that survive do not all say the same thing. Two lines
+descend from 1749: one in French, one in English. This transcription follows
+the English line. A reader comparing a copy from the French line should expect
+differences, and some are substantial.
+
+{{< include _includes/editions-timeline.md >}}
+
+## What each edition is
+
+Where a statement here rests on the scans themselves it is marked **[scan]**;
+everything else is sourced below. The distinction matters: a title page is
+evidence, a bookseller's description is a claim.
+
+**1749 — *L'Analyze des Échecs*, London, in French.** Philidor was living in
+England and published in his own language. Three printings carry the date
+1749.^[[ChessBase, *Philidor's* L'Analyze des Echecs](https://en.chessbase.com/post/philidor-s-l-analyze-des-echecs)] Its rule on promotion was stricter than what followed: a
+pawn could be exchanged only for a piece already captured — which the 1777
+records in a marginal note about its own earlier edition **[scan]**.
+
+**1777 — two books in one year.** *Analyse du jeu des échecs, nouvelle édition,
+considérablement augmentée* in French,^[[*Analyse du jeu des échecs*, Internet Archive](https://archive.org/details/bim_eighteenth-century_analyse-du-jeu-des-chec_philidor-f-d-franco_1777)] and *Analysis of the
+Game of Chess* in English. The English one is the **base text of this
+transcription**. Its title page reads "A NEW EDITION, GREATLY ENLARGED. By A. D.
+PHILIDOR ... LONDON: Printed for P. ELMSLEY, in the STRAND. MDCCLXXVII"
+**[scan]**. It reprints the 1749 material with corrections and adds the
+supplement, the Gambit of Salvio, the ends of parties, and seventeen rules of
+the game **[scan]**. Booksellers describe it as possibly the first chess book
+published in English;^[a description repeated in dealers' listings of the 1777; their claim, not one checked here] that is their claim, not one this project
+can check.
+
+**1790 — *Analysis of the Game of Chess*, "a new edition, improved and greatly
+enlarged", in two volumes.** Used here for **collation**. Its title page adds
+"TO WHICH IS ADDED, SEVERAL PARTIES, PLAYED BY THE AUTHOR BLINDFOLD, AGAINST
+THREE ADVERSARIES", and the imprint is again P. Elmsly in the Strand, M·DCC·XC
+**[scan]**. Only volume I is to hand: the copy ends "END OF THE FIRST VOLUME"
+**[scan]**, and it holds the parties and gambits. Volume II held the ends of
+parties, which is why chapters 70 to 98 here have never been read against a
+second source.
+
+**1819 — Philidor by way of W. S. Kenny, London, printed for T. and J.
+Allman.** *Illustrated by diagrams, on which are marked the situation of the
+party for the back-games and ends of parties; with critical remarks and notes
+by the author of the "Stratagems of Chess". Translated from the last French
+edition, and further illustrated with notes, by W. S. Kenny.*^[Powell's;
+HathiTrust] Sold by Baldwin, Cradock and Joy, Paternoster Row, and Bell and
+Bradfute, Edinburgh. Catalogued as the first edition of this
+translation.^[[Christie's, lot 3508267](https://www.christies.com.cn/en/lot/lot-3508267)] William Stopford Kenny (1788–1867) had already
+published *Practical Chess Grammar* (1817) and *Practical Chess Exercises*
+(1818).^[[Bernard Quaritch Ltd, stock GU29](https://www.quaritch.com/books/philidor-fran%C3%A7ois-andr%C3%A9-danican-william-stopford-k/analysis-of-the-game-of-chess-illustrated-by-diagr/GU29/)] It carries seventeen rules, as the 1777 does — reported by
+the owner of the copy, not seen here.
+
+The book went on being reprinted long after: something like seventy editions by
+1871, and translations into German and Italian.^[[ChessBase, *Philidor's* L'Analyze des Echecs](https://en.chessbase.com/post/philidor-s-l-analyze-des-echecs)]
+
+## Why a French-line copy differs
+
+The 1819 is not a reprint of the English 1777 or 1790. It comes down the other
+branch, from a French edition Philidor had gone on revising, and it arrives
+through a translator who added material of his own. Between the English 1777
+and Kenny's French source lie forty years of the author's second thoughts and
+somebody else's editing.
+
+That is enough to account for what a comparison turns up, and the differences
+found so far are of three kinds, none of them a fault in either book:
+
+- **The same study, a different verdict.** From `3k4/3p4/4r3/3K4/8/1Q6/8/8`,
+  the 1777 gives four moves and calls the game drawn; the 1819 heads it "A
+  check mate with a queen against a Castle and a Pawn" and gives eighteen moves
+  ending in mate.
+- **The same study, a different board.** At the 4th move of the first
+  back-game of the rook and bishop against a rook, the 1819 has the black king
+  on d8 where this text has him on e8.
+- **A different arrangement.** What is one study in one edition may be a study
+  and a back-game in the other, so the numbering does not line up.
+
+A fourth kind is worth naming separately, because it runs the other way: the
+1819 **confirmed** a reading here. It puts a white queen on b3 in the drawn
+game against a rook and a pawn, which is where the text says she stands and
+where this transcription had failed to put her.
+
+Both editions also use "castle" and "rook" for the same piece, which is only a
+matter of the translator's English.
+
+Open questions from the comparison are kept in the repository's `TODO.md`.
+
+## A word on the rules
+
+The 1777 closes with the seventeen rules of the Chess Club in England, and they
+are not the modern ones. Under that code a stalemated player **won** the game
+in England, though not in France; promotion had been restricted to a captured
+piece in the 1749 edition; and the fifty-move rule was something you claimed
+rather than something that happened. Where Philidor calls a position won or
+drawn, that is the code he is judging it under. The repository's `RULES.md`
+sets them out.
+
+The 1819 carries seventeen rules as well, so the code travelled down the French
+line and through the translation intact in number at least. Whether it survived
+unchanged in substance is worth knowing, and rule XVI is the one to look at,
+because an 1819 book sits exactly on the change.
+
+The English rule stood from about 1600 to 1800. The London Chess Club rejected
+Philidor's version at its founding in 1807, and Sarratt's *Treatise* of 1808
+gives the modern one in its rule 24: "If the King be stale-mate, the game is a
+drawn game." The draw was widely accepted in England by the early
+1820s.^[Edward Winter, [*Stalemate*](https://www.chesshistory.com/winter/extra/stalemate.html), citing the London Chess Club of 1807 and Sarratt's *Treatise* of 1808] Kenny's book falls between the two, so which rule it prints is
+not predictable — and it decides whether the endgame verdicts in the two
+editions were reached under the same law at all.
+
+
+## Sources
+
+Marked **[scan]** above: read directly from the two scans this project works
+from, which are described in the repository's README.
+
+- **ChessBase** — ["Philidor's *L'Analyze des Echecs*"](https://en.chessbase.com/post/philidor-s-l-analyze-des-echecs),
+  for the three printings of 1749 and the later reprinting history.
+- **Internet Archive** — [*Analyse du jeu des échecs*, 1777, in French](https://archive.org/details/bim_eighteenth-century_analyse-du-jeu-des-chec_philidor-f-d-franco_1777),
+  and [*L'analyze des echecs*, 1749](https://archive.org/details/bim_eighteenth-century_lanalyze-des-echecs-co_philidor-f-d-franco_1749_0).
+- **Christie's** — [lot description for the 1819 Kenny](https://www.christies.com.cn/en/lot/lot-3508267),
+  giving it as the first edition of that translation.
+- **Quaritch** — [catalogue entry for the 1819](https://www.quaritch.com/books/philidor-fran%C3%A7ois-andr%C3%A9-danican-william-stopford-k/analysis-of-the-game-of-chess-illustrated-by-diagr/GU29/),
+  for Kenny's dates and his earlier books.
+- **Powell's / HathiTrust** — [the full 1819 title](https://catalog.hathitrust.org/Record/008591460),
+  including the notes by the author of the *Stratagems of Chess*.
+- **Winter** — Edward Winter, ["Stalemate"](https://www.chesshistory.com/winter/extra/stalemate.html),
+  for the English rule, its rejection by the London Chess Club in 1807, and
+  Sarratt's *Treatise* of 1808.
+- **bookseller** — the "first chess book in English" description appears in
+  dealers' listings of the 1777; it is repeated here as their claim.
+
+The comparisons with the 1819 come from its owner, who is reading a physical
+copy; they are recorded as reported, and the open ones are in the repository's
+`TODO.md`.

@@ -1,0 +1,23 @@
+[Event "Philidor, Analysis of the Game of Chess (London, 1777)"]
+[Site "?"]
+[Date "1777.??.??"]
+[Round "-"]
+[White "Philidor (analysis)"]
+[Black "Philidor (analysis)"]
+[Result "*"]
+[Annotator "F. D. Philidor"]
+[PhilidorGame "A Drawn-game of a Knight far off from his King, against a Pawn near making a Queen"]
+[PhilidorKind "endgame"]
+[SourceLine "10024"]
+[SetUp "1"]
+[FEN "8/8/8/8/8/pk6/N6K/8 w - - 0 1"]
+
+1. Nc1+ {The knight gives check, at his queen's bishop's square.} Kb2 {The king, at the adverse
+queen's knight's second square.} 2. Nd3+ {The knight gives check, at his queen's third square.}
+Kc2 {The king, at the adverse queen's bishop's second square.} 3. Nb4+ {The knight, at his
+queen's knight's fourth square.} Kb3 {The king, at the adverse queen's knight's third square.}
+4. Nd3 {The knight, at his queen's third square. (a) NOTE: He cannot push his pawn without
+receiving a double check from your knight; therefore it is a drawn-game. It is necessary to
+observe, that in such positions, when the knight cannot give check, nor hinder the pawn from
+going forwards, a double check must necessarily happen at the second move. A DRAWN-GAME, Or a
+PARTY won, with two PAWNS against one.} *

@@ -1,0 +1,65 @@
+[Event "Philidor, Analysis of the Game of Chess (London, 1777)"]
+[Site "?"]
+[Date "1777.??.??"]
+[Round "-"]
+[White "Philidor (analysis)"]
+[Black "Philidor (analysis)"]
+[Result "*"]
+[Annotator "F. D. Philidor"]
+[PhilidorGame "Fifth Back-game of the Queen's Gambit"]
+[PhilidorKind "back-game"]
+[SourceLine "5312"]
+[PhilidorParent "The Queen's Gambit"]
+[PhilidorBranchMove "8"]
+[PhilidorReconstructed "Completing this game meant reading against the text at ply 13; the printed reading admits no legal continuation."]
+
+1. d4 {[from the parent game] The queen's pawn, two moves.} d5 {[from the parent game] The
+same.} 2. c4 {[from the parent game] The queen's bishop's pawn, two moves.} dxc4 {[from the
+parent game] The pawn takes the pawn.} 3. e4 {[from the parent game] The king's pawn, two moves.
+(a)} e5 {[from the parent game] The king's pawn, two moves. (b)} 4. d5 {[from the parent game]
+The queen's pawn, one move. (c)} f5 {[from the parent game] The king's bishop's pawn, two moves.
+(d)} 5. Nc3 {[from the parent game] The queen's knight, at his bishop's third square.} Nf6
+{[from the parent game] The king's knight, at his bishop's third square.} 6. f3 {[from the
+parent game] The king's bishop's pawn, one move.} Bc5 {[from the parent game] The king's bishop,
+at his queen's bishop's fourth square, Ath} 7. Na4 {[from the parent game] The queen's knight,
+at his rook's third square.} Bxg1 {[from the parent game] The bishop takes the adversary's
+king's knight. (f)} 8. Rxg1 {The rook retakes the bishop.} b5 {The queen's knight's pawn, two
+moves.} 9. Nc5 {The knight, at the adverse queen's bishop's fourth square.} O-O {The king
+castles.} 10. a4 {The queen's rook's pawn, two moves.} Na6 {The queen's knight, at his rook's
+third square.} 11. Nxa6 {The knight takes the knight.} Bxa6 {The bishop retakes the knight.} 12.
+axb5 {The rook's pawn takes the pawn.} Bxb5 {The bishop retakes the pawn.} 13. b3 {The queen's
+knight's pawn, one move.} fxe4 {The king's bishop's pawn takes the pawn.} 14. bxc4 {The queen's
+knight's pawn takes the pawn.} Bd7 {The bishop, at his queen's second square.} 15. Bg5 {The
+queen's bishop, at the adverse king's knight's fourth square.} exf3 {The pawn takes the pawn.:
+16.} 16. gxf3 {The pawn retakes the pawn.} Kh8 {The king, at his rook's square.} 17. Bd3 {The
+king's bishop, at his queen's third square.} h6 {The king's rook's pawn, one move.} 18. h4 {The
+king's rook's pawn, two moves.} hxg5 {The rook's pawn takes the queen's bishop.} 19. hxg5 {The
+pawn retakes the pawn.} Nh5 {The knight, at his rook's fourth square.} 20. Bg6 {The bishop, at
+the adverse king's knight's third square.} Nf4 {The knight, at the adverse king's bishop's
+fourth square.} 21. Qc2 {The queen, at her bishop's second square.} Nxg6 {The knight takes the
+bishop, to avoid the mate.} 22. Qxg6 {The queen retakes the knight.} Bf5 {The bishop, at his
+king's bishop's fourth square.} 23. Qh6+ {The queen gives check.} Kg8 {The king retires.} 24. g6
+{The king's knight's pawn, one move.} Bxg6 {The bishop takes the pawn.} 25. Qxg6 {The queen
+takes the bishop.} Qf6 {The queen, at her king's bishop's third square.} 26. Ra6 {The queen's
+rook, at the adverse queen's rook's third square.} Qxg6 {The queen takes the queen.} 27. Raxg6
+{The queen's rook retakes the queen.} Rf7 {The king's rook, at its bishop's second square.} 28.
+Ke2 {The king, at his second square.} a5 {The queen's rook's pawn, two moves.} 29. Re6 {The
+queen's rook, at the adverse king's third square.} a4 {The rook's pawn, one move.} 30. Rxe5 {The
+rook takes the pawn.} a3 {The rook's pawn, one move.} 31. Ra1 {The king's rook, at its queen's
+rook's square.} a2 {The rook's pawn, one move.} 32. Re3 {The rook, at its king's third square.}
+Rf6 {The king's rook, at its bishop's third square.} 33. Kd3 {The king, at his queen's third
+square.} Ra3+ {The rook gives check.} 34. Ke4 {The king, at his fourth square.} Rxe3+ {The rook
+takes the rook.} 35. Kxe3 {The king retakes the rook.} Ra6 {The rook, at its queen's rook's
+third square.} 36. Kd4 {The king, at his queen's fourth square.} Kf7 {The king, at his bishop's
+second square.} 37. Kc3 {The king, at his queen's bishop's third square.} Ra3+ {The rook gives
+check.} 38. Kb4 {The king, at his queen's knight's fourth square.} Rxf3 {The rook takes the
+pawn.} 39. Rxa2 {The rook takes the pawn.} Ke7 {The king, at his second square.} 40. c5 {The
+queen's bishop's pawn, one move.} g5 {The king's knight's pawn, two moves.} 41. Ra7 {The rook,
+at the adverse queen's rook's second square.} Kd8 {The king, at his queen's square.} 42. Kb5
+{The king, at the adverse queen's knight's fourth square.} g4 {The knight's pawn, one move.} 43.
+Kc6 {The king, at the adverse queen's bishop's third square.} Rf6+ {The rook gives check.} 44.
+d6 {The pawn covers the check.} cxd6 {The pawn takes the pawn.} 45. cxd6 {The pawn retakes the
+pawn.} Ke8 {The king, at his home.} 46. Rg7 {The rook, at the adverse king's knight's second
+square.} Rh6 {The rook, at its rook's third square.} 47. Kc7 {The king, at the adverse queen's
+bishop's Puthing second square: and afterwards, by pushing his pawn, and making a queen, he will
+win the game.} *

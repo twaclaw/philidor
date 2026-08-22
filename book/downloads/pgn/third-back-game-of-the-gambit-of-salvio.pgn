@@ -1,0 +1,33 @@
+[Event "Philidor, Analysis of the Game of Chess (London, 1777)"]
+[Site "?"]
+[Date "1777.??.??"]
+[Round "-"]
+[White "Philidor (analysis)"]
+[Black "Philidor (analysis)"]
+[Result "*"]
+[Annotator "F. D. Philidor"]
+[PhilidorGame "Third Back-game of the Gambit of Salvio"]
+[PhilidorKind "back-game"]
+[SourceLine "7662"]
+[PhilidorParent "Gambit of Salvio"]
+[PhilidorBranchMove "8"]
+[PhilidorTruncated "Converted as far as the parser reaches: ply 22: no ordinal: , at his bishop's third"]
+
+1. e4 {[from the parent game] The king's pawn, two moves.} e5 {[from the parent game] The same.}
+2. f4 {[from the parent game] The king's bishop's pawn, two moves.} exf4 {[from the parent game]
+The king's pawn takes the pawn.} 3. Nf3 {[from the parent game] The king's knight, at his
+bishop's third square.} g5 {[from the parent game] The king's knight's pawn, two moves.} 4. Bc4
+{[from the parent game] The king's bishop, at his queen's bishop's fourth square.} g4 {[from the
+parent game] The king's knight's pawn, one move.} 5. Ne5 {[from the parent game] The king's
+knight, at the adverse king's fourth square..mmm} Qh4+ {[from the parent game] The queen gives
+check.} 6. Kf1 {[from the parent game] The king, at his bishop's square.} Nf6 {[from the parent
+game] The king's knight, at his bishop's third square. (a)} 7. Qe1 {[from the parent game] The
+queen, at her king's square. (b)} Qxe1+ {[from the parent game] The queen takes the queen. (c)}
+8. Kxe1 {The king takes the queen.} d6 {The queen's pawn, one move. (a) NOTE: If, instead of
+this move, he had played his queen's knight to his bishop's third square, you should then have
+taken his knight with yours, and sustained your royal pawn, by pushing that of your queen one
+move.} 9. Nxf7 {The knight takes the king's bishop's pawn.} d5 {The queen's pawn, one move.} 10.
+Bxd5 {The king's bishop takes the queen's pawn. (b) NOTE: It is better to take his pawn, than to
+give him leave to take your bishop; because his knight remains yet in the lurch.} Nxd5 {The
+king's knight takes the bishop.} 11. Nxh8 {The king's knight takes the rook.} {The board stops
+here; Philidor's game continues in the text beside it.} *

@@ -1,0 +1,32 @@
+[Event "Philidor, Analysis of the Game of Chess (London, 1777)"]
+[Site "?"]
+[Date "1777.??.??"]
+[Round "-"]
+[White "Philidor (analysis)"]
+[Black "Philidor (analysis)"]
+[Result "*"]
+[Annotator "F. D. Philidor"]
+[PhilidorGame "Seventh and Last Back-game of the First Gambit"]
+[PhilidorKind "back-game"]
+[SourceLine "2773"]
+[PhilidorParent "First Gambit"]
+[PhilidorBranchMove "8"]
+[PhilidorReconstructed "Completing this game meant reading against the text at ply 23; the printed reading admits no legal continuation."]
+[PhilidorTruncated "Converted as far as the parser reaches: ply 26: no legal reading"]
+
+1. e4 {[from the parent game] The king's pawn, two moves.} e5 {[from the parent game] The same.}
+2. f4 {[from the parent game] The king's bishop's pawn, two moves.} exf4 {[from the parent game]
+The king's pawn takes the pawn.} 3. Nf3 {[from the parent game] The king's knight, at his
+bishop's third square.} g5 {[from the parent game] The king's knight's pawn, two moves.} 4. Bc4
+{[from the parent game] The king's bishop, at his queen's bishop's fourth square. (a)} Bg7
+{[from the parent game] The king's bishop, at his knight's second square. (b)} 5. h4 {[from the
+parent game] The king's rook's pawn, two moves. (c)} h6 {[from the parent game] The king's
+rook's pawn, one move. (d)} 6. d4 {[from the parent game] The queen's pawn, two moves.} d6
+{[from the parent game] The queen's pawn, one move. (e)} 7. c3 {[from the parent game] The
+queen's bishop's pawn, one move.} c6 {[from the parent game] The queen's bishop's pawn, one
+move. (f)} 8. Qe2 {The queen, at her king's second square.} Be6 {The queen's bishop, at his
+king's third square.} 9. Bxe6 {The king's bishop takes the bishop.} fxe6 {The pawn retakes the
+bishop.} 10. e5 {The king's pawn, one move.} dxe5 {The queen's pawn takes the pawn.} 11. dxe5
+{The queen's pawn retakes the pawn.} Nd7 {The queen's knight, at his queen's second square.} 12.
+c4 {The king's knight's pawn, one move.} c5 {The same.} 13. hxg5 {The king's knight's pawn takes
+the pawn.} {The board stops here; Philidor's game continues in the text beside it.} *

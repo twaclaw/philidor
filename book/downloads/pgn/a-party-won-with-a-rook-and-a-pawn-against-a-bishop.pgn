@@ -1,0 +1,28 @@
+[Event "Philidor, Analysis of the Game of Chess (London, 1777)"]
+[Site "?"]
+[Date "1777.??.??"]
+[Round "-"]
+[White "Philidor (analysis)"]
+[Black "Philidor (analysis)"]
+[Result "*"]
+[Annotator "F. D. Philidor"]
+[PhilidorGame "A Party won with a Rook and a Pawn against a Bishop"]
+[PhilidorKind "endgame"]
+[SourceLine "8701"]
+[SetUp "1"]
+[FEN "8/2b5/4k3/8/3PK3/8/8/3R4 w - - 0 1"]
+
+1. Ra1 {The rook, at its queen's rook's square. (a) NOTE: If you had pushed your pawn, in giving
+check, you would have furnished your adversary with the means of making a drawn-game, as will be
+seen afterwards.} Bb8 {The bishop, at his queen's knight's square.} 2. Ra6+ {The rook gives
+check.} Bd6 {The bishop covers the check. (b) NOTE: If he had withdrawn his king, you must have
+pushed yours forward towards your pawn. This party cannot be won, but by advancing your king,
+and confining that of your adversary in the last line, before you come to push your pawn.} 3.
+Rb6 {The rook, at the adverse queen's knight's third square. (c) NOTE: . By this move you put
+him under a necessity of bringing back his king, and giving place to your own.} Kd7 {The king,
+at his queen's second square.} 4. Kd5 {The king, at the adverse queen's fourth square.} Bg3 {The
+bishop, at the adverse king's knight's third square.} 5. Rb7+ {The rook gives check, at the
+adverse queen's knight's second square.} Bc7 {The bishop covers the check.} 6. Ra7 {The rook, at
+the adverse queen's rook's second square.} Kc8 {The king, at his queen's bishop's square.} 7.
+Kc6 {The king, at the adverse queen's bishop's third square. (d) NOTE: In this position the game
+is won, either by pushing the pawn, or forcing the adverse bishop.} *

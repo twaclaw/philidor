@@ -1,0 +1,62 @@
+---
+pagetitle: Fourth Back-game of the Method of Playing
+title: Fourth Back-game of the Method of Playing
+---
+
+```{=html}
+<div class="game-page">
+<div class="game-head">
+<div class="game-meta">back-game &middot; branches from Method of Playing at move 5</div>
+<div class="game-subtitle">At the 5th move of the Black.</div>
+<hr class="game-rule">
+</div>
+<div class="philidor-game">
+<div class="game-board">
+<div class="pgn-board"><script type="text/pgn">[Event "Philidor, Analysis of the Game of Chess (London, 1777)"]
+[Site "?"]
+[Date "1777.??.??"]
+[Round "-"]
+[White "Philidor (analysis)"]
+[Black "Philidor (analysis)"]
+[Result "*"]
+[Annotator "F. D. Philidor"]
+[PhilidorGame "Fourth Back-game of the Method of Playing"]
+[PhilidorKind "back-game"]
+[SourceLine "5920"]
+[PhilidorParent "Method of Playing"]
+[PhilidorBranchMove "5"]
+
+1. e4 {[from the parent game] The king's pawn, two moves.} e5 {[from the parent game] The same.}
+2. Bc4 {[from the parent game] The king's bishop, at his queen's bishop's fourth square. (a)}
+Bc5 {[from the parent game] The same. (b)} 3. c3 {[from the parent game] The queen's bishop's
+pawn, one move.} Qe7 {[from the parent game] The queen, at her king's second square. (c)} 4. Nf3
+{[from the parent game] The king's knight, at his bishop's third square. (d)} Nf6 {[from the
+parent game] The same. (e)} 5. Qe2 {The queen, at her king's second square.} Ng4 {The king's
+knight, at the adverse king's knight's fourth square.} 6. d4 {The queen's pawn, two moves.} exd4
+{The king's pawn takes the pawn.} 7. cxd4 {The queen's bishop's pawn retakes the pawn} Bb4+ {The
+king's bishop gives check.} 8. Nc3 {The queen's knight, at his bishop's third square. (a) NOTE:
+If he takes this knight with his bishop, your game will be a great deal better, because this
+move would bring your pawns into the centre.} Nf6 {The king's knight, at his bishop's third
+square. (b) NOTE: Here you might push your king's pawn one step, and by it get two moves; but
+this pawn once pushed, your adversary would offer you twice the exchange of the pawn, by pushing
+one step his queen's pawn, as well as that of his king's bishop. Your pawn would then remain
+alone and separate. It is better therefore to leave your two pawns in a front-line, to avoid the
+opening of your game. Miv} 9. Bd3 {The king's bishop, at his queen's third square.} O-O {The
+king castles. (c) NOTE: He castles, in order to attack your king's pawn with his rook: it is
+therefore absolutely necessary to you likewise to castle; so that, in case of an attack, you may
+sustain it with your king's rook.} 10. O-O {The king castles.} d6 {The queen's pawn, one move.}
+11. h3 {The king's rook's pawn, one move.} h6 {The same.} 12. Bd2 {The queen's bishop, at his
+queen's second square. (d) NOTE: It is plain that the white are in the more desirable situation,
+having the advantage of three moves more than the black, and the pawns besides farther advanced.
+Nothing remains on the side of the white but to strive to disengage the king's bishop's pawn:
+that move would entirely decide the game in its own favour.} *
+</script></div>
+<label class="follow-toggle"><input type="checkbox" class="follow-text"> Show the text with the board</label><div class="move-text" hidden><p class="move-text__move"></p><div class="move-text__notes"></div></div>
+</div>
+<div class="game-text">
+<div class="original-moves"><div class="move"><span class="move-no">1.</span><span class="ply inherited" data-ply="0"><span class="side">White.</span> The king&#x27;s pawn, two moves.</span><span class="ply inherited" data-ply="1"><span class="side">Black.</span> The same.</span></div><div class="move"><span class="move-no">2.</span><span class="ply inherited" data-ply="2"><span class="side">White.</span> The king&#x27;s bishop, at his queen&#x27;s bishop&#x27;s fourth square. <span class="note-ref" tabindex="0" data-note="If he takes this knight with his bishop, your game will be a great deal better, because this move would bring your pawns into the centre.">(a)</span></span><span class="ply inherited" data-ply="3"><span class="side">Black.</span> The same. <span class="note-ref" tabindex="0" data-note="Here you might push your king&#x27;s pawn one step, and by it get two moves; but this pawn once pushed, your adversary would offer you twice the exchange of the pawn, by pushing one step his queen&#x27;s pawn, as well as that of his king&#x27;s bishop. Your pawn would then remain alone and separate. It is better therefore to leave your two pawns in a front-line, to avoid the opening of your game. Miv">(b)</span></span></div><div class="move"><span class="move-no">3.</span><span class="ply inherited" data-ply="4"><span class="side">White.</span> The queen&#x27;s bishop&#x27;s pawn, one move.</span><span class="ply inherited" data-ply="5"><span class="side">Black.</span> The queen, at her king&#x27;s second square. <span class="note-ref" tabindex="0" data-note="He castles, in order to attack your king&#x27;s pawn with his rook: it is therefore absolutely necessary to you likewise to castle; so that, in case of an attack, you may sustain it with your king&#x27;s rook.">(c)</span></span></div><div class="move"><span class="move-no">4.</span><span class="ply inherited" data-ply="6"><span class="side">White.</span> The king&#x27;s knight, at his bishop&#x27;s third square. <span class="note-ref" tabindex="0" data-note="It is plain that the white are in the more desirable situation, having the advantage of three moves more than the black, and the pawns besides farther advanced. Nothing remains on the side of the white but to strive to disengage the king&#x27;s bishop&#x27;s pawn: that move would entirely decide the game in its own favour.">(d)</span></span><span class="ply inherited" data-ply="7"><span class="side">Black.</span> The same. (e)</span></div><div class="move"><span class="move-no">5.</span><span class="ply" data-ply="8"><span class="side">White.</span> The queen, at her king&#x27;s second square.</span><span class="ply" data-ply="9"><span class="side">Black.</span> The king&#x27;s knight, at the adverse king&#x27;s knight&#x27;s fourth square.</span></div><div class="move"><span class="move-no">6.</span><span class="ply" data-ply="10"><span class="side">White.</span> The queen&#x27;s pawn, two moves.</span><span class="ply" data-ply="11"><span class="side">Black.</span> The king&#x27;s pawn takes the pawn.</span></div><div class="move"><span class="move-no">7.</span><span class="ply" data-ply="12"><span class="side">White.</span> The queen&#x27;s bishop&#x27;s pawn retakes the pawn</span><span class="ply" data-ply="13"><span class="side">Black.</span> The king&#x27;s bishop gives check.</span></div><div class="move"><span class="move-no">8.</span><span class="ply" data-ply="14"><span class="side">White.</span> The queen&#x27;s knight, at his bishop&#x27;s third square. (a)</span><span class="ply" data-ply="15"><span class="side">Black.</span> The king&#x27;s knight, at his bishop&#x27;s third square. (b)</span></div><div class="move"><span class="move-no">9.</span><span class="ply" data-ply="16"><span class="side">White.</span> The king&#x27;s bishop, at his queen&#x27;s third square.</span><span class="ply" data-ply="17"><span class="side">Black.</span> The king castles. (c)</span></div><div class="move"><span class="move-no">10.</span><span class="ply" data-ply="18"><span class="side">White.</span> The king castles.</span><span class="ply" data-ply="19"><span class="side">Black.</span> The queen&#x27;s pawn, one move.</span></div><div class="move"><span class="move-no">11.</span><span class="ply" data-ply="20"><span class="side">White.</span> The king&#x27;s rook&#x27;s pawn, one move.</span><span class="ply" data-ply="21"><span class="side">Black.</span> The same.</span></div><div class="move"><span class="move-no">12.</span><span class="ply" data-ply="22"><span class="side">White.</span> The queen&#x27;s bishop, at his queen&#x27;s second square. (d)</span></div></div>
+</div>
+</div>
+</div>
+<div class="downloads"><a class="download" href="../downloads/md/fourth-back-game-of-the-method-of-playing.md" download>Markdown — Philidor's text</a><a class="download" href="../downloads/pgn/fourth-back-game-of-the-method-of-playing.pgn" download>PGN — algebraic notation</a></div>
+```

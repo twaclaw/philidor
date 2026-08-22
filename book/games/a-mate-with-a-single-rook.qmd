@@ -1,0 +1,60 @@
+---
+pagetitle: A Mate with a single Rook
+title: A Mate with a single Rook
+---
+
+```{=html}
+<div class="game-page">
+<div class="game-head">
+<div class="game-meta">endgame</div>
+<div class="game-subtitle"></div>
+<hr class="game-rule">
+</div>
+<div class="philidor-game">
+<div class="game-board">
+<div class="pgn-board"><script type="text/pgn">[Event "Philidor, Analysis of the Game of Chess (London, 1777)"]
+[Site "?"]
+[Date "1777.??.??"]
+[Round "-"]
+[White "Philidor (analysis)"]
+[Black "Philidor (analysis)"]
+[Result "*"]
+[Annotator "F. D. Philidor"]
+[PhilidorGame "A Mate with a single Rook"]
+[PhilidorKind "endgame"]
+[SourceLine "8885"]
+[SetUp "1"]
+[FEN "8/8/4k3/8/4K3/8/8/7R w - - 0 1"]
+
+1. Rh6+ {The rook gives check.} Ke7 {The king, at his second square.} 2. Ke5 {The king, at the
+adverse king's fourth square.} Kd7 {The king, at his queen's second square. (a) NOTE: His king
+must be opposite to yours, in order that you may give check with your rook; because then his
+king is forced, by the check, to retrograde.} 3. Rg6 {The rook, at the adverse king's knight's
+third square. (b) NOTE: If you had played your king opposite to his, he would have restored his
+king to the same place; whereas at this move he plays his king to the face of yours: you may
+then force him back by the check of your rook.} Kc7 {The king, at his queen's bishop's second
+square.} 4. Kd5 {The king, at the adverse queen's fourth square.} Kb7 {The king, at his queen's
+knight's second square.} 5. Kc5 {The king, at the adverse queen's bishop's fourth square.} Ka7
+{The king, at his queen's rook's second square.} 6. Kb5 {The king, at the adverse queen's
+knight's fourth square. (c) NOTE: In the present case he is obliged to place his king opposite
+to yours, or absolutely to abandon the line.} Kb7 {The king, at his queen's knight's second
+square.} 7. Rg7+ {The rook gives check, at the adverse king's knight's second square.} Kc8 {The
+king, at his queen's bishop's square.} 8. Kc6 {The king, at the adverse queen's bishop's third
+square.} Kd8 {The king, at his queen's square.} 9. Ra7 {The rook, at the adverse queen's rook's
+second square.} Ke8 {The king, at his home.} 10. Kd6 {The king, at the adverse queen's third
+square.} Kf8 {The king, at his bishop's square.} 11. Ke6 {The king, at the adverse king's third
+square.} Kg8 {The king, at his knight's square.} 12. Kf6 {The king, at the adverse king's
+bishop's third square.} Kh8 {The king, at his rook's square.} 13. Kg6 {The king, at the adverse
+king's knight's third square.} Kg8 {The king, at his knight's square.} 14. Ra8# {The rook gives
+check-mate. A GAME WON WITH A QUEEN AGAINST A ROOK AND A PAWN.} *
+</script></div>
+<label class="follow-toggle"><input type="checkbox" class="follow-text"> Show the text with the board</label><div class="move-text" hidden><p class="move-text__move"></p><div class="move-text__notes"></div></div>
+</div>
+<div class="game-text">
+<div class="game-position"><span class="situation">Situation of the White</span><ul><li>The king, at his fourth square.</li><li>The rook, at its king&#x27;s rook&#x27;s square.</li></ul><span class="situation">Situation of the Black</span><ul><li>The king, at his third square.</li></ul></div>
+<div class="original-moves"><div class="move"><span class="move-no">1.</span><span class="ply" data-ply="0"><span class="side">White.</span> The rook gives check.</span><span class="ply" data-ply="1"><span class="side">Black.</span> The king, at his second square.</span></div><div class="move"><span class="move-no">2.</span><span class="ply" data-ply="2"><span class="side">White.</span> The king, at the adverse king&#x27;s fourth square.</span><span class="ply" data-ply="3"><span class="side">Black.</span> The king, at his queen&#x27;s second square. <span class="note-ref" tabindex="0" data-note="His king must be opposite to yours, in order that you may give check with your rook; because then his king is forced, by the check, to retrograde.">(a)</span></span></div><div class="move"><span class="move-no">3.</span><span class="ply" data-ply="4"><span class="side">White.</span> The rook, at the adverse king&#x27;s knight&#x27;s third square. <span class="note-ref" tabindex="0" data-note="If you had played your king opposite to his, he would have restored his king to the same place; whereas at this move he plays his king to the face of yours: you may then force him back by the check of your rook.">(b)</span></span><span class="ply" data-ply="5"><span class="side">Black.</span> The king, at his queen&#x27;s bishop&#x27;s second square.</span></div><div class="move"><span class="move-no">4.</span><span class="ply" data-ply="6"><span class="side">White.</span> The king, at the adverse queen&#x27;s fourth square.</span><span class="ply" data-ply="7"><span class="side">Black.</span> The king, at his queen&#x27;s knight&#x27;s second square.</span></div><div class="move"><span class="move-no">5.</span><span class="ply" data-ply="8"><span class="side">White.</span> The king, at the adverse queen&#x27;s bishop&#x27;s fourth square.</span><span class="ply" data-ply="9"><span class="side">Black.</span> The king, at his queen&#x27;s rook&#x27;s second square.</span></div><div class="move"><span class="move-no">6.</span><span class="ply" data-ply="10"><span class="side">White.</span> The king, at the adverse queen&#x27;s knight&#x27;s fourth square. <span class="note-ref" tabindex="0" data-note="In the present case he is obliged to place his king opposite to yours, or absolutely to abandon the line.">(c)</span></span><span class="ply" data-ply="11"><span class="side">Black.</span> The king, at his queen&#x27;s knight&#x27;s second square.</span></div><div class="move"><span class="move-no">7.</span><span class="ply" data-ply="12"><span class="side">White.</span> The rook gives check, at the adverse king&#x27;s knight&#x27;s second square.</span><span class="ply" data-ply="13"><span class="side">Black.</span> The king, at his queen&#x27;s bishop&#x27;s square.</span></div><div class="move"><span class="move-no">8.</span><span class="ply" data-ply="14"><span class="side">White.</span> The king, at the adverse queen&#x27;s bishop&#x27;s third square.</span><span class="ply" data-ply="15"><span class="side">Black.</span> The king, at his queen&#x27;s square.</span></div><div class="move"><span class="move-no">9.</span><span class="ply" data-ply="16"><span class="side">White.</span> The rook, at the adverse queen&#x27;s rook&#x27;s second square.</span><span class="ply" data-ply="17"><span class="side">Black.</span> The king, at his home.</span></div><div class="move"><span class="move-no">10.</span><span class="ply" data-ply="18"><span class="side">White.</span> The king, at the adverse queen&#x27;s third square.</span><span class="ply" data-ply="19"><span class="side">Black.</span> The king, at his bishop&#x27;s square.</span></div><div class="move"><span class="move-no">11.</span><span class="ply" data-ply="20"><span class="side">White.</span> The king, at the adverse king&#x27;s third square.</span><span class="ply" data-ply="21"><span class="side">Black.</span> The king, at his knight&#x27;s square.</span></div><div class="move"><span class="move-no">12.</span><span class="ply" data-ply="22"><span class="side">White.</span> The king, at the adverse king&#x27;s bishop&#x27;s third square.</span><span class="ply" data-ply="23"><span class="side">Black.</span> The king, at his rook&#x27;s square.</span></div><div class="move"><span class="move-no">13.</span><span class="ply" data-ply="24"><span class="side">White.</span> The king, at the adverse king&#x27;s knight&#x27;s third square.</span><span class="ply" data-ply="25"><span class="side">Black.</span> The king, at his knight&#x27;s square.</span></div><div class="move"><span class="move-no">14.</span><span class="ply" data-ply="26"><span class="side">White.</span> The rook gives check-mate. A GAME WON WITH A QUEEN AGAINST A ROOK AND A PAWN.</span></div></div>
+</div>
+</div>
+</div>
+<div class="downloads"><a class="download" href="../downloads/md/a-mate-with-a-single-rook.md" download>Markdown — Philidor's text</a><a class="download" href="../downloads/pgn/a-mate-with-a-single-rook.pgn" download>PGN — algebraic notation</a></div>
+```

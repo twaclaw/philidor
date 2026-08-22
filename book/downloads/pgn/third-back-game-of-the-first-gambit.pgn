@@ -1,0 +1,28 @@
+[Event "Philidor, Analysis of the Game of Chess (London, 1777)"]
+[Site "?"]
+[Date "1777.??.??"]
+[Round "-"]
+[White "Philidor (analysis)"]
+[Black "Philidor (analysis)"]
+[Result "*"]
+[Annotator "F. D. Philidor"]
+[PhilidorGame "Third Back-game of the First Gambit"]
+[PhilidorKind "back-game"]
+[SourceLine "2614"]
+[PhilidorParent "First Gambit"]
+[PhilidorBranchMove "5"]
+
+1. e4 {[from the parent game] The king's pawn, two moves.} e5 {[from the parent game] The same.}
+2. f4 {[from the parent game] The king's bishop's pawn, two moves.} exf4 {[from the parent game]
+The king's pawn takes the pawn.} 3. Nf3 {[from the parent game] The king's knight, at his
+bishop's third square.} g5 {[from the parent game] The king's knight's pawn, two moves.} 4. Bc4
+{[from the parent game] The king's bishop, at his queen's bishop's fourth square. (a)} Bg7
+{[from the parent game] The king's bishop, at his knight's second square. (b)} 5. h4 {The king's
+rook's pawn, two moves.} g4 {The king's knight's pawn, one move.} 6. Ng5 {The king's knight, at
+the adverse king's knight's fourth square.} Nh6 {The king's knight, at his rook's third square.}
+7. d4 {The queen's pawn, two moves.} f6 {The king's bishop's pawn, one move.} 8. Bxf4 {The
+queen's bishop takes the pawn.} d6 {The queen's pawn, one move.} 9. c3 {The queen's bishop's
+pawn, one move.} fxg5 {The pawn takes the knight.} 10. hxg5 {The pawn retakes the pawn.} Ng8
+{The king's knight, at home.} 11. Qb3 {The queen, at her knight's third square.} Qe7 {The queen,
+at her king's second square.} 12. Nd2 {The queen's knight, at his queen's second square.} Qf8
+{The queen, at her king's bishop's square.} 13. O-O {The king castles on his rook's side.} *

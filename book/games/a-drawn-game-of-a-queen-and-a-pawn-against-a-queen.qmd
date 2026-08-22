@@ -1,0 +1,53 @@
+---
+pagetitle: A Drawn-game of a Queen and a Pawn against a Queen
+title: A Drawn-game of a Queen and a Pawn against a Queen
+---
+
+```{=html}
+<div class="game-page">
+<div class="game-head">
+<div class="game-meta">endgame</div>
+<div class="game-subtitle"></div>
+<hr class="game-rule">
+</div>
+<div class="philidor-game">
+<div class="game-board">
+<div class="pgn-board"><script type="text/pgn">[Event "Philidor, Analysis of the Game of Chess (London, 1777)"]
+[Site "?"]
+[Date "1777.??.??"]
+[Round "-"]
+[White "Philidor (analysis)"]
+[Black "Philidor (analysis)"]
+[Result "*"]
+[Annotator "F. D. Philidor"]
+[PhilidorGame "A Drawn-game of a Queen and a Pawn against a Queen"]
+[PhilidorKind "endgame"]
+[SourceLine "9669"]
+[SetUp "1"]
+[FEN "8/6K1/5P2/2q5/1k6/3Q4/8/8 w - - 0 1"]
+
+1. f7 {The king's bishop's pawn, one move. (a) NOTE: In this position, the white ought to look
+for an opportunity of changing the queen against the queen; and the black, to prevent that
+exchange, must keep the king at a distance from the adverse king, in order to be the better
+enabled to give perpetual check.} Qg5+ {The queen gives check, at her king's knight's fourth
+square.} 2. Qg6 {The queen covers the check.} Qe5+ {The queen gives check, at her king's fourth
+square.} 3. Kg8 {The king, at the adverse king's knight's square. (b) NOTE: He can no more give
+you check, without losing the game; but he may hinder your pawn from making a queen.} Qd5 {The
+queen, at her fourth square.} 4. Kh7 {The king, at the adverse king's rook's second square.}
+Qh1+ {The queen gives check, at the adverse king's rook's square.} 5. Qh6 {The queen covers the
+check.} Qe4+ {The queen gives check, at the adverse king's fourth square.} 6. Kg8 {The king, at
+the adverse king's knight's square.} Qg4+ {The queen gives cheek, at the adverse king's knight's
+fourth square.} 7. Qg7 {The queen covers the check.} Qe6 {The queen, at her king's third square.
+GAME Won with a QUEEN, against a Pawn near making a QUEEN.} *
+</script></div>
+<label class="follow-toggle"><input type="checkbox" class="follow-text"> Show the text with the board</label><div class="move-text" hidden><p class="move-text__move"></p><div class="move-text__notes"></div></div>
+</div>
+<div class="game-text">
+<div class="game-position"><span class="situation">Situation of the White</span><ul><li>The king, at the adverse king&#x27;s knight&#x27;s second square.</li><li>The pawn, at the adverse king&#x27;s bishop&#x27;s third square.</li><li>The queen, at her third square.</li></ul><span class="situation">Situation of the Black</span><ul><li>The king, at the adverse queen&#x27;s knight&#x27;s fourth square.</li><li>The queen, at her bishop&#x27;s fourth square.</li></ul></div>
+<div class="original-moves"><div class="move"><span class="move-no">1.</span><span class="ply" data-ply="0"><span class="side">White.</span> The king&#x27;s bishop&#x27;s pawn, one move. <span class="note-ref" tabindex="0" data-note="In this position, the white ought to look for an opportunity of changing the queen against the queen; and the black, to prevent that exchange, must keep the king at a distance from the adverse king, in order to be the better enabled to give perpetual check.">(a)</span></span><span class="ply" data-ply="1"><span class="side">Black.</span> The queen gives check, at her king&#x27;s knight&#x27;s fourth square.</span></div><div class="move"><span class="move-no">2.</span><span class="ply" data-ply="2"><span class="side">White.</span> The queen covers the check.</span><span class="ply" data-ply="3"><span class="side">Black.</span> The queen gives check, at her king&#x27;s fourth square.</span></div><div class="move"><span class="move-no">3.</span><span class="ply" data-ply="4"><span class="side">White.</span> The king, at the adverse king&#x27;s knight&#x27;s square. <span class="note-ref" tabindex="0" data-note="He can no more give you check, without losing the game; but he may hinder your pawn from making a queen.">(b)</span></span><span class="ply" data-ply="5"><span class="side">Black.</span> The queen, at her fourth square.</span></div><div class="move"><span class="move-no">4.</span><span class="ply" data-ply="6"><span class="side">White.</span> The king, at the adverse king&#x27;s rook&#x27;s second square.</span><span class="ply" data-ply="7"><span class="side">Black.</span> The queen gives check, at the adverse king&#x27;s rook&#x27;s square.</span></div><div class="move"><span class="move-no">5.</span><span class="ply" data-ply="8"><span class="side">White.</span> The queen covers the check.</span><span class="ply" data-ply="9"><span class="side">Black.</span> The queen gives check, at the adverse king&#x27;s fourth square.</span></div><div class="move"><span class="move-no">6.</span><span class="ply" data-ply="10"><span class="side">White.</span> The king, at the adverse king&#x27;s knight&#x27;s square.</span><span class="ply" data-ply="11"><span class="side">Black.</span> The queen gives cheek, at the adverse king&#x27;s knight&#x27;s fourth square.</span></div><div class="move"><span class="move-no">7.</span><span class="ply" data-ply="12"><span class="side">White.</span> The queen covers the check.</span><span class="ply" data-ply="13"><span class="side">Black.</span> The queen, at her king&#x27;s third square. GAME Won with a QUEEN, against a Pawn near making a QUEEN.</span></div></div>
+<div class="philidor-notes"><h3>Notes with no reference in the text</h3><p class="note-why">The scan lost the mark that called these, so no move points to them.</p><p><span class="note-letter">(c)</span>It is plainly proved, that, when the check does not continue, the pawn may be prevented from making a queen.</p></div>
+</div>
+</div>
+</div>
+<div class="downloads"><a class="download" href="../downloads/md/a-drawn-game-of-a-queen-and-a-pawn-against-a-queen.md" download>Markdown — Philidor's text</a><a class="download" href="../downloads/pgn/a-drawn-game-of-a-queen-and-a-pawn-against-a-queen.pgn" download>PGN — algebraic notation</a></div>
+```

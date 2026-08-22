@@ -1,0 +1,31 @@
+[Event "Philidor, Analysis of the Game of Chess (London, 1777)"]
+[Site "?"]
+[Date "1777.??.??"]
+[Round "-"]
+[White "Philidor (analysis)"]
+[Black "Philidor (analysis)"]
+[Result "*"]
+[Annotator "F. D. Philidor"]
+[PhilidorGame "First Back-game (Rook and Bishop against a Rook)"]
+[PhilidorKind "back-game"]
+[SourceLine "8128"]
+[SetUp "1"]
+[FEN "4k3/3r4/4K3/4B3/8/8/8/2R5 w - - 0 1"]
+[PhilidorParent "Method of giving Check-mate with a Rook and a Bishop against a Rook"]
+[PhilidorBranchMove "4"]
+
+1. Rc8+ {[from the parent game] The rook gives check.} Rd8 {[from the parent game] The rook
+covers the check.} 2. Rc7 {[from the parent game] The rook, at the adverse queen's bishop's
+second square.} Rd2 {[from the parent game] The rook, at the adverse queen's second square. (b)}
+3. Rb7 {[from the parent game] The rook, at the adverse queen's knight's second square. (c)} Rd1
+{[from the parent game] The rook, at the adverse queen's square. (d)} 4. Rg7 {The rook, at the
+adverse king's knight's second square.} Kf8 {The king, at his bishop's square.} 5. Rh7 {The
+rook, at the adverse king's rook's second square. (a) NOTE: You force him, by this move, to play
+his rook to your king's knight's square, to ward off the mate; which gives you the means of
+taking his rook for nothing.} Rg1 {The rook, at the adverse king's knight's square.} 6. Rc7 {The
+rook, at the adverse queen's bishop's second square. (b) NOTE: The only way to ward off the mate
+is, to play his king to his knight's square; for, if he had given you check, you would have
+preserved all the strength of your attack, by covering with your bishop.} Kg8 {The king, at his
+knight's square.} 7. Rc8+ {The rook gives check at the adverse queen's bishop's square.} Kh7
+{The king, at his rook's second square.} 8. Rh8+ {The rook gives check, at the adverse king's
+rook's square, and must win.} *

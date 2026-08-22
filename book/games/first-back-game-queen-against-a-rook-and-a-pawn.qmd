@@ -1,0 +1,62 @@
+---
+pagetitle: First Back-game (Queen against a Rook and a Pawn)
+title: First Back-game (Queen against a Rook and a Pawn)
+---
+
+```{=html}
+<div class="game-page">
+<div class="game-head">
+<div class="game-meta">back-game &middot; branches from A Game won with a Queen against a Rook and a Pawn at move 9</div>
+<div class="game-subtitle">On the 9th move of the Black.</div>
+<hr class="game-rule">
+</div>
+<div class="philidor-game">
+<div class="game-board">
+<div class="pgn-board"><script type="text/pgn">[Event "Philidor, Analysis of the Game of Chess (London, 1777)"]
+[Site "?"]
+[Date "1777.??.??"]
+[Round "-"]
+[White "Philidor (analysis)"]
+[Black "Philidor (analysis)"]
+[Result "*"]
+[Annotator "F. D. Philidor"]
+[PhilidorGame "First Back-game (Queen against a Rook and a Pawn)"]
+[PhilidorKind "back-game"]
+[SourceLine "9183"]
+[SetUp "1"]
+[FEN "8/4k3/3p4/4r3/5K2/3Q4/8/8 w - - 0 1"]
+[PhilidorParent "A Game won with a Queen against a Rook and a Pawn"]
+[PhilidorBranchMove "9"]
+
+1. Qh7+ {[from the parent game] The queen gives check, at the adverse king's rook's second
+square. (b)} Ke6 {[from the parent game] The king, at his third square.} 2. Qg8+ {[from the
+parent game] The queen gives check, at the adverse king's knight's square. (c)} Ke7 {[from the
+parent game] The king, at his second square.} 3. Qc8 {[from the parent game] The queen, at the
+adverse queen's bishop's square.} Rc5 {[from the parent game] The rook, at its queen's bishop's
+fourth square.} 4. Qb7+ {[from the parent game] The queen gives check, at the adverse queen's
+knight's second square.} Ke6 {[from the parent game] The king, at his third square.} 5. Qg7
+{[from the parent game] The queen, at the adverse king's knight's second square.} Re5 {[from the
+parent game] The rook, at its king's fourth square.} 6. Qc7 {[from the parent game] The queen,
+at the adverse queen's bishop's second square. (d)} Rc5 {[from the parent game] The rook, at its
+queen's bishop's fourth square.} 7. Qd8 {[from the parent game] The queen, at the adverse
+queen's square.} Re5 {[from the parent game] The rook, at its king's fourth square.} 8. Qe8+
+{[from the parent game] The queen gives check, at the adverse king's square. (e)} Kd5 {[from the
+parent game] The king, at his queen's fourth square.} 9. Qc8 {The queen, at the adverse queen's
+bishop's square.} Rh5 {The rook, at its king's rook's fourth square. (a) NOTE: His rook being
+far off from its king, you ought to take her by a double check, or at least to take his pawn.}
+10. Qa8+ {The queen gives check, at the adverse queen's rook's square.} Kc4 {The king, at the
+adverse queen's bishop's fourth square.} 11. Qa4+ {The queen gives check, at her rook's fourth
+square.} Kc3 {The king, at the adverse queen's bishop's third square.} 12. Qa3+ {The queen gives
+check, at her rook's third square.} Kd4 {The king where he pleases, his pawn being lost. (b)
+NOTE: The subject of this back-game is to prove how easy it is, with a queen, to force by a
+double check, a rook, when at a distance from its king.} *
+</script></div>
+<label class="follow-toggle"><input type="checkbox" class="follow-text"> Show the text with the board</label><div class="move-text" hidden><p class="move-text__move"></p><div class="move-text__notes"></div></div>
+</div>
+<div class="game-text">
+<div class="original-moves"><div class="move"><span class="move-no">1.</span><span class="ply inherited" data-ply="0"><span class="side">White.</span> The queen gives check, at the adverse king&#x27;s rook&#x27;s second square. <span class="note-ref" tabindex="0" data-note="The subject of this back-game is to prove how easy it is, with a queen, to force by a double check, a rook, when at a distance from its king.">(b)</span></span><span class="ply inherited" data-ply="1"><span class="side">Black.</span> The king, at his third square.</span></div><div class="move"><span class="move-no">2.</span><span class="ply inherited" data-ply="2"><span class="side">White.</span> The queen gives check, at the adverse king&#x27;s knight&#x27;s square. (c)</span><span class="ply inherited" data-ply="3"><span class="side">Black.</span> The king, at his second square.</span></div><div class="move"><span class="move-no">3.</span><span class="ply inherited" data-ply="4"><span class="side">White.</span> The queen, at the adverse queen&#x27;s bishop&#x27;s square.</span><span class="ply inherited" data-ply="5"><span class="side">Black.</span> The rook, at its queen&#x27;s bishop&#x27;s fourth square.</span></div><div class="move"><span class="move-no">4.</span><span class="ply inherited" data-ply="6"><span class="side">White.</span> The queen gives check, at the adverse queen&#x27;s knight&#x27;s second square.</span><span class="ply inherited" data-ply="7"><span class="side">Black.</span> The king, at his third square.</span></div><div class="move"><span class="move-no">5.</span><span class="ply inherited" data-ply="8"><span class="side">White.</span> The queen, at the adverse king&#x27;s knight&#x27;s second square.</span><span class="ply inherited" data-ply="9"><span class="side">Black.</span> The rook, at its king&#x27;s fourth square.</span></div><div class="move"><span class="move-no">6.</span><span class="ply inherited" data-ply="10"><span class="side">White.</span> The queen, at the adverse queen&#x27;s bishop&#x27;s second square. (d)</span><span class="ply inherited" data-ply="11"><span class="side">Black.</span> The rook, at its queen&#x27;s bishop&#x27;s fourth square.</span></div><div class="move"><span class="move-no">7.</span><span class="ply inherited" data-ply="12"><span class="side">White.</span> The queen, at the adverse queen&#x27;s square.</span><span class="ply inherited" data-ply="13"><span class="side">Black.</span> The rook, at its king&#x27;s fourth square.</span></div><div class="move"><span class="move-no">8.</span><span class="ply inherited" data-ply="14"><span class="side">White.</span> The queen gives check, at the adverse king&#x27;s square. (e)</span><span class="ply inherited" data-ply="15"><span class="side">Black.</span> The king, at his queen&#x27;s fourth square.</span></div><div class="move"><span class="move-no">9.</span><span class="ply" data-ply="16"><span class="side">White.</span> The queen, at the adverse queen&#x27;s bishop&#x27;s square.</span><span class="ply" data-ply="17"><span class="side">Black.</span> The rook, at its king&#x27;s rook&#x27;s fourth square. <span class="note-ref" tabindex="0" data-note="His rook being far off from its king, you ought to take her by a double check, or at least to take his pawn.">(a)</span></span></div><div class="move"><span class="move-no">10.</span><span class="ply" data-ply="18"><span class="side">White.</span> The queen gives check, at the adverse queen&#x27;s rook&#x27;s square.</span><span class="ply" data-ply="19"><span class="side">Black.</span> The king, at the adverse queen&#x27;s bishop&#x27;s fourth square.</span></div><div class="move"><span class="move-no">11.</span><span class="ply" data-ply="20"><span class="side">White.</span> The queen gives check, at her rook&#x27;s fourth square.</span><span class="ply" data-ply="21"><span class="side">Black.</span> The king, at the adverse queen&#x27;s bishop&#x27;s third square.</span></div><div class="move"><span class="move-no">12.</span><span class="ply" data-ply="22"><span class="side">White.</span> The queen gives check, at her rook&#x27;s third square.</span><span class="ply" data-ply="23"><span class="side">Black.</span> The king where he pleases, his pawn being lost. (b)</span></div></div>
+</div>
+</div>
+</div>
+<div class="downloads"><a class="download" href="../downloads/md/first-back-game-queen-against-a-rook-and-a-pawn.md" download>Markdown — Philidor's text</a><a class="download" href="../downloads/pgn/first-back-game-queen-against-a-rook-and-a-pawn.pgn" download>PGN — algebraic notation</a></div>
+```

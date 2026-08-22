@@ -1,0 +1,34 @@
+[Event "Philidor, Analysis of the Game of Chess (London, 1777)"]
+[Site "?"]
+[Date "1777.??.??"]
+[Round "-"]
+[White "Philidor (analysis)"]
+[Black "Philidor (analysis)"]
+[Result "*"]
+[Annotator "F. D. Philidor"]
+[PhilidorGame "First Back-game of the Second Variable"]
+[PhilidorKind "back-game"]
+[SourceLine "6324"]
+[PhilidorParent "Second Variable"]
+[PhilidorBranchMove "3"]
+
+1. e4 {[from the parent game] The king's pawn, two moves.} e5 {[from the parent game] The same.}
+2. Bc4 {[from the parent game] The king's bishop, at his queen's bishop's fourth square.} c6
+{[from the parent game] The queen's bishop's pawn, one move. (a)} 3. d4 {The queen's pawn, two
+moves.} d5 {The same.} 4. exd5 {The king's pawn takes the pawn.} cxd5 {The queen's bishop's pawn
+retakes the pawn.} 5. Bb5+ {The king's bishop gives check. (a) NOTE: If, instead of giving
+check, you had removed this bishop to your queen's third square, you would have lost the
+advantage of the move, and of the situation besides; because he would have immediately made
+himself master of the centre, by pushing his king's pawn.} Bd7 {The bishop covers the check.} 6.
+Bxd7+ {The king's bishop takes the bishop.} Nxd7 {The queen's knight retakes the bishop.} 7.
+dxe5 {The queen's pawn takes the pawn.} Nxe5 {The queen's knight retakes the pawn.} 8. Qe2 {The
+queen, at her king's second square.} Qe7 {The same. (b) NOTE: If he had sustained this knight in
+an other way, he would hade lost him, by your pushing immediately your king's bishop's pawn two
+moves.} 9. Nc3 {The queen's knight, at his bishop's third square.} O-O-O {The king castles.} 10.
+Bf4 {The queen's bishop, at his king's bishop's fourth square.} Nc6 {The queen's knight, at his
+bishop's third square.} 11. O-O-O {The king castles. (c) NOTE: In this situation, the white must
+be attentive chiefly to two objects: the first is, to preserve the queen's bishop, who by his
+direction is very troublesome to the adverse king the other is, to attack the queen's pawn,
+which, being separated from the other pawns, cannot be more sustained but by the pieces. It is
+always advantageous to attack a separated pawn, were it only to take up the adversary's pieces.}
+*

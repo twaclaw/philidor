@@ -1,0 +1,54 @@
+---
+pagetitle: Gambit of Salvio
+title: Gambit of Salvio 🐞
+---
+
+```{=html}
+<div class="game-page">
+<div class="game-head">
+<div class="game-meta">game</div>
+<div class="game-subtitle">With three back-games and a variable.</div>
+<hr class="game-rule">
+<div class="editorial-note"><strong>Board stops short 🐞.</strong> The board carries the first 7 moves; conversion of the rest is unfinished. Philidor's words stand unaltered beside it.</div>
+</div>
+<div class="philidor-game">
+<div class="game-board">
+<div class="pgn-board"><script type="text/pgn">[Event "Philidor, Analysis of the Game of Chess (London, 1777)"]
+[Site "?"]
+[Date "1777.??.??"]
+[Round "-"]
+[White "Philidor (analysis)"]
+[Black "Philidor (analysis)"]
+[Result "*"]
+[Annotator "F. D. Philidor"]
+[PhilidorGame "Gambit of Salvio"]
+[PhilidorKind "game"]
+[SourceLine "7303"]
+[PhilidorTruncated "Converted as far as the parser reaches: ply 15: no legal reading"]
+
+1. e4 {The king's pawn, two moves.} e5 {The same.} 2. f4 {The king's bishop's pawn, two moves.}
+exf4 {The king's pawn takes the pawn.} 3. Nf3 {The king's knight, at his bishop's third square.}
+g5 {The king's knight's pawn, two moves.} 4. Bc4 {The king's bishop, at his queen's bishop's
+fourth square.} g4 {The king's knight's pawn, one move.} 5. Ne5 {The king's knight, at the
+adverse king's fourth square..mmm} Qh4+ {The queen gives check.} 6. Kf1 {The king, at his
+bishop's square.} Nf6 {The king's knight, at his bishop's third square. (a) NOTE: Doctor Salvio,
+in his Treatise, printed at Naples, in the year 1723, teaches us this defence of the gambit, but
+without examining any combination to the bottom. The great number of the moves which naturally
+arise, and succeed one another at every instant in that party, may very likely have hindered him
+from analysing and calculating this matter.} 7. Qe1 {The queen, at her king's square. (b) NOTE:
+This move may be played in many different ways; but two only can properly be hazarded: the first
+is, to take the pawn with the bishop, and give check; the other is, to play the queen's pawn two
+moves. subject of two back-games.} Qxe1+ {The queen takes the queen. (c) NOTE: If, instead of
+taking your queen, he had pushed his king's knight's pawn, you must then have taken his king's
+bishop's pawn, giving check, and afterwards played your knight to your king's bishop's third
+square.} {The board stops here; Philidor's game continues in the text beside it.} *
+</script></div>
+<label class="follow-toggle"><input type="checkbox" class="follow-text"> Show the text with the board</label><div class="move-text" hidden><p class="move-text__move"></p><div class="move-text__notes"></div></div>
+</div>
+<div class="game-text">
+<div class="original-moves"><div class="move"><span class="move-no">1.</span><span class="ply" data-ply="0"><span class="side">White.</span> The king&#x27;s pawn, two moves.</span><span class="ply" data-ply="1"><span class="side">Black.</span> The same.</span></div><div class="move"><span class="move-no">2.</span><span class="ply" data-ply="2"><span class="side">White.</span> The king&#x27;s bishop&#x27;s pawn, two moves.</span><span class="ply" data-ply="3"><span class="side">Black.</span> The king&#x27;s pawn takes the pawn.</span></div><div class="move"><span class="move-no">3.</span><span class="ply" data-ply="4"><span class="side">White.</span> The king&#x27;s knight, at his bishop&#x27;s third square.</span><span class="ply" data-ply="5"><span class="side">Black.</span> The king&#x27;s knight&#x27;s pawn, two moves.</span></div><div class="move"><span class="move-no">4.</span><span class="ply" data-ply="6"><span class="side">White.</span> The king&#x27;s bishop, at his queen&#x27;s bishop&#x27;s fourth square.</span><span class="ply" data-ply="7"><span class="side">Black.</span> The king&#x27;s knight&#x27;s pawn, one move.</span></div><div class="move"><span class="move-no">5.</span><span class="ply" data-ply="8"><span class="side">White.</span> The king&#x27;s knight, at the adverse king&#x27;s fourth square..mmm</span><span class="ply" data-ply="9"><span class="side">Black.</span> The queen gives check.</span></div><div class="move"><span class="move-no">6.</span><span class="ply" data-ply="10"><span class="side">White.</span> The king, at his bishop&#x27;s square.</span><span class="ply" data-ply="11"><span class="side">Black.</span> The king&#x27;s knight, at his bishop&#x27;s third square. <span class="note-ref" tabindex="0" data-note="Doctor Salvio, in his Treatise, printed at Naples, in the year 1723, teaches us this defence of the gambit, but without examining any combination to the bottom. The great number of the moves which naturally arise, and succeed one another at every instant in that party, may very likely have hindered him from analysing and calculating this matter.">(a)</span></span></div><div class="move"><span class="move-no">7.</span><span class="ply" data-ply="12"><span class="side">White.</span> The queen, at her king&#x27;s square. <span class="note-ref" tabindex="0" data-note="This move may be played in many different ways; but two only can properly be hazarded: the first is, to take the pawn with the bishop, and give check; the other is, to play the queen&#x27;s pawn two moves. subject of two back-games.">(b)</span></span><span class="ply" data-ply="13"><span class="side">Black.</span> The queen takes the queen. <span class="note-ref" tabindex="0" data-note="If, instead of taking your queen, he had pushed his king&#x27;s knight&#x27;s pawn, you must then have taken his king&#x27;s bishop&#x27;s pawn, giving check, and afterwards played your knight to your king&#x27;s bishop&#x27;s third square.">(c)</span></span></div><div class="move"><span class="move-no">8.</span><span class="ply"><span class="side">White.</span> The queen takes the queen.</span><span class="ply"><span class="side">Black.</span> The knight takes the king&#x27;s pawn. <span class="note-ref" tabindex="0" data-note="Had he pushed his queen&#x27;s pawn one move, instead of taking your pawn with his knight, you must have taken his king&#x27;s bishop&#x27;s pawn with your knight, and sacrificed your two pieces for two pawns and a rook. The subject of a back-game.">(d)</span></span></div><div class="move"><span class="move-no">9.</span><span class="ply"><span class="side">White.</span> The king&#x27;s bishop takes the pawn, and gives check.</span><span class="ply"><span class="side">Black.</span> The king, at his second square <span class="note-ref" tabindex="0" data-note="If he had played his king to his queen&#x27;s square, you should have drawn back your king&#x27;s bishop, in order to give double check with your knight, and make him lose a turn.">(e)</span></span></div><div class="move"><span class="move-no">10.</span><span class="ply"><span class="side">White.</span> The king&#x27;s bishop, at his queen&#x27;s knight&#x27;s third square. <span class="note-ref" tabindex="0" data-note="In this situation you must win either a pawn, or the change of his king&#x27;s rook with your knight.">(f)</span></span><span class="ply"><span class="side">Black.</span> The king&#x27;s knight, at his bishop&#x27;s third square. <span class="note-ref" tabindex="0" data-note="Had he pushed his queen&#x27;s pawn one move, you must then have attacked his rook with your knight, and afterwards taken his queen&#x27;s pawn with the same knight, leaving his rook exposed to be taken by your king&#x27;s bishop.">(g)</span></span></div><div class="move"><span class="move-no">11.</span><span class="ply"><span class="side">White.</span> The queen&#x27;s pawn, two moves.</span><span class="ply"><span class="side">Black.</span> The queen&#x27;s pawn, one move. <span class="note-ref" tabindex="0" data-note="You would play very ill in attacking his rook with your knight, who, having no retreat, would be at length forced and taken.">(h)</span></span></div><div class="move"><span class="move-no">12.</span><span class="ply"><span class="side">White.</span> The king&#x27;s knight, at his queen&#x27;s third square.</span><span class="ply"><span class="side">Black.</span> The king&#x27;s or gambit&#x27;s pawn, one move. <span class="note-ref" tabindex="0" data-note="He pushes this pawn, because he is no longer able to sustain it. You must readily take it, because all pawns separated and advanced on your ground must be lost.">(i)</span></span></div><div class="move"><span class="move-no">13.</span><span class="ply"><span class="side">White.</span> The king&#x27;s knight&#x27;s pawn takes the pawn.</span><span class="ply"><span class="side">Black.</span> The pawn retakes the pawn.</span></div><div class="move"><span class="move-no">14.</span><span class="ply"><span class="side">White.</span> The king, at his bishop&#x27;s second square.</span><span class="ply"><span class="side">Black.</span> The queen&#x27;s bishop, at the adverse king&#x27;s knight&#x27;s fourth square.</span></div><div class="move"><span class="move-no">15.</span><span class="ply"><span class="side">White.</span> The queen&#x27;s bishop, at the adverse king&#x27;s knight&#x27;s fourth square.</span><span class="ply"><span class="side">Black.</span> The queen&#x27;s knight, at his queen&#x27;s second square.</span></div><div class="move"><span class="move-no">16.</span><span class="ply"><span class="side">White.</span> The queen&#x27;s knight, at his queen&#x27;s se cond square.</span><span class="ply"><span class="side">Black.</span> The queen&#x27;s rook, at its king&#x27;s square. <span class="note-ref" tabindex="0" data-note="In this position the advantage is undoubtedly on the side of the white, because all their pieces are disposed in a better order: nevertheless, this way of playing the gambit is by no means advantageous against a player, to whom a piece should be granted; though this party, played without any odds, is a very good one.">(k)</span></span></div></div>
+</div>
+</div>
+</div>
+<div class="downloads"><a class="download" href="../downloads/md/gambit-of-salvio.md" download>Markdown — Philidor's text</a><a class="download" href="../downloads/pgn/gambit-of-salvio.pgn" download>PGN — algebraic notation (partial)</a></div>
+```

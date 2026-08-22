@@ -1,0 +1,35 @@
+[Event "Philidor, Analysis of the Game of Chess (London, 1777)"]
+[Site "?"]
+[Date "1777.??.??"]
+[Round "-"]
+[White "Philidor (analysis)"]
+[Black "Philidor (analysis)"]
+[Result "*"]
+[Annotator "F. D. Philidor"]
+[PhilidorGame "Sixth Back-game of the First Gambit"]
+[PhilidorKind "back-game"]
+[SourceLine "2716"]
+[PhilidorParent "First Gambit"]
+[PhilidorBranchMove "7"]
+
+1. e4 {[from the parent game] The king's pawn, two moves.} e5 {[from the parent game] The same.}
+2. f4 {[from the parent game] The king's bishop's pawn, two moves.} exf4 {[from the parent game]
+The king's pawn takes the pawn.} 3. Nf3 {[from the parent game] The king's knight, at his
+bishop's third square.} g5 {[from the parent game] The king's knight's pawn, two moves.} 4. Bc4
+{[from the parent game] The king's bishop, at his queen's bishop's fourth square. (a)} Bg7
+{[from the parent game] The king's bishop, at his knight's second square. (b)} 5. h4 {[from the
+parent game] The king's rook's pawn, two moves. (c)} h6 {[from the parent game] The king's
+rook's pawn, one move. (d)} 6. d4 {[from the parent game] The queen's pawn, two moves.} d6
+{[from the parent game] The queen's pawn, one move. (e)} 7. c3 {The queen's bishop's pawn, one
+move.} Be6 {The queen's bishop, at his king's third square.} 8. Bxe6 {The king's bishop takes
+the bishop.} fxe6 {The pawn retakes the bishop.} 9. Qb3 {The queen, at her knight's third
+square.} Qc8 {The queen, at her bishop's square, to defend the two attacked pawns.} 10. hxg5
+{The king's rook's pawn takes the pawn.} hxg5 {The rook's pawn retakes the pawn.} 11. Rxh8 {The
+king's rook takes the rook.} Bxh8 {The bishop takes the rook.} 12. Nxg5 {The king's knight takes
+the pawn.} Ke7 {The king, at his second square.} 13. Bxf4 {The queen's bishop takes the pawn.}
+Nc6 {The queen's knight, at his bishop's third square.} 14. Nd2 {The queen's knight, at his
+queen's second square.} a5 {The queen's rook's pawn, two moves.} 15. O-O-O {The king castles.}
+b5 {The queen's knight's pawn, two moves.} 16. Rh1 {The rook, at its king's rook's square.} Nf6
+{The king's knight, at his bishop's third square.} 17. Rxh8 {The rook takes the bishop.} Qxh8
+{The queen retakes the rook.} 18. Qxe6+ {The queen takes the king's pawn, and gives check.} Kf8
+{The king retires where he pleases, standing very badly on any square where he may go.} *

@@ -1,0 +1,24 @@
+[Event "Philidor, Analysis of the Game of Chess (London, 1777)"]
+[Site "?"]
+[Date "1777.??.??"]
+[Round "-"]
+[White "Philidor (analysis)"]
+[Black "Philidor (analysis)"]
+[Result "*"]
+[Annotator "F. D. Philidor"]
+[PhilidorGame "Another Drawn-game with a Queen against a Pawn near making a Queen"]
+[PhilidorKind "endgame"]
+[SourceLine "9871"]
+[SetUp "1"]
+[FEN "8/8/8/8/2KQ4/8/6kp/8 w - - 0 1"]
+[PhilidorReconstructed "Completing this game meant reading against the text at ply 3; the printed reading admits no legal continuation."]
+
+1. Qg4+ {The queen gives check, at her king's knight's fourth square.} Kf2 {The king, at the
+adverse king's bishop's second square. 2.} 2. Qh4+ {The queen, at her king' 'srook's third
+square.} Kg1 {The king, at the adverse king's knight's square.} 3. Qg3+ {The queen gives check,
+at her king's knight's third square.} Kh1 {The king, at the adverse king's rook's square. (a)
+NOTE: Being forced to take away your queen from that line, to make room for his king, you could
+never bring up your king in time: so it must be a drawn-game. It is proper to observe, that the
+pawns of the two bishops, and of the two rooks, at a square of the queen, make a drawn-game,
+against a queen; and the pawns of the king, the queen, and of the two knights, must lose in such
+a position, 4.5 1.6} *

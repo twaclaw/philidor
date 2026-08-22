@@ -1,0 +1,125 @@
+project:
+  type: book
+  output-dir: ../_site
+  resources:
+  - assets
+  - downloads
+book:
+  title: Philidor's Analysis of Chess
+  subtitle: Transcription of the 1819 English edition into algebraic notation, with original commentary and analysis
+  author: Diego Sandoval
+  date: last-modified
+  search: true
+  sidebar:
+    style: docked
+    collapse-level: 1
+  chapters:
+  - index.qmd
+  - editions.qmd
+  - state.qmd
+  - games/first-party.qmd
+  - games/first-back-game-of-the-first-party.qmd
+  - games/second-back-game-of-the-first-party.qmd
+  - games/second-party.qmd
+  - games/first-back-game-of-the-second-party.qmd
+  - games/second-back-game-of-the-second-party.qmd
+  - games/third-and-last-back-game-of-the-second-party.qmd
+  - games/third-party.qmd
+  - games/first-back-game-of-the-third-party.qmd
+  - games/second-back-game-of-the-third-party.qmd
+  - games/third-back-game-of-the-third-party.qmd
+  - games/fourth-party.qmd
+  - games/first-back-game-of-the-fourth-party.qmd
+  - games/second-back-game-of-the-fourth-party.qmd
+  - games/first-gambit.qmd
+  - games/first-back-game-of-the-first-gambit.qmd
+  - games/second-back-game-of-the-first-gambit.qmd
+  - games/third-back-game-of-the-first-gambit.qmd
+  - games/fourth-back-game-of-the-first-gambit.qmd
+  - games/fifth-back-game-of-the-first-gambit.qmd
+  - games/sixth-back-game-of-the-first-gambit.qmd
+  - games/seventh-and-last-back-game-of-the-first-gambit.qmd
+  - games/second-gambit.qmd
+  - games/first-back-game-of-the-second-gambit.qmd
+  - games/second-back-game-of-the-second-gambit.qmd
+  - games/third-back-game-of-the-second-gambit.qmd
+  - games/fourth-back-game-of-the-second-gambit.qmd
+  - games/third-gambit.qmd
+  - games/first-back-game-of-the-third-gambit.qmd
+  - games/second-back-game-of-the-third-gambit.qmd
+  - games/third-back-game-of-the-third-gambit.qmd
+  - games/cunningham-s-gambit.qmd
+  - games/first-back-game-of-cunningham-s-gambit.qmd
+  - games/sequel-to-the-first-back-game-of-cunningham-s-gambit.qmd
+  - games/second-back-game-of-cunningham-s-gambit.qmd
+  - games/the-queen-s-gambit.qmd
+  - games/first-back-game-of-the-queen-s-gambit.qmd
+  - games/second-back-game-of-the-queen-s-gambit.qmd
+  - games/third-back-game-of-the-queen-s-gambit.qmd
+  - games/fourth-back-game-of-the-queen-s-gambit.qmd
+  - games/fifth-back-game-of-the-queen-s-gambit.qmd
+  - games/sixth-back-game-of-the-queen-s-gambit.qmd
+  - games/method-of-playing.qmd
+  - games/first-back-game-of-the-method-of-playing.qmd
+  - games/supplement-to-the-first-back-game.qmd
+  - games/second-back-game-of-the-method-of-playing.qmd
+  - games/third-back-game-of-the-method-of-playing.qmd
+  - games/fourth-back-game-of-the-method-of-playing.qmd
+  - games/fifth-back-game-of-the-method-of-playing.qmd
+  - games/first-variable.qmd
+  - games/second-variable.qmd
+  - games/first-back-game-of-the-second-variable.qmd
+  - games/second-back-game-of-the-second-variable.qmd
+  - games/third-back-game-of-the-second-variable.qmd
+  - games/third-variable.qmd
+  - games/back-game-of-the-third-variable.qmd
+  - games/fourth-variable.qmd
+  - games/first-back-game-of-the-fourth-variable.qmd
+  - games/another-method-of-playing.qmd
+  - games/gambit-of-salvio.qmd
+  - games/first-back-game-of-the-gambit-of-salvio.qmd
+  - games/variable-of-the-first-back-game-of-the-gambit-of-salvio.qmd
+  - games/second-back-game-of-the-gambit-of-salvio.qmd
+  - games/third-back-game-of-the-gambit-of-salvio.qmd
+  - games/supplement-to-the-first-gambit-of-the-edition-of-1749.qmd
+  - games/back-game-of-the-supplement-to-the-first-gambit.qmd
+  - games/variable-of-the-same-party-of-the-gambit.qmd
+  - games/method-of-giving-check-mate-with-a-rook-and-a-bishop-against-a-rook.qmd
+  - games/first-back-game-rook-and-bishop-against-a-rook.qmd
+  - games/second-back-game-rook-and-bishop-against-a-rook.qmd
+  - games/third-back-game-rook-and-bishop-against-a-rook.qmd
+  - games/method-of-forcing-the-black-to-take-the-above-mentioned-situation.qmd
+  - games/back-game-forcing-the-situation.qmd
+  - games/method-of-giving-check-mate-with-a-bishop-and-a-knight.qmd
+  - games/back-game-check-mate-with-a-bishop-and-a-knight.qmd
+  - games/a-party-won-with-a-rook-and-a-pawn-against-a-bishop.qmd
+  - games/a-drawn-game-with-a-rook-and-a-pawn-against-a-bishop.qmd
+  - games/a-mate-with-a-single-rook.qmd
+  - games/a-game-won-with-a-queen-against-a-rook-and-a-pawn.qmd
+  - games/first-back-game-queen-against-a-rook-and-a-pawn.qmd
+  - games/second-back-game-queen-against-a-rook-and-a-pawn.qmd
+  - games/a-check-mate-with-a-queen-against-a-rook.qmd
+  - games/a-drawn-game-with-a-queen-against-a-rook-and-a-pawn.qmd
+  - games/a-drawn-game-with-a-rook-and-a-pawn-against-a-rook.qmd
+  - games/back-game-rook-and-pawn-against-a-rook.qmd
+  - games/a-drawn-game-of-a-queen-and-a-pawn-against-a-queen.qmd
+  - games/a-game-won-with-a-queen-against-a-pawn-near-making-a-queen.qmd
+  - games/a-drawn-game-with-a-queen-against-a-pawn-near-making-a-queen.qmd
+  - games/another-drawn-game-with-a-queen-against-a-pawn-near-making-a-queen.qmd
+  - games/a-drawn-game-with-a-single-pawn.qmd
+  - games/back-game-a-drawn-game-with-a-single-pawn.qmd
+  - games/a-drawn-game-of-a-knight-far-off-from-his-king-against-a-pawn-near-making-a-queen.qmd
+  - games/a-drawn-game-or-a-party-won-with-two-pawns-against-one.qmd
+  - games/first-back-game-two-pawns-against-one.qmd
+  - games/second-back-game-two-pawns-against-one.qmd
+  - games/a-drawn-game-with-two-separated-pawns-against-two-united-pawns.qmd
+format:
+  html:
+    theme:
+    - cosmo
+    - theme.scss
+    include-in-header: _includes/head.html
+    include-after-body: _includes/foot.html
+    toc: false
+    fig-align: center
+    link-external-newwindow: true

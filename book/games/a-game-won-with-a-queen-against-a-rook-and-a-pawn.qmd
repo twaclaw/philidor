@@ -1,0 +1,85 @@
+---
+pagetitle: A Game won with a Queen against a Rook and a Pawn
+title: A Game won with a Queen against a Rook and a Pawn 🐞
+---
+
+```{=html}
+<div class="game-page">
+<div class="game-head">
+<div class="game-meta">endgame</div>
+<div class="game-subtitle"></div>
+<hr class="game-rule">
+<div class="editorial-note"><strong>Board stops short 🐞.</strong> The board carries the first 23 moves; conversion of the rest is unfinished. The printed text admits no legal continuation at ply 43, so the board departs from it there. Philidor's words stand unaltered beside it.</div>
+</div>
+<div class="philidor-game">
+<div class="game-board">
+<div class="pgn-board"><script type="text/pgn">[Event "Philidor, Analysis of the Game of Chess (London, 1777)"]
+[Site "?"]
+[Date "1777.??.??"]
+[Round "-"]
+[White "Philidor (analysis)"]
+[Black "Philidor (analysis)"]
+[Result "*"]
+[Annotator "F. D. Philidor"]
+[PhilidorGame "A Game won with a Queen against a Rook and a Pawn"]
+[PhilidorKind "endgame"]
+[SourceLine "8987"]
+[SetUp "1"]
+[FEN "8/4k3/3p4/4r3/5K2/3Q4/8/8 w - - 0 1"]
+[PhilidorReconstructed "Completing this game meant reading against the text at ply 43; the printed reading admits no legal continuation."]
+[PhilidorTruncated "Converted as far as the parser reaches: ply 46: no legal reading"]
+
+1. Qh7+ {The queen gives check, at the adverse king's rook's second square. (b) NOTE: His
+defence entirely depends upon not letting your king pass, and afterwards playing his rook
+alternately from its queen's bishop's fourth square to its king's fourth square, being always
+supported by his pawn.} Ke6 {The king, at his third square.} 2. Qg8+ {The queen gives check, at
+the adverse king's knight's square. (c) NOTE: This move is needless; and I point it out only to
+shew by what means turns may be got or lost.} Ke7 {The king, at his second square.} 3. Qc8 {The
+queen, at the adverse queen's bishop's square.} Rc5 {The rook, at its queen's bishop's fourth
+square.} 4. Qb7+ {The queen gives check, at the adverse queen's knight's second square.} Ke6
+{The king, at his third square.} 5. Qg7 {The queen, at the adverse king's knight's second
+square.} Re5 {The rook, at its king's fourth square.} 6. Qc7 {The queen, at the adverse queen's
+bishop's second square. (d) NOTE: This move determines the winning of the game: you must then,
+first of all, take this position.} Rc5 {The rook, at its queen's bishop's fourth square.} 7. Qd8
+{The queen, at the adverse queen's square.} Re5 {The rook, at its king's fourth square.} 8. Qe8+
+{The queen gives check, at the adverse king's square. (e) NOTE: By this check you force his king
+to go towards his pawn. This move will make the passage of your king more easy afterwards.} Kd5
+{The king, at his queen's fourth square.} 9. Qc8 {The queen, at the adverse queen's bishop's
+square. (f). NOTE: You put him under the necessity of removing his rook from its king, or giving
+a free passage to your king.} Re4+ {The rook gives check. (g) NOTE: If he had played his king to
+your queen's fourth square, you must have played your queen to his queen's bishop's third
+square: but he might also have played his rook to his king's rook's fourth square, to hinder the
+passage of your king; the subject of a back-game. $ iv} 10. Kf5 {The king, at the adverse king's
+bishop's fourth square.} Re5+ {The rook gives check.} 11. Kf6 {The king, at the adverse king's
+bishop's third square.} Re4 {The rook, at the adverse king's fourth square. (h) NOTE: If he had
+played his king to your queen's fourth square, you must have played your queen to his queen's
+bishop's third square.} 12. Qf5+ {The queen gives check, at the adverse king's bishop's fourth
+square.} Re5 {The rook covers the check.} 13. Qd3+ {The queen gives check, at her third square.}
+Kc5 {The king, at his queen's bishop's fourth square.} 14. Qd2 {The queen, at her second square.
+(i) NOTE: At the instant your king gets behind his pawn, the advantage of the game will turn on
+your side: but to attain this, you must force him to play his king.} Kc6 {The king, at his
+queen's bishop's third square.} 15. Qd4 {The queen, at her fourth square.} Kd7 {The king, at his
+queen's second square. (k) NOTE: As he could have played his king to his queen's bishop's second
+square. Another subject of a back-game.} 16. Qc4 {The queen, at her bishop's fourth square.} Rc5
+{The rook, at its queen's bishop's fourth square. (l) NOTE: If he had put away his rook from its
+king, you must have endeavoured to find some way of forcing his rook by a double check.} 17.
+Qf7+ {The queen gives check, at the adverse king's bishop's second square.} Kc6 {The king, at
+his queen's bishop's third square.} 18. Ke7 {The king, at the adverse king's second square.}
+Re5+ {The rook gives check.} 19. Kd8 {The king, at the adverse queen's square.} Rc5 {The rook,
+at its queen's bishop's fourth square.} 20. Qd7+ {The queen gives check, at the adverse queen's
+second square.} Kd5 {The king, at his queen's fourth square.} 21. Ke7 {The king, at the adverse
+king's second square.} Rc6 {The rook, at its queen's bishop's third square. 22.16} 22. Qe8 {The
+queen gives check, at the adverse king's fourth square.} Kc4 {The king, at the adverse queen's
+bishop's fourth square.} 23. Kd7 {The king, at the adverse queen's second square.} {The board
+stops here; Philidor's game continues in the text beside it.} *
+</script></div>
+<label class="follow-toggle"><input type="checkbox" class="follow-text"> Show the text with the board</label><div class="move-text" hidden><p class="move-text__move"></p><div class="move-text__notes"></div></div>
+</div>
+<div class="game-text">
+<div class="game-position"><span class="situation">Situation of the White</span><ul><li>The king, at his bishop&#x27;s fourth square.</li><li>The queen, at her third square.</li></ul><span class="situation">Situation of the Black</span><ul><li>The king, at his second square.</li><li>The queen&#x27;s pawn, at its third square.</li><li>The rook, at its king&#x27;s fourth square. <span class="note-ref" tabindex="0" data-note="This party is but a drawn-game, provided the pawn has not yet been moved from its place; but, if it had been pushed forwards, the queen must win.">(a)</span></li></ul></div>
+<div class="original-moves"><div class="move"><span class="move-no">1.</span><span class="ply" data-ply="0"><span class="side">White.</span> The queen gives check, at the adverse king&#x27;s rook&#x27;s second square. <span class="note-ref" tabindex="0" data-note="His defence entirely depends upon not letting your king pass, and afterwards playing his rook alternately from its queen&#x27;s bishop&#x27;s fourth square to its king&#x27;s fourth square, being always supported by his pawn.">(b)</span></span><span class="ply" data-ply="1"><span class="side">Black.</span> The king, at his third square.</span></div><div class="move"><span class="move-no">2.</span><span class="ply" data-ply="2"><span class="side">White.</span> The queen gives check, at the adverse king&#x27;s knight&#x27;s square. <span class="note-ref" tabindex="0" data-note="This move is needless; and I point it out only to shew by what means turns may be got or lost.">(c)</span></span><span class="ply" data-ply="3"><span class="side">Black.</span> The king, at his second square.</span></div><div class="move"><span class="move-no">3.</span><span class="ply" data-ply="4"><span class="side">White.</span> The queen, at the adverse queen&#x27;s bishop&#x27;s square.</span><span class="ply" data-ply="5"><span class="side">Black.</span> The rook, at its queen&#x27;s bishop&#x27;s fourth square.</span></div><div class="move"><span class="move-no">4.</span><span class="ply" data-ply="6"><span class="side">White.</span> The queen gives check, at the adverse queen&#x27;s knight&#x27;s second square.</span><span class="ply" data-ply="7"><span class="side">Black.</span> The king, at his third square.</span></div><div class="move"><span class="move-no">5.</span><span class="ply" data-ply="8"><span class="side">White.</span> The queen, at the adverse king&#x27;s knight&#x27;s second square.</span><span class="ply" data-ply="9"><span class="side">Black.</span> The rook, at its king&#x27;s fourth square.</span></div><div class="move"><span class="move-no">6.</span><span class="ply" data-ply="10"><span class="side">White.</span> The queen, at the adverse queen&#x27;s bishop&#x27;s second square. <span class="note-ref" tabindex="0" data-note="This move determines the winning of the game: you must then, first of all, take this position.">(d)</span></span><span class="ply" data-ply="11"><span class="side">Black.</span> The rook, at its queen&#x27;s bishop&#x27;s fourth square.</span></div><div class="move"><span class="move-no">7.</span><span class="ply" data-ply="12"><span class="side">White.</span> The queen, at the adverse queen&#x27;s square.</span><span class="ply" data-ply="13"><span class="side">Black.</span> The rook, at its king&#x27;s fourth square.</span></div><div class="move"><span class="move-no">8.</span><span class="ply" data-ply="14"><span class="side">White.</span> The queen gives check, at the adverse king&#x27;s square. <span class="note-ref" tabindex="0" data-note="By this check you force his king to go towards his pawn. This move will make the passage of your king more easy afterwards.">(e)</span></span><span class="ply" data-ply="15"><span class="side">Black.</span> The king, at his queen&#x27;s fourth square.</span></div><div class="move"><span class="move-no">9.</span><span class="ply" data-ply="16"><span class="side">White.</span> The queen, at the adverse queen&#x27;s bishop&#x27;s square. <span class="note-ref" tabindex="0" data-note="You put him under the necessity of removing his rook from its king, or giving a free passage to your king.">(f)</span>.</span><span class="ply" data-ply="17"><span class="side">Black.</span> The rook gives check. <span class="note-ref" tabindex="0" data-note="If he had played his king to your queen&#x27;s fourth square, you must have played your queen to his queen&#x27;s bishop&#x27;s third square: but he might also have played his rook to his king&#x27;s rook&#x27;s fourth square, to hinder the passage of your king; the subject of a back-game. $ iv">(g)</span></span></div><div class="move"><span class="move-no">10.</span><span class="ply" data-ply="18"><span class="side">White.</span> The king, at the adverse king&#x27;s bishop&#x27;s fourth square.</span><span class="ply" data-ply="19"><span class="side">Black.</span> The rook gives check.</span></div><div class="move"><span class="move-no">11.</span><span class="ply" data-ply="20"><span class="side">White.</span> The king, at the adverse king&#x27;s bishop&#x27;s third square.</span><span class="ply" data-ply="21"><span class="side">Black.</span> The rook, at the adverse king&#x27;s fourth square. <span class="note-ref" tabindex="0" data-note="If he had played his king to your queen&#x27;s fourth square, you must have played your queen to his queen&#x27;s bishop&#x27;s third square.">(h)</span></span></div><div class="move"><span class="move-no">12.</span><span class="ply" data-ply="22"><span class="side">White.</span> The queen gives check, at the adverse king&#x27;s bishop&#x27;s fourth square.</span><span class="ply" data-ply="23"><span class="side">Black.</span> The rook covers the check.</span></div><div class="move"><span class="move-no">13.</span><span class="ply" data-ply="24"><span class="side">White.</span> The queen gives check, at her third square.</span><span class="ply" data-ply="25"><span class="side">Black.</span> The king, at his queen&#x27;s bishop&#x27;s fourth square.</span></div><div class="move"><span class="move-no">14.</span><span class="ply" data-ply="26"><span class="side">White.</span> The queen, at her second square. <span class="note-ref" tabindex="0" data-note="At the instant your king gets behind his pawn, the advantage of the game will turn on your side: but to attain this, you must force him to play his king.">(i)</span></span><span class="ply" data-ply="27"><span class="side">Black.</span> The king, at his queen&#x27;s bishop&#x27;s third square.</span></div><div class="move"><span class="move-no">15.</span><span class="ply" data-ply="28"><span class="side">White.</span> The queen, at her fourth square.</span><span class="ply" data-ply="29"><span class="side">Black.</span> The king, at his queen&#x27;s second square. <span class="note-ref" tabindex="0" data-note="As he could have played his king to his queen&#x27;s bishop&#x27;s second square. Another subject of a back-game.">(k)</span></span></div><div class="move"><span class="move-no">16.</span><span class="ply" data-ply="30"><span class="side">White.</span> The queen, at her bishop&#x27;s fourth square.</span><span class="ply" data-ply="31"><span class="side">Black.</span> The rook, at its queen&#x27;s bishop&#x27;s fourth square. <span class="note-ref" tabindex="0" data-note="If he had put away his rook from its king, you must have endeavoured to find some way of forcing his rook by a double check.">(l)</span></span></div><div class="move"><span class="move-no">17.</span><span class="ply" data-ply="32"><span class="side">White.</span> The queen gives check, at the adverse king&#x27;s bishop&#x27;s second square.</span><span class="ply" data-ply="33"><span class="side">Black.</span> The king, at his queen&#x27;s bishop&#x27;s third square.</span></div><div class="move"><span class="move-no">18.</span><span class="ply" data-ply="34"><span class="side">White.</span> The king, at the adverse king&#x27;s second square.</span><span class="ply" data-ply="35"><span class="side">Black.</span> The rook gives check.</span></div><div class="move"><span class="move-no">19.</span><span class="ply" data-ply="36"><span class="side">White.</span> The king, at the adverse queen&#x27;s square.</span><span class="ply" data-ply="37"><span class="side">Black.</span> The rook, at its queen&#x27;s bishop&#x27;s fourth square.</span></div><div class="move"><span class="move-no">20.</span><span class="ply" data-ply="38"><span class="side">White.</span> The queen gives check, at the adverse queen&#x27;s second square.</span><span class="ply" data-ply="39"><span class="side">Black.</span> The king, at his queen&#x27;s fourth square.</span></div><div class="move"><span class="move-no">21.</span><span class="ply" data-ply="40"><span class="side">White.</span> The king, at the adverse king&#x27;s second square.</span><span class="ply" data-ply="41"><span class="side">Black.</span> The rook, at its queen&#x27;s bishop&#x27;s third square. 22.16</span></div><div class="move"><span class="move-no">22.</span><span class="ply" data-ply="42"><span class="side">White.</span> The queen gives check, at the adverse king&#x27;s fourth square.</span><span class="ply" data-ply="43"><span class="side">Black.</span> The king, at the adverse queen&#x27;s bishop&#x27;s fourth square.</span></div><div class="move"><span class="move-no">23.</span><span class="ply" data-ply="44"><span class="side">White.</span> The king, at the adverse queen&#x27;s second square.</span><span class="ply"><span class="side">Black.</span> The rook, at its queer&#x27;s bishop&#x27;s fourth square.</span></div><div class="move"><span class="move-no">24.</span><span class="ply"><span class="side">White.</span> The queen gives check, at her king&#x27;s 2.1 fourth square, and must win. <span class="note-ref" tabindex="0" data-note="As many lovers of this game may not be acquainted with the method of giving check-mate, with a queen against a rook, we will end this party by way of back-game.">(m)</span></span></div></div>
+</div>
+</div>
+</div>
+<div class="downloads"><a class="download" href="../downloads/md/a-game-won-with-a-queen-against-a-rook-and-a-pawn.md" download>Markdown — Philidor's text</a><a class="download" href="../downloads/pgn/a-game-won-with-a-queen-against-a-rook-and-a-pawn.pgn" download>PGN — algebraic notation (partial)</a></div>
+```

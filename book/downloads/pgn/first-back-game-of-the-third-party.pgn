@@ -1,0 +1,44 @@
+[Event "Philidor, Analysis of the Game of Chess (London, 1777)"]
+[Site "?"]
+[Date "1777.??.??"]
+[Round "-"]
+[White "Philidor (analysis)"]
+[Black "Philidor (analysis)"]
+[Result "*"]
+[Annotator "F. D. Philidor"]
+[PhilidorGame "First Back-game of the Third Party"]
+[PhilidorKind "back-game"]
+[SourceLine "1549"]
+[PhilidorParent "Third Party"]
+[PhilidorBranchMove "3"]
+[PhilidorNote "Philidor sets this game out beginning with the Black; the sides are exchanged here so that the first player moves as White."]
+
+1. e4 {[from the parent game] The king's pawn, two steps.} e5 {[from the parent game] The same.}
+2. Nf3 {[from the parent game] The king's knight, at his bishop's third square.} d6 {[from the
+parent game] The queen's pawn, one move.} 3. d4 {The queen's pawn, two steps.} f5 {The king's
+bishop's pawn, two steps.} 4. dxe5 {The queen's pawn takes the pawn.} fxe4 {The king's bishop's
+pawn takes the pawn.} 5. Ng5 {The king's knight, at the adverse king's knight's fourth square.}
+d5 {The queen's pawn, one step.} 6. f4 {The king's bishop's pawn, two steps.} Bc5 {The king's
+bishop, at his queen's bishop's fourth square.} 7. c4 {The queen's bishop's pawn, two steps.} c6
+{The queen's bishop's pawn, one step.} 8. Nc3 {The queen's knight, at his bishop's third
+square.} Ne7 {The king's knight, at his king's second square.} 9. h4 {The king's rook's pawn,
+two steps.} h6 {The king's rook's pawn, one step.} 10. Nh3 {The king's knight, at its rook's
+third square.} O-O {The king castles.} 11. Na4 {The queen's knight, at his rook's fourth
+square.} Bb4+ {The bishop gives check.} 12. Bd2 {The bishop covers the check.} Bxd2+ {The bishop
+takes the bishop.} 13. Qxd2 {The queen retakes the bishop.} d4 {The queen's pawn, one move.} 14.
+c5 {The queen's bishop's pawn, one move.} b5 {The queen's knight's pawn, two moves.} 15. cxb6
+{The queen's bishop's pawn takes it, passing by.} axb6 {The rook's pawn retakes the pawn.} 16.
+b3 {The queen's knight's pawn, one move.} Be6 {The queen's bishop, at his king's third square.}
+17. Be2 {The bishop, at his king's second square.} Nf5 {The king's knight, at his king's
+bishop's fourth square.} 18. Ng1 {The king's knight, at his own square.} Ng3 {The king's knight,
+at the adverse king's knight's third square.} 19. Rh2 {The king's rook, at its second square.}
+e3 {The king's pawn, one move.} 20. Qb2 {The queen, at her knight's second square.} d3 {The
+queen's pawn, one move.} 21. Bf3 {The king's bishop, at his third square.} Rxf4 {The king's rook
+takes the pawn.} 22. O-O-O {The king castles.} Rfxa4 {The king's rook takes the adverse queen's
+knight.} 23. bxa4 {The pawn retakes the rook.} Rxa4 {The queen's rook takes the pawn.} 24. a3
+{The queen's rook's pawn, one move.} Rc4+ {The rook gives check.} 25. Kb1 {The king retires.}
+Rc2 {The rook, at the adverse queen's bishop's second square.} 26. Qb4 {The queen, at her
+knight's fourth square.} Na6 {The queen's knight, at his rook's third square.} 27. Qf4 {The
+queen, at her king's bishop's fourth square.} Nc5 {The queen's knight, at her bishop's fourth
+square.} 28. Qxg3 {The queen takes the knight, knowing not how to do better.} Ba2+ {The bishop
+gives check.} 29. Ka1 {The king retires.} Nb3# {The knight gives check-mate.} *

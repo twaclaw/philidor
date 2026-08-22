@@ -1,0 +1,38 @@
+[Event "Philidor, Analysis of the Game of Chess (London, 1777)"]
+[Site "?"]
+[Date "1777.??.??"]
+[Round "-"]
+[White "Philidor (analysis)"]
+[Black "Philidor (analysis)"]
+[Result "*"]
+[Annotator "F. D. Philidor"]
+[PhilidorGame "Sixth Back-game of the Queen's Gambit"]
+[PhilidorKind "back-game"]
+[SourceLine "5484"]
+[PhilidorParent "The Queen's Gambit"]
+[PhilidorBranchMove "10"]
+[PhilidorReconstructed "Completing this game meant reading against the text at ply 13; the printed reading admits no legal continuation."]
+
+1. d4 {[from the parent game] The queen's pawn, two moves.} d5 {[from the parent game] The
+same.} 2. c4 {[from the parent game] The queen's bishop's pawn, two moves.} dxc4 {[from the
+parent game] The pawn takes the pawn.} 3. e4 {[from the parent game] The king's pawn, two moves.
+(a)} e5 {[from the parent game] The king's pawn, two moves. (b)} 4. d5 {[from the parent game]
+The queen's pawn, one move. (c)} f5 {[from the parent game] The king's bishop's pawn, two moves.
+(d)} 5. Nc3 {[from the parent game] The queen's knight, at his bishop's third square.} Nf6
+{[from the parent game] The king's knight, at his bishop's third square.} 6. f3 {[from the
+parent game] The king's bishop's pawn, one move.} Bc5 {[from the parent game] The king's bishop,
+at his queen's bishop's fourth square, Ath} 7. Nb5 {[from the parent game] The queen's knight,
+at his rook's third square.} Bxg1 {[from the parent game] The bishop takes the adversary's
+king's knight. (f)} 8. Rxg1 {[from the parent game] The rook retakes the bishop.} O-O {[from the
+parent game] The king castles. (g)} 9. Nc3 {[from the parent game] The knight, at his queen's
+bishop's third square.} fxe4 {[from the parent game] The pawn takes the pawn.} 10. fxe4 {The
+king's bishop's pawn takes the pawn.} Nxe4 {The knight takes the king's pawn.} 11. Nxe4 {The
+knight retakes the knight.} Qh4+ {The queen gives check. Ambo 12.} 12. Ng3 {The knight, at his
+king's knight's third square.} Bg4 {The queen's bishop, at the adverse king's knight's fourth
+square.} 13. Be2 {The king's bishop, at his king's second square.} Qxh2 {The queen takes the
+king's rook's pawn.} 14. Rf1 {The king's rook, at its bishop's square.} Qxg3+ {The queen takes
+the knight, and gives check.} 15. Kd2 {The king, at his queen's second square.} Nd7 {The queen's
+knight, at his queen's second square.} 16. Rxf8+ {The rook takes the rook.} Rxf8 {The rook
+retakes the rook.} 17. Qe1 {The queen, at her king's square.} Rf2 {The rook, at the adverse
+king's bishop's second square, and wins the game. Liv ANALYSIS THE GAME CHESS. SUPPLEMENT THE
+EDITION OF 1749.} *

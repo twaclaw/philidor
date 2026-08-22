@@ -1,0 +1,24 @@
+[Event "Philidor, Analysis of the Game of Chess (London, 1777)"]
+[Site "?"]
+[Date "1777.??.??"]
+[Round "-"]
+[White "Philidor (analysis)"]
+[Black "Philidor (analysis)"]
+[Result "*"]
+[Annotator "F. D. Philidor"]
+[PhilidorGame "A Drawn-game with two separated Pawns against two united Pawns"]
+[PhilidorKind "game"]
+[SourceLine "10270"]
+[SetUp "1"]
+[FEN "8/8/8/1pPk2p1/1P6/3K4/8/8 w - - 0 1"]
+
+1. Ke3 {The king, at his third square.} Ke5 {The king, at his fourth square.} 2. Kf3 {The king,
+at his bishop's third square.} Kf5 {The king, at his bishop's fourth square.} 3. Kg3 {The king,
+at his knight's third square.} Ke5 {The king, at his fourth square. (a) NOTE: In this position,
+if the black were to play first, the white would win the game.} 4. Kg4 {The king, at his
+knight's fourth square.} Kf6 {The king, at his bishop's third square.} 5. Kg3 {The king, at his
+knight's third square.} Ke5 {The king, at his fourth square. (c) NOTE: Had he played his king to
+his bishop's fourth square, you would have got again the the move over him; which would have
+given you the game.} 6. Kf3 {The king, at his bishop's third square.} Kf5 {The king, at his
+bishop's fourth square. (d) NOTE: As he don't push his pawn, nor give you leave to take the
+place opposite to his king, it must be a drawn-game.} *

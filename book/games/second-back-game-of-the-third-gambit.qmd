@@ -1,0 +1,63 @@
+---
+pagetitle: Second Back-game of the Third Gambit
+title: Second Back-game of the Third Gambit
+---
+
+```{=html}
+<div class="game-page">
+<div class="game-head">
+<div class="game-meta">back-game &middot; branches from Third Gambit at move 3</div>
+<div class="game-subtitle">Beginning at the 3d move of the Black.</div>
+<hr class="game-rule">
+</div>
+<div class="philidor-game">
+<div class="game-board">
+<div class="pgn-board"><script type="text/pgn">[Event "Philidor, Analysis of the Game of Chess (London, 1777)"]
+[Site "?"]
+[Date "1777.??.??"]
+[Round "-"]
+[White "Philidor (analysis)"]
+[Black "Philidor (analysis)"]
+[Result "*"]
+[Annotator "F. D. Philidor"]
+[PhilidorGame "Second Back-game of the Third Gambit"]
+[PhilidorKind "back-game"]
+[SourceLine "3858"]
+[PhilidorParent "Third Gambit"]
+[PhilidorBranchMove "3"]
+
+1. e4 {[from the parent game] The king's pawn, two moves.} e5 {[from the parent game] The same.}
+2. f4 {[from the parent game] The king's bishop's pawn, two moves.} d5 {[from the parent game]
+The queen's pawn, two moves. (a)} 3. exd5 {The king's pawn takes the adverse queen's pawn.} exf4
+{The king's pawn takes the bishop's pawn.} 4. Nf3 {The king's knight, at his bishop's third
+square.} Qxd5 {The queen takes the pawn.} 5. d4 {The queen's pawn, two moves.} Qe4+ {The queen
+gives check, at the adverse king's fourth square.} 6. Kf2 {The king, at his bishop's second
+square.} Be7 {The king's bishop, at his king's second square.} 7. Bd3 {The king's bishop, at his
+queen's third square.} Qc6 {The queen, at her queen's bishop's third square.} 8. Bxf4 {The
+queen's bishop takes the pawn.} Be6 {The queen's bishop, at his king's third square.} 9. Qe2
+{The queen, at her king's second square.} Qd7 {The queen, at her second square.} 10. c4 {The
+queen's bishop's pawn, two moves.} c6 {The queen's bishop's pawn, one move.} 11. Nc3 {The
+queen's knight, at his bishop's third square.} Nf6 {The king's knight, at his bishop's third
+square.} 12. h3 {The king's rook's pawn, one move.} O-O {The king castles.} 13. g4 {The king's
+knight's pawn, two moves.} Bd6 {The king's bishop, at his queen's third square.} 14. Ne5 {The
+king's knight, at the adverse king's fourth square.} Bxe5 {The bishop takes the knight.} 15.
+dxe5 {The pawn retakes the bishop.} Ne8 {The king's knight, at his king's square.} 16. Rad1 {The
+queen's rook, at its queen's square.} Qe7 {The queen, at her king's second square.} 17. g5 {The
+king's knight's pawn, one move.} Nd7 {The queen's knight, at his queen's second square.} 18. Qh5
+{The queen, at the adverse king's rook's fourth square.} g6 {The king's knight's pawn, one
+move.} 19. Qh6 {The queen, at the adverse king's rook's third square.} Qc5+ {The queen gives
+check.} 20. Kg3 {The king, at his knight's third square.} Nxe5 {The queen's knight takes the
+adversary's king's pawn.} 21. Ne4 {The knight, at his king's fourth square.} Qd4 {The queen, at
+the adversary's queen's fourth square.} 22. Nf6+ {The knight gives check, at the adverse king's
+bishop's third square.} Nxf6 {The knight takes the knight.} 23. gxf6 {The pawn retakes the
+knight.} *
+</script></div>
+<label class="follow-toggle"><input type="checkbox" class="follow-text"> Show the text with the board</label><div class="move-text" hidden><p class="move-text__move"></p><div class="move-text__notes"></div></div>
+</div>
+<div class="game-text">
+<div class="original-moves"><div class="move"><span class="move-no">1.</span><span class="ply inherited" data-ply="0"><span class="side">White.</span> The king&#x27;s pawn, two moves.</span><span class="ply inherited" data-ply="1"><span class="side">Black.</span> The same.</span></div><div class="move"><span class="move-no">2.</span><span class="ply inherited" data-ply="2"><span class="side">White.</span> The king&#x27;s bishop&#x27;s pawn, two moves.</span><span class="ply inherited" data-ply="3"><span class="side">Black.</span> The queen&#x27;s pawn, two moves. (a)</span></div><div class="move"><span class="move-no">3.</span><span class="ply" data-ply="4"><span class="side">White.</span> The king&#x27;s pawn takes the adverse queen&#x27;s pawn.</span><span class="ply" data-ply="5"><span class="side">Black.</span> The king&#x27;s pawn takes the bishop&#x27;s pawn.</span></div><div class="move"><span class="move-no">4.</span><span class="ply" data-ply="6"><span class="side">White.</span> The king&#x27;s knight, at his bishop&#x27;s third square.</span><span class="ply" data-ply="7"><span class="side">Black.</span> The queen takes the pawn.</span></div><div class="move"><span class="move-no">5.</span><span class="ply" data-ply="8"><span class="side">White.</span> The queen&#x27;s pawn, two moves.</span><span class="ply" data-ply="9"><span class="side">Black.</span> The queen gives check, at the adverse king&#x27;s fourth square.</span></div><div class="move"><span class="move-no">6.</span><span class="ply" data-ply="10"><span class="side">White.</span> The king, at his bishop&#x27;s second square.</span><span class="ply" data-ply="11"><span class="side">Black.</span> The king&#x27;s bishop, at his king&#x27;s second square.</span></div><div class="move"><span class="move-no">7.</span><span class="ply" data-ply="12"><span class="side">White.</span> The king&#x27;s bishop, at his queen&#x27;s third square.</span><span class="ply" data-ply="13"><span class="side">Black.</span> The queen, at her queen&#x27;s bishop&#x27;s third square.</span></div><div class="move"><span class="move-no">8.</span><span class="ply" data-ply="14"><span class="side">White.</span> The queen&#x27;s bishop takes the pawn.</span><span class="ply" data-ply="15"><span class="side">Black.</span> The queen&#x27;s bishop, at his king&#x27;s third square.</span></div><div class="move"><span class="move-no">9.</span><span class="ply" data-ply="16"><span class="side">White.</span> The queen, at her king&#x27;s second square.</span><span class="ply" data-ply="17"><span class="side">Black.</span> The queen, at her second square.</span></div><div class="move"><span class="move-no">10.</span><span class="ply" data-ply="18"><span class="side">White.</span> The queen&#x27;s bishop&#x27;s pawn, two moves.</span><span class="ply" data-ply="19"><span class="side">Black.</span> The queen&#x27;s bishop&#x27;s pawn, one move.</span></div><div class="move"><span class="move-no">11.</span><span class="ply" data-ply="20"><span class="side">White.</span> The queen&#x27;s knight, at his bishop&#x27;s third square.</span><span class="ply" data-ply="21"><span class="side">Black.</span> The king&#x27;s knight, at his bishop&#x27;s third square.</span></div><div class="move"><span class="move-no">12.</span><span class="ply" data-ply="22"><span class="side">White.</span> The king&#x27;s rook&#x27;s pawn, one move.</span><span class="ply" data-ply="23"><span class="side">Black.</span> The king castles.</span></div><div class="move"><span class="move-no">13.</span><span class="ply" data-ply="24"><span class="side">White.</span> The king&#x27;s knight&#x27;s pawn, two moves.</span><span class="ply" data-ply="25"><span class="side">Black.</span> The king&#x27;s bishop, at his queen&#x27;s third square.</span></div><div class="move"><span class="move-no">14.</span><span class="ply" data-ply="26"><span class="side">White.</span> The king&#x27;s knight, at the adverse king&#x27;s fourth square.</span><span class="ply" data-ply="27"><span class="side">Black.</span> The bishop takes the knight.</span></div><div class="move"><span class="move-no">15.</span><span class="ply" data-ply="28"><span class="side">White.</span> The pawn retakes the bishop.</span><span class="ply" data-ply="29"><span class="side">Black.</span> The king&#x27;s knight, at his king&#x27;s square.</span></div><div class="move"><span class="move-no">16.</span><span class="ply" data-ply="30"><span class="side">White.</span> The queen&#x27;s rook, at its queen&#x27;s square.</span><span class="ply" data-ply="31"><span class="side">Black.</span> The queen, at her king&#x27;s second square.</span></div><div class="move"><span class="move-no">17.</span><span class="ply" data-ply="32"><span class="side">White.</span> The king&#x27;s knight&#x27;s pawn, one move.</span><span class="ply" data-ply="33"><span class="side">Black.</span> The queen&#x27;s knight, at his queen&#x27;s second square.</span></div><div class="move"><span class="move-no">18.</span><span class="ply" data-ply="34"><span class="side">White.</span> The queen, at the adverse king&#x27;s rook&#x27;s fourth square.</span><span class="ply" data-ply="35"><span class="side">Black.</span> The king&#x27;s knight&#x27;s pawn, one move.</span></div><div class="move"><span class="move-no">19.</span><span class="ply" data-ply="36"><span class="side">White.</span> The queen, at the adverse king&#x27;s rook&#x27;s third square.</span><span class="ply" data-ply="37"><span class="side">Black.</span> The queen gives check.</span></div><div class="move"><span class="move-no">20.</span><span class="ply" data-ply="38"><span class="side">White.</span> The king, at his knight&#x27;s third square.</span><span class="ply" data-ply="39"><span class="side">Black.</span> The queen&#x27;s knight takes the adversary&#x27;s king&#x27;s pawn.</span></div><div class="move"><span class="move-no">21.</span><span class="ply" data-ply="40"><span class="side">White.</span> The knight, at his king&#x27;s fourth square.</span><span class="ply" data-ply="41"><span class="side">Black.</span> The queen, at the adversary&#x27;s queen&#x27;s fourth square.</span></div><div class="move"><span class="move-no">22.</span><span class="ply" data-ply="42"><span class="side">White.</span> The knight gives check, at the adverse king&#x27;s bishop&#x27;s third square.</span><span class="ply" data-ply="43"><span class="side">Black.</span> The knight takes the knight.</span></div><div class="move"><span class="move-no">23.</span><span class="ply" data-ply="44"><span class="side">White.</span> The pawn retakes the knight.</span><span class="ply"><span class="side">Black.</span> lost, the mate being forced.</span></div></div>
+</div>
+</div>
+</div>
+<div class="downloads"><a class="download" href="../downloads/md/second-back-game-of-the-third-gambit.md" download>Markdown — Philidor's text</a><a class="download" href="../downloads/pgn/second-back-game-of-the-third-gambit.pgn" download>PGN — algebraic notation</a></div>
+```

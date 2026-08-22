@@ -1,0 +1,25 @@
+[Event "Philidor, Analysis of the Game of Chess (London, 1777)"]
+[Site "?"]
+[Date "1777.??.??"]
+[Round "-"]
+[White "Philidor (analysis)"]
+[Black "Philidor (analysis)"]
+[Result "*"]
+[Annotator "F. D. Philidor"]
+[PhilidorGame "Second Back-game of the Method of Playing"]
+[PhilidorKind "back-game"]
+[SourceLine "5824"]
+[PhilidorParent "Method of Playing"]
+[PhilidorBranchMove "4"]
+
+1. e4 {[from the parent game] The king's pawn, two moves.} e5 {[from the parent game] The same.}
+2. Bc4 {[from the parent game] The king's bishop, at his queen's bishop's fourth square. (a)}
+Bc5 {[from the parent game] The same. (b)} 3. c3 {[from the parent game] The queen's bishop's
+pawn, one move.} Qe7 {[from the parent game] The queen, at her king's second square. (c)} 4. Ne2
+{The king's knight, at his king's second square. (a) NOTE: If a pawn were not lost by this move,
+this place would undoubtedly be the most convenient for the knight, because it does not obstruct
+the passage of the pawns.} Bxf2+ {The king's bishop takes the pawn, and gives check.} 5. Kxf2
+{The king takes the bishop.} Qc5+ {The queen, at her bishop's fourth square, giving check.} 6.
+d4 {The queen's pawn, two moves.} Qxc4 {The queen takes the bishop.} 7. Na3 {The queen's knight,
+at its rook's third square.} Qe6 {The queen, at her king's third square. (b) NOTE: The black
+must win the game, having the advantage of a pawn, and a good situation besides.} *

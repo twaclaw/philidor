@@ -1,0 +1,49 @@
+---
+pagetitle: First Back-game of the Second Gambit
+title: First Back-game of the Second Gambit 🐞
+---
+
+```{=html}
+<div class="game-page">
+<div class="game-head">
+<div class="game-meta">back-game &middot; branches from Second Gambit at move 4</div>
+<div class="game-subtitle">From the 4th move of the Black.</div>
+<hr class="game-rule">
+<div class="editorial-note"><strong>Board stops short 🐞.</strong> The board carries the first 7 moves; conversion of the rest is unfinished. Philidor's words stand unaltered beside it.</div>
+</div>
+<div class="philidor-game">
+<div class="game-board">
+<div class="pgn-board"><script type="text/pgn">[Event "Philidor, Analysis of the Game of Chess (London, 1777)"]
+[Site "?"]
+[Date "1777.??.??"]
+[Round "-"]
+[White "Philidor (analysis)"]
+[Black "Philidor (analysis)"]
+[Result "*"]
+[Annotator "F. D. Philidor"]
+[PhilidorGame "First Back-game of the Second Gambit"]
+[PhilidorKind "back-game"]
+[SourceLine "3132"]
+[PhilidorParent "Second Gambit"]
+[PhilidorBranchMove "4"]
+[PhilidorTruncated "Converted as far as the parser reaches: ply 14: no legal reading"]
+
+1. e4 {[from the parent game] The king's pawn, two moves.} e5 {[from the parent game] The same.}
+2. f4 {[from the parent game] The king's bishop's pawn, two moves.} exf4 {[from the parent game]
+The pawn takes the pawn.} 3. Bc4 {[from the parent game] The king's bishop, at his queen's
+bishop's fourth square.} Qh4+ {[from the parent game] The queen gives check.} 4. Kf1 {The king,
+at his bishop's square.} Bc5 {The king's bishop, at his queen's bishop's fourth square.} 5. d4
+{The queen's pawn, two moves.} Bb6 {The king's bishop, at his queen's knight's third square.} 6.
+Nf3 {The king's knight, at his bishop's third square.} Qg4 {The queen, at the adverse king's
+knight's fourth square.} 7. Bxf7+ {The king's bishop takes the king's bishop's pawn, and gives
+check.} {The board stops here; Philidor's game continues in the text beside it.} *
+</script></div>
+<label class="follow-toggle"><input type="checkbox" class="follow-text"> Show the text with the board</label><div class="move-text" hidden><p class="move-text__move"></p><div class="move-text__notes"></div></div>
+</div>
+<div class="game-text">
+<div class="original-moves"><div class="move"><span class="move-no">1.</span><span class="ply inherited" data-ply="0"><span class="side">White.</span> The king&#x27;s pawn, two moves.</span><span class="ply inherited" data-ply="1"><span class="side">Black.</span> The same.</span></div><div class="move"><span class="move-no">2.</span><span class="ply inherited" data-ply="2"><span class="side">White.</span> The king&#x27;s bishop&#x27;s pawn, two moves.</span><span class="ply inherited" data-ply="3"><span class="side">Black.</span> The pawn takes the pawn.</span></div><div class="move"><span class="move-no">3.</span><span class="ply inherited" data-ply="4"><span class="side">White.</span> The king&#x27;s bishop, at his queen&#x27;s bishop&#x27;s fourth square.</span><span class="ply inherited" data-ply="5"><span class="side">Black.</span> The queen gives check.</span></div><div class="move"><span class="move-no">4.</span><span class="ply" data-ply="6"><span class="side">White.</span> The king, at his bishop&#x27;s square.</span><span class="ply" data-ply="7"><span class="side">Black.</span> The king&#x27;s bishop, at his queen&#x27;s bishop&#x27;s fourth square.</span></div><div class="move"><span class="move-no">5.</span><span class="ply" data-ply="8"><span class="side">White.</span> The queen&#x27;s pawn, two moves.</span><span class="ply" data-ply="9"><span class="side">Black.</span> The king&#x27;s bishop, at his queen&#x27;s knight&#x27;s third square.</span></div><div class="move"><span class="move-no">6.</span><span class="ply" data-ply="10"><span class="side">White.</span> The king&#x27;s knight, at his bishop&#x27;s third square.</span><span class="ply" data-ply="11"><span class="side">Black.</span> The queen, at the adverse king&#x27;s knight&#x27;s fourth square.</span></div><div class="move"><span class="move-no">7.</span><span class="ply" data-ply="12"><span class="side">White.</span> The king&#x27;s bishop takes the king&#x27;s bishop&#x27;s pawn, and gives check.</span><span class="ply"><span class="side">Black.</span> The king, at his bishop&#x27;s square, because, if he retakes, he loses his queen.</span></div><div class="move"><span class="move-no">8.</span><span class="ply"><span class="side">White.</span> The king&#x27;s rook&#x27;s pawn, one move.</span><span class="ply"><span class="side">Black.</span> The queen, at the adverse king&#x27;s knight&#x27;s third square.</span></div><div class="move"><span class="move-no">9.</span><span class="ply"><span class="side">White.</span> The queen&#x27;s knight, at his bishop&#x27;s third square.</span><span class="ply"><span class="side">Black.</span> The king takes the bishop.</span></div><div class="move"><span class="move-no">10.</span><span class="ply"><span class="side">White.</span> The queen&#x27;s knight, at his king&#x27;s second square.</span><span class="ply"><span class="side">Black.</span> The queen, at her king&#x27;s knight&#x27;s third square, having no other place.</span></div><div class="move"><span class="move-no">11.</span><span class="ply"><span class="side">White.</span> The king&#x27;s knight gives check to the king and queen, and wins the game in course.</span></div></div>
+</div>
+</div>
+</div>
+<div class="downloads"><a class="download" href="../downloads/md/first-back-game-of-the-second-gambit.md" download>Markdown — Philidor's text</a><a class="download" href="../downloads/pgn/first-back-game-of-the-second-gambit.pgn" download>PGN — algebraic notation (partial)</a></div>
+```

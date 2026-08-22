@@ -1,0 +1,53 @@
+---
+pagetitle: Variable of the same Party of the Gambit
+title: Variable of the same Party of the Gambit
+---
+
+```{=html}
+<div class="game-page">
+<div class="game-head">
+<div class="game-meta">back-game &middot; branches from Supplement to the First Gambit of the Edition of 1749 at move 1</div>
+<div class="game-subtitle">On the 5th move of the Black.</div>
+<hr class="game-rule">
+</div>
+<div class="philidor-game">
+<div class="game-board">
+<div class="pgn-board"><script type="text/pgn">[Event "Philidor, Analysis of the Game of Chess (London, 1777)"]
+[Site "?"]
+[Date "1777.??.??"]
+[Round "-"]
+[White "Philidor (analysis)"]
+[Black "Philidor (analysis)"]
+[Result "*"]
+[Annotator "F. D. Philidor"]
+[PhilidorGame "Variable of the same Party of the Gambit"]
+[PhilidorKind "back-game"]
+[SourceLine "7966"]
+[PhilidorParent "Supplement to the First Gambit of the Edition of 1749"]
+[PhilidorBranchMove "1"]
+
+1. e4 {The king's pawn, two moves.} e5 {The same.} 2. f4 {The king's bishop's pawn, two moves.}
+exf4 {The king's pawn takes the pawn.} 3. Nf3 {The king's knight, at his bishop's third square.}
+g5 {The king's knight's pawn, two moves.} 4. h4 {The king's rook's pawn, two moves.} g4 {The
+king's knight's pawn, one move.} 5. Ne5 {The king's knight, at the adverse king's fourth
+square.} Qe7 {The queen, at her king's second square.} 6. d4 {The queen's pawn, two moves. (a)}
+d6 {The queen's pawn, one move.} 7. Nxf7 {The king's knight takes the pawn.} Qxe4+ {The queen
+takes the king's pawn, and gives check.} 8. Qe2 {The queen covers the check. (a) NOTE: In this
+situation you must change the queens, as nothing better can be done, and afterwards take the
+gambit's pawn. The two games are even. It is very easily seen, that this way of playing the
+gambit is neither of a very interesting nature, nor affords the same after-games; and that a
+number of variations sprung from Salvio's gambit. NOTE: In the former edition, (of 1749) I
+appointed this situation as the best for the black, and, besides, the only good one to make a
+proper defence: but, as many lovers of this game desire to know the means of forcing the black
+to the present position, some instructions agreeable to it will be given in my subsequent
+annotations.} *
+</script></div>
+<label class="follow-toggle"><input type="checkbox" class="follow-text"> Show the text with the board</label><div class="move-text" hidden><p class="move-text__move"></p><div class="move-text__notes"></div></div>
+</div>
+<div class="game-text">
+<div class="original-moves"><div class="move"><span class="move-no">1.</span><span class="ply" data-ply="0"><span class="side">White.</span> The king&#x27;s pawn, two moves.</span><span class="ply" data-ply="1"><span class="side">Black.</span> The same.</span></div><div class="move"><span class="move-no">2.</span><span class="ply" data-ply="2"><span class="side">White.</span> The king&#x27;s bishop&#x27;s pawn, two moves.</span><span class="ply" data-ply="3"><span class="side">Black.</span> The king&#x27;s pawn takes the pawn.</span></div><div class="move"><span class="move-no">3.</span><span class="ply" data-ply="4"><span class="side">White.</span> The king&#x27;s knight, at his bishop&#x27;s third square.</span><span class="ply" data-ply="5"><span class="side">Black.</span> The king&#x27;s knight&#x27;s pawn, two moves.</span></div><div class="move"><span class="move-no">4.</span><span class="ply" data-ply="6"><span class="side">White.</span> The king&#x27;s rook&#x27;s pawn, two moves.</span><span class="ply" data-ply="7"><span class="side">Black.</span> The king&#x27;s knight&#x27;s pawn, one move.</span></div><div class="move"><span class="move-no">5.</span><span class="ply" data-ply="8"><span class="side">White.</span> The king&#x27;s knight, at the adverse king&#x27;s fourth square.</span><span class="ply" data-ply="9"><span class="side">Black.</span> The queen, at her king&#x27;s second square.</span></div><div class="move"><span class="move-no">6.</span><span class="ply" data-ply="10"><span class="side">White.</span> The queen&#x27;s pawn, two moves. <span class="note-ref" tabindex="0" data-note="In this situation you must change the queens, as nothing better can be done, and afterwards take the gambit&#x27;s pawn. The two games are even. It is very easily seen, that this way of playing the gambit is neither of a very interesting nature, nor affords the same after-games; and that a number of variations sprung from Salvio&#x27;s gambit.">(a)</span></span><span class="ply" data-ply="11"><span class="side">Black.</span> The queen&#x27;s pawn, one move.</span></div><div class="move"><span class="move-no">7.</span><span class="ply" data-ply="12"><span class="side">White.</span> The king&#x27;s knight takes the pawn.</span><span class="ply" data-ply="13"><span class="side">Black.</span> The queen takes the king&#x27;s pawn, and gives check.</span></div><div class="move"><span class="move-no">8.</span><span class="ply" data-ply="14"><span class="side">White.</span> The queen covers the check. <span class="note-ref" tabindex="0" data-note="In the former edition, (of 1749) I appointed this situation as the best for the black, and, besides, the only good one to make a proper defence: but, as many lovers of this game desire to know the means of forcing the black to the present position, some instructions agreeable to it will be given in my subsequent annotations.">(a)</span></span></div></div>
+</div>
+</div>
+</div>
+<div class="downloads"><a class="download" href="../downloads/md/variable-of-the-same-party-of-the-gambit.md" download>Markdown — Philidor's text</a><a class="download" href="../downloads/pgn/variable-of-the-same-party-of-the-gambit.pgn" download>PGN — algebraic notation</a></div>
+```

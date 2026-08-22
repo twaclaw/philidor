@@ -1,0 +1,24 @@
+[Event "Philidor, Analysis of the Game of Chess (London, 1777)"]
+[Site "?"]
+[Date "1777.??.??"]
+[Round "-"]
+[White "Philidor (analysis)"]
+[Black "Philidor (analysis)"]
+[Result "*"]
+[Annotator "F. D. Philidor"]
+[PhilidorGame "First Back-game of the Second Gambit"]
+[PhilidorKind "back-game"]
+[SourceLine "3132"]
+[PhilidorParent "Second Gambit"]
+[PhilidorBranchMove "4"]
+[PhilidorTruncated "Converted as far as the parser reaches: ply 14: no legal reading"]
+
+1. e4 {[from the parent game] The king's pawn, two moves.} e5 {[from the parent game] The same.}
+2. f4 {[from the parent game] The king's bishop's pawn, two moves.} exf4 {[from the parent game]
+The pawn takes the pawn.} 3. Bc4 {[from the parent game] The king's bishop, at his queen's
+bishop's fourth square.} Qh4+ {[from the parent game] The queen gives check.} 4. Kf1 {The king,
+at his bishop's square.} Bc5 {The king's bishop, at his queen's bishop's fourth square.} 5. d4
+{The queen's pawn, two moves.} Bb6 {The king's bishop, at his queen's knight's third square.} 6.
+Nf3 {The king's knight, at his bishop's third square.} Qg4 {The queen, at the adverse king's
+knight's fourth square.} 7. Bxf7+ {The king's bishop takes the king's bishop's pawn, and gives
+check.} {The board stops here; Philidor's game continues in the text beside it.} *

@@ -1,0 +1,209 @@
+<script type="module">
+// One initialiser for the whole book. A game page carries only a board div
+// with its PGN inside and a list of Philidor's moves; the wiring between the
+// two lives here, so a change lands on all 96 pages at once.
+import LichessPgnViewer from '/assets/lichess-pgn-viewer.min.js';
+
+function wire(boardEl) {
+  const src = boardEl.querySelector('script[type="text/pgn"]');
+  if (!src || boardEl.dataset.mounted) return;
+  boardEl.dataset.mounted = '1';
+
+  const host = document.createElement('div');
+  boardEl.appendChild(host);
+
+  const lpv = LichessPgnViewer(host, {
+    pgn: src.textContent,
+    showPlayers: false,
+    showClocks: false,
+    showMoves: false,       // the second column is this book's move list
+    showControls: true,
+    scrollToMove: false,
+    keyboardToMove: true,
+    orientation: boardEl.dataset.orientation || 'white',
+    drawArrows: false,
+    lichess: false,
+    menu: { getPgn: { enabled: true } }
+  });
+
+  // The descriptive moves that correspond to this board, in ply order.
+  const game = boardEl.closest('.philidor-game');
+  const plies = game ? Array.from(game.querySelectorAll('.ply[data-ply]')) : [];
+  if (!plies.length) return;
+  const list = plies[0].closest('.original-moves');
+
+  // On a narrow screen the moves do not fit beside the board, so the text for
+  // the move being shown is repeated underneath it. One box, refilled as the
+  // board moves. Ticked by default on a small screen; the reader's choice is
+  // remembered either way.
+  const NARROW = '(max-width: 1100px)';
+  const REMEMBERED = 'philidor.followText';
+  const toggle = boardEl.parentElement.querySelector('.follow-text');
+  const panel = boardEl.parentElement.querySelector('.move-text');
+
+  function follows() {
+    const stored = localStorage.getItem(REMEMBERED);
+    return stored === null ? window.matchMedia(NARROW).matches : stored === '1';
+  }
+
+  function fill() {
+    if (!panel) return;
+    panel.hidden = !(toggle && toggle.checked);
+    if (panel.hidden) return;
+    const cur = plies.find(function (el) { return el.classList.contains('current'); });
+    // The note is printed right underneath, so its (a) points nowhere here.
+    panel.querySelector('.move-text__move').textContent = cur
+      ? cur.textContent.replace(/\s*\([a-z]{1,2}\)/g, '').trim()
+      : 'The opening position.';
+    const notes = cur ? Array.from(cur.querySelectorAll('.note-ref')) : [];
+    panel.querySelector('.move-text__notes').innerHTML = notes
+      .map(function (r) {
+        const p = document.createElement('p');
+        p.textContent = r.dataset.note;
+        return p.outerHTML;
+      }).join('');
+    panel.scrollTop = 0;
+  }
+
+  if (toggle) {
+    toggle.checked = follows();
+    toggle.addEventListener('change', function () {
+      localStorage.setItem(REMEMBERED, toggle.checked ? '1' : '0');
+      fill();
+    });
+  }
+
+  function show() {
+    // Path.size() is the number of plies played, so the ply now on the board
+    // is one less than that, and a size of 0 is the opening position.
+    const i = lpv.path.size() - 1;
+    plies.forEach(function (el, n) { el.classList.toggle('current', n === i); });
+    fill();
+    const cur = plies[i];
+    if (!cur || !list) return;
+    // Keep the current move in view without scrolling the page itself.
+    const c = cur.getBoundingClientRect(), l = list.getBoundingClientRect();
+    if (c.top < l.top || c.bottom > l.bottom) {
+      list.scrollTop += (c.top - l.top) - (l.height / 2 - c.height / 2);
+    }
+  }
+
+  // Every navigation -- click, keyboard, the controls -- funnels through
+  // toPath, so wrapping it is enough to follow the board wherever it goes.
+  const toPath = lpv.toPath;
+  lpv.toPath = function (path, focus) {
+    toPath.call(lpv, path, focus);
+    show();
+  };
+
+  plies.forEach(function (el) {
+    el.addEventListener('click', function () {
+      const n = parseInt(el.dataset.ply, 10);
+      lpv.toPath(lpv.game.pathAtMainlinePly(n + 1), false);
+    });
+  });
+
+  show();
+}
+
+// Philidor's notes, shown against the reference that calls them. One floating
+// element serves the whole page: the move list scrolls, so a popover nested
+// inside it would be clipped at the edge.
+function notePopovers() {
+  let pop = null;
+  const hide = () => { if (pop) { pop.remove(); pop = null; } };
+
+  function show(ref) {
+    hide();
+    pop = document.createElement('div');
+    pop.className = 'note-popup';
+    pop.textContent = ref.dataset.note;
+    document.body.appendChild(pop);
+
+    const r = ref.getBoundingClientRect();
+    const w = pop.offsetWidth, h = pop.offsetHeight;
+    // Prefer above the reference, and flip below when there is no room.
+    const above = r.top > h + 12;
+    let left = r.left + r.width / 2 - w / 2;
+    left = Math.max(8, Math.min(left, window.innerWidth - w - 8));
+    pop.style.left = Math.round(left + window.scrollX) + 'px';
+    pop.style.top = Math.round(
+      (above ? r.top - h - 8 : r.bottom + 8) + window.scrollY) + 'px';
+    pop.classList.toggle('below', !above);
+  }
+
+  document.addEventListener('mouseover', e => {
+    const ref = e.target.closest('.note-ref');
+    if (ref) show(ref);
+  });
+  document.addEventListener('mouseout', e => {
+    if (e.target.closest('.note-ref')) hide();
+  });
+  // Keyboard users get the same, since the references are focusable.
+  document.addEventListener('focusin', e => {
+    const ref = e.target.closest('.note-ref');
+    if (ref) show(ref);
+  });
+  document.addEventListener('focusout', e => {
+    if (e.target.closest('.note-ref')) hide();
+  });
+  document.addEventListener('keydown', e => { if (e.key === 'Escape') hide(); });
+  // A popover pinned to the viewport would drift once the page moves.
+  window.addEventListener('scroll', hide, true);
+}
+
+// The mark stands in the contents of every chapter, but what it means is
+// explained on the first page. A word on hover saves going back for it.
+function explainMarks() {
+  const meaning = 'This board does not tell the whole story: it either stops '
+    + 'before the game does, or reaches the end only by reading against '
+    + "Philidor's text. The chapter says which.";
+  document.querySelectorAll('#quarto-sidebar a').forEach(function (a) {
+    if (a.textContent.includes('\u{1F41E}')) a.title = meaning;
+  });
+}
+
+// The editions timeline keeps its detail out of the drawing: pointing at an
+// edition fills one panel underneath, which leaves the boxes to carry only a
+// year and a name. Focus does the same, so it works from the keyboard, and a
+// tap does on a touch screen.
+function editionsTimeline() {
+  const panel = document.querySelector('.edition-detail');
+  if (!panel) return;
+  const head = panel.querySelector('.edition-detail__head');
+  const body = panel.querySelector('.edition-detail__body');
+  const role = panel.querySelector('.edition-detail__role');
+  const resting = panel.dataset.empty;
+
+  function fill(node) {
+    const tidy = t => t.replace(/\s+/g, ' ').trim();
+    head.textContent = node ? tidy(node.dataset.year + ' — ' + node.dataset.name) : '';
+    body.textContent = node ? tidy(node.dataset.detail) : resting;
+    // What the edition is to this project, if it is anything: shown apart
+    // from the imprint and marked in the colour the diagram gives it.
+    role.textContent = node && node.dataset.role ? tidy(node.dataset.role) : '';
+    panel.dataset.mark = (node && node.dataset.mark) || '';
+    panel.classList.toggle('is-showing', !!node);
+  }
+
+  document.querySelectorAll('.ed-node').forEach(function (node) {
+    // Hover for a pointer, focus for a keyboard, tap for a touch screen.
+    ['mouseenter', 'focus', 'click'].forEach(
+      e => node.addEventListener(e, () => fill(node)));
+    ['mouseleave', 'blur'].forEach(e => node.addEventListener(e, () => fill(null)));
+  });
+}
+
+function mount() {
+  document.querySelectorAll('.pgn-board').forEach(wire);
+  notePopovers();
+  explainMarks();
+  editionsTimeline();
+}
+
+if (document.readyState === 'loading') {
+  document.addEventListener('DOMContentLoaded', mount);
+} else {
+  mount();
+}
+</script>

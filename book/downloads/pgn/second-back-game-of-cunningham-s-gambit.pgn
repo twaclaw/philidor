@@ -1,0 +1,50 @@
+[Event "Philidor, Analysis of the Game of Chess (London, 1777)"]
+[Site "?"]
+[Date "1777.??.??"]
+[Round "-"]
+[White "Philidor (analysis)"]
+[Black "Philidor (analysis)"]
+[Result "*"]
+[Annotator "F. D. Philidor"]
+[PhilidorGame "Second Back-game of Cunningham's Gambit"]
+[PhilidorKind "back-game"]
+[SourceLine "4429"]
+[PhilidorParent "Cunningham's Gambit"]
+[PhilidorBranchMove "11"]
+[PhilidorTruncated "Converted as far as the parser reaches: ply 59: no legal reading"]
+
+1. e4 {[from the parent game] The king's pawn, two moves.} e5 {[from the parent game] The same.}
+2. f4 {[from the parent game] The king's bishop's pawn, two moves.} exf4 {[from the parent game]
+The king's pawn takes the pawn.} 3. Nf3 {[from the parent game] The king's knight, at his
+bishop's third square.} Be7 {[from the parent game] The king's bishop, at his king's second
+square.} 4. Bc4 {[from the parent game] The king's bishop, at his queen's bishop's fourth
+square.} Bh4+ {[from the parent game] The king's bishop gives check.} 5. g3 {[from the parent
+game] The king's knight's pawn, one move.} fxg3 {[from the parent game] The pawn takes the
+pawn.} 6. O-O {[from the parent game] The king castles.} gxh2+ {[from the parent game] The
+king's pawn takes the adverse king's rook's pawn.} 7. Kh1 {[from the parent game] The king, at
+his rook's square.} Bf6 {[from the parent game] The king's bishop, at his third square. (a)} 8.
+e5 {[from the parent game] The king's pawn, one move.} d5 {[from the parent game] The queen's
+pawn, two moves. (b)} 9. exf6 {[from the parent game] The king's pawn takes the bishop.} Nxf6
+{[from the parent game] The king's knight takes the pawn.} 10. Bb3 {[from the parent game] The
+king's bishop, at his queen's knight's third square.} Be6 {[from the parent game] The queen's
+bishop, at his king's third square.} 11. d4 {The queen's pawn, two moves.} Ne4 {The king's
+knight, at the adverse king's fourth square.} 12. Bf4 {The queen's bishop, at his king's
+bishop's fourth square.} f5 {The king's bishop's pawn, two moves.} 13. Nbd2 {The queen's knight,
+at his queen's second square.} Qe7 {The queen, at her king's second square.} 14. c4 {The queen's
+bishop's pawn, two moves.} c6 {The queen's bishop's pawn, one move.} 15. cxd5 {The pawn takes
+the pawn.} cxd5 {The pawn retakes the pawn.} 16. Rc1 {The queen's rook, at its bishop's square.}
+Nc6 {The queen's knight at his bishop's third square.} 17. Nxe4 {The queen's knight takes the
+adverse knight.} fxe4 {The king's bishop's pawn retakes the knight.} 18. Nxh2 {The knight takes
+the black pawn, next to his king.} O-O {The king castles on his rook's side.} 19. Qd2 {The
+queen, at her second square.} h6 {The king's rook's pawn, one move.} 20. Rc5 {The queen's rook,
+at the adverse queen's bishop's fourth square.} Rad8 {The queen's rook, at its queen's square.}
+21. Ba4 {The king's bishop, at his queen's rook's fourth square.} g5 {The king's knight's pawn,
+two moves.} 22. Be3 {The queen's bishop, at his king's third square.} Rxf1+ {The rook takes the
+rook.} 23. Nxf1 {The knight retakes the rook.} Qd6 {The queen, at her third square.} 24. Qh2
+{The queen, at her king's rook's second square.} Kg7 {The king, at his knight's second square.}
+25. Qxd6 {The queen takes the queen.} Rxd6 {The rook retakes the queen.} 26. a3 {The queen's
+rook's pawn, one move.} Kg6 {The king, at his knight's third square.} 27. b4 {The queen's
+knight's pawn, two moves.} h5 {The king's rook's pawn, one move.} 28. b5 {The queen's knight's
+pawn, one move.} Ne7 {The knight, at his king's second square.} 29. Rc7 {The rook, at the
+adverse queen's bishop's second square.} Rd7 {The rook, at its queen's second square.} {The
+board stops here; Philidor's game continues in the text beside it.} *

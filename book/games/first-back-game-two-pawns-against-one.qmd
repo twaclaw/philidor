@@ -1,0 +1,52 @@
+---
+pagetitle: First Back-game (two Pawns against one)
+title: First Back-game (two Pawns against one)
+---
+
+```{=html}
+<div class="game-page">
+<div class="game-head">
+<div class="game-meta">back-game &middot; branches from A Drawn-game, or a Party won, with two Pawns against one at move 1</div>
+<div class="game-subtitle">On the 1st move of the Black.</div>
+<hr class="game-rule">
+</div>
+<div class="philidor-game">
+<div class="game-board">
+<div class="pgn-board"><script type="text/pgn">[Event "Philidor, Analysis of the Game of Chess (London, 1777)"]
+[Site "?"]
+[Date "1777.??.??"]
+[Round "-"]
+[White "Philidor (analysis)"]
+[Black "Philidor (analysis)"]
+[Result "*"]
+[Annotator "F. D. Philidor"]
+[PhilidorGame "First Back-game (two Pawns against one)"]
+[PhilidorKind "back-game"]
+[SourceLine "10128"]
+[SetUp "1"]
+[FEN "8/8/4k1p1/6P1/4KP2/8/8/8 w - - 0 1"]
+[PhilidorParent "A Drawn-game, or a Party won, with two Pawns against one"]
+[PhilidorBranchMove "1"]
+
+1. Kd4 {The king, at his queen's fourth square.} Kf5 {The king, at his bishop's fourth square.}
+2. Ke3 {The king, at his third square.} Ke6 {The king, at his third square. (a) NOTE: Had he
+played his king to your king's knight's fourth square, he would likewise lose the game.} 3. Ke4
+{The king, at his fourth square.} Kd6 {The king, at his queen's third square. (b) NOTE: Had he
+played his king to his second square, or to his queen's second square, you must have advanced
+your king opposite to his, in order to effect the taking of his pawn.} 4. f5 {The king's
+bishop's pawn, one move.} gxf5+ {The pawn takes the pawn. (c) NOTE: He could have declined
+taking your pawn; but that other way of playing will be found in our next back-game.} 5. Kxf5
+{The king retakes the pawn.} Ke7 {The king, at his second square.} 6. Kg6 {The king, at the
+adverse king's knight's third square.} Kf8 {The king, at his bishop's square.} 7. Kh7 {The king,
+at the adverse king's rook's second square, and will win. (d) NOTE: As often as the king is
+before a pawn, the adversary cannot hinder you from making a queen.} *
+</script></div>
+<label class="follow-toggle"><input type="checkbox" class="follow-text"> Show the text with the board</label><div class="move-text" hidden><p class="move-text__move"></p><div class="move-text__notes"></div></div>
+</div>
+<div class="game-text">
+<div class="original-moves"><div class="move"><span class="move-no">1.</span><span class="ply" data-ply="0"><span class="side">White.</span> The king, at his queen&#x27;s fourth square.</span><span class="ply" data-ply="1"><span class="side">Black.</span> The king, at his bishop&#x27;s fourth square.</span></div><div class="move"><span class="move-no">2.</span><span class="ply" data-ply="2"><span class="side">White.</span> The king, at his third square.</span><span class="ply" data-ply="3"><span class="side">Black.</span> The king, at his third square. <span class="note-ref" tabindex="0" data-note="Had he played his king to your king&#x27;s knight&#x27;s fourth square, he would likewise lose the game.">(a)</span></span></div><div class="move"><span class="move-no">3.</span><span class="ply" data-ply="4"><span class="side">White.</span> The king, at his fourth square.</span><span class="ply" data-ply="5"><span class="side">Black.</span> The king, at his queen&#x27;s third square. <span class="note-ref" tabindex="0" data-note="Had he played his king to his second square, or to his queen&#x27;s second square, you must have advanced your king opposite to his, in order to effect the taking of his pawn.">(b)</span></span></div><div class="move"><span class="move-no">4.</span><span class="ply" data-ply="6"><span class="side">White.</span> The king&#x27;s bishop&#x27;s pawn, one move.</span><span class="ply" data-ply="7"><span class="side">Black.</span> The pawn takes the pawn. <span class="note-ref" tabindex="0" data-note="He could have declined taking your pawn; but that other way of playing will be found in our next back-game.">(c)</span></span></div><div class="move"><span class="move-no">5.</span><span class="ply" data-ply="8"><span class="side">White.</span> The king retakes the pawn.</span><span class="ply" data-ply="9"><span class="side">Black.</span> The king, at his second square.</span></div><div class="move"><span class="move-no">6.</span><span class="ply" data-ply="10"><span class="side">White.</span> The king, at the adverse king&#x27;s knight&#x27;s third square.</span><span class="ply" data-ply="11"><span class="side">Black.</span> The king, at his bishop&#x27;s square.</span></div><div class="move"><span class="move-no">7.</span><span class="ply" data-ply="12"><span class="side">White.</span> The king, at the adverse king&#x27;s rook&#x27;s second square, and will win. <span class="note-ref" tabindex="0" data-note="As often as the king is before a pawn, the adversary cannot hinder you from making a queen.">(d)</span></span></div></div>
+</div>
+</div>
+</div>
+<div class="downloads"><a class="download" href="../downloads/md/first-back-game-two-pawns-against-one.md" download>Markdown — Philidor's text</a><a class="download" href="../downloads/pgn/first-back-game-two-pawns-against-one.pgn" download>PGN — algebraic notation</a></div>
+```

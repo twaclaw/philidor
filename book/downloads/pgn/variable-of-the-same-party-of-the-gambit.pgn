@@ -1,0 +1,29 @@
+[Event "Philidor, Analysis of the Game of Chess (London, 1777)"]
+[Site "?"]
+[Date "1777.??.??"]
+[Round "-"]
+[White "Philidor (analysis)"]
+[Black "Philidor (analysis)"]
+[Result "*"]
+[Annotator "F. D. Philidor"]
+[PhilidorGame "Variable of the same Party of the Gambit"]
+[PhilidorKind "back-game"]
+[SourceLine "7966"]
+[PhilidorParent "Supplement to the First Gambit of the Edition of 1749"]
+[PhilidorBranchMove "1"]
+
+1. e4 {The king's pawn, two moves.} e5 {The same.} 2. f4 {The king's bishop's pawn, two moves.}
+exf4 {The king's pawn takes the pawn.} 3. Nf3 {The king's knight, at his bishop's third square.}
+g5 {The king's knight's pawn, two moves.} 4. h4 {The king's rook's pawn, two moves.} g4 {The
+king's knight's pawn, one move.} 5. Ne5 {The king's knight, at the adverse king's fourth
+square.} Qe7 {The queen, at her king's second square.} 6. d4 {The queen's pawn, two moves. (a)}
+d6 {The queen's pawn, one move.} 7. Nxf7 {The king's knight takes the pawn.} Qxe4+ {The queen
+takes the king's pawn, and gives check.} 8. Qe2 {The queen covers the check. (a) NOTE: In this
+situation you must change the queens, as nothing better can be done, and afterwards take the
+gambit's pawn. The two games are even. It is very easily seen, that this way of playing the
+gambit is neither of a very interesting nature, nor affords the same after-games; and that a
+number of variations sprung from Salvio's gambit. NOTE: In the former edition, (of 1749) I
+appointed this situation as the best for the black, and, besides, the only good one to make a
+proper defence: but, as many lovers of this game desire to know the means of forcing the black
+to the present position, some instructions agreeable to it will be given in my subsequent
+annotations.} *

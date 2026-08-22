@@ -1,0 +1,49 @@
+---
+pagetitle: Second Back-game of the Method of Playing
+title: Second Back-game of the Method of Playing
+---
+
+```{=html}
+<div class="game-page">
+<div class="game-head">
+<div class="game-meta">back-game &middot; branches from Method of Playing at move 4</div>
+<div class="game-subtitle">On the 4th move of the White.</div>
+<hr class="game-rule">
+</div>
+<div class="philidor-game">
+<div class="game-board">
+<div class="pgn-board"><script type="text/pgn">[Event "Philidor, Analysis of the Game of Chess (London, 1777)"]
+[Site "?"]
+[Date "1777.??.??"]
+[Round "-"]
+[White "Philidor (analysis)"]
+[Black "Philidor (analysis)"]
+[Result "*"]
+[Annotator "F. D. Philidor"]
+[PhilidorGame "Second Back-game of the Method of Playing"]
+[PhilidorKind "back-game"]
+[SourceLine "5824"]
+[PhilidorParent "Method of Playing"]
+[PhilidorBranchMove "4"]
+
+1. e4 {[from the parent game] The king's pawn, two moves.} e5 {[from the parent game] The same.}
+2. Bc4 {[from the parent game] The king's bishop, at his queen's bishop's fourth square. (a)}
+Bc5 {[from the parent game] The same. (b)} 3. c3 {[from the parent game] The queen's bishop's
+pawn, one move.} Qe7 {[from the parent game] The queen, at her king's second square. (c)} 4. Ne2
+{The king's knight, at his king's second square. (a) NOTE: If a pawn were not lost by this move,
+this place would undoubtedly be the most convenient for the knight, because it does not obstruct
+the passage of the pawns.} Bxf2+ {The king's bishop takes the pawn, and gives check.} 5. Kxf2
+{The king takes the bishop.} Qc5+ {The queen, at her bishop's fourth square, giving check.} 6.
+d4 {The queen's pawn, two moves.} Qxc4 {The queen takes the bishop.} 7. Na3 {The queen's knight,
+at its rook's third square.} Qe6 {The queen, at her king's third square. (b) NOTE: The black
+must win the game, having the advantage of a pawn, and a good situation besides.} *
+</script></div>
+<label class="follow-toggle"><input type="checkbox" class="follow-text"> Show the text with the board</label><div class="move-text" hidden><p class="move-text__move"></p><div class="move-text__notes"></div></div>
+</div>
+<div class="game-text">
+<div class="original-moves"><div class="move"><span class="move-no">1.</span><span class="ply inherited" data-ply="0"><span class="side">White.</span> The king&#x27;s pawn, two moves.</span><span class="ply inherited" data-ply="1"><span class="side">Black.</span> The same.</span></div><div class="move"><span class="move-no">2.</span><span class="ply inherited" data-ply="2"><span class="side">White.</span> The king&#x27;s bishop, at his queen&#x27;s bishop&#x27;s fourth square. <span class="note-ref" tabindex="0" data-note="If a pawn were not lost by this move, this place would undoubtedly be the most convenient for the knight, because it does not obstruct the passage of the pawns.">(a)</span></span><span class="ply inherited" data-ply="3"><span class="side">Black.</span> The same. <span class="note-ref" tabindex="0" data-note="The black must win the game, having the advantage of a pawn, and a good situation besides.">(b)</span></span></div><div class="move"><span class="move-no">3.</span><span class="ply inherited" data-ply="4"><span class="side">White.</span> The queen&#x27;s bishop&#x27;s pawn, one move.</span><span class="ply inherited" data-ply="5"><span class="side">Black.</span> The queen, at her king&#x27;s second square. (c)</span></div><div class="move"><span class="move-no">4.</span><span class="ply" data-ply="6"><span class="side">White.</span> The king&#x27;s knight, at his king&#x27;s second square. (a)</span><span class="ply" data-ply="7"><span class="side">Black.</span> The king&#x27;s bishop takes the pawn, and gives check.</span></div><div class="move"><span class="move-no">5.</span><span class="ply" data-ply="8"><span class="side">White.</span> The king takes the bishop.</span><span class="ply" data-ply="9"><span class="side">Black.</span> The queen, at her bishop&#x27;s fourth square, giving check.</span></div><div class="move"><span class="move-no">6.</span><span class="ply" data-ply="10"><span class="side">White.</span> The queen&#x27;s pawn, two moves.</span><span class="ply" data-ply="11"><span class="side">Black.</span> The queen takes the bishop.</span></div><div class="move"><span class="move-no">7.</span><span class="ply" data-ply="12"><span class="side">White.</span> The queen&#x27;s knight, at its rook&#x27;s third square.</span><span class="ply" data-ply="13"><span class="side">Black.</span> The queen, at her king&#x27;s third square. (b)</span></div></div>
+</div>
+</div>
+</div>
+<div class="downloads"><a class="download" href="../downloads/md/second-back-game-of-the-method-of-playing.md" download>Markdown — Philidor's text</a><a class="download" href="../downloads/pgn/second-back-game-of-the-method-of-playing.pgn" download>PGN — algebraic notation</a></div>
+```

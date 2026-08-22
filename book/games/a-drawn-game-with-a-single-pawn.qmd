@@ -1,0 +1,58 @@
+---
+pagetitle: A Drawn-game with a single Pawn
+title: A Drawn-game with a single Pawn 🐞
+---
+
+```{=html}
+<div class="game-page">
+<div class="game-head">
+<div class="game-meta">endgame</div>
+<div class="game-subtitle">Or a game won, if he who remains with his King alone does not play well.</div>
+<hr class="game-rule">
+<div class="editorial-note"><strong>Board stops short 🐞.</strong> The board carries the first 9 moves; conversion of the rest is unfinished. Philidor's words stand unaltered beside it.</div>
+</div>
+<div class="philidor-game">
+<div class="game-board">
+<div class="pgn-board"><script type="text/pgn">[Event "Philidor, Analysis of the Game of Chess (London, 1777)"]
+[Site "?"]
+[Date "1777.??.??"]
+[Round "-"]
+[White "Philidor (analysis)"]
+[Black "Philidor (analysis)"]
+[Result "*"]
+[Annotator "F. D. Philidor"]
+[PhilidorGame "A Drawn-game with a single Pawn"]
+[PhilidorKind "endgame"]
+[SourceLine "9914"]
+[SetUp "1"]
+[FEN "8/8/5k2/5P2/5K2/8/8/8 w - - 0 1"]
+[PhilidorTruncated "Converted as far as the parser reaches: ply 19: no ordinal:  is forced to leave the pawn"]
+
+1. Ke4 {The king, at his fourth square.} Kf7 {The king, at his bishop's second square. (a) NOTE:
+It is always necessary to bring his king to the face of the adverse pawn, so that his king may
+oppose the adverse king.} 2. Ke5 {The king, at the adverse king's fourth square.} Ke7 {The king,
+at his second square.} 3. f6+ {The pawn, one move, giving check.} Kf7 {The king, at his bishop's
+second square.} 4. Kf5 {The king, at the adverse king's bishop's fourth square.} Kf8 {The king,
+at his bishop's square. (b) NOTE: If he had removed his king to his home, or to his king's
+knight's square, he would have lost the game. The subject of a backgame.} 5. Ke6 {The king, at
+the adverse king's third square.} Ke8 {The king, at his home. (c) NOTE: Were you in the present
+position to push your pawn, you could not sustain it without making a stale-mate.} 6. Kf5 {The
+king, at the adverse king's bishop's fourth square.} Kf7 {The king, at his bishop's second
+square. (d) NOTE: His defence depends upon opposing his king to yours; for if, on the contrary,
+you could oppose your king to his, you would win the game.} 7. Kg5 {The king, at the adverse
+king's knight's fourth square.} Kf8 {The king, at his bishop's square. (e) NOTE: He always
+brings his king to the face of yours, which infallibly bring's on a drawngame.} 8. Kg6 {The
+king, at the adverse king's knight's third square.} Kg8 {The king, at his knight's square.} 9.
+f7+ {The pawn, one move, giving check.} Kf8 {The king, at his bishop's square.} {The board stops
+here; Philidor's game continues in the text beside it.} *
+</script></div>
+<label class="follow-toggle"><input type="checkbox" class="follow-text"> Show the text with the board</label><div class="move-text" hidden><p class="move-text__move"></p><div class="move-text__notes"></div></div>
+</div>
+<div class="game-text">
+<div class="game-position"><span class="situation">Situation of the White</span><ul><li>The king, at his bishop&#x27;s fourth square.</li><li>The pawn, at the adverse king&#x27;s bishop&#x27;s fourth square.</li></ul><span class="situation">Situation of the Black</span><ul><li>The king, at his bishop&#x27;s third square.</li></ul></div>
+<div class="original-moves"><div class="move"><span class="move-no">1.</span><span class="ply" data-ply="0"><span class="side">White.</span> The king, at his fourth square.</span><span class="ply" data-ply="1"><span class="side">Black.</span> The king, at his bishop&#x27;s second square. <span class="note-ref" tabindex="0" data-note="It is always necessary to bring his king to the face of the adverse pawn, so that his king may oppose the adverse king.">(a)</span></span></div><div class="move"><span class="move-no">2.</span><span class="ply" data-ply="2"><span class="side">White.</span> The king, at the adverse king&#x27;s fourth square.</span><span class="ply" data-ply="3"><span class="side">Black.</span> The king, at his second square.</span></div><div class="move"><span class="move-no">3.</span><span class="ply" data-ply="4"><span class="side">White.</span> The pawn, one move, giving check.</span><span class="ply" data-ply="5"><span class="side">Black.</span> The king, at his bishop&#x27;s second square.</span></div><div class="move"><span class="move-no">4.</span><span class="ply" data-ply="6"><span class="side">White.</span> The king, at the adverse king&#x27;s bishop&#x27;s fourth square.</span><span class="ply" data-ply="7"><span class="side">Black.</span> The king, at his bishop&#x27;s square. <span class="note-ref" tabindex="0" data-note="If he had removed his king to his home, or to his king&#x27;s knight&#x27;s square, he would have lost the game. The subject of a backgame.">(b)</span></span></div><div class="move"><span class="move-no">5.</span><span class="ply" data-ply="8"><span class="side">White.</span> The king, at the adverse king&#x27;s third square.</span><span class="ply" data-ply="9"><span class="side">Black.</span> The king, at his home. <span class="note-ref" tabindex="0" data-note="Were you in the present position to push your pawn, you could not sustain it without making a stale-mate.">(c)</span></span></div><div class="move"><span class="move-no">6.</span><span class="ply" data-ply="10"><span class="side">White.</span> The king, at the adverse king&#x27;s bishop&#x27;s fourth square.</span><span class="ply" data-ply="11"><span class="side">Black.</span> The king, at his bishop&#x27;s second square. <span class="note-ref" tabindex="0" data-note="His defence depends upon opposing his king to yours; for if, on the contrary, you could oppose your king to his, you would win the game.">(d)</span></span></div><div class="move"><span class="move-no">7.</span><span class="ply" data-ply="12"><span class="side">White.</span> The king, at the adverse king&#x27;s knight&#x27;s fourth square.</span><span class="ply" data-ply="13"><span class="side">Black.</span> The king, at his bishop&#x27;s square. <span class="note-ref" tabindex="0" data-note="He always brings his king to the face of yours, which infallibly bring&#x27;s on a drawngame.">(e)</span></span></div><div class="move"><span class="move-no">8.</span><span class="ply" data-ply="14"><span class="side">White.</span> The king, at the adverse king&#x27;s knight&#x27;s third square.</span><span class="ply" data-ply="15"><span class="side">Black.</span> The king, at his knight&#x27;s square.</span></div><div class="move"><span class="move-no">9.</span><span class="ply" data-ply="16"><span class="side">White.</span> The pawn, one move, giving check.</span><span class="ply" data-ply="17"><span class="side">Black.</span> The king, at his bishop&#x27;s square.</span></div><div class="move"><span class="move-no">10.</span><span class="ply"><span class="side">White.</span> The king is forced to leave the pawn.</span></div></div>
+</div>
+</div>
+</div>
+<div class="downloads"><a class="download" href="../downloads/md/a-drawn-game-with-a-single-pawn.md" download>Markdown — Philidor's text</a><a class="download" href="../downloads/pgn/a-drawn-game-with-a-single-pawn.pgn" download>PGN — algebraic notation (partial)</a></div>
+```

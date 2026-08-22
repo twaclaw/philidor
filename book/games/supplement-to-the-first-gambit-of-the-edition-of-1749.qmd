@@ -1,0 +1,69 @@
+---
+pagetitle: Supplement to the First Gambit of the Edition of 1749
+title: Supplement to the First Gambit of the Edition of 1749
+---
+
+```{=html}
+<div class="game-page">
+<div class="game-head">
+<div class="game-meta">game</div>
+<div class="game-subtitle"></div>
+<hr class="game-rule">
+</div>
+<div class="philidor-game">
+<div class="game-board">
+<div class="pgn-board"><script type="text/pgn">[Event "Philidor, Analysis of the Game of Chess (London, 1777)"]
+[Site "?"]
+[Date "1777.??.??"]
+[Round "-"]
+[White "Philidor (analysis)"]
+[Black "Philidor (analysis)"]
+[Result "*"]
+[Annotator "F. D. Philidor"]
+[PhilidorGame "Supplement to the First Gambit of the Edition of 1749"]
+[PhilidorKind "game"]
+[SourceLine "7756"]
+
+1. e4 {The king's pawn, two moves.} e5 {The same.} 2. f4 {The king's bishop's pawn, two moves.}
+exf4 {The king's pawn takes the pawn.} 3. Nf3 {The king's knight, at his bishop's third square.}
+g5 {The king's knight's pawn, two moves.} 4. h4 {The king's rook's pawn, two moves.} g4 {The
+king's knight's pawn, one move.} 5. Ne5 {The king's knight, at the adverse king's fourth
+square.} Nf6 {The king's knight, at his bishop's third square. (a) NOTE: In the former edition,
+I directed the black to push the king's rook's pawn two moves. This party may be found in the
+first gambit's back-game. I make two different parties of the two other ways of playing, that
+were there omitted; in the first, directing the black to play the king's knight to his bishop's
+third square; and in the second, to play the queen to her king's second square.} 6. d4 {The
+queen's pawn, two moves. (b) NOTE: You might have taken his king's knight's pawn with your's;
+but your pieces would then have been too much intangled: nevertheless, I shall make of it the
+subject of a back-game.} d6 {The queen's pawn, one move.} 7. Nd3 {The king's knight, at his
+queen's third square.} Nxe4 {The king's knight takes the king's pawn.} 8. Bxf4 {The queen's
+bishop takes the gambit's pawn.} Qe7 {The queen, at her king's second square.} 9. Qe2 {The
+queen, at her king's second square. (d) NOTE: What other piece soever he might have moved, you
+should certainly have played the same, unless he had exposed some pieces to be taken.} Bg7 {The
+king's bishop, at his knight's second square.} 10. c3 {The queen's bishop's pawn, one move.} h5
+{The king's rook's pawn, two moves.} 11. g3 {The king's knight's pawn, one move.} d5 {The
+queen's pawn, one move.} 12. Bg2 {The king's bishop, at his knight's second square.} f5 {The
+king's bishop's pawn, two moves. (e) NOTE: He arms his knight with two pawns: but you must
+forbear taking that piece, because by so doing you would re-unite his pawns in the centre; and
+in that case his king's bishop's pawn, now useless, would get a good post, and ensure him the
+game.} 13. Nd2 {The queen's knight, at his queen's second square.} Be6 {The queen's bishop, at
+his king's third square.} 14. O-O {The king castles with his rook. (f) NOTE: It is better to
+castle on your right than on your left side; because your king will sustain his knight's pawn,
+in case he takes your queen's bishop.} Nc6 {The queen's knight, at his bishop's third square.}
+15. Kh2 {The king, at his rook's second square.} O-O {The king castles. (g) NOTE: In this
+position the two games are almost even. The white must make it their chief business to carry all
+their forces against the adverse king's bishop's pawn, in order to take it: on the contrary, the
+black ought to strive to give away the king's knight, in order to re-unite their pawns in the
+centre. It is easily seen, by this gambit, that it is by no means advantageous to push the
+king's rook's pawn two steps at the fourth move.} *
+</script></div>
+<label class="follow-toggle"><input type="checkbox" class="follow-text"> Show the text with the board</label><div class="move-text" hidden><p class="move-text__move"></p><div class="move-text__notes"></div></div>
+</div>
+<div class="game-text">
+<div class="original-moves"><div class="move"><span class="move-no">1.</span><span class="ply" data-ply="0"><span class="side">White.</span> The king&#x27;s pawn, two moves.</span><span class="ply" data-ply="1"><span class="side">Black.</span> The same.</span></div><div class="move"><span class="move-no">2.</span><span class="ply" data-ply="2"><span class="side">White.</span> The king&#x27;s bishop&#x27;s pawn, two moves.</span><span class="ply" data-ply="3"><span class="side">Black.</span> The king&#x27;s pawn takes the pawn.</span></div><div class="move"><span class="move-no">3.</span><span class="ply" data-ply="4"><span class="side">White.</span> The king&#x27;s knight, at his bishop&#x27;s third square.</span><span class="ply" data-ply="5"><span class="side">Black.</span> The king&#x27;s knight&#x27;s pawn, two moves.</span></div><div class="move"><span class="move-no">4.</span><span class="ply" data-ply="6"><span class="side">White.</span> The king&#x27;s rook&#x27;s pawn, two moves.</span><span class="ply" data-ply="7"><span class="side">Black.</span> The king&#x27;s knight&#x27;s pawn, one move.</span></div><div class="move"><span class="move-no">5.</span><span class="ply" data-ply="8"><span class="side">White.</span> The king&#x27;s knight, at the adverse king&#x27;s fourth square.</span><span class="ply" data-ply="9"><span class="side">Black.</span> The king&#x27;s knight, at his bishop&#x27;s third square. <span class="note-ref" tabindex="0" data-note="In the former edition, I directed the black to push the king&#x27;s rook&#x27;s pawn two moves. This party may be found in the first gambit&#x27;s back-game. I make two different parties of the two other ways of playing, that were there omitted; in the first, directing the black to play the king&#x27;s knight to his bishop&#x27;s third square; and in the second, to play the queen to her king&#x27;s second square.">(a)</span></span></div><div class="move"><span class="move-no">6.</span><span class="ply" data-ply="10"><span class="side">White.</span> The queen&#x27;s pawn, two moves. <span class="note-ref" tabindex="0" data-note="You might have taken his king&#x27;s knight&#x27;s pawn with your&#x27;s; but your pieces would then have been too much intangled: nevertheless, I shall make of it the subject of a back-game.">(b)</span></span><span class="ply" data-ply="11"><span class="side">Black.</span> The queen&#x27;s pawn, one move.</span></div><div class="move"><span class="move-no">7.</span><span class="ply" data-ply="12"><span class="side">White.</span> The king&#x27;s knight, at his queen&#x27;s third square.</span><span class="ply" data-ply="13"><span class="side">Black.</span> The king&#x27;s knight takes the king&#x27;s pawn.</span></div><div class="move"><span class="move-no">8.</span><span class="ply" data-ply="14"><span class="side">White.</span> The queen&#x27;s bishop takes the gambit&#x27;s pawn.</span><span class="ply" data-ply="15"><span class="side">Black.</span> The queen, at her king&#x27;s second square.</span></div><div class="move"><span class="move-no">9.</span><span class="ply" data-ply="16"><span class="side">White.</span> The queen, at her king&#x27;s second square. <span class="note-ref" tabindex="0" data-note="What other piece soever he might have moved, you should certainly have played the same, unless he had exposed some pieces to be taken.">(d)</span></span><span class="ply" data-ply="17"><span class="side">Black.</span> The king&#x27;s bishop, at his knight&#x27;s second square.</span></div><div class="move"><span class="move-no">10.</span><span class="ply" data-ply="18"><span class="side">White.</span> The queen&#x27;s bishop&#x27;s pawn, one move.</span><span class="ply" data-ply="19"><span class="side">Black.</span> The king&#x27;s rook&#x27;s pawn, two moves.</span></div><div class="move"><span class="move-no">11.</span><span class="ply" data-ply="20"><span class="side">White.</span> The king&#x27;s knight&#x27;s pawn, one move.</span><span class="ply" data-ply="21"><span class="side">Black.</span> The queen&#x27;s pawn, one move.</span></div><div class="move"><span class="move-no">12.</span><span class="ply" data-ply="22"><span class="side">White.</span> The king&#x27;s bishop, at his knight&#x27;s second square.</span><span class="ply" data-ply="23"><span class="side">Black.</span> The king&#x27;s bishop&#x27;s pawn, two moves. <span class="note-ref" tabindex="0" data-note="He arms his knight with two pawns: but you must forbear taking that piece, because by so doing you would re-unite his pawns in the centre; and in that case his king&#x27;s bishop&#x27;s pawn, now useless, would get a good post, and ensure him the game.">(e)</span></span></div><div class="move"><span class="move-no">13.</span><span class="ply" data-ply="24"><span class="side">White.</span> The queen&#x27;s knight, at his queen&#x27;s second square.</span><span class="ply" data-ply="25"><span class="side">Black.</span> The queen&#x27;s bishop, at his king&#x27;s third square.</span></div><div class="move"><span class="move-no">14.</span><span class="ply" data-ply="26"><span class="side">White.</span> The king castles with his rook. <span class="note-ref" tabindex="0" data-note="It is better to castle on your right than on your left side; because your king will sustain his knight&#x27;s pawn, in case he takes your queen&#x27;s bishop.">(f)</span></span><span class="ply" data-ply="27"><span class="side">Black.</span> The queen&#x27;s knight, at his bishop&#x27;s third square.</span></div><div class="move"><span class="move-no">15.</span><span class="ply" data-ply="28"><span class="side">White.</span> The king, at his rook&#x27;s second square.</span><span class="ply" data-ply="29"><span class="side">Black.</span> The king castles. <span class="note-ref" tabindex="0" data-note="In this position the two games are almost even. The white must make it their chief business to carry all their forces against the adverse king&#x27;s bishop&#x27;s pawn, in order to take it: on the contrary, the black ought to strive to give away the king&#x27;s knight, in order to re-unite their pawns in the centre. It is easily seen, by this gambit, that it is by no means advantageous to push the king&#x27;s rook&#x27;s pawn two steps at the fourth move.">(g)</span></span></div></div>
+<div class="philidor-notes"><h3>Notes with no reference in the text</h3><p class="note-why">The scan lost the mark that called these, so no move points to them.</p><p><span class="note-letter">(c)</span>In the present situation he has the superiority over you of a pawn: but it is to be observed, that this pawn, which should keep the head, being left behind, will remain useless till it gets forwards to your king&#x27;s bishop&#x27;s fourth square.</p></div>
+</div>
+</div>
+</div>
+<div class="downloads"><a class="download" href="../downloads/md/supplement-to-the-first-gambit-of-the-edition-of-1749.md" download>Markdown — Philidor's text</a><a class="download" href="../downloads/pgn/supplement-to-the-first-gambit-of-the-edition-of-1749.pgn" download>PGN — algebraic notation</a></div>
+```

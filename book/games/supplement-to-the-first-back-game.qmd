@@ -1,0 +1,58 @@
+---
+pagetitle: Supplement to the First Back-game
+title: Supplement to the First Back-game
+---
+
+```{=html}
+<div class="game-page">
+<div class="game-head">
+<div class="game-meta">back-game &middot; branches from Method of Playing at move 4</div>
+<div class="game-subtitle">On the 4th move of the Black.</div>
+<hr class="game-rule">
+</div>
+<div class="philidor-game">
+<div class="game-board">
+<div class="pgn-board"><script type="text/pgn">[Event "Philidor, Analysis of the Game of Chess (London, 1777)"]
+[Site "?"]
+[Date "1777.??.??"]
+[Round "-"]
+[White "Philidor (analysis)"]
+[Black "Philidor (analysis)"]
+[Result "*"]
+[Annotator "F. D. Philidor"]
+[PhilidorGame "Supplement to the First Back-game"]
+[PhilidorKind "back-game"]
+[SourceLine "5753"]
+[PhilidorParent "Method of Playing"]
+[PhilidorBranchMove "4"]
+
+1. e4 {[from the parent game] The king's pawn, two moves.} e5 {[from the parent game] The same.}
+2. Bc4 {[from the parent game] The king's bishop, at his queen's bishop's fourth square. (a)}
+Bc5 {[from the parent game] The same. (b)} 3. c3 {[from the parent game] The queen's bishop's
+pawn, one move.} Qe7 {[from the parent game] The queen, at her king's second square. (c)} 4. d4
+{The queen's pawn, two moves.} Bb6 {The king's bishop, at his queen's knight's third square.} 5.
+Ne2 {The king's knight, at his king's second square.} Nf6 {The king's knight, at his bishop's
+third square.} 6. Qd3 {The queen, at her third square.} O-O {The king castles.} 7. f4 {The
+king's bishop's pawn, two moves.} exd4 {The king's pawn takes the queen's pawn.} 8. e5 {The
+king's pawn, one move. (a) NOTE: If, on that move, he withdraws his king's knight, he gives you
+an opportunity of establishing your pawns in the centre.} d5 {The queen's pawn, two moves.} 9.
+Bb3 {The king's bishop, at his queen's knight's third square.} Ne4 {The king's knight, at the
+adverse king's fourth square.} 10. cxd4 {The queen's bishop's pawn takes the pawn.} f5 {The
+king's bishop's pawn, two moves. (c) NOTE: He pushes this pawn two moves, in order to enable
+himself to place his queen's bishop at his king's second square.} 11. Nbc3 {The queen's knight,
+at his bishop's third square.} Be6 {The queen's bishop, at his king's third square. (d) NOTE: In
+this situation the black have as good a game as the white. There is, indeed, a pawn passed and
+sustained on the side of the white; but this advantage is quite counterbalanced by the post of
+the royal knight of the black, who cannot be diflodged but by changing piece for piece; and in
+that case, the pawns of the black would re-unite in the centre, giving, equally to them as to
+the white, a pafs'd pawn. Mij 164]} *
+</script></div>
+<label class="follow-toggle"><input type="checkbox" class="follow-text"> Show the text with the board</label><div class="move-text" hidden><p class="move-text__move"></p><div class="move-text__notes"></div></div>
+</div>
+<div class="game-text">
+<div class="original-moves"><div class="move"><span class="move-no">1.</span><span class="ply inherited" data-ply="0"><span class="side">White.</span> The king&#x27;s pawn, two moves.</span><span class="ply inherited" data-ply="1"><span class="side">Black.</span> The same.</span></div><div class="move"><span class="move-no">2.</span><span class="ply inherited" data-ply="2"><span class="side">White.</span> The king&#x27;s bishop, at his queen&#x27;s bishop&#x27;s fourth square. <span class="note-ref" tabindex="0" data-note="If, on that move, he withdraws his king&#x27;s knight, he gives you an opportunity of establishing your pawns in the centre.">(a)</span></span><span class="ply inherited" data-ply="3"><span class="side">Black.</span> The same. <span class="note-ref" tabindex="0" data-note="He takes this opportunity of stopping the passage of your king&#x27;s bishop, and getting a settled place for his king&#x27;s knight.">(b)</span></span></div><div class="move"><span class="move-no">3.</span><span class="ply inherited" data-ply="4"><span class="side">White.</span> The queen&#x27;s bishop&#x27;s pawn, one move.</span><span class="ply inherited" data-ply="5"><span class="side">Black.</span> The queen, at her king&#x27;s second square. <span class="note-ref" tabindex="0" data-note="He pushes this pawn two moves, in order to enable himself to place his queen&#x27;s bishop at his king&#x27;s second square.">(c)</span></span></div><div class="move"><span class="move-no">4.</span><span class="ply" data-ply="6"><span class="side">White.</span> The queen&#x27;s pawn, two moves.</span><span class="ply" data-ply="7"><span class="side">Black.</span> The king&#x27;s bishop, at his queen&#x27;s knight&#x27;s third square.</span></div><div class="move"><span class="move-no">5.</span><span class="ply" data-ply="8"><span class="side">White.</span> The king&#x27;s knight, at his king&#x27;s second square.</span><span class="ply" data-ply="9"><span class="side">Black.</span> The king&#x27;s knight, at his bishop&#x27;s third square.</span></div><div class="move"><span class="move-no">6.</span><span class="ply" data-ply="10"><span class="side">White.</span> The queen, at her third square.</span><span class="ply" data-ply="11"><span class="side">Black.</span> The king castles.</span></div><div class="move"><span class="move-no">7.</span><span class="ply" data-ply="12"><span class="side">White.</span> The king&#x27;s bishop&#x27;s pawn, two moves.</span><span class="ply" data-ply="13"><span class="side">Black.</span> The king&#x27;s pawn takes the queen&#x27;s pawn.</span></div><div class="move"><span class="move-no">8.</span><span class="ply" data-ply="14"><span class="side">White.</span> The king&#x27;s pawn, one move. (a)</span><span class="ply" data-ply="15"><span class="side">Black.</span> The queen&#x27;s pawn, two moves.</span></div><div class="move"><span class="move-no">9.</span><span class="ply" data-ply="16"><span class="side">White.</span> The king&#x27;s bishop, at his queen&#x27;s knight&#x27;s third square.</span><span class="ply" data-ply="17"><span class="side">Black.</span> The king&#x27;s knight, at the adverse king&#x27;s fourth square.</span></div><div class="move"><span class="move-no">10.</span><span class="ply" data-ply="18"><span class="side">White.</span> The queen&#x27;s bishop&#x27;s pawn takes the pawn.</span><span class="ply" data-ply="19"><span class="side">Black.</span> The king&#x27;s bishop&#x27;s pawn, two moves. (c)</span></div><div class="move"><span class="move-no">11.</span><span class="ply" data-ply="20"><span class="side">White.</span> The queen&#x27;s knight, at his bishop&#x27;s third square.</span><span class="ply" data-ply="21"><span class="side">Black.</span> The queen&#x27;s bishop, at his king&#x27;s third square. <span class="note-ref" tabindex="0" data-note="In this situation the black have as good a game as the white. There is, indeed, a pawn passed and sustained on the side of the white; but this advantage is quite counterbalanced by the post of the royal knight of the black, who cannot be diflodged but by changing piece for piece; and in that case, the pawns of the black would re-unite in the centre, giving, equally to them as to the white, a pafs&#x27;d pawn. Mij 164]">(d)</span></span></div></div>
+</div>
+</div>
+</div>
+<div class="downloads"><a class="download" href="../downloads/md/supplement-to-the-first-back-game.md" download>Markdown — Philidor's text</a><a class="download" href="../downloads/pgn/supplement-to-the-first-back-game.pgn" download>PGN — algebraic notation</a></div>
+```

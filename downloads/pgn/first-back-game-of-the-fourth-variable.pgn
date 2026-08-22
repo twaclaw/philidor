@@ -1,0 +1,36 @@
+[Event "Philidor, Analysis of the Game of Chess (London, 1777)"]
+[Site "?"]
+[Date "1777.??.??"]
+[Round "-"]
+[White "Philidor (analysis)"]
+[Black "Philidor (analysis)"]
+[Result "*"]
+[Annotator "F. D. Philidor"]
+[PhilidorGame "First Back-game of the Fourth Variable"]
+[PhilidorKind "back-game"]
+[SourceLine "6956"]
+[PhilidorParent "Fourth Variable"]
+[PhilidorBranchMove "3"]
+
+1. e4 {[from the parent game] The king's pawn, two moves.} e5 {[from the parent game] The same.}
+2. Bc4 {[from the parent game] The king's bishop, at his queen's bishop's fourth square.} Bc5
+{[from the parent game] The same.} 3. c3 {The queen's bishop's pawn, one move.} Qh4 {The queen,
+at the adverse king's rook's fourth square.} 4. Qe2 {The queen, at her king's second square.}
+Nf6 {The king's knight, at his bishop's third square.} 5. d3 {The queen's pawn, one move.} Ng4
+{The king's knight, at the adverse king's knight's fourth square.} 6. g3 {The king's knight's
+pawn, one move, (a) NOTE: On this move, the king's knight might be played to his bishop's third
+square.} Qf6 {The queen, at her king's bishop's third square, (b) NOTE: If, instead of
+withdrawing his queen, he had taken your king's bishop's pawn, by giving check, you must have
+taken his bishop with your queen; you would have got a piece by it.} 7. Nh3 {The king's knight,
+at his rook's third square. (c) NOTE: Though the rook's third square is not the best place for
+the getting out of the knights, it is nevertheless necessary in the present situation.} d6 {The
+queen's pawn, one move.} 8. f3 {The king's bishop's pawn, one move.} Ne3 {The king's knight, at
+the adverse king's third square. (d) NOTE: Had he made this knight retire, you must then have
+played yours, now attacked, to his bishop's second square, and afterwards pushed your queen's
+bishop to your king's third square, to get rid of his king's bishop.} 9. Bxe3 {The queen's
+bishop takes the knight.} Bxe3 {The king's bishop takes the bishop.} 10. Qxe3 {The queen takes
+the king's bishop.} Bxh3 {The queen's bishop takes the knight.} 11. Nd2 {The queen's knight, at
+his queen's second square.} Nd7 {The same. (e) NOTE: It is plain that the white have several
+moves over the black. The reason is, that the black have been too hasty in getting out the
+queen, and that, in the present situation, she has not yet reached the place where the should
+properly stand. O iv} *

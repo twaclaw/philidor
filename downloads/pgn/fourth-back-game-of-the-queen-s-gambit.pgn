@@ -1,0 +1,32 @@
+[Event "Philidor, Analysis of the Game of Chess (London, 1777)"]
+[Site "?"]
+[Date "1777.??.??"]
+[Round "-"]
+[White "Philidor (analysis)"]
+[Black "Philidor (analysis)"]
+[Result "*"]
+[Annotator "F. D. Philidor"]
+[PhilidorGame "Fourth Back-game of the Queen's Gambit"]
+[PhilidorKind "back-game"]
+[SourceLine "5270"]
+[PhilidorParent "The Queen's Gambit"]
+[PhilidorBranchMove "7"]
+
+1. d4 {[from the parent game] The queen's pawn, two moves.} d5 {[from the parent game] The
+same.} 2. c4 {[from the parent game] The queen's bishop's pawn, two moves.} dxc4 {[from the
+parent game] The pawn takes the pawn.} 3. e4 {[from the parent game] The king's pawn, two moves.
+(a)} e5 {[from the parent game] The king's pawn, two moves. (b)} 4. d5 {[from the parent game]
+The queen's pawn, one move. (c)} f5 {[from the parent game] The king's bishop's pawn, two moves.
+(d)} 5. Nc3 {[from the parent game] The queen's knight, at his bishop's third square.} Nf6
+{[from the parent game] The king's knight, at his bishop's third square.} 6. f3 {[from the
+parent game] The king's bishop's pawn, one move.} Bc5 {[from the parent game] The king's bishop,
+at his queen's bishop's fourth square, Ath} 7. Bxc4 {The king's bishop takes the gambit's pawn.}
+fxe4 {The king's bishop's pawn takes the pawn.} 8. fxe4 {The king's bishop's pawn retakes the
+pawn.} Ng4 {The king's knight, at the adverse king's knight's fourth square.} 9. Nh3 {The king's
+knight, at his rook's third square.} Qh4+ {The queen gives check.} 10. Kd2 {The king, at his
+queen's second square.} Ne3 {The king's knight, at the adverse king's third square.} 11. Qe2
+{The queen, at her king's second square.} Bg4 {The queen's bishop, at the adverse king's
+knight's fourth square.} 12. Qd3 {The queen, at her third square.} Nxd5 {The king's knight takes
+the pawn.} 13. Ng1 {The king's knight, at his square.} Qe1+ {The queen, at the adverse king's
+square, giving check.} 14. Kc2 {The king retires.} Bxg1 {The king's bishop takes the knight, and
+must afterwards win the game.} *

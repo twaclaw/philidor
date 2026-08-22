@@ -1,0 +1,53 @@
+[Event "Philidor, Analysis of the Game of Chess (London, 1777)"]
+[Site "?"]
+[Date "1777.??.??"]
+[Round "-"]
+[White "Philidor (analysis)"]
+[Black "Philidor (analysis)"]
+[Result "*"]
+[Annotator "F. D. Philidor"]
+[PhilidorGame "Third Variable"]
+[PhilidorKind "game"]
+[SourceLine "6601"]
+
+1. e4 {The king's pawn, two moves.} e5 {The same.} 2. Bc4 {The king's bishop, at his queen's
+bishop's fourth square.} Bc5 {The same.} 3. c3 {The queen's bishop's pawn, one move.} Nf6 {The
+king's knight, at his bishop's third square.} 4. d4 {The queen's pawn, two moves, (a) NOTE: You
+might push this pawn only one move; but then your situation would be the same as that already
+shewed in the first variable.} exd4 {The king's pawn takes the pawn.} 5. cxd4 {The queen's
+bishop's pawn retakes the pawn. (b) NOTE: Instead of taking, you might push the king's pawn one
+move. This would be a very good move against a player to whom advantage is granted. The subject
+of a back game.} Bb4+ {The king's bishop gives check. (c) NOTE: The first part of the former
+edition proves, that, by the removal of this bishop to his queen's knight's third square, the
+adversary is set at liberty to establish his pawns in the centre,} 6. Bd2 {The queen's bishop
+covers the check.} Bxd2+ {The king's bishop takes the bishop.} 7. Nxd2 {The queen's knight
+retakes the bishop.} d5 {The queen's pawn, two moves. (d) NOTE: Had he not made this move, he
+would have given you time to occupy the centre with your pawns: the advantage derived from this,
+is sufficiently proved, as well in the former, as in this edition.} 8. exd5 {The king's pawn
+takes the pawn.} Nxd5 {The king's knight retakes the pawn.} 9. Qb3 {The queen, at her knight's
+third square. (e) NOTE: It is in your power to give check with your queen at your king's second
+square; but by this move your adversary would be impowered to get out his queen's bishop:
+besides, the queen and king are never to be placed on the same line, when that is opened and
+unguarded by the pawns.} c6 {The queen's bishop's pawn, one move.} 10. Ne2 {The king's knight,
+at his king's second square.} O-O {The king castles.} 11. O-O {The king castles with his rook.}
+Nb6 {The king's knight, at his queen's knight's third square. (f) NOTE: He plays this knight
+with a design, either to get out his queen's bishop, or to get rid of your king's bishop.} 12.
+Bd3 {The king's bishop, at his queen's third square.} Be6 {The queen's bishop, at his king's
+third square.} 13. Qc2 {The queen, at her bishop's second square.} g6 {The king's knight's pawn,
+one move.} 14. f4 {The king's bishop's pawn, two moves. (g) NOTE: You push this pawn, to break
+the chain of the pawns that cover his king.} f5 {The same. (h) 15.1 NOTE: As he has pushed his
+king's bishop's pawn two moves, you must strive to post one of your knights at the adverse
+king's fourth square. From that place he cannot be driven out by any piece, unless he be taken,
+and then you may re-unite your pawns in the cen tre...} 15. Nf3 {The queen's knight, at his
+king's bishop's third square.} N8d7 {The queen's knight, at his queen's second square.} 16. Ne5
+{The queen's knight, at the adverse king's fourth square.} Nf6 {The queen's knight, at his
+king's bishop's third square.. (i) NOTE: He will not re-unite your pawns by tak ng your knight.}
+17. Rad1 {The queen's rook, at its queen's square.} Nbd5 {The king's knight, at his queen's
+fourth square.} 18. Qd2 {The queen, at her second square. (k) NOTE: This move is necessary, to
+hinder his knight from taking his place at your king's third square.} a5 {The queen's rook's
+pawn, two moves.} 19. Nc3 {The king's knight, at his queen's bishop's third square. (l) NOTE: In
+these reciprocal positions, I should think, the white has the better game, on account of the
+place where the queen's knight stands: nevertheless, this advantage is not of such consequence,
+as to decide the game on that side. The black must be mindful, not to take the knight before
+they have destroyed one of the pawns that sustain the knight, which may be done by changing the
+queen's bishop's pawn with the adverse queen's pawn; and then both games will be quite even.} *

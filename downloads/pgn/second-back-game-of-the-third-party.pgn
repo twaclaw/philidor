@@ -1,0 +1,32 @@
+[Event "Philidor, Analysis of the Game of Chess (London, 1777)"]
+[Site "?"]
+[Date "1777.??.??"]
+[Round "-"]
+[White "Philidor (analysis)"]
+[Black "Philidor (analysis)"]
+[Result "*"]
+[Annotator "F. D. Philidor"]
+[PhilidorGame "Second Back-game of the Third Party"]
+[PhilidorKind "back-game"]
+[SourceLine "1667"]
+[PhilidorParent "Third Party"]
+[PhilidorBranchMove "5"]
+[PhilidorNote "Philidor sets this game out beginning with the Black; the sides are exchanged here so that the first player moves as White."]
+
+1. e4 {[from the parent game] The king's pawn, two steps.} e5 {[from the parent game] The same.}
+2. Nf3 {[from the parent game] The king's knight, at his bishop's third square.} d6 {[from the
+parent game] The queen's pawn, one move.} 3. Bc4 {[from the parent game] The king's bishop, at
+his queen's bishop's fourth square.} f5 {[from the parent game] The king's bishop's pawn, two
+moves. (a)} 4. d3 {[from the parent game] The queen's pawn, one move.} c6 {[from the parent
+game] The queen's bishop's pawn, one move.} 5. O-O {The king castles.} f4 {The king's bishop's
+pawn, one move.} 6. d4 {The queen's pawn, one move.} Qf6 {The queen, at her king's bishop's
+third square.} 7. dxe5 {The queen's pawn takes the pawn.} dxe5 {The queen's pawn retakes the
+pawn.} 8. a4 {The queen's rook's pawn, two moves.} g5 {The king's knight's pawn, two moves.} 9.
+Qd3 {The queen, at her third square.} g4 {The king's knight's pawn, one move.} 10. Ne1 {The
+king's knight, at his king's square.} Bc5 {The king's bishop, at his queen's bishop's fourth
+square.} 11. c3 {The queen's bishop's pawn, one move.} Qh4 {The queen, at the adverse king's
+rook's fourth square.} 12. b4 {The queen's knight's pawn, two steps.} g3 {The king's knight's
+pawn, one step.} 13. h3 {The king's rook's pawn, one move.} Bxh3 {The bishop takes the adverse
+king's bishop's pawn.} 14. Kh1 {The king, at his rook's square.} Bxb4 {The queen's bishop takes
+the adverse king's rook's pawn.} 15. Nf3 {The king's knight, at his bishop's third square.} Qh5
+{The queen, at her king's rook's fourth square, and afterwards wins the game.} *

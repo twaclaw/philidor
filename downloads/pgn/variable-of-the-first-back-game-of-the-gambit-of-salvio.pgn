@@ -1,0 +1,32 @@
+[Event "Philidor, Analysis of the Game of Chess (London, 1777)"]
+[Site "?"]
+[Date "1777.??.??"]
+[Round "-"]
+[White "Philidor (analysis)"]
+[Black "Philidor (analysis)"]
+[Result "*"]
+[Annotator "F. D. Philidor"]
+[PhilidorGame "Variable of the First Back-game of the Gambit of Salvio"]
+[PhilidorKind "back-game"]
+[SourceLine "7567"]
+[PhilidorParent "Gambit of Salvio"]
+[PhilidorBranchMove "7"]
+[PhilidorTruncated "Converted as far as the parser reaches: ply 16: no ordinal: 's or gambit's pawn, one move."]
+
+1. e4 {[from the parent game] The king's pawn, two moves.} e5 {[from the parent game] The same.}
+2. f4 {[from the parent game] The king's bishop's pawn, two moves.} exf4 {[from the parent game]
+The king's pawn takes the pawn.} 3. Nf3 {[from the parent game] The king's knight, at his
+bishop's third square.} g5 {[from the parent game] The king's knight's pawn, two moves.} 4. Bc4
+{[from the parent game] The king's bishop, at his queen's bishop's fourth square.} g4 {[from the
+parent game] The king's knight's pawn, one move.} 5. Ne5 {[from the parent game] The king's
+knight, at the adverse king's fourth square..mmm} Qh4+ {[from the parent game] The queen gives
+check.} 6. Kf1 {[from the parent game] The king, at his bishop's square.} Nf6 {[from the parent
+game] The king's knight, at his bishop's third square. (a)} 7. Bxf7+ {The king's bishop takes
+the pawn, and gives check.} Kd8 {The king, at his queen's square, instead of his own second
+square. (a) NOTE: You lie no more under the necessity of withdrawing your bishop, as in the
+first backgame: fo that, being placed at this square, he may hinder the adverse king's knight
+from posting himself at his king's rook's fourth square: a dangerous move.} 8. d4 {The queen's
+pawn, two moves. (b) NOTE: Had you withdrawn your king's bishop to give double check with your
+knight, he would then have played his knight to his king's rook's fourth square, and sacrificed
+his rook to win the game.} {The board stops here; Philidor's game continues in the text beside
+it.} *

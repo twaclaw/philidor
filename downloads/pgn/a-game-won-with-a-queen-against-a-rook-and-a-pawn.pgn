@@ -1,0 +1,59 @@
+[Event "Philidor, Analysis of the Game of Chess (London, 1777)"]
+[Site "?"]
+[Date "1777.??.??"]
+[Round "-"]
+[White "Philidor (analysis)"]
+[Black "Philidor (analysis)"]
+[Result "*"]
+[Annotator "F. D. Philidor"]
+[PhilidorGame "A Game won with a Queen against a Rook and a Pawn"]
+[PhilidorKind "endgame"]
+[SourceLine "8987"]
+[SetUp "1"]
+[FEN "8/4k3/3p4/4r3/5K2/3Q4/8/8 w - - 0 1"]
+[PhilidorReconstructed "Completing this game meant reading against the text at ply 43; the printed reading admits no legal continuation."]
+[PhilidorTruncated "Converted as far as the parser reaches: ply 46: no legal reading"]
+
+1. Qh7+ {The queen gives check, at the adverse king's rook's second square. (b) NOTE: His
+defence entirely depends upon not letting your king pass, and afterwards playing his rook
+alternately from its queen's bishop's fourth square to its king's fourth square, being always
+supported by his pawn.} Ke6 {The king, at his third square.} 2. Qg8+ {The queen gives check, at
+the adverse king's knight's square. (c) NOTE: This move is needless; and I point it out only to
+shew by what means turns may be got or lost.} Ke7 {The king, at his second square.} 3. Qc8 {The
+queen, at the adverse queen's bishop's square.} Rc5 {The rook, at its queen's bishop's fourth
+square.} 4. Qb7+ {The queen gives check, at the adverse queen's knight's second square.} Ke6
+{The king, at his third square.} 5. Qg7 {The queen, at the adverse king's knight's second
+square.} Re5 {The rook, at its king's fourth square.} 6. Qc7 {The queen, at the adverse queen's
+bishop's second square. (d) NOTE: This move determines the winning of the game: you must then,
+first of all, take this position.} Rc5 {The rook, at its queen's bishop's fourth square.} 7. Qd8
+{The queen, at the adverse queen's square.} Re5 {The rook, at its king's fourth square.} 8. Qe8+
+{The queen gives check, at the adverse king's square. (e) NOTE: By this check you force his king
+to go towards his pawn. This move will make the passage of your king more easy afterwards.} Kd5
+{The king, at his queen's fourth square.} 9. Qc8 {The queen, at the adverse queen's bishop's
+square. (f). NOTE: You put him under the necessity of removing his rook from its king, or giving
+a free passage to your king.} Re4+ {The rook gives check. (g) NOTE: If he had played his king to
+your queen's fourth square, you must have played your queen to his queen's bishop's third
+square: but he might also have played his rook to his king's rook's fourth square, to hinder the
+passage of your king; the subject of a back-game. $ iv} 10. Kf5 {The king, at the adverse king's
+bishop's fourth square.} Re5+ {The rook gives check.} 11. Kf6 {The king, at the adverse king's
+bishop's third square.} Re4 {The rook, at the adverse king's fourth square. (h) NOTE: If he had
+played his king to your queen's fourth square, you must have played your queen to his queen's
+bishop's third square.} 12. Qf5+ {The queen gives check, at the adverse king's bishop's fourth
+square.} Re5 {The rook covers the check.} 13. Qd3+ {The queen gives check, at her third square.}
+Kc5 {The king, at his queen's bishop's fourth square.} 14. Qd2 {The queen, at her second square.
+(i) NOTE: At the instant your king gets behind his pawn, the advantage of the game will turn on
+your side: but to attain this, you must force him to play his king.} Kc6 {The king, at his
+queen's bishop's third square.} 15. Qd4 {The queen, at her fourth square.} Kd7 {The king, at his
+queen's second square. (k) NOTE: As he could have played his king to his queen's bishop's second
+square. Another subject of a back-game.} 16. Qc4 {The queen, at her bishop's fourth square.} Rc5
+{The rook, at its queen's bishop's fourth square. (l) NOTE: If he had put away his rook from its
+king, you must have endeavoured to find some way of forcing his rook by a double check.} 17.
+Qf7+ {The queen gives check, at the adverse king's bishop's second square.} Kc6 {The king, at
+his queen's bishop's third square.} 18. Ke7 {The king, at the adverse king's second square.}
+Re5+ {The rook gives check.} 19. Kd8 {The king, at the adverse queen's square.} Rc5 {The rook,
+at its queen's bishop's fourth square.} 20. Qd7+ {The queen gives check, at the adverse queen's
+second square.} Kd5 {The king, at his queen's fourth square.} 21. Ke7 {The king, at the adverse
+king's second square.} Rc6 {The rook, at its queen's bishop's third square. 22.16} 22. Qe8 {The
+queen gives check, at the adverse king's fourth square.} Kc4 {The king, at the adverse queen's
+bishop's fourth square.} 23. Kd7 {The king, at the adverse queen's second square.} {The board
+stops here; Philidor's game continues in the text beside it.} *

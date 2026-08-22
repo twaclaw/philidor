@@ -1,0 +1,44 @@
+[Event "Philidor, Analysis of the Game of Chess (London, 1777)"]
+[Site "?"]
+[Date "1777.??.??"]
+[Round "-"]
+[White "Philidor (analysis)"]
+[Black "Philidor (analysis)"]
+[Result "*"]
+[Annotator "F. D. Philidor"]
+[PhilidorGame "Supplement to the First Gambit of the Edition of 1749"]
+[PhilidorKind "game"]
+[SourceLine "7756"]
+
+1. e4 {The king's pawn, two moves.} e5 {The same.} 2. f4 {The king's bishop's pawn, two moves.}
+exf4 {The king's pawn takes the pawn.} 3. Nf3 {The king's knight, at his bishop's third square.}
+g5 {The king's knight's pawn, two moves.} 4. h4 {The king's rook's pawn, two moves.} g4 {The
+king's knight's pawn, one move.} 5. Ne5 {The king's knight, at the adverse king's fourth
+square.} Nf6 {The king's knight, at his bishop's third square. (a) NOTE: In the former edition,
+I directed the black to push the king's rook's pawn two moves. This party may be found in the
+first gambit's back-game. I make two different parties of the two other ways of playing, that
+were there omitted; in the first, directing the black to play the king's knight to his bishop's
+third square; and in the second, to play the queen to her king's second square.} 6. d4 {The
+queen's pawn, two moves. (b) NOTE: You might have taken his king's knight's pawn with your's;
+but your pieces would then have been too much intangled: nevertheless, I shall make of it the
+subject of a back-game.} d6 {The queen's pawn, one move.} 7. Nd3 {The king's knight, at his
+queen's third square.} Nxe4 {The king's knight takes the king's pawn.} 8. Bxf4 {The queen's
+bishop takes the gambit's pawn.} Qe7 {The queen, at her king's second square.} 9. Qe2 {The
+queen, at her king's second square. (d) NOTE: What other piece soever he might have moved, you
+should certainly have played the same, unless he had exposed some pieces to be taken.} Bg7 {The
+king's bishop, at his knight's second square.} 10. c3 {The queen's bishop's pawn, one move.} h5
+{The king's rook's pawn, two moves.} 11. g3 {The king's knight's pawn, one move.} d5 {The
+queen's pawn, one move.} 12. Bg2 {The king's bishop, at his knight's second square.} f5 {The
+king's bishop's pawn, two moves. (e) NOTE: He arms his knight with two pawns: but you must
+forbear taking that piece, because by so doing you would re-unite his pawns in the centre; and
+in that case his king's bishop's pawn, now useless, would get a good post, and ensure him the
+game.} 13. Nd2 {The queen's knight, at his queen's second square.} Be6 {The queen's bishop, at
+his king's third square.} 14. O-O {The king castles with his rook. (f) NOTE: It is better to
+castle on your right than on your left side; because your king will sustain his knight's pawn,
+in case he takes your queen's bishop.} Nc6 {The queen's knight, at his bishop's third square.}
+15. Kh2 {The king, at his rook's second square.} O-O {The king castles. (g) NOTE: In this
+position the two games are almost even. The white must make it their chief business to carry all
+their forces against the adverse king's bishop's pawn, in order to take it: on the contrary, the
+black ought to strive to give away the king's knight, in order to re-unite their pawns in the
+centre. It is easily seen, by this gambit, that it is by no means advantageous to push the
+king's rook's pawn two steps at the fourth move.} *

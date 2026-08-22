@@ -1,0 +1,46 @@
+[Event "Philidor, Analysis of the Game of Chess (London, 1777)"]
+[Site "?"]
+[Date "1777.??.??"]
+[Round "-"]
+[White "Philidor (analysis)"]
+[Black "Philidor (analysis)"]
+[Result "*"]
+[Annotator "F. D. Philidor"]
+[PhilidorGame "Back-game (Check-mate with a Bishop and a Knight)"]
+[PhilidorKind "back-game"]
+[SourceLine "8630"]
+[SetUp "1"]
+[FEN "8/8/5k2/8/4K3/8/8/1N3B2 w - - 0 1"]
+[PhilidorParent "Method of giving Check-mate with a Bishop and a Knight"]
+[PhilidorBranchMove "11"]
+
+1. Bc4 {[from the parent game] The bishop, at his queen's bishop's fourth square.} Kg6 {[from
+the parent game] The king, at his knight's third square.} 2. Kf4 {[from the parent game] The
+king, at his bishop's fourth square.} Kf6 {[from the parent game] The king, at his bishop's
+third square.} 3. Nc3 {[from the parent game] The knight, at his queen's bishop's third square.}
+Kg6 {[from the parent game] The king, at his knight's third square.} 4. Ne4 {[from the parent
+game] The knight, at his king's fourth square. (b)} Kh6 {[from the parent game] The king, at his
+rook's third square.} 5. Kf5 {[from the parent game] The king, at the adverse king's bishop's
+fourth square.} Kh7 {[from the parent game] The king, at his rook's second square. (c)} 6. Kf6
+{[from the parent game] The king, at the adverse king's bishop's third square.} Kh8 {[from the
+parent game] The king, at his rook's square. (d)} 7. Nd6 {[from the parent game] The knight, at
+the adverse queen's third square.} Kh7 {[from the parent game] The king, at his rook's second
+square.} 8. Nf7 {[from the parent game] The knight, at the adverse king's bishop's second
+square. (e)} Kg8 {[from the parent game] The king, at his knight's square. (f)} 9. Bd3 {[from
+the parent game] The bishop, at his queen's third square.} Kf8 {[from the parent game] The king,
+at his bishop's square.} 10. Bh7 {[from the parent game] The bishop, at the adverse king's rook
+second square.} Ke8 {[from the parent game] The king, at his home.} 11. Ne5 {The knight, at the
+adverse king's fourth square.} Kd8 {The king, at his queen's square.} 12. Ke6 {The king, at the
+adverse king's third square.} Kc7 {The king, at his queen's bishop's second square.} 13. Nd7
+{The knight, at the adverse queen's second square. (a) NOTE: It is proper to observe, that the
+knight does not change the direction of his moves either one way or the other.} Kc6 {The king,
+at his queen's bishop's third square.} 14. Bd3 {The bishop, at his queen's third square. (b)
+NOTE: If you had given check with your bishop, he would have again got his king into the other
+corner; and this move would have entirely destroyed your attack.} Kc7 {The king, at his queen's
+bishop's second square.} 15. Be4 {The bishop, at his king's fourth square.} Kd8 {The king, at
+his queen's square.} 16. Kd6 {The king, at the adverse queen's third square.} Ke8 {The king, at
+his home.} 17. Bg6+ {The bishop gives check.} Kd8 {The king, at his queen's square.} 18. Bf7
+{The king's bishop, at the adverse king's bishop's second square.} Kc8 {The king, at his queen's
+bishop's square.} 19. Nc5 {The knight, at the adverse queen's bishop's fourth square. (c) NOTE:
+It is needless to proceed farther. This position is quite the same as that at the seventeenth
+move of this game. A PARTY WON WITH A ROOK AND A PAWN AGAINST A BISHOP.} *

@@ -1,0 +1,39 @@
+[Event "Philidor, Analysis of the Game of Chess (London, 1777)"]
+[Site "?"]
+[Date "1777.??.??"]
+[Round "-"]
+[White "Philidor (analysis)"]
+[Black "Philidor (analysis)"]
+[Result "*"]
+[Annotator "F. D. Philidor"]
+[PhilidorGame "Second Back-game (two Pawns against one)"]
+[PhilidorKind "back-game"]
+[SourceLine "10177"]
+[SetUp "1"]
+[FEN "8/8/4k1p1/6P1/4KP2/8/8/8 w - - 0 1"]
+[PhilidorParent "A Drawn-game, or a Party won, with two Pawns against one"]
+[PhilidorBranchMove "1"]
+
+1. Kd3 {The king, at his queen's third square.} Kd5 {The king, at his queen's fourth square.} 2.
+Ke3 {The king, at his third square. (a) NOTE: You again get the move over him, because he cannot
+play his king fronting yours: he must absolutely retrograde either to his third square, or to
+his queen's third square. In either case, your king may place himself in opposition to his.} Ke6
+{The king, at his third square.} 3. Ke4 {The king, at his fourth square.} Kd6 {The king, at his
+queen's third square. (b) NOTE: If he had withdrawn his king to his second square, or to his
+queen's second square, you must have advanced your king opposite to his.} 4. f5 {The king's
+bishop's pawn, one move.} Ke7 {The king, at his second square.} 5. f6+ {The pawn, one move,
+giving check. (c) NOTE: Had you taken his pawn with yours, it would have been a drawn-game.} Ke6
+{The king, at his third square.} 6. Kd4 {The king, at his queen's fourth square.} Kd6 {The king,
+at his queen's third square. (d) NOTE: In this position he has got the move over you, since he
+may oppose your king, but by the sacrifice of a pawn you may recover it over him, and a single
+pawn is enough to win the game.} 7. f7 {The king's bishop's pawn, one move.} Ke7 {The king, at
+his second square.} 8. Ke5 {The king, at the adverse king's fourth square.} Kxf7 {The king takes
+the pawn.} 9. Kd6 {The king, at the adverse queen's third square.} Kf8 {The king, at his
+bishop's square.} 10. Ke6 {The king, at the adverse king's third square.} Kg7 {The king, at his
+knight's second square.} 11. Ke7 {The king, at the adverse king's second square.} Kg8 {The king,
+at his knight's square.} 12. Kf6 {The king, at the adverse king's bishop's third square.} Kh7
+{The king, at his rook's second square.} 13. Kf7 {The king, at the adverse king's bishop's
+second square.} Kh8 {The king, at his rook's square.} 14. Kxg6 {The king takes the pawn.} Kg8
+{The king, at his knight's square.} 15. Kf6 {The king, at the adverse king's bishop's third
+square.} Kf8 {The king, at his bishop's square.} 16. g6 {The pawn, one move, and makes a queen
+without any opposition.} *

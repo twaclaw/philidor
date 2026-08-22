@@ -1,0 +1,49 @@
+[Event "Philidor, Analysis of the Game of Chess (London, 1777)"]
+[Site "?"]
+[Date "1777.??.??"]
+[Round "-"]
+[White "Philidor (analysis)"]
+[Black "Philidor (analysis)"]
+[Result "*"]
+[Annotator "F. D. Philidor"]
+[PhilidorGame "Third Back-game of the Second Variable"]
+[PhilidorKind "back-game"]
+[SourceLine "6526"]
+[PhilidorParent "Second Variable"]
+[PhilidorBranchMove "11"]
+
+1. e4 {[from the parent game] The king's pawn, two moves.} e5 {[from the parent game] The same.}
+2. Bc4 {[from the parent game] The king's bishop, at his queen's bishop's fourth square.} c6
+{[from the parent game] The queen's bishop's pawn, one move. (a)} 3. d4 {[from the parent game]
+The queen's pawn, two moves.} exd4 {[from the parent game] The king's pawn takes the pawn. (b)}
+4. Qxd4 {[from the parent game] The queen retakes the pawn.} d6 {[from the parent game] The
+queen's pawn, one move. (c)} 5. f4 {[from the parent game] The king's bishop's pawn, two moves.}
+Be6 {[from the parent game] The queen's bishop, at his king's third square. (d)} 6. Bxe6 {[from
+the parent game] The king's bishop takes the bishop.} fxe6 {[from the parent game] The king's
+bishop's pawn retakes the bishop.} 7. c4 {[from the parent game] The queen's bishop's pawn, two
+moves.} d5 {[from the parent game] The queen's pawn, one move. (e)} 8. cxd5 {[from the parent
+game] The queen's bishop's pawn takes the pawn.} exd5 {[from the parent game] The king's pawn
+retakes the pawn. (f)} 9. e5 {[from the parent game] The king's pawn, one move.} c5 {[from the
+parent game] The queen's bishop's pawn, one move.} 10. Qf2 {[from the parent game] The queen, at
+her king's bishop's second square. (g)} Nc6 {[from the parent game] The queen's knight, at his
+bishop's third square.} 11. Nf3 {The king's knight, at his bishop's third square.} c4 {The
+queen's bishop's pawn, one move.} 12. Be3 {The queen's bishop, at his king's third square.} Bb4+
+{The king's bishop gives check.} 13. Nc3 {The queen's knight, at his bishop's third square. (a)
+NOTE: If he takes your knight, his queen's pawn must necessarily fall into your hands, because
+it cannot be sustained by another pawn; and you may, besides, attack it with all your pieces.}
+Nge7 {The king's knight, at his king's second square.} 14. O-O {The king castles with his rook.}
+Nf5 {The king's knight, at his bishop's fourth square. (b) NOTE: He plays this knight to get rid
+of your bishop, and open afterwards a free passage for his king's bishop upon your king and
+queen; which would prove very dangerous. -} 15. Rad1 {The queen's rook, at its queen's square.
+(c) NOTE: You play this rook, with a view either to oblige him to sustain his queen's pawn, or
+to take your queen's knight.} Nxe3 {The king's knight takes the bishop.} 16. Qxe3 {The queen
+retakes the knight.} Ne7 {The queen's knight, at his king's second square.} 17. Kh1 {The king,
+at his rook's square. (d) NOTE: You might have taken his queen's pawn with your knight, and
+afterwards played your queen to your king's fourth square; but, to force his knight, he would
+then have disentangled his queen, by giving check: so that this move is absolutely necessary.}
+Bxc3 {The king's bishop takes the knight. (e) NOTE: As he can no more sustain his queen's pawn,
+he finds himself under the necessity of taking your knight, to preserve that pawn.} 18. bxc3
+{The queen's knight's pawn retakes the bishop.} O-O {The king castles. (f) NOTE: In this
+situation, the white must win the game: the matter is now, only to hinder the adverse queen's
+pawn from entering again upon action, and to sustain your centre without being too hasty in
+advancing your pawns.} *

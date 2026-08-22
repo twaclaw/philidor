@@ -1,0 +1,20 @@
+[Event "Philidor, Analysis of the Game of Chess (London, 1777)"]
+[Site "?"]
+[Date "1777.??.??"]
+[Round "-"]
+[White "Philidor (analysis)"]
+[Black "Philidor (analysis)"]
+[Result "*"]
+[Annotator "F. D. Philidor"]
+[PhilidorGame "A Drawn-game with a Queen against a Rook and a Pawn"]
+[PhilidorKind "endgame"]
+[SourceLine "9399"]
+[SetUp "1"]
+[FEN "3k4/3p4/4r3/3K4/8/1Q6/8/8 w - - 0 1"]
+
+1. Qb8+ {The queen gives check, at the adverse queen's knight's square.} Ke7 {The king, at his
+second square.} 2. Qg8 {The queen, at the adverse king's knight's square.} Rc6 {The rook, at its
+queen's bishop's third square.} 3. Ke5 {The king, at the adverse king's fourth square.} Re6+
+{The rook, at its king's third square, giving check.} 4. Kd5 {The king, at the adverse queen's
+fourth square. (a) NOTE: In this position, it is a drawn-game, because the queen cannot take
+backwards, neither the king nor the pawn, as in the former party.} *

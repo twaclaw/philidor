@@ -1,0 +1,45 @@
+[Event "Philidor, Analysis of the Game of Chess (London, 1777)"]
+[Site "?"]
+[Date "1777.??.??"]
+[Round "-"]
+[White "Philidor (analysis)"]
+[Black "Philidor (analysis)"]
+[Result "*"]
+[Annotator "F. D. Philidor"]
+[PhilidorGame "Back-game (forcing the Situation)"]
+[PhilidorKind "back-game"]
+[SourceLine "8384"]
+[SetUp "1"]
+[FEN "8/3r4/4k3/8/4K3/4B3/R7/8 w - - 0 1"]
+[PhilidorParent "Method of forcing the Black to take the above-mentioned Situation"]
+[PhilidorBranchMove "7"]
+
+1. Rb2 {[from the parent game] The rook, at its queen's knight's second square. (a).} Rd8 {[from
+the parent game] The rook, at its queen's square.} 2. Bf4 {[from the parent game] The bishop, at
+his king's bishop's fourth square. (b)} Re8 {[from the parent game] The rook, at its king's
+square.} 3. Rb6+ {[from the parent game] The rook gives check.} Kf7+ {[from the parent game] The
+king, at his bishop's second square.} 4. Kf5 {[from the parent game] The king, at the adverse
+king's bishop's fourth square.} Re2 {[from the parent game] The rook, at the adverse king's
+second square.} 5. Rb1 {[from the parent game] The rook, at its queen's knight's square. (c)}
+Rf2 {[from the parent game] The rook, at the adverse king's bishop's second square.} 6. Rb7+
+{[from the parent game] The rook gives check.} Kf8 {[from the parent game] The king, at his
+bishop's square. (d)} 7. Ke4 {The king, at his fourth square.} Kg8 {The king, at his knight's
+square.} 8. Be5 {The bishop, at the adverse king's fourth square.} Rf7 {The rook, at its king's
+bishop's second square.} 9. Rb1 {The rook, at its queen's knight's square.} Rf2 {The rook, at
+the adverse king's bishop's second square. 10.} 10. Kd5 {The king, at the adverse queen's fourth
+square.} Kf7 {The king, at his bishop's second square.} 11. Rb7+ {The rook gives check.} Kg6
+{The king, at his knight's third square.} 12. Rg7+ {The rook gives check, at the adverse king's
+knight's second square.} Kh6 {The king, at his rook's third square.} 13. Ke6 {The king, at the
+adverse king's third square} Re2 {The rook, at the adverse king's second square.} 14. Rg1 {The
+rook, at its king's knight's square.} Rf2 {The rook, at the adverse king's bishop's second
+square.} 15. Bf6 {The bishop, at the adverse king's bishop's third square.} Kh5 {The king, at
+his rook's fourth square.} 16. Rg5+ {The rook gives check, at the adverse king's knight's fourth
+square.} Kh6 {The king, at his rook's third square.} 17. Kf7 {The king, at the adverse king's
+bishop's second square.} Rc2 {The rook, at the adverse queen's bishop's second square.} 18. Rb5
+{The rook, at the adverse queen's knight's fourth square.} Rc7+ {The rook gives check.} 19. Be7
+{The bishop covers the check.} Rd7 {The rook, at its queen's second square.} 20. Rb8 {The rook,
+at the adverse queen's knight's square.} Kh5 {The king, at his rook's fourth square.} 21. Rb4
+{The rook, at its queen's knight's fourth square, and will give check at the next move. (a)
+NOTE: It may be seen by this back-game, that, when the pieces do not stand in the situation
+represented here, there are many different ways to force the mate: it is only to be observed,
+that the bishop must always stand next to his king, to cover him in case of a check.} *

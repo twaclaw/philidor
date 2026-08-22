@@ -1,0 +1,29 @@
+[Event "Philidor, Analysis of the Game of Chess (London, 1777)"]
+[Site "?"]
+[Date "1777.??.??"]
+[Round "-"]
+[White "Philidor (analysis)"]
+[Black "Philidor (analysis)"]
+[Result "*"]
+[Annotator "F. D. Philidor"]
+[PhilidorGame "Gambit of Salvio"]
+[PhilidorKind "game"]
+[SourceLine "7303"]
+[PhilidorTruncated "Converted as far as the parser reaches: ply 15: no legal reading"]
+
+1. e4 {The king's pawn, two moves.} e5 {The same.} 2. f4 {The king's bishop's pawn, two moves.}
+exf4 {The king's pawn takes the pawn.} 3. Nf3 {The king's knight, at his bishop's third square.}
+g5 {The king's knight's pawn, two moves.} 4. Bc4 {The king's bishop, at his queen's bishop's
+fourth square.} g4 {The king's knight's pawn, one move.} 5. Ne5 {The king's knight, at the
+adverse king's fourth square..mmm} Qh4+ {The queen gives check.} 6. Kf1 {The king, at his
+bishop's square.} Nf6 {The king's knight, at his bishop's third square. (a) NOTE: Doctor Salvio,
+in his Treatise, printed at Naples, in the year 1723, teaches us this defence of the gambit, but
+without examining any combination to the bottom. The great number of the moves which naturally
+arise, and succeed one another at every instant in that party, may very likely have hindered him
+from analysing and calculating this matter.} 7. Qe1 {The queen, at her king's square. (b) NOTE:
+This move may be played in many different ways; but two only can properly be hazarded: the first
+is, to take the pawn with the bishop, and give check; the other is, to play the queen's pawn two
+moves. subject of two back-games.} Qxe1+ {The queen takes the queen. (c) NOTE: If, instead of
+taking your queen, he had pushed his king's knight's pawn, you must then have taken his king's
+bishop's pawn, giving check, and afterwards played your knight to your king's bishop's third
+square.} {The board stops here; Philidor's game continues in the text beside it.} *

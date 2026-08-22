@@ -1,0 +1,40 @@
+[Event "Philidor, Analysis of the Game of Chess (London, 1777)"]
+[Site "?"]
+[Date "1777.??.??"]
+[Round "-"]
+[White "Philidor (analysis)"]
+[Black "Philidor (analysis)"]
+[Result "*"]
+[Annotator "F. D. Philidor"]
+[PhilidorGame "Second Back-game (Rook and Bishop against a Rook)"]
+[PhilidorKind "back-game"]
+[SourceLine "8177"]
+[SetUp "1"]
+[FEN "4k3/3r4/4K3/4B3/8/8/8/2R5 w - - 0 1"]
+[PhilidorParent "Method of giving Check-mate with a Rook and a Bishop against a Rook"]
+[PhilidorBranchMove "5"]
+[PhilidorTruncated "Converted as far as the parser reaches: ply 23: no ordinal: , at his king's bishop's fourth, square, and must win the game"]
+
+1. Rc8+ {[from the parent game] The rook gives check.} Rd8 {[from the parent game] The rook
+covers the check.} 2. Rc7 {[from the parent game] The rook, at the adverse queen's bishop's
+second square.} Rd2 {[from the parent game] The rook, at the adverse queen's second square. (b)}
+3. Rb7 {[from the parent game] The rook, at the adverse queen's knight's second square. (c)} Rd1
+{[from the parent game] The rook, at the adverse queen's square. (d)} 4. Rg7 {[from the parent
+game] The rook, at the adverse king's knight's second square.} Rf1 {[from the parent game] The
+rook, at the adverse king's bishop's square. (e)} 5. Bg3 {The bishop, at his king's knight's
+third square.} Rf3 {The rook, at the adverse king's bishop's third square.} 6. Bd6 {The bishop,
+at the adverse queen's third square.} Re3+ {The rook gives check.} 7. Be5 {The bishop covers the
+check.} Rf3 {The rook, at the adverse king's bishop's third square. (a) NOTE: If he had played
+his king to his bishop's square, you would have played your rook to his king's rook's second
+square, in order to give mate at the next move.} 8. Re7+ {The rook gives check, at the adverse
+king's second square.} Kf8 {The king, at his bishop's square. (b) NOTE: If he had played his
+king to his queen's square, you must then have played your rook to his queen's knight's second
+square, in order to give mate at the next move.} 9. Rc7 {The rook, at the adverse queen's
+bishop's second square.} Kg8 {The king, at his knight's square.} 10. Rg7+ {The rook gives check,
+at the adverse king's knight's second square.} Kf8 {The king, at his bishop's square. (c) NOTE:
+If he had played his king to his rook's square, you would have won his rook, giving check by
+discovery.} 11. Rg4 {The rook, at its king's knight's fourth square.} Ke8 {The king, at his
+home. (d) NOTE: If he had played his rook to your king's third square, to prevent the check of
+your bishop, you must then have played yours to your king's rook's fourth square, in order to
+give mate at the next move.} {The board stops here; Philidor's game continues in the text beside
+it.} *

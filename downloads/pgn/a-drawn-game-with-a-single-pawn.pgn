@@ -1,0 +1,32 @@
+[Event "Philidor, Analysis of the Game of Chess (London, 1777)"]
+[Site "?"]
+[Date "1777.??.??"]
+[Round "-"]
+[White "Philidor (analysis)"]
+[Black "Philidor (analysis)"]
+[Result "*"]
+[Annotator "F. D. Philidor"]
+[PhilidorGame "A Drawn-game with a single Pawn"]
+[PhilidorKind "endgame"]
+[SourceLine "9914"]
+[SetUp "1"]
+[FEN "8/8/5k2/5P2/5K2/8/8/8 w - - 0 1"]
+[PhilidorTruncated "Converted as far as the parser reaches: ply 19: no ordinal:  is forced to leave the pawn"]
+
+1. Ke4 {The king, at his fourth square.} Kf7 {The king, at his bishop's second square. (a) NOTE:
+It is always necessary to bring his king to the face of the adverse pawn, so that his king may
+oppose the adverse king.} 2. Ke5 {The king, at the adverse king's fourth square.} Ke7 {The king,
+at his second square.} 3. f6+ {The pawn, one move, giving check.} Kf7 {The king, at his bishop's
+second square.} 4. Kf5 {The king, at the adverse king's bishop's fourth square.} Kf8 {The king,
+at his bishop's square. (b) NOTE: If he had removed his king to his home, or to his king's
+knight's square, he would have lost the game. The subject of a backgame.} 5. Ke6 {The king, at
+the adverse king's third square.} Ke8 {The king, at his home. (c) NOTE: Were you in the present
+position to push your pawn, you could not sustain it without making a stale-mate.} 6. Kf5 {The
+king, at the adverse king's bishop's fourth square.} Kf7 {The king, at his bishop's second
+square. (d) NOTE: His defence depends upon opposing his king to yours; for if, on the contrary,
+you could oppose your king to his, you would win the game.} 7. Kg5 {The king, at the adverse
+king's knight's fourth square.} Kf8 {The king, at his bishop's square. (e) NOTE: He always
+brings his king to the face of yours, which infallibly bring's on a drawngame.} 8. Kg6 {The
+king, at the adverse king's knight's third square.} Kg8 {The king, at his knight's square.} 9.
+f7+ {The pawn, one move, giving check.} Kf8 {The king, at his bishop's square.} {The board stops
+here; Philidor's game continues in the text beside it.} *

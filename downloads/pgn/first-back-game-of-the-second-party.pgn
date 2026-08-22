@@ -1,0 +1,34 @@
+[Event "Philidor, Analysis of the Game of Chess (London, 1777)"]
+[Site "?"]
+[Date "1777.??.??"]
+[Round "-"]
+[White "Philidor (analysis)"]
+[Black "Philidor (analysis)"]
+[Result "*"]
+[Annotator "F. D. Philidor"]
+[PhilidorGame "First Back-game of the Second Party"]
+[PhilidorKind "back-game"]
+[SourceLine "1040"]
+[PhilidorParent "Second Party"]
+[PhilidorBranchMove "3"]
+
+1. e4 {[from the parent game] The king's pawn, two moves.} e5 {[from the parent game] The same.}
+2. Bc4 {[from the parent game] The king's bishop, at his queen's bishop's fourth square.} c6
+{[from the parent game] The queen's bishop's pawn, one move.} 3. d4 {The queen's pawn, two
+steps.} d5 {The same.} 4. exd5 {The king's pawn takes the pawn.} cxd5 {The queen's bishop's pawn
+retakes the pawn.} 5. Bb5+ {The bishop gives check.} Bd7 {The bishop covers the check.} 6. Bxd7+
+{The bishop takes the bishop.} Nxd7 {The knight retakes the bishop.} 7. dxe5 {The queen's pawn
+takes the pawn.} Nxe5 {The knight retakes the pawn.} 8. Qe2 {The queen, at her king's second
+square.} Qe7 {The same.} 9. Nc3 {The queen's knight, at his bishop's third square.} O-O-O {The
+king castles.} 10. Bf4 {The bishop, at his king's bishop's fourth square.} Nc6 {The queen's
+knight, at his bishop's third square.} 11. O-O-O {The king castles.} Qxe2 {The queen takes the
+queen.} 12. Ngxe2 {The king's knight retakes the queen.} d4 {The queen's pawn, one move.} 13.
+Ne4 {The queen's knight, at his king's fourth square.} f6 {The king's bishop's pawn, one move.}
+14. h4 {The king's rook's pawn, two moves.} h5 {The king's rook's pawn, the same.} 15. Rh3 {The
+king's rook, at its third square.} Nh6 {The king's knight, at his rook's third square.} 16. Bxh6
+{The bishop takes the knight.} Rxh6 {The rook retakes the bishop.} 17. Rhd3 {The king's rook, at
+its queen's third square.} Re8 {The queen's rook, at its king's square.} 18. Nxd4 {The king's
+knight takes the pawn.} Nb4 {The knight, at the adverse queen's knight's fourth square.} 19. Re3
+{The king's rook, at its king's third square.} Nxa2+ {The knight takes the rook's pawn, and
+gives check.} 20. Kb1 {The king, at his queen's knight's square.} Nb4 {The knight retires.} 21.
+Nd6+ {The knight checks the king and rook at once, &c.} *

@@ -1,0 +1,40 @@
+[Event "Philidor, Analysis of the Game of Chess (London, 1777)"]
+[Site "?"]
+[Date "1777.??.??"]
+[Round "-"]
+[White "Philidor (analysis)"]
+[Black "Philidor (analysis)"]
+[Result "*"]
+[Annotator "F. D. Philidor"]
+[PhilidorGame "Method of giving Check-mate with a Rook and a Bishop against a Rook"]
+[PhilidorKind "endgame"]
+[SourceLine "8028"]
+[SetUp "1"]
+[FEN "4k3/3r4/4K3/4B3/8/8/8/2R5 w - - 0 1"]
+
+1. Rc8+ {The rook gives check.} Rd8 {The rook covers the check.} 2. Rc7 {The rook, at the
+adverse queen's bishop's second square.} Rd2 {The rook, at the adverse queen's second square.
+(b) NOTE: To give check-mate, you must force your adversary to place his rook either at your
+queen's square, or at your queen's third square. In either position, the game must be won, after
+a few computed moves.} 3. Rb7 {The rook, at the adverse queen's knight's second square. (c)
+NOTE: He is now obliged to play his rook to your queen's square, or to your queen's third
+square.} Rd1 {The rook, at the adverse queen's square. (d) NOTE: You have already forced him to
+play his rook to one of those squares where he must absolutely lose the game: but this is not
+enough; for your rook must not be farther from your king than the distance which a knight, by a
+single regular move, may go. If you were to play your rook to its queen's bishop's second
+square, he would play his rook to your queen's second square; and you must be eternally
+beginning afresh: whereas, by passing your rook on your right, he must necessarily, to ward off
+the check-mate, play his rook to your king's bishop's square, which is no better than that of
+his queen.} 4. Rg7 {The rook, at the adverse king's knight's second square.} Rf1 {The rook, at
+the adverse king's bishop's square. (e) NOTE: As he might have played his king to his bishop's
+square, we will make it the subject of a back-game.} 5. Bg3 {The bishop, at his king's knight's
+third square.} Kf8 {The king, at his bishop's square. (f) NOTE: He could have played his rook to
+your king's bishop's third square. The subject of another back-game.} 6. Rg4 {The rook, at its
+king's knight's fourth square.} Ke8 {The king, at his home. (g) NOTE: He brings back his king,
+so that he may be in readiness to cover the check of your rook.} 7. Rc4 {The rook, at its
+queen's bishop's fourth square.} Rd1 {The rook, at the adverse queen's square. (h) NOTE: He
+might have played the king to his bishop's square. The subject of the last back-game.} 8. Bh4
+{The bishop, at his king's rook's fourth square} Kf8 {The king, at his bishop's square.} 9. Bf6
+{The bishop, at the adverse king's bishop's third square.} Re1+ {The rook gives check, at the
+adverse king's square.} 10. Be5 {The bishop covers the check.} Kg8 {The king, at his knight's
+square.} 11. Rh4 {The rook, at its king's rook's fourth square, and must win.} *

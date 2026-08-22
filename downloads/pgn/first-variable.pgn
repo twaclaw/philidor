@@ -1,0 +1,17 @@
+[Event "Philidor, Analysis of the Game of Chess (London, 1777)"]
+[Site "?"]
+[Date "1777.??.??"]
+[Round "-"]
+[White "Philidor (analysis)"]
+[Black "Philidor (analysis)"]
+[Result "*"]
+[Annotator "F. D. Philidor"]
+[PhilidorGame "First Variable"]
+[PhilidorKind "game"]
+[SourceLine "6021"]
+[PhilidorTruncated "Converted as far as the parser reaches: ply 7: no ordinal: , at his bishop's third"]
+
+1. e4 {The king's pawn, two moves.} e5 {The same.} 2. Bc4 {The king's bishop, at his queen's
+bishop's fourth square.} Nf6 {The king's knight, at his bishop's third square.} 3. d3 {The
+queen's pawn, one move.} Bc5 {The king's bishop, at his queen's bishop's fourth square.} {The
+board stops here; Philidor's game continues in the text beside it.} *

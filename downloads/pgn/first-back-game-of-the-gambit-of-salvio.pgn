@@ -1,0 +1,54 @@
+[Event "Philidor, Analysis of the Game of Chess (London, 1777)"]
+[Site "?"]
+[Date "1777.??.??"]
+[Round "-"]
+[White "Philidor (analysis)"]
+[Black "Philidor (analysis)"]
+[Result "*"]
+[Annotator "F. D. Philidor"]
+[PhilidorGame "First Back-game of the Gambit of Salvio"]
+[PhilidorKind "back-game"]
+[SourceLine "7448"]
+[PhilidorParent "Gambit of Salvio"]
+[PhilidorBranchMove "7"]
+
+1. e4 {[from the parent game] The king's pawn, two moves.} e5 {[from the parent game] The same.}
+2. f4 {[from the parent game] The king's bishop's pawn, two moves.} exf4 {[from the parent game]
+The king's pawn takes the pawn.} 3. Nf3 {[from the parent game] The king's knight, at his
+bishop's third square.} g5 {[from the parent game] The king's knight's pawn, two moves.} 4. Bc4
+{[from the parent game] The king's bishop, at his queen's bishop's fourth square.} g4 {[from the
+parent game] The king's knight's pawn, one move.} 5. Ne5 {[from the parent game] The king's
+knight, at the adverse king's fourth square..mmm} Qh4+ {[from the parent game] The queen gives
+check.} 6. Kf1 {[from the parent game] The king, at his bishop's square.} Nf6 {[from the parent
+game] The king's knight, at his bishop's third square. (a)} 7. Bxf7+ {The king's bishop gives
+check, taking the pawn.} Ke7 {The king, at his second square. (a) NOTE: Salvio, in this
+situation, directs the removal of the king to his queen's square: but, after the most exact
+calculations, I think the king would be better played to his second square; nevertheless, the
+better to enable the reader to judge of this move, I will set forth these two ways of playing,
+adding a variable on the seventh move of the black.} 8. Bb3 {The king's bishop, at his queen's
+knight's third square. (b) NOTE: You are forced to withdraw this bishop, in order to avoid the
+loss of a piece.} d6 {The queen's pawn, one move. (c) NOTE: If he had taken your king's pawn
+with his knight, you must have played your queen to your king's square, to offer the exchange of
+the queens, which would restore your game to a very good state of defence: but if, instead of
+pushing this pawn, he had played his knight to his king's rook's fourth square, you should have
+taken his king's knight's pawn with your queen, permitting him afterwards to give double check:
+but you ought then to take his knight with your pawn, and sacrifice your rook: your situation
+would thus be greatly improved.} 9. Nd3 {The king's knight, at his queen's third square. (d)
+NOTE: It is a very bad retreat for your knight; but, if you had attacked his rook, your piece
+would have been forced. The adverse king, played to his second squareon the seventh move, has
+thrown you into so perplexing a condition.} Nh5 {The king's knight, at his rook's fourth
+square.} 10. Qe1 {The queen, at her king's square.} g3 {The king's knight's pawn, one move. (e)
+[213 1 NOTE: If he had given double check with his knight, you would have won a piece by
+removing your king; and if he had changed the queen, you would have made an end of his attack.}
+11. Kg1 {The king, at his knight's square. (f) NOTE: This move is very material, to disengage
+your king's rook.} Bg7 {The king's bishop, at his knight's second square. (g) NOTE: If you were
+to take this pawn with yours, he would immediately give you checkmate.} 12. c3 {The queen's
+bishop's pawn, one move.} Qg5 {The queen, at her king's knight's fourth square.} 13. Bd1 {The
+king's bishop, at his queen's square.} Bg4 {The queen's bishop, at the adverse king's knight's
+fourth square.} 14. Bxg4 {The king's bishop takes the bishop.} Qxg4 {The queen retakes the
+bishop.} 15. h3 {The king's rook's pawn, one move. (h) NOTE: It is better to push this pawn,
+than to take, because he would fettle his king's knight upon your ground.} Qg6 {The queen, at
+her king's knight's third square.} 16. Qe2 {The queen, at her king's second square. (i) NOTE:
+There is no other way of getting out the pieces of your left wing, but by bringing your knight
+to his bishop's third square.} Nd7 {The queen's knight, at her queen's second square.} 17. Ne1
+{The king's knight, at his king's square.(k} *

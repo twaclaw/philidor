@@ -12,7 +12,15 @@ COLLATE := $(EXTRACT)/philidor1.txt
 SLUGS   := $(basename $(notdir $(wildcard md/*.md)))
 HTML    := $(addprefix html/,$(addsuffix .html,$(SLUGS)))
 
-.PHONY: help all book site publish clean check preview html stops inconsistencies claims certainty
+# The chapters and the downloads are committed, so the book renders and
+# publishes on its own. Where the extraction toolchain is present, rendering
+# waits on it as before.
+ifneq ($(wildcard $(ALGEB)/build_book.py),)
+CHAPTERS := book/games/.stamp
+endif
+
+.PHONY: help all book site publish chapters clean clean-data check preview html \
+        stops inconsistencies claims certainty
 .DEFAULT_GOAL := help
 
 ## Print this list
@@ -57,12 +65,15 @@ book/games/.stamp: games.json md/.stamp pgn/.stamp $(ALGEB)/build_book.py \
 	$(PY) $(ALGEB)/build_book.py
 	@touch $@
 
+## Regenerate the book's chapters from the data
+chapters: book/games/.stamp
+
 # Quarto renders each chapter beside its source and then moves it into the
 # output directory. A cache left from an earlier run makes it try to move a
 # file it did not write this time, which fails with a bare "NotFound"; both
 # are cleared first so a build is always reproducible.
 ## Render the Quarto book into _site
-site: book/games/.stamp
+site: $(CHAPTERS)
 	rm -rf book/.quarto book/site_libs _site/site_libs
 	find book/games -name '*.html' -delete
 	cd book && quarto render
@@ -71,7 +82,7 @@ site: book/games/.stamp
 book: site
 
 ## Serve the book with live reload
-preview: book/games/.stamp
+preview: $(CHAPTERS)
 	cd book && quarto preview
 
 ## Push the rendered book to GitHub Pages
@@ -131,7 +142,11 @@ claims: games.json
 inconsistencies: philidor.md
 	$(PY) $(ALGEB)/inconsistencies.py
 
-## Remove everything built
+## Remove the rendered site
 clean:
-	rm -rf _site html book/games book/downloads book/site_libs book/.quarto
-	rm -f md/.stamp pgn/.stamp book/games/.stamp stops.json
+	rm -rf _site html book/site_libs book/.quarto
+
+## Remove the generated chapters and downloads as well
+clean-data: clean
+	rm -rf book/games book/downloads
+	rm -f md/.stamp pgn/.stamp stops.json

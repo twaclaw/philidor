@@ -12,7 +12,7 @@ COLLATE := $(EXTRACT)/philidor1.txt
 SLUGS   := $(basename $(notdir $(wildcard md/*.md)))
 HTML    := $(addprefix html/,$(addsuffix .html,$(SLUGS)))
 
-.PHONY: help all book site clean check preview html stops inconsistencies claims certainty
+.PHONY: help all book site publish clean check preview html stops inconsistencies claims certainty
 .DEFAULT_GOAL := help
 
 ## Print this list
@@ -73,6 +73,10 @@ book: site
 ## Serve the book with live reload
 preview: book/games/.stamp
 	cd book && quarto preview
+
+## Push the rendered book to GitHub Pages
+publish: site
+	cd book && quarto publish gh-pages --no-render
 
 # --- A standalone page per game, straight from its Markdown ----------------
 # Independent of the book: pandoc turns any downloaded game file into a

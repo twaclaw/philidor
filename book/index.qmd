@@ -1,7 +1,4 @@
----
-title: "Analysis of the Game of Chess"
----
-
+# Analysis of the Game of Chess {.unnumbered}
 
 [François-André Danican Philidor](https://en.wikipedia.org/wiki/Fran%C3%A7ois-Andr%C3%A9_Danican_Philidor) (1726-1795)  was a French composer and chess master. He is considered one of the best players of his time. He is also the author of one of the most influential chess treatises of the eighteenth century, Analyse du Jeu des Échecs, which was widely discussed and admired by many thinkers of the time.
 

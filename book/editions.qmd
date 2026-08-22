@@ -1,6 +1,4 @@
----
-title: The editions
----
+# The editions {.unnumbered}
 
 Philidor's book was rewritten twice by its author and translated many times
 over, and the copies that survive do not all say the same thing. Two lines

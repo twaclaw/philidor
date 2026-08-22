@@ -1,6 +1,4 @@
----
-title: State of the transcription
----
+# State of the transcription {.unnumbered}
 
 Philidor's text is transcribed in full: all 96 games, every move and every note. Turning his descriptive notation into moves on a board is further along in some games than others, and this page says where each stands. It is written afresh on every build.
 

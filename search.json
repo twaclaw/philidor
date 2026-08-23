@@ -104,7 +104,7 @@
     "href": "methodology.html",
     "title": "How this book was done",
     "section": "",
-    "text": "The sources\nThis chapter describes the general outline of how the transcription process was approached.\nI downloaded the scanned books from the Internet Archive and 1 2. Both documents are public-domain. The text layer is all that the programs ever read. Additionally, the tables of contents were extracted from the PDFs for cross-checking1.\nThe third edition of the 1819 Kenny translation, my personal copy (see The editions), is used for reference and collation, but the programs do not read it. The diagrams in this edition were used for additional manual verification.",
+    "text": "The sources\nThis chapter describes the general outline of how the transcription process was approached.\nI downloaded the scanned books from the Internet Archive: 1777 edition and 1749 edition. Both documents are public-domain. The text layer is all that the programs ever read. Additionally, the tables of contents were extracted from the PDFs for cross-checking1.\nThe third edition of the 1819 Kenny translation, my personal copy (see The editions), is used for reference and collation, but the programs do not read it. The diagrams in this edition were used for additional manual verification.",
     "crumbs": [
       "How this book was done"
     ]

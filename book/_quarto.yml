@@ -6,7 +6,7 @@ project:
   - downloads
 book:
   title: Philidor's Analysis of the Game of Chess
-  subtitle: Transcription of the 1819 English edition into algebraic notation, with
+  subtitle: Transcription of the English edition into algebraic notation, with
     original commentary and analysis
   author: Diego Sandoval
   date: last-modified
@@ -17,7 +17,7 @@ book:
   description: 'Every game in Philidor''s Analysis of the Game of Chess, transcribed
     from the
 
-    1819 English edition into algebraic notation and playable on a board beside
+    English edition into algebraic notation and playable on a board beside
 
     his own words.
 

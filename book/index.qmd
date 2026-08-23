@@ -3,7 +3,7 @@
 [François-André Danican Philidor](https://en.wikipedia.org/wiki/Fran%C3%A7ois-Andr%C3%A9_Danican_Philidor) (1726-1795)  was a French composer and chess master. He is considered one of the best players of his time. He is also the author of one of the most influential chess treatises of the eighteenth century, Analyse du Jeu des Échecs.
 
 
-Leonard Euler, my favorite thinker and mathematician of all time, owned an English translation of the book. Chess Analyzed.
+Leonard Euler, my favorite thinker and mathematician of all time, owned an English translation of the book: Chess Analyzed.
 
 > He found quite beautiful the ways it presented for playing chess; its approach was unique, stressing principles over moves and making pawns the "soul of the game". "Seine grösste Stärke" (His greatest strength), Euler wrote to Goldbach, "besteht in Verteidigung und guter Führung seiner Bauern, um dieselben zu Königinnen zu machen, da er dann, wenn die Anstalten dazu gemacht, pièce für pièce wegnimmt, um seine Absicht zu erreichen und dadurch das Spiel zu gewinnen." (is in the defense and in the skillful moves of his pawns in order to transform them into queens. Then, after proper preparations are made, capturing piece after piece in order to achieve his intention and win the game.) ^[[*Ronald S. Calinger*](https://press.princeton.edu/books/hardcover/9780691119274/leonhard-euler?srsltid=AfmBOopg46j1Tivbm81OHXpqkbTirWUq7njAOmvQzMGOIX-SlyVMLmxp)] 
 
@@ -19,14 +19,14 @@ Below is an example of the first lines of the first game in my edition:
 2. **W**. King's bishop to his queen's bishop's fourth square. 
 
    **B**. The same.
-3. **W**. Queen's biship's pawn one square.
+3. **W**. Queen's bishop's pawn one square.
 
    **B**. King's knight to his bishop's third square.
 
 
 I decided to transcribe the games into algebraic notation so that I could visualize them using a chess engine. 
 
-I think this is the kind of task where LLMs really shine: text extraction, natural language processing, understanding anachronisms,  and ambiguous and inconsistent context and conventions, as well as programmatic and contextual reconstruction, using a chess engine for verification, context information, and human supervision. There has been a lot of hand-holding and verification, but I would say that the results are turning out very nicely.
+I think LLMs really shine in tasks like this: text extraction, natural language processing, understanding anachronisms and ambiguous or inconsistent contexts and conventions, and combining programmatic and contextual reconstruction. Using a chess engine to verify candidates and human supervision aided the whole process. Although there was a lot of hand-holding and iteration, I would say that the results are turning out very nicely.
 
 
 

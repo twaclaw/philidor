@@ -46,7 +46,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-6b852b2f3245f4ad60fb9431155c27cb.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-b026211828b76a3020400b380f4b392a.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -140,7 +140,13 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../state.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">State of the transcription</span></a>
+ <span class="menu-text">State of the conversion</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../methodology.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">How this book was done</span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -787,7 +793,7 @@ bishop, at his king's bishop's fourth square.} b6 {The queen's knight's pawn, on
 second square. (d) NOTE: In that situation, the advantage is on the side of the white, because
 his pieces are out in better order, and more conveniently disposed.} *
 </script></div>
-<label class="follow-toggle"><input type="checkbox" class="follow-text"> Show the text with the board</label><div class="move-text" hidden=""><p class="move-text__move"></p><div class="move-text__notes"></div></div>
+<label class="follow-toggle"><input type="checkbox" class="follow-text" checked=""> Show the text with the board</label><div class="move-text" hidden=""><p class="move-text__move"></p><div class="move-text__notes"></div></div>
 </div>
 <div class="game-text">
 <div class="original-moves"><div class="move"><span class="move-no">1.</span><span class="ply inherited" data-ply="0"><span class="side">White.</span> The king's pawn, two moves.</span><span class="ply inherited" data-ply="1"><span class="side">Black.</span> The same.</span></div><div class="move"><span class="move-no">2.</span><span class="ply inherited" data-ply="2"><span class="side">White.</span> The king's bishop, at his queen's bishop's fourth square. (a)</span><span class="ply inherited" data-ply="3"><span class="side">Black.</span> The same. (b)</span></div><div class="move"><span class="move-no">3.</span><span class="ply inherited" data-ply="4"><span class="side">White.</span> The queen's bishop's pawn, one move.</span><span class="ply inherited" data-ply="5"><span class="side">Black.</span> The queen, at her king's second square. <span class="note-ref" tabindex="0" data-note="It is by no means disadvantageous to be precluded from castling, when your pieces may easily get out: very often it is even an advantage, provided your king be safe.">(c)</span></span></div><div class="move"><span class="move-no">4.</span><span class="ply" data-ply="6"><span class="side">White.</span> The king's knight, at his bishop's third square.</span><span class="ply" data-ply="7"><span class="side">Black.</span> The king's bishop takes the pawn, and gives check. (c)</span></div><div class="move"><span class="move-no">5.</span><span class="ply" data-ply="8"><span class="side">White.</span> The king takes the bishop.</span><span class="ply" data-ply="9"><span class="side">Black.</span> The queen, at her bishop's fourth square, giving check.</span></div><div class="move"><span class="move-no">6.</span><span class="ply" data-ply="10"><span class="side">White.</span> The queen's pawn, two moves.</span><span class="ply" data-ply="11"><span class="side">Black.</span> The queen takes the bishop.</span></div><div class="move"><span class="move-no">7.</span><span class="ply" data-ply="12"><span class="side">White.</span> The king's knight takes the adverse pawn.</span><span class="ply" data-ply="13"><span class="side">Black.</span> The queen, at her king's third square.</span></div><div class="move"><span class="move-no">8.</span><span class="ply" data-ply="14"><span class="side">White.</span> The queen, at her king's bishop's third square.</span><span class="ply" data-ply="15"><span class="side">Black.</span> The queen's pawn, one move.</span></div><div class="move"><span class="move-no">9.</span><span class="ply" data-ply="16"><span class="side">White.</span> The king's knight, at his queen's third square.</span><span class="ply" data-ply="17"><span class="side">Black.</span> The king's knight, at his bishop's third square.</span></div><div class="move"><span class="move-no">10.</span><span class="ply" data-ply="18"><span class="side">White.</span> The king's rook, at its king's square.</span><span class="ply" data-ply="19"><span class="side">Black.</span> The king castles.</span></div><div class="move"><span class="move-no">11.</span><span class="ply" data-ply="20"><span class="side">White.</span> The queen's bishop, at his king's bishop's fourth square.</span><span class="ply" data-ply="21"><span class="side">Black.</span> The queen's knight's pawn, one move.</span></div><div class="move"><span class="move-no">12.</span><span class="ply" data-ply="22"><span class="side">White.</span> The queen's knight, at his queen's second square.</span><span class="ply" data-ply="23"><span class="side">Black.</span> The queen's bishop, at his knight's second square. <span class="note-ref" tabindex="0" data-note="In that situation, the advantage is on the side of the white, because his pieces are out in better order, and more conveniently disposed.">(d)</span></span></div></div>
@@ -803,10 +809,7 @@ his pieces are out in better order, and more conveniently disposed.} *
 // One initialiser for the whole book. A game page carries only a board div
 // with its PGN inside and a list of Philidor's moves; the wiring between the
 // two lives here, so a change lands on all 96 pages at once.
-// Quarto resolves the link in the head for the depth of the page; a path
-// written here it would leave alone.
-const { default: LichessPgnViewer } =
-  await import(document.getElementById('lpv-module').href);
+import LichessPgnViewer from '/assets/lichess-pgn-viewer.min.js';
 
 function wire(boardEl) {
   const src = boardEl.querySelector('script[type="text/pgn"]');
@@ -836,18 +839,18 @@ function wire(boardEl) {
   if (!plies.length) return;
   const list = plies[0].closest('.original-moves');
 
-  // On a narrow screen the moves do not fit beside the board, so the text for
-  // the move being shown is repeated underneath it. One box, refilled as the
-  // board moves. Ticked by default on a small screen; the reader's choice is
-  // remembered either way.
-  const NARROW = '(max-width: 1100px)';
+  // The text for the move being shown, repeated under the board. One box,
+  // refilled as the board moves: on a narrow screen the moves do not fit
+  // beside the board at all, and beside it the box still saves looking away
+  // to read what the move was. Ticked by default; the reader's choice is
+  // remembered.
   const REMEMBERED = 'philidor.followText';
   const toggle = boardEl.parentElement.querySelector('.follow-text');
   const panel = boardEl.parentElement.querySelector('.move-text');
 
   function follows() {
     const stored = localStorage.getItem(REMEMBERED);
-    return stored === null ? window.matchMedia(NARROW).matches : stored === '1';
+    return stored === null ? true : stored === '1';
   }
 
   function fill() {
@@ -855,10 +858,25 @@ function wire(boardEl) {
     panel.hidden = !(toggle && toggle.checked);
     if (panel.hidden) return;
     const cur = plies.find(function (el) { return el.classList.contains('current'); });
-    // The note is printed right underneath, so its (a) points nowhere here.
-    panel.querySelector('.move-text__move').textContent = cur
-      ? cur.textContent.replace(/\s*\([a-z]{1,2}\)/g, '').trim()
-      : 'The opening position.';
+    const box = panel.querySelector('.move-text__move');
+    box.textContent = '';
+    if (!cur) {
+      box.textContent = 'The opening position.';
+    } else {
+      // The number is set on the row rather than on the ply, so both plies of
+      // a move take the same one, exactly as the move list prints it.
+      const row = cur.closest('.move');
+      const no = row ? row.querySelector('.move-no') : null;
+      if (no) {
+        const tag = document.createElement('span');
+        tag.className = 'move-text__no';
+        tag.textContent = no.textContent + ' ';
+        box.appendChild(tag);
+      }
+      // The note is printed right underneath, so its (a) points nowhere here.
+      box.appendChild(document.createTextNode(
+        cur.textContent.replace(/\s*\([a-z]{1,2}\)/g, '').trim()));
+    }
     const notes = cur ? Array.from(cur.querySelectorAll('.note-ref')) : [];
     panel.querySelector('.move-text__notes').innerHTML = notes
       .map(function (r) {

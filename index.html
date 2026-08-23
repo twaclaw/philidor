@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Diego Sandoval">
-<meta name="dcterms.date" content="2026-08-22">
+<meta name="dcterms.date" content="2026-08-23">
 <meta name="description" content="Every game in Philidor’s Analysis of the Game of Chess, transcribed from the 1819 English edition into algebraic notation and playable on a board beside his own words.">
 
 <title>Philidor’s Analysis of the Game of Chess</title>
@@ -47,7 +47,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-6b852b2f3245f4ad60fb9431155c27cb.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-b026211828b76a3020400b380f4b392a.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -141,7 +141,13 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./state.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">State of the transcription</span></a>
+ <span class="menu-text">State of the conversion</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./methodology.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">How this book was done</span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -754,7 +760,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">August 22, 2026</p>
+      <p class="date">August 23, 2026</p>
     </div>
   </div>
   
@@ -784,8 +790,8 @@ ul.task-list li input[type="checkbox"] {
 <p><strong>B</strong>. King’s knight to his bishop’s third square.</p></li>
 </ol>
 <p>I decided to transcribe the games into algebraic notation so that I could visualize them using a chess engine.</p>
-<p>I think this is the kind of task where LLMs really shine: text extraction and understanding anachronisms, as well as programmatic and contextual reconstruction, using a chess engine for verification, context information, and human supervision. There has been a lot of hand-holding and verification, but I would say that the results are turning out very nicely.</p>
-<p>For more information on how the transcription was done, see <a href="./methodology.qmd">the methodology</a>.</p>
+<p>I think this is the kind of task where LLMs really shine: text extraction, natural language processing, understanding anachronisms, and ambiguous and inconsistent context and conventions, as well as programmatic and contextual reconstruction, using a chess engine for verification, context information, and human supervision. There has been a lot of hand-holding and verification, but I would say that the results are turning out very nicely.</p>
+<p>For more information on how the transcription was done, see <a href="./methodology.html">the methodology</a>.</p>
 <p>Each game in the book is presented in its own chapter. Philidor’s original move text and extended descriptions are preserved as hover-over elements.</p>
 <p><strong>Where help is needed</strong></p>
 <p>A game is marked with a 🐞 in the list of chapters when the board does not tell the whole story. This can happen if the board stops before the game ends or if it only reaches the end by reading against the text at a certain move. In this case, the printed text does not allow for a legal continuation. The chapter itself indicates which case applies and where.</p>
@@ -807,10 +813,7 @@ ul.task-list li input[type="checkbox"] {
 // One initialiser for the whole book. A game page carries only a board div
 // with its PGN inside and a list of Philidor's moves; the wiring between the
 // two lives here, so a change lands on all 96 pages at once.
-// Quarto resolves the link in the head for the depth of the page; a path
-// written here it would leave alone.
-const { default: LichessPgnViewer } =
-  await import(document.getElementById('lpv-module').href);
+import LichessPgnViewer from '/assets/lichess-pgn-viewer.min.js';
 
 function wire(boardEl) {
   const src = boardEl.querySelector('script[type="text/pgn"]');
@@ -840,18 +843,18 @@ function wire(boardEl) {
   if (!plies.length) return;
   const list = plies[0].closest('.original-moves');
 
-  // On a narrow screen the moves do not fit beside the board, so the text for
-  // the move being shown is repeated underneath it. One box, refilled as the
-  // board moves. Ticked by default on a small screen; the reader's choice is
-  // remembered either way.
-  const NARROW = '(max-width: 1100px)';
+  // The text for the move being shown, repeated under the board. One box,
+  // refilled as the board moves: on a narrow screen the moves do not fit
+  // beside the board at all, and beside it the box still saves looking away
+  // to read what the move was. Ticked by default; the reader's choice is
+  // remembered.
   const REMEMBERED = 'philidor.followText';
   const toggle = boardEl.parentElement.querySelector('.follow-text');
   const panel = boardEl.parentElement.querySelector('.move-text');
 
   function follows() {
     const stored = localStorage.getItem(REMEMBERED);
-    return stored === null ? window.matchMedia(NARROW).matches : stored === '1';
+    return stored === null ? true : stored === '1';
   }
 
   function fill() {
@@ -859,10 +862,25 @@ function wire(boardEl) {
     panel.hidden = !(toggle && toggle.checked);
     if (panel.hidden) return;
     const cur = plies.find(function (el) { return el.classList.contains('current'); });
-    // The note is printed right underneath, so its (a) points nowhere here.
-    panel.querySelector('.move-text__move').textContent = cur
-      ? cur.textContent.replace(/\s*\([a-z]{1,2}\)/g, '').trim()
-      : 'The opening position.';
+    const box = panel.querySelector('.move-text__move');
+    box.textContent = '';
+    if (!cur) {
+      box.textContent = 'The opening position.';
+    } else {
+      // The number is set on the row rather than on the ply, so both plies of
+      // a move take the same one, exactly as the move list prints it.
+      const row = cur.closest('.move');
+      const no = row ? row.querySelector('.move-no') : null;
+      if (no) {
+        const tag = document.createElement('span');
+        tag.className = 'move-text__no';
+        tag.textContent = no.textContent + ' ';
+        box.appendChild(tag);
+      }
+      // The note is printed right underneath, so its (a) points nowhere here.
+      box.appendChild(document.createTextNode(
+        cur.textContent.replace(/\s*\([a-z]{1,2}\)/g, '').trim()));
+    }
     const notes = cur ? Array.from(cur.querySelectorAll('.note-ref')) : [];
     panel.querySelector('.move-text__notes').innerHTML = notes
       .map(function (r) {

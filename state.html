@@ -8,7 +8,7 @@
 
 <meta name="description" content="Every game in Philidor’s Analysis of the Game of Chess, transcribed from the 1819 English edition into algebraic notation and playable on a board beside his own words.">
 
-<title>State of the transcription – Philidor’s Analysis of the Game of Chess</title>
+<title>State of the conversion – Philidor’s Analysis of the Game of Chess</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -34,7 +34,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./games/first-party.html" rel="next">
+<link href="./methodology.html" rel="next">
 <link href="./editions.html" rel="prev">
 <link href="./assets/favicon.png" rel="icon" type="image/png">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
@@ -46,7 +46,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-6b852b2f3245f4ad60fb9431155c27cb.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-b026211828b76a3020400b380f4b392a.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -81,11 +81,11 @@ ul.task-list li input[type="checkbox"] {
 <meta name="twitter:image:alt" content="The 1819 English edition open at its title page, with P. Watts’s engraved portrait of Philidor facing it.">
 
 
-<meta property="og:title" content="State of the transcription – Philidor’s Analysis of the Game of Chess">
+<meta property="og:title" content="State of the conversion – Philidor’s Analysis of the Game of Chess">
 <meta property="og:description" content="Every game in Philidor’s Analysis of the Game of Chess, transcribed from the 1819 English edition into algebraic notation and playable on a board beside his own words.">
 <meta property="og:image" content="https://twaclaw.github.io/philidor/assets/philidor_book.jpeg">
 <meta property="og:site_name" content="Philidor’s Analysis of the Game of Chess">
-<meta name="twitter:title" content="State of the transcription – Philidor’s Analysis of the Game of Chess">
+<meta name="twitter:title" content="State of the conversion – Philidor’s Analysis of the Game of Chess">
 <meta name="twitter:description" content="Every game in Philidor’s Analysis of the Game of Chess, transcribed from the 1819 English edition into algebraic notation and playable on a board beside his own words.">
 <meta name="twitter:image" content="https://twaclaw.github.io/philidor/assets/philidor_book.jpeg">
 <meta name="twitter:card" content="summary_large_image">
@@ -100,7 +100,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./state.html">State of the transcription</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./state.html">State of the conversion</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -140,7 +140,13 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./state.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">State of the transcription</span></a>
+ <span class="menu-text">State of the conversion</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./methodology.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">How this book was done</span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -730,7 +736,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">State of the transcription</h1>
+<h1 class="title">State of the conversion</h1>
 </div>
 
 
@@ -754,10 +760,10 @@ ul.task-list li input[type="checkbox"] {
 <p>No move is ever computed. Each ply is read for what it says, the board is asked which legal moves fit, and the rules of chess remove the rest. How much work that leaves varies from ply to ply, and the four cases are not equally sound.</p>
 <table class="caption-top table">
 <colgroup>
-<col style="width: 23%">
-<col style="width: 15%">
-<col style="width: 15%">
-<col style="width: 46%">
+<col style="width: 18%">
+<col style="width: 18%">
+<col style="width: 18%">
+<col style="width: 45%">
 </colgroup>
 <thead>
 <tr class="header">
@@ -811,217 +817,217 @@ ul.task-list li input[type="checkbox"] {
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: right;">15</td>
+<td style="text-align: right;">12</td>
 <td><a href="./games/fourth-party.html">Fourth Party</a></td>
 <td>Reconstructed</td>
 <td style="text-align: right;">56&nbsp;/&nbsp;56</td>
 <td>departs from the text at ply 15, 54</td>
 </tr>
 <tr class="even">
-<td style="text-align: right;">16</td>
+<td style="text-align: right;">13</td>
 <td><a href="./games/first-back-game-of-the-fourth-party.html">First Back-game of the Fourth Party</a></td>
 <td>Reconstructed</td>
 <td style="text-align: right;">58&nbsp;/&nbsp;58</td>
 <td>departs from the text at ply 40</td>
 </tr>
 <tr class="odd">
-<td style="text-align: right;">17</td>
+<td style="text-align: right;">14</td>
 <td><a href="./games/second-back-game-of-the-fourth-party.html">Second Back-game of the Fourth Party</a></td>
 <td>Reconstructed</td>
 <td style="text-align: right;">50&nbsp;/&nbsp;50</td>
 <td>departs from the text at ply 24</td>
 </tr>
 <tr class="even">
-<td style="text-align: right;">18</td>
+<td style="text-align: right;">15</td>
 <td><a href="./games/first-gambit.html">First Gambit</a></td>
 <td>Reconstructed</td>
 <td style="text-align: right;">51&nbsp;/&nbsp;51</td>
 <td>departs from the text at ply 32</td>
 </tr>
 <tr class="odd">
-<td style="text-align: right;">23</td>
+<td style="text-align: right;">20</td>
 <td><a href="./games/fifth-back-game-of-the-first-gambit.html">Fifth Back-game of the First Gambit</a></td>
 <td>Reconstructed</td>
 <td style="text-align: right;">21&nbsp;/&nbsp;21</td>
 <td>departs from the text at ply 14</td>
 </tr>
 <tr class="even">
-<td style="text-align: right;">40</td>
+<td style="text-align: right;">37</td>
 <td><a href="./games/first-back-game-of-the-queen-s-gambit.html">First Back-game of the Queen’s Gambit</a></td>
 <td>Reconstructed</td>
 <td style="text-align: right;">68&nbsp;/&nbsp;68</td>
 <td>departs from the text at ply 36</td>
 </tr>
 <tr class="odd">
-<td style="text-align: right;">44</td>
+<td style="text-align: right;">41</td>
 <td><a href="./games/fifth-back-game-of-the-queen-s-gambit.html">Fifth Back-game of the Queen’s Gambit</a></td>
 <td>Reconstructed</td>
 <td style="text-align: right;">93&nbsp;/&nbsp;93</td>
 <td>departs from the text at ply 13</td>
 </tr>
 <tr class="even">
-<td style="text-align: right;">45</td>
+<td style="text-align: right;">42</td>
 <td><a href="./games/sixth-back-game-of-the-queen-s-gambit.html">Sixth Back-game of the Queen’s Gambit</a></td>
 <td>Reconstructed</td>
 <td style="text-align: right;">34&nbsp;/&nbsp;34</td>
 <td>departs from the text at ply 13</td>
 </tr>
 <tr class="odd">
-<td style="text-align: right;">62</td>
+<td style="text-align: right;">59</td>
 <td><a href="./games/another-method-of-playing.html">Another Method of Playing</a></td>
 <td>Reconstructed</td>
 <td style="text-align: right;">39&nbsp;/&nbsp;39</td>
 <td>departs from the text at ply 8, 10</td>
 </tr>
 <tr class="even">
-<td style="text-align: right;">84</td>
+<td style="text-align: right;">81</td>
 <td><a href="./games/second-back-game-queen-against-a-rook-and-a-pawn.html">Second Back-game (Queen against a Rook and a Pawn)</a></td>
 <td>Reconstructed</td>
 <td style="text-align: right;">35&nbsp;/&nbsp;35</td>
 <td>departs from the text at ply 34</td>
 </tr>
 <tr class="odd">
-<td style="text-align: right;">92</td>
+<td style="text-align: right;">89</td>
 <td><a href="./games/another-drawn-game-with-a-queen-against-a-pawn-near-making-a-queen.html">Another Drawn-game with a Queen against a Pawn near making a Queen</a></td>
 <td>Reconstructed</td>
 <td style="text-align: right;">6&nbsp;/&nbsp;6</td>
 <td>departs from the text at ply 3</td>
 </tr>
 <tr class="even">
-<td style="text-align: right;">25</td>
+<td style="text-align: right;">22</td>
 <td><a href="./games/seventh-and-last-back-game-of-the-first-gambit.html">Seventh and Last Back-game of the First Gambit</a></td>
 <td>Board stops short</td>
 <td style="text-align: right;">25&nbsp;/&nbsp;60</td>
 <td>ply 26: no legal reading; departs from the text at ply 23</td>
 </tr>
 <tr class="odd">
-<td style="text-align: right;">27</td>
+<td style="text-align: right;">24</td>
 <td><a href="./games/first-back-game-of-the-second-gambit.html">First Back-game of the Second Gambit</a></td>
 <td>Board stops short</td>
 <td style="text-align: right;">13&nbsp;/&nbsp;21</td>
 <td>ply 14: no legal reading</td>
 </tr>
 <tr class="even">
-<td style="text-align: right;">28</td>
+<td style="text-align: right;">25</td>
 <td><a href="./games/second-back-game-of-the-second-gambit.html">Second Back-game of the Second Gambit</a></td>
 <td>Board stops short</td>
 <td style="text-align: right;">83&nbsp;/&nbsp;101</td>
 <td>ply 84: no legal reading; departs from the text at ply 66</td>
 </tr>
 <tr class="odd">
-<td style="text-align: right;">35</td>
+<td style="text-align: right;">32</td>
 <td><a href="./games/cunningham-s-gambit.html">Cunningham’s Gambit</a></td>
 <td>Board stops short</td>
 <td style="text-align: right;">72&nbsp;/&nbsp;88</td>
 <td>ply 73: no legal reading; departs from the text at ply 55, 57</td>
 </tr>
 <tr class="even">
-<td style="text-align: right;">37</td>
+<td style="text-align: right;">34</td>
 <td><a href="./games/sequel-to-the-first-back-game-of-cunningham-s-gambit.html">Sequel to the First Back-game of Cunningham’s Gambit</a></td>
 <td>Board stops short</td>
 <td style="text-align: right;">26&nbsp;/&nbsp;43</td>
 <td>ply 27: no legal reading; departs from the text at ply 18</td>
 </tr>
 <tr class="odd">
-<td style="text-align: right;">38</td>
+<td style="text-align: right;">35</td>
 <td><a href="./games/second-back-game-of-cunningham-s-gambit.html">Second Back-game of Cunningham’s Gambit</a></td>
 <td>Board stops short</td>
 <td style="text-align: right;">58&nbsp;/&nbsp;80</td>
 <td>ply 59: no legal reading</td>
 </tr>
 <tr class="even">
-<td style="text-align: right;">39</td>
+<td style="text-align: right;">36</td>
 <td><a href="./games/the-queen-s-gambit.html">The Queen’s Gambit</a></td>
 <td>Board stops short</td>
 <td style="text-align: right;">106&nbsp;/&nbsp;108</td>
 <td>ply 107: no ordinal: advances; departs from the text at ply 13</td>
 </tr>
 <tr class="odd">
-<td style="text-align: right;">42</td>
+<td style="text-align: right;">39</td>
 <td><a href="./games/third-back-game-of-the-queen-s-gambit.html">Third Back-game of the Queen’s Gambit</a></td>
 <td>Board stops short</td>
 <td style="text-align: right;">67&nbsp;/&nbsp;68</td>
 <td>ply 68: no legal reading; departs from the text at ply 67</td>
 </tr>
 <tr class="even">
-<td style="text-align: right;">53</td>
+<td style="text-align: right;">50</td>
 <td><a href="./games/first-variable.html">First Variable</a></td>
 <td>Board stops short</td>
 <td style="text-align: right;">6&nbsp;/&nbsp;36</td>
 <td>ply 7: no ordinal: , at his bishop’s third</td>
 </tr>
 <tr class="odd">
-<td style="text-align: right;">63</td>
+<td style="text-align: right;">60</td>
 <td><a href="./games/gambit-of-salvio.html">Gambit of Salvio</a></td>
 <td>Board stops short</td>
 <td style="text-align: right;">14&nbsp;/&nbsp;32</td>
 <td>ply 15: no legal reading</td>
 </tr>
 <tr class="even">
-<td style="text-align: right;">65</td>
+<td style="text-align: right;">62</td>
 <td><a href="./games/variable-of-the-first-back-game-of-the-gambit-of-salvio.html">Variable of the First Back-game of the Gambit of Salvio</a></td>
 <td>Board stops short</td>
 <td style="text-align: right;">15&nbsp;/&nbsp;25</td>
 <td>ply 16: no ordinal: ’s or gambit’s pawn, one move.</td>
 </tr>
 <tr class="odd">
-<td style="text-align: right;">66</td>
+<td style="text-align: right;">63</td>
 <td><a href="./games/second-back-game-of-the-gambit-of-salvio.html">Second Back-game of the Gambit of Salvio</a></td>
 <td>Board stops short</td>
 <td style="text-align: right;">15&nbsp;/&nbsp;20</td>
 <td>ply 16: no ordinal: ’s, or gambit’s pawn, one move</td>
 </tr>
 <tr class="even">
-<td style="text-align: right;">67</td>
+<td style="text-align: right;">64</td>
 <td><a href="./games/third-back-game-of-the-gambit-of-salvio.html">Third Back-game of the Gambit of Salvio</a></td>
 <td>Board stops short</td>
 <td style="text-align: right;">21&nbsp;/&nbsp;29</td>
 <td>ply 22: no ordinal: , at his bishop’s third</td>
 </tr>
 <tr class="odd">
-<td style="text-align: right;">69</td>
+<td style="text-align: right;">66</td>
 <td><a href="./games/back-game-of-the-supplement-to-the-first-gambit.html">Back-game of the Supplement to the First Gambit</a></td>
 <td>Board stops short</td>
 <td style="text-align: right;">16&nbsp;/&nbsp;27</td>
 <td>ply 17: no legal reading; departs from the text at ply 16</td>
 </tr>
 <tr class="even">
-<td style="text-align: right;">73</td>
+<td style="text-align: right;">70</td>
 <td><a href="./games/second-back-game-rook-and-bishop-against-a-rook.html">Second Back-game (Rook and Bishop against a Rook)</a></td>
 <td>Board stops short</td>
 <td style="text-align: right;">22&nbsp;/&nbsp;23</td>
 <td>ply 23: no ordinal: , at his king’s bishop’s fourth, square, and must win the game</td>
 </tr>
 <tr class="odd">
-<td style="text-align: right;">77</td>
+<td style="text-align: right;">74</td>
 <td><a href="./games/method-of-giving-check-mate-with-a-bishop-and-a-knight.html">Method of giving Check-mate with a Bishop and a Knight</a></td>
 <td>Board stops short</td>
 <td style="text-align: right;">47&nbsp;/&nbsp;49</td>
 <td>ply 48: no legal reading</td>
 </tr>
 <tr class="even">
-<td style="text-align: right;">82</td>
+<td style="text-align: right;">79</td>
 <td><a href="./games/a-game-won-with-a-queen-against-a-rook-and-a-pawn.html">A Game won with a Queen against a Rook and a Pawn</a></td>
 <td>Board stops short</td>
 <td style="text-align: right;">45&nbsp;/&nbsp;47</td>
 <td>ply 46: no legal reading; departs from the text at ply 43</td>
 </tr>
 <tr class="odd">
-<td style="text-align: right;">85</td>
+<td style="text-align: right;">82</td>
 <td><a href="./games/a-check-mate-with-a-queen-against-a-rook.html">A Check-mate with a Queen against a Rook</a></td>
 <td>Board stops short</td>
 <td style="text-align: right;">45&nbsp;/&nbsp;81</td>
 <td>ply 46: no legal reading; departs from the text at ply 43</td>
 </tr>
 <tr class="even">
-<td style="text-align: right;">88</td>
+<td style="text-align: right;">85</td>
 <td><a href="./games/back-game-rook-and-pawn-against-a-rook.html">Back-game (Rook and Pawn against a Rook)</a></td>
 <td>Board stops short</td>
 <td style="text-align: right;">14&nbsp;/&nbsp;43</td>
 <td>ply 15: no ordinal: , at the adverse king’s second king, square.</td>
 </tr>
 <tr class="odd">
-<td style="text-align: right;">93</td>
+<td style="text-align: right;">90</td>
 <td><a href="./games/a-drawn-game-with-a-single-pawn.html">A Drawn-game with a single Pawn</a></td>
 <td>Board stops short</td>
 <td style="text-align: right;">18&nbsp;/&nbsp;19</td>
@@ -1039,10 +1045,7 @@ ul.task-list li input[type="checkbox"] {
 // One initialiser for the whole book. A game page carries only a board div
 // with its PGN inside and a list of Philidor's moves; the wiring between the
 // two lives here, so a change lands on all 96 pages at once.
-// Quarto resolves the link in the head for the depth of the page; a path
-// written here it would leave alone.
-const { default: LichessPgnViewer } =
-  await import(document.getElementById('lpv-module').href);
+import LichessPgnViewer from '/assets/lichess-pgn-viewer.min.js';
 
 function wire(boardEl) {
   const src = boardEl.querySelector('script[type="text/pgn"]');
@@ -1072,18 +1075,18 @@ function wire(boardEl) {
   if (!plies.length) return;
   const list = plies[0].closest('.original-moves');
 
-  // On a narrow screen the moves do not fit beside the board, so the text for
-  // the move being shown is repeated underneath it. One box, refilled as the
-  // board moves. Ticked by default on a small screen; the reader's choice is
-  // remembered either way.
-  const NARROW = '(max-width: 1100px)';
+  // The text for the move being shown, repeated under the board. One box,
+  // refilled as the board moves: on a narrow screen the moves do not fit
+  // beside the board at all, and beside it the box still saves looking away
+  // to read what the move was. Ticked by default; the reader's choice is
+  // remembered.
   const REMEMBERED = 'philidor.followText';
   const toggle = boardEl.parentElement.querySelector('.follow-text');
   const panel = boardEl.parentElement.querySelector('.move-text');
 
   function follows() {
     const stored = localStorage.getItem(REMEMBERED);
-    return stored === null ? window.matchMedia(NARROW).matches : stored === '1';
+    return stored === null ? true : stored === '1';
   }
 
   function fill() {
@@ -1091,10 +1094,25 @@ function wire(boardEl) {
     panel.hidden = !(toggle && toggle.checked);
     if (panel.hidden) return;
     const cur = plies.find(function (el) { return el.classList.contains('current'); });
-    // The note is printed right underneath, so its (a) points nowhere here.
-    panel.querySelector('.move-text__move').textContent = cur
-      ? cur.textContent.replace(/\s*\([a-z]{1,2}\)/g, '').trim()
-      : 'The opening position.';
+    const box = panel.querySelector('.move-text__move');
+    box.textContent = '';
+    if (!cur) {
+      box.textContent = 'The opening position.';
+    } else {
+      // The number is set on the row rather than on the ply, so both plies of
+      // a move take the same one, exactly as the move list prints it.
+      const row = cur.closest('.move');
+      const no = row ? row.querySelector('.move-no') : null;
+      if (no) {
+        const tag = document.createElement('span');
+        tag.className = 'move-text__no';
+        tag.textContent = no.textContent + ' ';
+        box.appendChild(tag);
+      }
+      // The note is printed right underneath, so its (a) points nowhere here.
+      box.appendChild(document.createTextNode(
+        cur.textContent.replace(/\s*\([a-z]{1,2}\)/g, '').trim()));
+    }
     const notes = cur ? Array.from(cur.querySelectorAll('.note-ref')) : [];
     panel.querySelector('.move-text__notes').innerHTML = notes
       .map(function (r) {
@@ -1659,8 +1677,8 @@ if (document.readyState === 'loading') {
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./games/first-party.html" class="pagination-link" aria-label="First Party">
-        <span class="nav-page-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">First Party</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./methodology.html" class="pagination-link" aria-label="How this book was done">
+        <span class="nav-page-text">How this book was done</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

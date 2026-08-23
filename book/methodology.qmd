@@ -5,7 +5,7 @@ This chapter describes the general outline of how the transcription process was 
 
 ## The sources
 
-I downloaded the scanned books from the Internet Archive and [1](https://archive.org/details/bim_eighteenth-century_analyse-du-jeu-des-chec_philidor-f-d-franco_1777) [2](https://archive.org/details/bim_eighteenth-century_lanalyze-des-echecs-co_philidor-f-d-franco_1749_0). Both documents  are public-domain. The text layer is all  that the programs ever read. Additionally, the tables of contents were extracted from the PDFs for cross-checking^[[1](The source files can be found in  `scripts/extraction`)].
+I downloaded the scanned books from the Internet Archive: [1777 edition](https://archive.org/details/bim_eighteenth-century_analyse-du-jeu-des-chec_philidor-f-d-franco_1777) and [1749 edition](https://archive.org/details/bim_eighteenth-century_lanalyze-des-echecs-co_philidor-f-d-franco_1749_0). Both documents  are public-domain. The text layer is all  that the programs ever read. Additionally, the tables of contents were extracted from the PDFs for cross-checking^[[1](The source files can be found in  `scripts/extraction`)].
 
 
 | Scan | Edition | Role |

@@ -1,0 +1,16 @@
+/_site/
+/html/
+book/site_libs/
+
+# Rebuilt from the scan by make; the published copies are in book/downloads
+/md/
+/pgn/
+/games.json
+/stops.json
+/missing.json
+
+# 140 MB of scans, and the pipeline reads only the text layer beside them
+scripts/extraction/*.pdf
+
+__pycache__/
+.venv/

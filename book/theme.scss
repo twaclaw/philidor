@@ -35,12 +35,6 @@ $ed-yours:    $danger;
 
 // --- Page furniture -------------------------------------------------------
 
-// Only the first page carries an author and a date, and they land between
-// the description and the text with a rem to spare on either side.
-#title-block-header .quarto-title-meta:has(.quarto-title-meta-heading) {
-  margin-block: 1.5rem 2.5rem;
-}
-
 .game-meta {
   font-size: .8rem;
   color: $muted;
@@ -270,8 +264,9 @@ $ed-yours:    $danger;
 
 
 // --- Following the board in words -----------------------------------------
-// On a narrow screen the moves cannot sit beside the board, so the text for
-// the move being shown is repeated under it.
+// The text for the move being shown, repeated under the board. On a narrow
+// screen the moves cannot sit beside the board at all; on a wide one the box
+// saves looking across to the list. Shown by default either way.
 
 .follow-toggle {
   display: flex;
@@ -298,6 +293,9 @@ $ed-yours:    $danger;
   &[hidden] { display: none; }
 
   .move-text__move { font-weight: 700; margin: 0; }
+  // The move's number, as the list sets it: present but not competing with
+  // the words.
+  .move-text__no { color: $muted; font-variant-numeric: tabular-nums; }
   .move-text__notes p { margin: .55rem 0 0 0; color: $body-color; }
   .move-text__notes p:first-child { margin-top: .7rem; }
 }

@@ -1,0 +1,156 @@
+---
+title: How this book was made
+---
+
+This chapter describes the general outline of how the transcription process was approached.
+
+
+## The sources
+
+I downloaded the scanned books from the Internet Archive and [1](https://archive.org/details/bim_eighteenth-century_analyse-du-jeu-des-chec_philidor-f-d-franco_1777) [2](https://archive.org/details/bim_eighteenth-century_lanalyze-des-echecs-co_philidor-f-d-franco_1749_0). Both documents  are public-domain. The text layer is all  that the programs ever read. Additionally, the tables of contents were extracted from the PDFs for cross-checking^[[1](The source files can be found in  `scripts/extraction`)].
+
+
+| Scan | Edition | Role |
+| --- | --- | --- |
+| `philidor2.txt` | *Analysis of the Game of Chess*, London, P. Elmsley, 1777 | **Base text.** The cleaner scan and the fuller book: it alone carries the endgames and the seventeen rules. |
+| `philidor1.txt` | *Analysis of the Game of Chess*, London, 1790, volume I | **Collation only.** It ends "END OF THE FIRST VOLUME", so it covers the parties and gambits and not the endgames. |
+
+
+The third edition of the 1819 Kenny translation, my personal copy  (see [The editions](editions.qmd)), is used for reference and collation, but the programs do not read it. The diagrams in this edition were used for additional manual verification.
+
+
+
+## The chain
+
+It runs in one direction, from a single input. No output is ever parsed back in.
+
+```
+philidor2.txt   the 1777 scan
+     |
+     +-- build.py -------> philidor.md      the transcription
+     |                     md/*.md          the same text, one game per file
+     |
+     +-- games.py ------->  games.json      + the algebraic replay
+                              |
+                              +-- to_pgn.py -----> pgn/*.pgn
+                              +-- build_book.py -> book/games/*.qmd -> _site/
+```
+
+
+`philidor.md` and `md/*.md` are written from the same parsing process, and `games.json` is produced by the same single pass over the scan. This provides a stronger guarantee than re-reading Markdown would: there is no second parser that could disagree with the first. Additionally, every record retains the number of the source line from which it came, enabling any editorial decision to be verified against the page.
+
+
+
+## Extraction
+
+- **Normalize the scan.** The long s becomes s, as do the scanner's misreadings of it as f: `fame` becomes `same`, `fide` becomes `side`, and `loft` becomes `lost`. That list was not guessed. Every word containing an "f" was tested against a dictionary. Words where the substitution produced a real word that the original did not were kept, and the result was then re-read. The same process corrects Cyrillic and Greek homoglyphs, rejoins words that the scan separated or merged, and removes running heads, page numbers, and printers' signature marks.
+
+- **Find the games.** A table of 96 sections, each keyed to its line in the scan, drives the split. Eight were missed on the first pass because the scanner set their headings in Cyrillic lookalikes.
+
+- **Separate moves from notes.** The word NOTES is printed as a centered rule, but the scan breaks it across up to three lines, so it cannot be matched. Instead, the parser keys off the note bodies: a line opening with "(a)" starts the notes, and the next move number ends them.
+
+- **Rebuild the numbering.** The printed move numbers are unreliable — 37-, 3:, II., II. — so plies are paired into moves from scratch, and the result is checked against what the printer set rather than taken from it.
+
+Spelling is otherwise the translator's: "Shews" and "chuse" remain as he had them. Corrections to the printed text are in an "ERRATA" table, which is keyed by line number. Currently, there are two entries, each of which quotes the source line and explains how it was resolved. If the source is beyond repair, the transcription says so instead of quietly patching it.
+
+The note letters are repaired at this stage rather than at render time. This was discovered when building the hover panels. The repair was only occurring on the way into philidor.md, so the book displayed raw scanner glyphs. For example, an (l) was read as (1), which no hover could match, and an (h) was read as (b), which collided with the real (b).
+
+
+
+## Descriptive to algebraic: constrain, don't translate
+
+No move is ever computed. Each move is analyzed for its meaning, and the board is searched for every legal move that fits. The rules of chess then eliminate the rest. Descriptive notation is as ambiguous as language, but a position is rarely ambiguous.
+
+- The piece is the last noun in the possessive chain. In "the queen's bishop's pawn," for example, the pawn is the last noun in the possessive chain, and everything before it names the file on which it started. 
+- The square takes its file from the last qualifier before the ordinal and, in the case of a tie, from the longest qualifier. The rank is counted from the owner's back rank, and "adverse" flips which side is counted from.
+- A bare qualifier inherits its wing from the moving piece: "The queen at her bishop's second square" refers to the queen's bishop, not the king's.
+- Special forms include captures, pawn pushes by distance and file, castling, "covering the check," "giving check" with no named square, and "the same," which mirrors the opponent's previous move.
+
+**If a move has multiple possible interpretations, they are all tried, and the one that allows the rest of the game to be replayed legally is kept. This process is done depth-first with a node cap.**
+
+
+
+# What the search actually decides
+
+The LLM initially claimed that the conversion was search-driven, but it actually only accounts for a small fraction of the book.
+
+| How the ply was settled | Plies | Share | What it rests on |
+| --- | ---: | ---: | --- |
+| Forced by the position | 3138 | 93.7% | The words and the board leave exactly one legal move. Nothing was chosen. |
+| "The same" | 104 | 3.1% | Mirrors the previous move, and the mirror is legal. |
+| Chosen by the search | 84 | 2.5% | Several readings fit equally well; the one kept is the one under which the game finishes. |
+| Read against the text | 23 | 0.7% | No legal move fits the words. The reading departs from the page and is flagged. |
+
+
+The search decides only 3.2% of the book; the rest is arithmetic. This cuts both ways: the conversion is not primarily a search result, and when it is, it is exactly where a reader should look first.
+
+
+<!-- ## The checks, and what each caught
+
+Legality alone is a poor judge, so the reading is held against sources and constraints that do not use it. Each of these sources was added for a reason, and most of them found something the moment they were run. -->
+
+
+
+<!-- | Check | Scope | What it is worth |
+| --- | --- | --- |
+| Back-game meets its parent at the branch move | 49 branches, 49 agree | The best check here: it needs no outside source at all. It found the bare-qualifier bug — "her bishop's" resolved to the king's wing — which neither the replay nor the outside transcription had caught. |
+| The four published forms agree | every move and note | Found two ways notes were being lost: a game with two notes lettered `(x)`, where a dictionary keyed by letter kept only the second, and references inside an endgame's stated position, which were never made hoverable. |
+| A move does what its own sentence claims | 20094 claims, 4 contradict | Written after a study played 27 plies from a board that was wrong. 4 survive, listed in `TODO.md`. |
+| The printer's own move numbers | 1462 moves, 7 drift | Tests the pairing of plies into moves against what he set. The drift is all in numbers the scan mangled. |
+| Collation against the 1790 edition | the parties and gambits | Each game is reduced to a canonical token sequence, so "The king's pawn, two moves" can be compared with "The K. P. two moves". Agreement runs 60–83%; the ceiling is that scan's quality. |
+| An independent transcription of 5 lines | 160 plies, 159 identical | Its one disagreement is a real edition variance, not an error here. |
+| Positions supplied by hand must be legal and reachable | 3 positions | Turned a patch into corroboration. See below. |
+
+The claims check earned its place before it was written. *A Mate with a single Rook* opens "The rook gives check", and the scan had dropped a word from the position, leaving the rook on the king's square rather than the king's rook's. From there **no rook check exists at all**. The converter took a move that fitted the name, ignored the claim, and played on happily for twenty-seven plies from the wrong board. A reader comparing another edition caught it; nothing here did. Now every claim a board can judge is tested — checks, mates, captures, which piece was taken, castling, covering a check.
+
+The one disagreement with the outside transcription is worth naming: at Black's 4th move of one party, 1777 reads "the queen's pawn, one move" (d6) where 1790 reads "two moves" (d5), and the outside line agrees with 1790. Both readings are legal, so nothing in this machinery could have found it. -->
+
+
+## Human interaction
+
+Initially, the LLM could not find valid boards for games 70 and onward because those games did not start from initial chess positions; rather, they described specific positions in the middle of a game. After some iteration, the LLM was able to automatically compute some of the initial positions, but I had to manually provide the FEN starting position for four games.
+
+
+Chapters 70 to 98 were never read against the second edition because the 1790 file is volume I, and the endgames are in volume II.
+
+Descriptive notation names a piece for the file on which it stood at the start. The knight that began on g1 is the king's knight wherever it later stands. That one rule lets a sentence with no coordinates pick out a piece on a board. The converter was built on this rule.
+
+It is also the rule that Philidor breaks. A pawn changes files when it captures; from then on, it has two names: the file it began on and the file it now stands on. He uses both names. The First Party case exposed this. At move 14, Black recaptures with the a-pawn (`axb6`), and seven moves later, Philidor writes:
+
+> **First Party, move 21, Black** — "The queen's rook's pawn, one move."
+
+
+There is no pawn on the a-file. He is still referring to it by where it came from, and the game stopped there. However, the opposite habit is more common. At move 12 of the same game, "the queen's pawn retakes it," and the pawn on d4 began on the c-file. At move 32, "the king's bishop's pawn" is a pawn on f5 that began on the g-file. Across the book, there are nine instances named for where the pawn began, compared to 39 instances named for where it stands. Neither rule holds alone. Enforcing the first rule broke a backgame that had been correct. Enforcing the second rule is what stopped the First Party.
+
+Therefore, the reading keeps both and needs two maps (two dictionaries) to do so. The board shows where a piece stands, and a second dictionary shows where each piece began, square to the file it started on. This dictionary is updated one move at a time as pieces move, capture, promote, and castle. The rook that travels with a castling king is also carried across. Every candidate move is sorted into three groups: pieces that stand on the named file, pieces that came from it, and the rest. The first two groups are offered in that order, with the plainest reading offered first. The search decides between the rest of the groups based on the rest of the game.
+
+The first version of the map was rebuilt from scratch with every move by replaying the entire move stack and was replaced by updating it one move at a time. It also began as a pawn map since capturing moves a pawn off its file. It now follows every piece because "the king's knight" must stay the knight that began on g1, no matter how far it has traveled.
+
+This change, along with the other things the text plainly states that the parser had not been reading, increased the number of games from 22 to 44 and the number of plies from 49% to 77%.
+
+
+
+- **Starting positions, supplied as FEN.** Four studies had no working board so I had to  supply a position for each by hand. 
+- **A second edition read by hand.** The 1819 confirmed one corrected position and disputed one verdict, from a board both editions agree on.  There is at least one game appearing only in my 1819 edition that I will manually add later.
+- **Editorial readings, in the open.** Where the printed move is destroyed or impossible and no rule can recover it, a move can be settled by hand with a reason resting on evidence in the book. Anything settled that way is marked in the records, tagged in the PGN, stated on the chapter and marked 🐞 in the contents. It is never folded silently into what Philidor wrote.
+
+The rule that distinguishes a fix from an exception is as follows: when the text is correct but the board plays the wrong move, the converter misreads a phrase that it should understand. Therefore, the repair belongs in the parser as a rule. Nearly every stop found so far has been of that kind. A fix that works for one game but not another is not a fix, according to the audits.
+
+
+
+
+## What this method cannot do
+
+- **Legality is a filter, not an oracle.** Where two readings are both legal the search has nothing to separate them and will not notice. The d6/d5 misprint is exactly that case.
+- **A complete replay is not proof.** A wrong board played 27 plies quite happily. Finishing means only that some legal reading exists, not that it is Philidor's.
+- **The first complete replay wins.** The search stops at the first success, so where a game completes, that reading is not known to be the only one. No count of alternatives is claimed, because none has been made.
+- **Failure is not proof either.** Budget and node caps mean a game can stop for want of search rather than for want of a reading. The unconverted plies are "not found", not "not there".
+- **The headline double-counts.** Of the 3349 converted plies, 757 are a back-game replaying its parent, so only 2592 are distinct positions read from the page.
+- **A report can be wrong about its own subject.** Twice the numbers published here described something other than what the pipeline builds. They are now written from the records on every build, so no figure on the [state](state.qmd) page is maintained by hand.
+
+A reading can be lawful from beginning to end and still be wrong. Only redundancy catches that: a second edition, an outside transcription, the branch-point positions, Philidor's own notes, and a person looking at the board.
+
+## A note on the rules
+
+Philidor judges his endgames under the seventeen rules the 1777 edition closes with, and they are not the modern laws: a stalemated player **won** the game in England, promotion had been restricted to a captured piece in the 1749 edition, and the fifty-move rule was claimed rather than automatic. None of this forced the converter away from modern rules — all 66 castlings, the single promotion and every capture are legal under both codes — but where Philidor calls a position won or drawn, that is the code he is judging it under. It matters most in the endgames, which is also where this text rests on a single source.
+

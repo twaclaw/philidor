@@ -31,6 +31,7 @@ book:
   - index.qmd
   - editions.qmd
   - state.qmd
+  - methodology.qmd
   - games/first-party.qmd
   - games/first-back-game-of-the-first-party.qmd
   - games/second-back-game-of-the-first-party.qmd

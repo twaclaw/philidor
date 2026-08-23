@@ -41,7 +41,7 @@ the adverse queen's rook's second square.} Kc8 {The king, at his queen's bishop'
 Kc6 {The king, at the adverse queen's bishop's third square. (d) NOTE: In this position the game
 is won, either by pushing the pawn, or forcing the adverse bishop.} *
 </script></div>
-<label class="follow-toggle"><input type="checkbox" class="follow-text"> Show the text with the board</label><div class="move-text" hidden><p class="move-text__move"></p><div class="move-text__notes"></div></div>
+<label class="follow-toggle"><input type="checkbox" class="follow-text" checked> Show the text with the board</label><div class="move-text" hidden><p class="move-text__move"></p><div class="move-text__notes"></div></div>
 </div>
 <div class="game-text">
 <div class="game-position"><span class="situation">Situation of the White</span><ul><li>The king, at his fourth square.</li><li>The queen&#x27;s pawn, at his fourth square.</li><li>The rook, at its queen&#x27;s square.</li></ul><span class="situation">Situation of the Black</span><ul><li>The king, at his third square.</li><li>The king&#x27;s bishop, at his queen&#x27;s bishop&#x27;s second square.</li></ul></div>

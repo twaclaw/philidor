@@ -38,7 +38,7 @@ rook gives check, at the adverse king's bishop's square. (d) NOTE: He must conti
 check, in order to drive you away from your pawn; and, at the very moment when your king falls
 upon his rook, he will attack and take your pawn.} *
 </script></div>
-<label class="follow-toggle"><input type="checkbox" class="follow-text"> Show the text with the board</label><div class="move-text" hidden><p class="move-text__move"></p><div class="move-text__notes"></div></div>
+<label class="follow-toggle"><input type="checkbox" class="follow-text" checked> Show the text with the board</label><div class="move-text" hidden><p class="move-text__move"></p><div class="move-text__notes"></div></div>
 </div>
 <div class="game-text">
 <div class="game-position"><span class="situation">Situation of the White</span><ul><li>The king, at the adverse king&#x27;s bishop&#x27;s fourth square.</li><li>The pawn, at its king&#x27;s fourth square.</li><li>The rook, at the adverse king&#x27;s rook&#x27;s second square.</li></ul><span class="situation">Situation of the Black</span><ul><li>The king, at his home.</li><li>The rook, at its queen&#x27;s rook&#x27;s third square.</li></ul></div>

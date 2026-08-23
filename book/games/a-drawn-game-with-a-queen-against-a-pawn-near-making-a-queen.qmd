@@ -34,7 +34,7 @@ the former party, you forced his king to come under his pawn: but he may now, wi
 danger, leave it exposed to be taken; for you would make a stale-mate by taking his pawn: this
 ought then to be a drawn-game.} *
 </script></div>
-<label class="follow-toggle"><input type="checkbox" class="follow-text"> Show the text with the board</label><div class="move-text" hidden><p class="move-text__move"></p><div class="move-text__notes"></div></div>
+<label class="follow-toggle"><input type="checkbox" class="follow-text" checked> Show the text with the board</label><div class="move-text" hidden><p class="move-text__move"></p><div class="move-text__notes"></div></div>
 </div>
 <div class="game-text">
 <div class="game-position"><span class="situation">Situation of the White</span><ul><li>The king, at his queen&#x27;s bishop&#x27;s fourth square.</li><li>The queen, at her king&#x27;s second square.</li></ul><span class="situation">Situation of the Black</span><ul><li>The king, at the adverse king&#x27;s knight&#x27;s square.</li><li>The pawn, at the adverse king&#x27;s bishop&#x27;s second square.</li></ul></div>

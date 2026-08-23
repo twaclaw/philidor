@@ -66,7 +66,7 @@ square.} 23. Nc5 {The knight, at the adverse queen's bishop's fourth square.} Kb
 his queen's knight's square.} 24. Na6+ {The knight gives check, at the adverse queen's rook's
 third square.} {The board stops here; Philidor's game continues in the text beside it.} *
 </script></div>
-<label class="follow-toggle"><input type="checkbox" class="follow-text"> Show the text with the board</label><div class="move-text" hidden><p class="move-text__move"></p><div class="move-text__notes"></div></div>
+<label class="follow-toggle"><input type="checkbox" class="follow-text" checked> Show the text with the board</label><div class="move-text" hidden><p class="move-text__move"></p><div class="move-text__notes"></div></div>
 </div>
 <div class="game-text">
 <div class="game-position"><span class="situation">Situation of the White</span><ul><li>The king, at his fourth square.</li><li>The king&#x27;s bishop, at his square.</li><li>The queen&#x27;s knight, at his square. <span class="note-ref" tabindex="0" data-note="The mate must be given in the corner of the bishop&#x27;s colour; and when the adverse king retires to the opposite corner, in eighteen or twenty moves after, the mate may be easily forced.">(a)</span></li></ul><span class="situation">Situation of the Black</span><ul><li>The king, at his bishop&#x27;s third square.</li></ul></div>

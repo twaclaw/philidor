@@ -73,7 +73,7 @@ queen gives check, at the adverse king's fourth square.} Kc4 {The king, at the a
 bishop's fourth square.} 23. Kd7 {The king, at the adverse queen's second square.} {The board
 stops here; Philidor's game continues in the text beside it.} *
 </script></div>
-<label class="follow-toggle"><input type="checkbox" class="follow-text"> Show the text with the board</label><div class="move-text" hidden><p class="move-text__move"></p><div class="move-text__notes"></div></div>
+<label class="follow-toggle"><input type="checkbox" class="follow-text" checked> Show the text with the board</label><div class="move-text" hidden><p class="move-text__move"></p><div class="move-text__notes"></div></div>
 </div>
 <div class="game-text">
 <div class="game-position"><span class="situation">Situation of the White</span><ul><li>The king, at his bishop&#x27;s fourth square.</li><li>The queen, at her third square.</li></ul><span class="situation">Situation of the Black</span><ul><li>The king, at his second square.</li><li>The queen&#x27;s pawn, at its third square.</li><li>The rook, at its king&#x27;s fourth square. <span class="note-ref" tabindex="0" data-note="This party is but a drawn-game, provided the pawn has not yet been moved from its place; but, if it had been pushed forwards, the queen must win.">(a)</span></li></ul></div>

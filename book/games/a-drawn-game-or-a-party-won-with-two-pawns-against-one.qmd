@@ -38,7 +38,7 @@ king, at his queen's fourth square.} Kd6 {The king, at his queen's third square.
 king, at his fourth square.} Ke6 {The king, at his third square. (e) NOTE: Supposing that your
 adversary makes his moves exactly, it is a drawn-game.} *
 </script></div>
-<label class="follow-toggle"><input type="checkbox" class="follow-text"> Show the text with the board</label><div class="move-text" hidden><p class="move-text__move"></p><div class="move-text__notes"></div></div>
+<label class="follow-toggle"><input type="checkbox" class="follow-text" checked> Show the text with the board</label><div class="move-text" hidden><p class="move-text__move"></p><div class="move-text__notes"></div></div>
 </div>
 <div class="game-text">
 <div class="game-position"><span class="situation">Situation of the White</span><ul><li>The king, at his fourth square.</li><li>The king&#x27;s bishop&#x27;s pawn, at its fourth square.</li><li>The king&#x27;s knight&#x27;s pawn, at its fifth square.</li></ul><span class="situation">Situation of the Black</span><ul><li>The king, at his third square.</li><li>The king&#x27;s knight&#x27;s pawn, at its third square. <span class="note-ref" tabindex="0" data-note="In the present position, if the black were to play first, the white would win the game; and if the white were to play, it would be a drawn-game.">(a)</span></li></ul></div>

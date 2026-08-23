@@ -46,7 +46,7 @@ king, at the adverse king's knight's third square.} Kg8 {The king, at his knight
 f7+ {The pawn, one move, giving check.} Kf8 {The king, at his bishop's square.} {The board stops
 here; Philidor's game continues in the text beside it.} *
 </script></div>
-<label class="follow-toggle"><input type="checkbox" class="follow-text"> Show the text with the board</label><div class="move-text" hidden><p class="move-text__move"></p><div class="move-text__notes"></div></div>
+<label class="follow-toggle"><input type="checkbox" class="follow-text" checked> Show the text with the board</label><div class="move-text" hidden><p class="move-text__move"></p><div class="move-text__notes"></div></div>
 </div>
 <div class="game-text">
 <div class="game-position"><span class="situation">Situation of the White</span><ul><li>The king, at his bishop&#x27;s fourth square.</li><li>The pawn, at the adverse king&#x27;s bishop&#x27;s fourth square.</li></ul><span class="situation">Situation of the Black</span><ul><li>The king, at his bishop&#x27;s third square.</li></ul></div>

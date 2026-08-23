@@ -38,7 +38,7 @@ observe, that in such positions, when the knight cannot give check, nor hinder t
 going forwards, a double check must necessarily happen at the second move. A DRAWN-GAME, Or a
 PARTY won, with two PAWNS against one.} *
 </script></div>
-<label class="follow-toggle"><input type="checkbox" class="follow-text"> Show the text with the board</label><div class="move-text" hidden><p class="move-text__move"></p><div class="move-text__notes"></div></div>
+<label class="follow-toggle"><input type="checkbox" class="follow-text" checked> Show the text with the board</label><div class="move-text" hidden><p class="move-text__move"></p><div class="move-text__notes"></div></div>
 </div>
 <div class="game-text">
 <div class="game-position"><span class="situation">Situation of the White</span><ul><li>The king, at his rook&#x27;s second square.</li><li>The knight, at his queen&#x27;s rook&#x27;s second square.</li></ul><span class="situation">Situation of the Black</span><ul><li>The king, at the adverse queen&#x27;s knight&#x27;s third square.</li><li>The pawn, at the adverse queen&#x27;s rook&#x27;s third square.</li></ul></div>

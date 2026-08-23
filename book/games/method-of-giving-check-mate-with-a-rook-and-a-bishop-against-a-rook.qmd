@@ -53,7 +53,7 @@ might have played the king to his bishop's square. The subject of the last back-
 adverse king's square.} 10. Be5 {The bishop covers the check.} Kg8 {The king, at his knight's
 square.} 11. Rh4 {The rook, at its king's rook's fourth square, and must win.} *
 </script></div>
-<label class="follow-toggle"><input type="checkbox" class="follow-text"> Show the text with the board</label><div class="move-text" hidden><p class="move-text__move"></p><div class="move-text__notes"></div></div>
+<label class="follow-toggle"><input type="checkbox" class="follow-text" checked> Show the text with the board</label><div class="move-text" hidden><p class="move-text__move"></p><div class="move-text__notes"></div></div>
 </div>
 <div class="game-text">
 <div class="game-position"><span class="situation">Situation of the White</span><ul><li>The king, at the adverse king&#x27;s third square.</li><li>The rook, at its queen&#x27;s bishop&#x27;s square.</li><li>The bishop, at the adverse king&#x27;s fourth square.</li></ul><span class="situation">Situation of the Black</span><ul><li>The king, at his home.</li><li>The rook, at its queen&#x27;s second square.</li></ul></div>

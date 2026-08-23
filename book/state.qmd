@@ -1,4 +1,6 @@
-# State of the transcription {.unnumbered}
+---
+title: State of the conversion
+---
 
 Philidor's text is transcribed in full: all 96 games, every move and every note. Turning his descriptive notation into moves on a board is further along in some games than others, and this page says where each stands. It is written afresh on every build.
 
@@ -9,7 +11,7 @@ Of the 96 games with a board, 76 play through to the end. Across the whole book 
 No move is ever computed. Each ply is read for what it says, the board is asked which legal moves fit, and the rules of chess remove the rest. How much work that leaves varies from ply to ply, and the four cases are not equally sound.
 
 | How the move was settled | Plies | Share | Standing |
-| --- | -: | -: | ------ |
+| --- | ---: | ---: | --- |
 | Forced by the position | 3138 | 93.7% | The words and the board leave exactly one legal move, so no choice was made. |
 | "The same" | 104 | 3.1% | Mirrors the move just played, and the board confirms the mirror is legal. |
 | Chosen by the search | 84 | 2.5% | Several legal moves fit the words equally well; the one kept is the one under which the rest of the game replays. |

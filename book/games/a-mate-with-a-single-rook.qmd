@@ -48,7 +48,7 @@ bishop's third square.} Kh8 {The king, at his rook's square.} 13. Kg6 {The king,
 king's knight's third square.} Kg8 {The king, at his knight's square.} 14. Ra8# {The rook gives
 check-mate. A GAME WON WITH A QUEEN AGAINST A ROOK AND A PAWN.} *
 </script></div>
-<label class="follow-toggle"><input type="checkbox" class="follow-text"> Show the text with the board</label><div class="move-text" hidden><p class="move-text__move"></p><div class="move-text__notes"></div></div>
+<label class="follow-toggle"><input type="checkbox" class="follow-text" checked> Show the text with the board</label><div class="move-text" hidden><p class="move-text__move"></p><div class="move-text__notes"></div></div>
 </div>
 <div class="game-text">
 <div class="game-position"><span class="situation">Situation of the White</span><ul><li>The king, at his fourth square.</li><li>The rook, at its king&#x27;s rook&#x27;s square.</li></ul><span class="situation">Situation of the Black</span><ul><li>The king, at his third square.</li></ul></div>

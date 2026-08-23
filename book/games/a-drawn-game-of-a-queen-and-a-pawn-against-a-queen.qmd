@@ -40,7 +40,7 @@ the adverse king's knight's square.} Qg4+ {The queen gives cheek, at the adverse
 fourth square.} 7. Qg7 {The queen covers the check.} Qe6 {The queen, at her king's third square.
 GAME Won with a QUEEN, against a Pawn near making a QUEEN.} *
 </script></div>
-<label class="follow-toggle"><input type="checkbox" class="follow-text"> Show the text with the board</label><div class="move-text" hidden><p class="move-text__move"></p><div class="move-text__notes"></div></div>
+<label class="follow-toggle"><input type="checkbox" class="follow-text" checked> Show the text with the board</label><div class="move-text" hidden><p class="move-text__move"></p><div class="move-text__notes"></div></div>
 </div>
 <div class="game-text">
 <div class="game-position"><span class="situation">Situation of the White</span><ul><li>The king, at the adverse king&#x27;s knight&#x27;s second square.</li><li>The pawn, at the adverse king&#x27;s bishop&#x27;s third square.</li><li>The queen, at her third square.</li></ul><span class="situation">Situation of the Black</span><ul><li>The king, at the adverse queen&#x27;s knight&#x27;s fourth square.</li><li>The queen, at her bishop&#x27;s fourth square.</li></ul></div>

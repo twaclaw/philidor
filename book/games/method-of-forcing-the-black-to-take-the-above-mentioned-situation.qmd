@@ -52,7 +52,7 @@ king's bishop's square.} 11. Rb7+ {The rook gives check, at the adverse queen's 
 square.} Ke8 {The king, at his home.} 12. Ke6 {The king, at the adverse king's third square, and
 finds himself in the position above mentioned.} *
 </script></div>
-<label class="follow-toggle"><input type="checkbox" class="follow-text"> Show the text with the board</label><div class="move-text" hidden><p class="move-text__move"></p><div class="move-text__notes"></div></div>
+<label class="follow-toggle"><input type="checkbox" class="follow-text" checked> Show the text with the board</label><div class="move-text" hidden><p class="move-text__move"></p><div class="move-text__notes"></div></div>
 </div>
 <div class="game-text">
 <div class="game-position"><span class="situation">Situation of the White</span><ul><li>The king, at his fourth square, The bishop, at his king&#x27;s third square.</li><li>The rook, at its queen&#x27;s rook&#x27;s second square.</li></ul><span class="situation">Situation of the Black</span><ul><li>The king, at his third square.</li><li>The rook, at its queen&#x27;s second square.</li></ul></div>

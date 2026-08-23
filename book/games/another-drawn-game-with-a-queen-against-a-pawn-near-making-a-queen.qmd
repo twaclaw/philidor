@@ -38,7 +38,7 @@ pawns of the two bishops, and of the two rooks, at a square of the queen, make a
 against a queen; and the pawns of the king, the queen, and of the two knights, must lose in such
 a position, 4.5 1.6} *
 </script></div>
-<label class="follow-toggle"><input type="checkbox" class="follow-text"> Show the text with the board</label><div class="move-text" hidden><p class="move-text__move"></p><div class="move-text__notes"></div></div>
+<label class="follow-toggle"><input type="checkbox" class="follow-text" checked> Show the text with the board</label><div class="move-text" hidden><p class="move-text__move"></p><div class="move-text__notes"></div></div>
 </div>
 <div class="game-text">
 <div class="game-position"><span class="situation">Situation of the White</span><ul><li>The king, at his queen&#x27;s bishop&#x27;s fourth square.</li><li>The queen, at her fourth square.</li></ul><span class="situation">Situation of the Black</span><ul><li>The king, at the adverse king&#x27;s knight&#x27;s second square.</li><li>The pawn, at the adverse king&#x27;s rook&#x27;s second square.</li></ul></div>

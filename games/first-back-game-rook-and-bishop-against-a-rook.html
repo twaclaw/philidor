@@ -809,7 +809,10 @@ rook's square, and must win.} *
 // One initialiser for the whole book. A game page carries only a board div
 // with its PGN inside and a list of Philidor's moves; the wiring between the
 // two lives here, so a change lands on all 96 pages at once.
-import LichessPgnViewer from '/assets/lichess-pgn-viewer.min.js';
+// Quarto resolves the link in the head for the depth of the page; a path
+// written here it would leave alone.
+const { default: LichessPgnViewer } =
+  await import(document.getElementById('lpv-module').href);
 
 function wire(boardEl) {
   const src = boardEl.querySelector('script[type="text/pgn"]');

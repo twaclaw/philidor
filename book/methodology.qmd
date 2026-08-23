@@ -1,6 +1,4 @@
----
-title: How this book was made
----
+#  How this book was done {.unnumbered}
 
 This chapter describes the general outline of how the transcription process was approached.
 

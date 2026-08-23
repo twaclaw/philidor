@@ -336,14 +336,13 @@ def page(rec):
 
 ORDER = ["clean", "reconstructed", "partial", "none"]
 
-# The chapters before the games. Quarto numbers chapters in order, so a game's
-# number is its place in the records after these -- taken from the same list
-# that builds the book, rather than written out again.
-FRONT = ["index.qmd", "editions.qmd", "state.qmd"]
+# The chapters before the games. They carry no number of their own, so a game's
+# number is its place in the records.
+FRONT = ["index.qmd", "editions.qmd", "state.qmd", "methodology.qmd"]
 
 
 def chapter_number(recs, rec):
-    return len(FRONT) + recs.index(rec) + 1
+    return recs.index(rec) + 1
 
 
 def state_page(recs):
@@ -361,7 +360,7 @@ def state_page(recs):
 
     tally = collections.Counter(h for r in recs for h in r["ply_decided"])
     how = ["| How the move was settled | Plies | Share | Standing |",
-           "| --- | ---: | ---: | --- |"]
+           "| --| -: | -: | ----- |"]
     for key in HOW:
         label, standing = DECIDED[key]
         how.append("| %s | %d | %.1f%% | %s |"
@@ -389,7 +388,7 @@ def state_page(recs):
                            STATES[key][0], n, len(rec["plies"]), care))
 
     return "\n".join([
-        "---", "title: State of the conversion", "---", "",
+        "# State of the conversion {.unnumbered}", "",
         "Philidor's text is transcribed in full: all %d games, every move and "
         "every note. Turning his descriptive notation into moves on a board is "
         "further along in some games than others, and this page says where each "

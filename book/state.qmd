@@ -1,6 +1,4 @@
----
-title: State of the conversion
----
+# State of the conversion {.unnumbered}
 
 Philidor's text is transcribed in full: all 96 games, every move and every note. Turning his descriptive notation into moves on a board is further along in some games than others, and this page says where each stands. It is written afresh on every build.
 
@@ -11,7 +9,7 @@ Of the 96 games with a board, 76 play through to the end. Across the whole book 
 No move is ever computed. Each ply is read for what it says, the board is asked which legal moves fit, and the rules of chess remove the rest. How much work that leaves varies from ply to ply, and the four cases are not equally sound.
 
 | How the move was settled | Plies | Share | Standing |
-| --- | ---: | ---: | --- |
+| --| -: | -: | ----- |
 | Forced by the position | 3138 | 93.7% | The words and the board leave exactly one legal move, so no choice was made. |
 | "The same" | 104 | 3.1% | Mirrors the move just played, and the board confirms the mirror is legal. |
 | Chosen by the search | 84 | 2.5% | Several legal moves fit the words equally well; the one kept is the one under which the rest of the game replays. |
@@ -25,36 +23,36 @@ A game marked 🐞 in the contents appears here. **Reconstructed** means the boa
 
 | Ch. | Game | State | Plies | Where it needs care |
 | ---: | --- | --- | ---: | --- |
-| 15 | [Fourth Party](games/fourth-party.qmd) | Reconstructed | 56&nbsp;/&nbsp;56 | departs from the text at ply 15, 54 |
-| 16 | [First Back-game of the Fourth Party](games/first-back-game-of-the-fourth-party.qmd) | Reconstructed | 58&nbsp;/&nbsp;58 | departs from the text at ply 40 |
-| 17 | [Second Back-game of the Fourth Party](games/second-back-game-of-the-fourth-party.qmd) | Reconstructed | 50&nbsp;/&nbsp;50 | departs from the text at ply 24 |
-| 18 | [First Gambit](games/first-gambit.qmd) | Reconstructed | 51&nbsp;/&nbsp;51 | departs from the text at ply 32 |
-| 23 | [Fifth Back-game of the First Gambit](games/fifth-back-game-of-the-first-gambit.qmd) | Reconstructed | 21&nbsp;/&nbsp;21 | departs from the text at ply 14 |
-| 40 | [First Back-game of the Queen's Gambit](games/first-back-game-of-the-queen-s-gambit.qmd) | Reconstructed | 68&nbsp;/&nbsp;68 | departs from the text at ply 36 |
-| 44 | [Fifth Back-game of the Queen's Gambit](games/fifth-back-game-of-the-queen-s-gambit.qmd) | Reconstructed | 93&nbsp;/&nbsp;93 | departs from the text at ply 13 |
-| 45 | [Sixth Back-game of the Queen's Gambit](games/sixth-back-game-of-the-queen-s-gambit.qmd) | Reconstructed | 34&nbsp;/&nbsp;34 | departs from the text at ply 13 |
-| 62 | [Another Method of Playing](games/another-method-of-playing.qmd) | Reconstructed | 39&nbsp;/&nbsp;39 | departs from the text at ply 8, 10 |
-| 84 | [Second Back-game (Queen against a Rook and a Pawn)](games/second-back-game-queen-against-a-rook-and-a-pawn.qmd) | Reconstructed | 35&nbsp;/&nbsp;35 | departs from the text at ply 34 |
-| 92 | [Another Drawn-game with a Queen against a Pawn near making a Queen](games/another-drawn-game-with-a-queen-against-a-pawn-near-making-a-queen.qmd) | Reconstructed | 6&nbsp;/&nbsp;6 | departs from the text at ply 3 |
-| 25 | [Seventh and Last Back-game of the First Gambit](games/seventh-and-last-back-game-of-the-first-gambit.qmd) | Board stops short | 25&nbsp;/&nbsp;60 | ply 26: no legal reading; departs from the text at ply 23 |
-| 27 | [First Back-game of the Second Gambit](games/first-back-game-of-the-second-gambit.qmd) | Board stops short | 13&nbsp;/&nbsp;21 | ply 14: no legal reading |
-| 28 | [Second Back-game of the Second Gambit](games/second-back-game-of-the-second-gambit.qmd) | Board stops short | 83&nbsp;/&nbsp;101 | ply 84: no legal reading; departs from the text at ply 66 |
-| 35 | [Cunningham's Gambit](games/cunningham-s-gambit.qmd) | Board stops short | 72&nbsp;/&nbsp;88 | ply 73: no legal reading; departs from the text at ply 55, 57 |
-| 37 | [Sequel to the First Back-game of Cunningham's Gambit](games/sequel-to-the-first-back-game-of-cunningham-s-gambit.qmd) | Board stops short | 26&nbsp;/&nbsp;43 | ply 27: no legal reading; departs from the text at ply 18 |
-| 38 | [Second Back-game of Cunningham's Gambit](games/second-back-game-of-cunningham-s-gambit.qmd) | Board stops short | 58&nbsp;/&nbsp;80 | ply 59: no legal reading |
-| 39 | [The Queen's Gambit](games/the-queen-s-gambit.qmd) | Board stops short | 106&nbsp;/&nbsp;108 | ply 107: no ordinal:  advances; departs from the text at ply 13 |
-| 42 | [Third Back-game of the Queen's Gambit](games/third-back-game-of-the-queen-s-gambit.qmd) | Board stops short | 67&nbsp;/&nbsp;68 | ply 68: no legal reading; departs from the text at ply 67 |
-| 53 | [First Variable](games/first-variable.qmd) | Board stops short | 6&nbsp;/&nbsp;36 | ply 7: no ordinal: , at his bishop's third |
-| 63 | [Gambit of Salvio](games/gambit-of-salvio.qmd) | Board stops short | 14&nbsp;/&nbsp;32 | ply 15: no legal reading |
-| 65 | [Variable of the First Back-game of the Gambit of Salvio](games/variable-of-the-first-back-game-of-the-gambit-of-salvio.qmd) | Board stops short | 15&nbsp;/&nbsp;25 | ply 16: no ordinal: 's or gambit's pawn, one move. |
-| 66 | [Second Back-game of the Gambit of Salvio](games/second-back-game-of-the-gambit-of-salvio.qmd) | Board stops short | 15&nbsp;/&nbsp;20 | ply 16: no ordinal: 's, or gambit's pawn, one move |
-| 67 | [Third Back-game of the Gambit of Salvio](games/third-back-game-of-the-gambit-of-salvio.qmd) | Board stops short | 21&nbsp;/&nbsp;29 | ply 22: no ordinal: , at his bishop's third |
-| 69 | [Back-game of the Supplement to the First Gambit](games/back-game-of-the-supplement-to-the-first-gambit.qmd) | Board stops short | 16&nbsp;/&nbsp;27 | ply 17: no legal reading; departs from the text at ply 16 |
-| 73 | [Second Back-game (Rook and Bishop against a Rook)](games/second-back-game-rook-and-bishop-against-a-rook.qmd) | Board stops short | 22&nbsp;/&nbsp;23 | ply 23: no ordinal: , at his king's bishop's fourth, square, and must win the game |
-| 77 | [Method of giving Check-mate with a Bishop and a Knight](games/method-of-giving-check-mate-with-a-bishop-and-a-knight.qmd) | Board stops short | 47&nbsp;/&nbsp;49 | ply 48: no legal reading |
-| 82 | [A Game won with a Queen against a Rook and a Pawn](games/a-game-won-with-a-queen-against-a-rook-and-a-pawn.qmd) | Board stops short | 45&nbsp;/&nbsp;47 | ply 46: no legal reading; departs from the text at ply 43 |
-| 85 | [A Check-mate with a Queen against a Rook](games/a-check-mate-with-a-queen-against-a-rook.qmd) | Board stops short | 45&nbsp;/&nbsp;81 | ply 46: no legal reading; departs from the text at ply 43 |
-| 88 | [Back-game (Rook and Pawn against a Rook)](games/back-game-rook-and-pawn-against-a-rook.qmd) | Board stops short | 14&nbsp;/&nbsp;43 | ply 15: no ordinal: , at the adverse king's second king, square. |
-| 93 | [A Drawn-game with a single Pawn](games/a-drawn-game-with-a-single-pawn.qmd) | Board stops short | 18&nbsp;/&nbsp;19 | ply 19: no ordinal:  is forced to leave the pawn |
+| 12 | [Fourth Party](games/fourth-party.qmd) | Reconstructed | 56&nbsp;/&nbsp;56 | departs from the text at ply 15, 54 |
+| 13 | [First Back-game of the Fourth Party](games/first-back-game-of-the-fourth-party.qmd) | Reconstructed | 58&nbsp;/&nbsp;58 | departs from the text at ply 40 |
+| 14 | [Second Back-game of the Fourth Party](games/second-back-game-of-the-fourth-party.qmd) | Reconstructed | 50&nbsp;/&nbsp;50 | departs from the text at ply 24 |
+| 15 | [First Gambit](games/first-gambit.qmd) | Reconstructed | 51&nbsp;/&nbsp;51 | departs from the text at ply 32 |
+| 20 | [Fifth Back-game of the First Gambit](games/fifth-back-game-of-the-first-gambit.qmd) | Reconstructed | 21&nbsp;/&nbsp;21 | departs from the text at ply 14 |
+| 37 | [First Back-game of the Queen's Gambit](games/first-back-game-of-the-queen-s-gambit.qmd) | Reconstructed | 68&nbsp;/&nbsp;68 | departs from the text at ply 36 |
+| 41 | [Fifth Back-game of the Queen's Gambit](games/fifth-back-game-of-the-queen-s-gambit.qmd) | Reconstructed | 93&nbsp;/&nbsp;93 | departs from the text at ply 13 |
+| 42 | [Sixth Back-game of the Queen's Gambit](games/sixth-back-game-of-the-queen-s-gambit.qmd) | Reconstructed | 34&nbsp;/&nbsp;34 | departs from the text at ply 13 |
+| 59 | [Another Method of Playing](games/another-method-of-playing.qmd) | Reconstructed | 39&nbsp;/&nbsp;39 | departs from the text at ply 8, 10 |
+| 81 | [Second Back-game (Queen against a Rook and a Pawn)](games/second-back-game-queen-against-a-rook-and-a-pawn.qmd) | Reconstructed | 35&nbsp;/&nbsp;35 | departs from the text at ply 34 |
+| 89 | [Another Drawn-game with a Queen against a Pawn near making a Queen](games/another-drawn-game-with-a-queen-against-a-pawn-near-making-a-queen.qmd) | Reconstructed | 6&nbsp;/&nbsp;6 | departs from the text at ply 3 |
+| 22 | [Seventh and Last Back-game of the First Gambit](games/seventh-and-last-back-game-of-the-first-gambit.qmd) | Board stops short | 25&nbsp;/&nbsp;60 | ply 26: no legal reading; departs from the text at ply 23 |
+| 24 | [First Back-game of the Second Gambit](games/first-back-game-of-the-second-gambit.qmd) | Board stops short | 13&nbsp;/&nbsp;21 | ply 14: no legal reading |
+| 25 | [Second Back-game of the Second Gambit](games/second-back-game-of-the-second-gambit.qmd) | Board stops short | 83&nbsp;/&nbsp;101 | ply 84: no legal reading; departs from the text at ply 66 |
+| 32 | [Cunningham's Gambit](games/cunningham-s-gambit.qmd) | Board stops short | 72&nbsp;/&nbsp;88 | ply 73: no legal reading; departs from the text at ply 55, 57 |
+| 34 | [Sequel to the First Back-game of Cunningham's Gambit](games/sequel-to-the-first-back-game-of-cunningham-s-gambit.qmd) | Board stops short | 26&nbsp;/&nbsp;43 | ply 27: no legal reading; departs from the text at ply 18 |
+| 35 | [Second Back-game of Cunningham's Gambit](games/second-back-game-of-cunningham-s-gambit.qmd) | Board stops short | 58&nbsp;/&nbsp;80 | ply 59: no legal reading |
+| 36 | [The Queen's Gambit](games/the-queen-s-gambit.qmd) | Board stops short | 106&nbsp;/&nbsp;108 | ply 107: no ordinal:  advances; departs from the text at ply 13 |
+| 39 | [Third Back-game of the Queen's Gambit](games/third-back-game-of-the-queen-s-gambit.qmd) | Board stops short | 67&nbsp;/&nbsp;68 | ply 68: no legal reading; departs from the text at ply 67 |
+| 50 | [First Variable](games/first-variable.qmd) | Board stops short | 6&nbsp;/&nbsp;36 | ply 7: no ordinal: , at his bishop's third |
+| 60 | [Gambit of Salvio](games/gambit-of-salvio.qmd) | Board stops short | 14&nbsp;/&nbsp;32 | ply 15: no legal reading |
+| 62 | [Variable of the First Back-game of the Gambit of Salvio](games/variable-of-the-first-back-game-of-the-gambit-of-salvio.qmd) | Board stops short | 15&nbsp;/&nbsp;25 | ply 16: no ordinal: 's or gambit's pawn, one move. |
+| 63 | [Second Back-game of the Gambit of Salvio](games/second-back-game-of-the-gambit-of-salvio.qmd) | Board stops short | 15&nbsp;/&nbsp;20 | ply 16: no ordinal: 's, or gambit's pawn, one move |
+| 64 | [Third Back-game of the Gambit of Salvio](games/third-back-game-of-the-gambit-of-salvio.qmd) | Board stops short | 21&nbsp;/&nbsp;29 | ply 22: no ordinal: , at his bishop's third |
+| 66 | [Back-game of the Supplement to the First Gambit](games/back-game-of-the-supplement-to-the-first-gambit.qmd) | Board stops short | 16&nbsp;/&nbsp;27 | ply 17: no legal reading; departs from the text at ply 16 |
+| 70 | [Second Back-game (Rook and Bishop against a Rook)](games/second-back-game-rook-and-bishop-against-a-rook.qmd) | Board stops short | 22&nbsp;/&nbsp;23 | ply 23: no ordinal: , at his king's bishop's fourth, square, and must win the game |
+| 74 | [Method of giving Check-mate with a Bishop and a Knight](games/method-of-giving-check-mate-with-a-bishop-and-a-knight.qmd) | Board stops short | 47&nbsp;/&nbsp;49 | ply 48: no legal reading |
+| 79 | [A Game won with a Queen against a Rook and a Pawn](games/a-game-won-with-a-queen-against-a-rook-and-a-pawn.qmd) | Board stops short | 45&nbsp;/&nbsp;47 | ply 46: no legal reading; departs from the text at ply 43 |
+| 82 | [A Check-mate with a Queen against a Rook](games/a-check-mate-with-a-queen-against-a-rook.qmd) | Board stops short | 45&nbsp;/&nbsp;81 | ply 46: no legal reading; departs from the text at ply 43 |
+| 85 | [Back-game (Rook and Pawn against a Rook)](games/back-game-rook-and-pawn-against-a-rook.qmd) | Board stops short | 14&nbsp;/&nbsp;43 | ply 15: no ordinal: , at the adverse king's second king, square. |
+| 90 | [A Drawn-game with a single Pawn](games/a-drawn-game-with-a-single-pawn.qmd) | Board stops short | 18&nbsp;/&nbsp;19 | ply 19: no ordinal:  is forced to leave the pawn |
 
 The 65 games not listed follow the text from the first move to the last.

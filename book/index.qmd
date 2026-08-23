@@ -26,7 +26,7 @@ Below is an example of the first lines of the first game in my edition:
 
 I decided to transcribe the games into algebraic notation so that I could visualize them using a chess engine. 
 
-I think this is the kind of task where LLMs really shine: text extraction and understanding anachronisms, as well as programmatic and contextual reconstruction, using a chess engine for verification, context information, and human supervision. There has been a lot of hand-holding and verification, but I would say that the results are turning out very nicely.
+I think this is the kind of task where LLMs really shine: text extraction, natural language processing, understanding anachronisms,  and ambiguous and inconsistent context and conventions, as well as programmatic and contextual reconstruction, using a chess engine for verification, context information, and human supervision. There has been a lot of hand-holding and verification, but I would say that the results are turning out very nicely.
 
 
 
